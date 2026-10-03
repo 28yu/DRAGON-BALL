@@ -137,7 +137,7 @@ function section(title, body) {
 }
 
 // 自動取得した相場（data/market-history.json）を表示する
-const SOURCE_ORDER = ["yahoo", "surugaya", "rakuten", "mercari"];
+const SOURCE_ORDER = ["yahoo", "surugaya", "bookoff", "rakuten", "mercari"];
 async function renderAutoMarket(item) {
   const el = document.getElementById("auto-market");
   let hist;

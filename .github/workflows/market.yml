@@ -2,12 +2,19 @@
 # 毎朝 6:17（日本時間）に tools/market/collect.mjs を実行し、
 # data/market-history.json に変化があれば main に記録する。
 # GitHub の「Actions」タブから手動で実行することもできる（Run workflow）。
+# 取得プログラム（tools/market/）を更新して main に送ったときにも自動で実行される。
 name: 中古相場の自動取得
 
 on:
   schedule:
     - cron: "17 21 * * *" # 21:17 UTC = 6:17 JST
   workflow_dispatch:
+  # 取得プログラムや設定を更新して main に送ったときにもすぐ実行する
+  push:
+    branches: [main]
+    paths:
+      - "tools/market/**"
+      - ".github/workflows/market.yml"
 
 permissions:
   contents: write

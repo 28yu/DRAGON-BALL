@@ -3,7 +3,7 @@
 //   環境変数 RAKUTEN_APP_ID（必須：楽天）/ RAKUTEN_ACCESS_KEY（任意）
 //
 // 方針
-// - 楽天市場は公式API、ヤフオク（落札済み）と駿河屋は公開ページを1日1回だけ読む。
+// - 楽天市場は公式API、ヤフオク（落札済み）・駿河屋・ブックオフは公開ページを1日1回だけ読む。
 // - 各サイトの robots.txt を毎回確認し、アクセスが禁止されていれば取得しない。
 // - リクエストの間は数秒あけ、サイトに負荷をかけない。
 // - メルカリは公開ページに価格が含まれず、非公開の仕組みを回避しないと取得できないため対象外。
@@ -121,7 +121,7 @@ const SOURCES = {
         const u = block.match(/class="Product__titleLink[^"]*"[^>]*href="([^"]+)"/) || block.match(/href="([^"]+)"[^>]*class="Product__titleLink/);
         if (t && p) rows.push({ title: decode(t[1]), price: toNum(decode(p[1])), url: u ? u[1] : null });
       }
-      return { rows, htmlLength: r.text.length };
+      return { rows, htmlLength: r.text.length, html: r.text };
     },
   },
   // 駿河屋：出品中の価格
@@ -138,7 +138,31 @@ const SOURCES = {
         const p = block.match(/(?:中古|価格)[\s\S]{0,200}?[￥¥]\s*([\d,]+)/) || block.match(/[￥¥]\s*([\d,]+)/);
         if (t && p) rows.push({ title: decode(t[2]), price: toNum(p[1]), url: new URL(t[1], "https://www.suruga-ya.jp").href });
       }
-      return { rows, htmlLength: r.text.length };
+      return { rows, htmlLength: r.text.length, html: r.text };
+    },
+  },
+  // ブックオフ公式オンラインストア：出品中の価格
+  bookoff: {
+    label: "ブックオフ（出品中）",
+    kind: "listing",
+    searchUrl: (q) => `https://shopping.bookoff.co.jp/search/keyword/${encodeURIComponent(q)}`,
+    async fetch(q) {
+      const r = await getText(this.searchUrl(q));
+      if (r.skipped) return r;
+      const rows = [];
+      const seen = new Set();
+      // 商品ページ（/used/番号 または /new/番号）へのリンクを手がかりに、近くの商品名と価格を読む
+      const re = /href="((?:https:\/\/shopping\.bookoff\.co\.jp)?\/(?:used|new)\/\d+)"/g;
+      let m;
+      while ((m = re.exec(r.text))) {
+        const url = new URL(m[1], "https://shopping.bookoff.co.jp").href;
+        if (seen.has(url)) continue;
+        const chunk = r.text.slice(m.index, m.index + 2500);
+        const t = chunk.match(/(?:title|name)[^>]*>([^<]{4,120})</i) || chunk.match(/alt="([^"]{4,120})"/);
+        const p = chunk.match(/([\d,]{3,})\s*<?[^<]{0,20}?円/) || chunk.match(/[￥¥]\s*([\d,]+)/);
+        if (t && p) { seen.add(url); rows.push({ title: decode(t[1]), price: toNum(p[1]), url }); }
+      }
+      return { rows, htmlLength: r.text.length, html: r.text };
     },
   },
 };
@@ -180,6 +204,12 @@ for (const [key, src] of Object.entries(SOURCES)) {
       const s = stats(rows);
       if (s.count === 0) st.empty++; else st.ok++;
       console.log(`[${key}] ${item.id} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
+      if (r.rows.length === 0 && r.html && !st.debugShown) {
+        // 初回の調査用：読み取れなかったページの一部を記録に残す（1サイト1回だけ）
+        st.debugShown = true;
+        const i = Math.max(0, r.html.search(/円|￥|¥|Product|item/));
+        console.log(`[${key}] 調査用（ページの一部）: ${r.html.slice(i, i + 1500).replace(/\s+/g, " ")}`);
+      }
       history.records = history.records.filter((x) => !(x.date === today && x.id === item.id && x.source === key));
       history.records.push({
         date: today, id: item.id, source: key, kind: src.kind, ...s,
@@ -193,6 +223,7 @@ for (const [key, src] of Object.entries(SOURCES)) {
       console.log(`[${key}] 失敗 ${msg}`);
     }
   }
+  delete st.debugShown;
   run.sources[key] = st;
   console.log(`[${key}] 成功${st.ok} / 該当なし${st.empty} / 取得しない${st.skipped} / 失敗${st.failed}`);
 }

@@ -100,7 +100,7 @@
 `tools/market/collect.mjs` が GitHub Actions（`.github/workflows/market.yml`）で **1日1回（朝6時ごろ）** 実行され、`data/market-history.json` に追記する。**このファイルは手で編集しない。**
 
 - 対象：`items.json` で `market` を設定した商品。
-- 取得元：ヤフオク（落札済み）・駿河屋（出品中）は公開ページ、楽天市場（出品中）は公式API。メルカリは対象外。
+- 取得元：ヤフオク（落札済み）・駿河屋（出品中）・ブックオフ（出品中）は公開ページ、楽天市場（出品中）は公式API。メルカリは対象外。
 - 1件の記録：`{ "date", "id", "source", "kind": "sold"|"listing", "count", "min", "median", "max", "searchUrl", "samples" }`。
 - 検索結果のうち `mustInclude` をすべて含み、`exclude` とまとめ売り等を含まない出品だけを集計する。
 - `meta.lastRun` に最後の実行結果（サイトごとの成功・取得しない理由・失敗）を残す。
