@@ -128,6 +128,8 @@ const SOURCES = {
       });
       if (status !== 200) throw new Error(`HTTP ${status} ${body.slice(0, 200)}`);
       const json = JSON.parse(body);
+      // 楽天APIはエラー時に error / errors を返すことがあるので、内容をそのまま記録に残す
+      if (json.error || json.errors) throw new Error(`楽天APIエラー ${JSON.stringify(json.error_description || json.errors || json.error).slice(0, 200)}`);
       return { rows: (json.Items || []).map((x) => x.Item || x).map((Item) => ({ title: Item.itemName, price: Item.itemPrice, url: Item.itemUrl })) };
     },
   },
