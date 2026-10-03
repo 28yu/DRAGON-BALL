@@ -113,15 +113,15 @@ const SOURCES = {
     kind: "listing",
     searchUrl: (q) => `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(q)}/`,
     async fetch(q) {
-      // 2026年の楽天APIの刷新に対応：新しい窓口（openapi.rakuten.co.jp）、アプリIDとアクセスキーの両方が必須、
+      // 2026年の楽天APIの刷新に対応：新しい窓口（openapi.rakuten.co.jp、商品検索は 20260701 版）、アプリIDとアクセスキーの両方が必須、
       // 登録した「許可されたWebサイト」からの呼び出しであることを示す Referer を付ける
       const appId = process.env.RAKUTEN_APP_ID;
       const accessKey = process.env.RAKUTEN_ACCESS_KEY;
       if (!appId) return { skipped: "楽天のアプリID（RAKUTEN_APP_ID）が未設定" };
       if (!accessKey) return { skipped: "楽天のアクセスキー（RAKUTEN_ACCESS_KEY）が未設定" };
-      const params = new URLSearchParams({ format: "json", applicationId: appId, accessKey, keyword: q, hits: "30", sort: "standard" });
+      const params = new URLSearchParams({ format: "json", formatVersion: "2", applicationId: appId, accessKey, keyword: q, hits: "30", sort: "standard" });
       await sleep(1200); // APIの利用回数制限（1秒1回）に合わせる
-      const { status, body } = await httpsGet(`https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601?${params}`, {
+      const { status, body } = await httpsGet(`https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20260701?${params}`, {
         "User-Agent": UA,
         Referer: SITE_URL,
         Origin: new URL(SITE_URL).origin,
