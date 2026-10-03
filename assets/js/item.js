@@ -87,14 +87,15 @@ function marketPricesHTML(item) {
   const list = item.marketPrices || [];
   if (list.length === 0) return `<p class="empty-box">相場調査の記録はまだありません。</p>`;
   const sorted = [...list].sort((a, b) => String(b.surveyedAt).localeCompare(String(a.surveyedAt)));
+  const latest = sorted[0].surveyedAt;
   return sorted
-    .map((m, i) => {
+    .map((m) => {
       const range = m.priceMin != null && m.priceMax != null && m.priceMin !== m.priceMax
         ? `${formatYen(m.priceMin)} 〜 ${formatYen(m.priceMax)}`
         : formatYen(m.priceMin ?? m.priceMax);
       return `
         <table class="info-table" style="margin-bottom:10px">
-          ${row("調査日", `${escapeHTML(formatDate(m.surveyedAt))}${i === 0 ? ' <span class="tag">最新</span>' : ' <span class="tag">過去の記録</span>'}`)}
+          ${row("調査日", `${escapeHTML(formatDate(m.surveyedAt))}${m.surveyedAt === latest ? ' <span class="tag">最新</span>' : ' <span class="tag">過去の記録</span>'}`)}
           ${row("価格", range ? escapeHTML(range) : unconfirmedText())}
           ${row("対象の状態", m.condition ? escapeHTML(m.condition) : unconfirmedText())}
           ${row("根拠・出典", `${escapeHTML(m.basis || "")}${m.source ? sourcesHTML([m.source]) : ""}`)}

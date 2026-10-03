@@ -1212,7 +1212,44 @@
         "note": ""
       },
       "purchases": [],
-      "marketPrices": [],
+      "marketPrices": [
+        {
+          "surveyedAt": "2026-10-03",
+          "priceMin": 480,
+          "priceMax": 1300,
+          "condition": "ソフトのみ",
+          "basis": "Yahoo!オークションの落札例（約480円・800円・1,280円）",
+          "source": {
+            "title": "Yahoo!オークション 落札相場「サイヤ人絶滅計画」",
+            "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB/0"
+          },
+          "note": "Web検索の結果（検索エンジンの要約）から取得。各サイトは作業環境から直接開けず、取引日・個々の状態は未確認。"
+        },
+        {
+          "surveyedAt": "2026-10-03",
+          "priceMin": 1000,
+          "priceMax": 2200,
+          "condition": "箱・説明書付き",
+          "basis": "Yahoo!オークションの落札例（約1,016円・1,760円・2,222円〔箱付き〕）",
+          "source": {
+            "title": "Yahoo!オークション 落札相場「サイヤ人絶滅計画」",
+            "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch/%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB/0"
+          },
+          "note": "Web検索の結果（検索エンジンの要約）から取得。各サイトは作業環境から直接開けず、取引日・個々の状態は未確認。"
+        },
+        {
+          "surveyedAt": "2026-10-03",
+          "priceMin": 1900,
+          "priceMax": 6220,
+          "condition": "店舗・通販の販売価格（状態はさまざま）",
+          "basis": "駿河屋の出品（1,900円・2,550円・6,220円）。ほかにブックオフ3,960円、楽天市場2,480〜7,630円、箱説付き4,980円の販売例あり",
+          "source": {
+            "title": "駿河屋 商品ページ「FC ドラゴンボールZ・外伝 サイヤ人絶滅計画」",
+            "url": "https://www.suruga-ya.jp/product/other/179002815"
+          },
+          "note": "Web検索の結果（検索エンジンの要約）から取得。各サイトは作業環境から直接開けず、取引日・個々の状態は未確認。"
+        }
+      ],
       "references": [],
       "images": [
         {
@@ -1239,6 +1276,10 @@
         {
           "date": "2026-10-03",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "中古相場の調査結果を3件記録"
         }
       ]
     },
