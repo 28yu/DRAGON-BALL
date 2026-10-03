@@ -24,8 +24,11 @@ DRAGON-BALL/
 │   ├── data-spec.md      データ項目の仕様（どの項目に何を書くか）
 │   ├── operation.md      運用ルール（更新手順・調査方針・相場/画像のルール）
 │   └── research-log.md   調査履歴（いつ何を調べたか）
+├── .github/workflows/
+│   └── market.yml        中古相場の自動取得（毎朝6時ごろ）
 └── tools/
-    └── validate.mjs      データのチェックスクリプト
+    ├── validate.mjs      データのチェックスクリプト
+    └── market/collect.mjs 中古相場の自動取得プログラム
 ```
 
 **ポイント：商品情報は `data/items.json` の1ファイルにまとめています。** 画面（HTML）は表示だけを担当し、データを変えれば画面も自動で変わります。購入記録・相場情報・画像の場所も、すべて商品ごとに `items.json` の中に記録します。

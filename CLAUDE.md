@@ -57,6 +57,8 @@
 - `assets/js/index.js` / `assets/js/item.js`：各ページの表示処理
 - `assets/css/style.css`：デザイン（色は `:root` の変数で管理）
 - `assets/images/items/管理ID/`：オーナーが撮影・作成した画像（`front.jpg` など。命名ルールは同フォルダの README.md）
+- `data/market-history.json`：相場の自動取得の記録（手で編集しない）
+- `tools/market/collect.mjs` / `.github/workflows/market.yml`：相場の自動取得（1日1回、robots.txt を確認、メルカリは対象外）
 - `docs/data-spec.md`：データ項目の仕様
 - `docs/operation.md`：運用ルール
 - `docs/research-log.md`：調査履歴

@@ -29,6 +29,7 @@
 | `platform` | 対応機種（ゲーム） | 情報項目形式 |
 | `genre` | ジャンル（ゲーム） | 情報項目形式。表記は `RPG` / `対戦格闘` / `アクション` などにそろえる |
 | `listPrice` | 発売時の価格 | 情報項目形式。値は円の整数（例 `5830`）。税込・税抜の別は `note` に書く。中古相場とは別物 |
+| `market` | 相場の自動取得の検索条件 | `{ "query": "検索語", "mustInclude": ["必ず含む語（正規表現）"], "exclude": ["除外する語"] }`。詳しくは下の「相場の自動取得」 |
 | `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }` |
 | `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null` |
 | `purchases` | 購入記録（複数可） | 下記参照 |
@@ -93,3 +94,15 @@
 
 - `surveyedAt`（調査日）と、`source` か `basis`（根拠）は**必須**です（チェックスクリプトで検査）。
 - 古い記録は消さずに追加していきます。画面では調査日の新しい順に並び、最新以外は「過去の記録」と表示されます。
+
+## 相場の自動取得（data/market-history.json）
+
+`tools/market/collect.mjs` が GitHub Actions（`.github/workflows/market.yml`）で **1日1回（朝6時ごろ）** 実行され、`data/market-history.json` に追記する。**このファイルは手で編集しない。**
+
+- 対象：`items.json` で `market` を設定した商品。
+- 取得元：ヤフオク（落札済み）・駿河屋（出品中）は公開ページ、楽天市場（出品中）は公式API。メルカリは対象外。
+- 1件の記録：`{ "date", "id", "source", "kind": "sold"|"listing", "count", "min", "median", "max", "searchUrl", "samples" }`。
+- 検索結果のうち `mustInclude` をすべて含み、`exclude` とまとめ売り等を含まない出品だけを集計する。
+- `meta.lastRun` に最後の実行結果（サイトごとの成功・取得しない理由・失敗）を残す。
+
+手で調べた相場は、これまでどおり `items.json` の `marketPrices` に記録する（自動取得とは別管理）。

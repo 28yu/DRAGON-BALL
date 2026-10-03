@@ -136,6 +136,48 @@ function section(title, body) {
   return `<section><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
 }
 
+// 自動取得した相場（data/market-history.json）を表示する
+const SOURCE_ORDER = ["yahoo", "surugaya", "rakuten", "mercari"];
+async function renderAutoMarket(item) {
+  const el = document.getElementById("auto-market");
+  let hist;
+  try {
+    const res = await fetch("data/market-history.json", { cache: "no-cache" });
+    if (!res.ok) throw new Error();
+    hist = await res.json();
+  } catch {
+    el.innerHTML = `<p class="empty-box">まだ自動取得の記録はありません（1日1回、朝6時ごろに更新）。</p>`;
+    return;
+  }
+  const run = hist.meta?.lastRun;
+  const statusLines = run
+    ? SOURCE_ORDER.filter((k) => run.sources[k]).map((k) => {
+        const s = run.sources[k];
+        const state = s.ok + s.empty > 0 ? `取得 ${s.ok + s.empty}件` : "取得なし";
+        const why = s.ok + s.empty === 0 && s.messages.length ? `（${s.messages[0]}）` : "";
+        return `<li>${escapeHTML(s.label)}：${escapeHTML(state + why)}</li>`;
+      }).join("")
+    : "";
+  const mine = (hist.records || []).filter((r) => r.id === item.id);
+  const blocks = SOURCE_ORDER.map((key) => {
+    const recs = mine.filter((r) => r.source === key).sort((a, b) => b.date.localeCompare(a.date));
+    if (recs.length === 0) return "";
+    const label = run?.sources[key]?.label || key;
+    const rows = recs.slice(0, 14).map((r) => `
+      <tr><td>${escapeHTML(formatDate(r.date))}</td><td>${r.count}件</td>
+      <td>${r.count ? escapeHTML(formatYen(r.min)) : "—"}</td><td>${r.count ? escapeHTML(formatYen(r.median)) : "—"}</td><td>${r.count ? escapeHTML(formatYen(r.max)) : "—"}</td></tr>`).join("");
+    return `
+      <h3 class="sub-title">${escapeHTML(label)} <a class="sub-link" href="${escapeHTML(recs[0].searchUrl)}" target="_blank" rel="noopener noreferrer">検索結果を開く</a></h3>
+      <div class="table-scroll"><table class="info-table history-table">
+        <thead><tr><th>取得日</th><th>件数</th><th>最安</th><th>中央値</th><th>最高</th></tr></thead>
+        <tbody>${rows}</tbody></table></div>`;
+  }).join("");
+  el.innerHTML = `
+    ${blocks || `<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
+    ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
+      件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは区別していません。</div>` : ""}`;
+}
+
 function renderItem(data, item) {
   const category = data.categories.find((c) => c.id === item.category);
   document.title = `${item.id} ${item.title} | ${data.meta?.title || "DRAGON BALL COLLECTION"}`;
@@ -171,7 +213,8 @@ function renderItem(data, item) {
     ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
-    ${section("中古相場", marketPricesHTML(item))}
+    ${section("中古相場（調査記録）", marketPricesHTML(item))}
+    <section><h2 class="section-title">相場の推移（自動取得）</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
     ${section("参考URL・出典", referencesHTML(item))}
     ${section("変更履歴", historyHTML(item))}
@@ -191,6 +234,7 @@ function renderItem(data, item) {
       return;
     }
     renderItem(data, item);
+    renderAutoMarket(item);
   } catch (err) {
     showLoadError(el, err);
   }

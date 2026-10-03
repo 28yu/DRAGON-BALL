@@ -408,6 +408,15 @@ section { margin-bottom: 40px; }
   line-height: 1.4;
 }
 
+/* ---------- 相場の推移（自動取得） ---------- */
+.sub-title { font-size: 1rem; margin: 18px 0 8px; }
+.sub-link { font-size: 0.8rem; font-weight: 400; margin-left: 8px; }
+.table-scroll { overflow-x: auto; }
+.history-table th, .history-table td { display: table-cell !important; width: auto !important; white-space: nowrap; }
+.history-table thead th { background: var(--surface-alt); }
+.history-table td { font-variant-numeric: tabular-nums; }
+.status-list { margin: 6px 0; padding-left: 1.2em; }
+
 /* ---------- フッター ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
