@@ -1,0 +1,1765 @@
+{
+  "meta": {
+    "title": "DRAGON BALL COLLECTION",
+    "schemaVersion": 1,
+    "updatedAt": "2026-10-03",
+    "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
+  },
+  "categories": [
+    {
+      "id": "book",
+      "idPrefix": "BOOK",
+      "label": "カードダス関連資料",
+      "description": "ドラゴンボールのカードダスを収録・解説した書籍・ムック"
+    },
+    {
+      "id": "famicom",
+      "idPrefix": "FC",
+      "label": "ファミコンソフト",
+      "description": "ファミリーコンピュータ版ドラゴンボールシリーズ（通常カセット。データック専用ソフトは対象外）"
+    },
+    {
+      "id": "sfc",
+      "idPrefix": "SFC",
+      "label": "スーパーファミコンソフト",
+      "description": "スーパーファミコン版ドラゴンボールシリーズ"
+    }
+  ],
+  "items": [
+    {
+      "id": "BOOK-001",
+      "category": "book",
+      "title": "DRAGON BALL大全集 別巻 DBカードダス パーフェクトファイル PART1",
+      "release": {
+        "value": "1996-02-01",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4081020167"
+          },
+          {
+            "title": "ダ・ヴィンチWeb 書籍ページ",
+            "url": "https://ddnavi.com/book/4081020167/"
+          }
+        ],
+        "note": "検索結果の要約から取得。出典ページの直接確認は未実施。"
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4081020167"
+          }
+        ],
+        "note": "集英社ムックとして掲載。"
+      },
+      "isbn": {
+        "value": "978-4-08-102016-4",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4081020167"
+          },
+          {
+            "title": "ダ・ヴィンチWeb 書籍ページ",
+            "url": "https://ddnavi.com/book/4081020167/"
+          }
+        ],
+        "note": "ISBN-10: 4081020167。現物の奥付とは未照合。"
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        }
+      ]
+    },
+    {
+      "id": "BOOK-002",
+      "category": "book",
+      "title": "DRAGON BALL大全集 別巻 DBカードダス パーフェクトファイル PART2",
+      "release": {
+        "value": "1996-04-01",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4081020175"
+          },
+          {
+            "title": "紀伊國屋書店 商品ページ",
+            "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
+          }
+        ],
+        "note": "検索結果の要約から取得。出典ページの直接確認は未実施。"
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "紀伊國屋書店 商品ページ",
+            "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
+          }
+        ],
+        "note": "集英社ムックとして掲載。"
+      },
+      "isbn": {
+        "value": "978-4-08-102017-1",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "紀伊國屋書店 商品ページ",
+            "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
+          },
+          {
+            "title": "ダ・ヴィンチWeb 書籍ページ",
+            "url": "https://ddnavi.com/book/4081020175/"
+          }
+        ],
+        "note": "ISBN-10: 4081020175。現物の奥付とは未照合。"
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        }
+      ]
+    },
+    {
+      "id": "BOOK-003",
+      "category": "book",
+      "title": "ドラゴンボールZ カードダス奥義大全書",
+      "release": {
+        "value": "1991-04",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブクログ 書籍ページ",
+            "url": "https://booklog.jp/item/1/4834210189"
+          },
+          {
+            "title": "電撃オンライン「鳥山明ほぼ全仕事」記事",
+            "url": "https://dengekionline.com/article/202404/1801"
+          }
+        ],
+        "note": "検索結果では1991年4月（4月15日とする記載もあり）。出典ページの直接確認は未実施。"
+      },
+      "publisher": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4834210189"
+          }
+        ],
+        "note": "「ジャンプコミックスセレクション」レーベル。検索結果では集英社とされるが、ISBNの出版者記号（4-8342）は集英社以外（ホーム社の可能性）を示すため、奥付での確認が必要。"
+      },
+      "isbn": {
+        "value": "4-8342-1018-9",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブクログ 書籍ページ",
+            "url": "https://booklog.jp/item/1/4834210189"
+          },
+          {
+            "title": "Amazon.co.jp 商品ページ",
+            "url": "https://www.amazon.co.jp/dp/4834210189"
+          }
+        ],
+        "note": "ISBN-10。現物の奥付とは未照合。"
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "検索結果では「カードダス奥義大全書 ドラゴンボールZ」という語順の表記も見られる。正式表記は現物で要確認。",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        }
+      ]
+    },
+    {
+      "id": "FC-001",
+      "category": "famicom",
+      "title": "ドラゴンボール 神龍の謎",
+      "release": {
+        "value": "1986-11-27",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "アクション",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 5830,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "【収集メモ】参考サイトによると初期版と復刻版があり、見分けるポイントは箱・カセット・説明書の表記：①「玩具第2事業部」の表記の有無、②お客様相談センターの表記が「名古屋」か「中部」か、③JASRAC許諾証がシールか印刷か。購入時に確認すること。",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイト（asobigokoro.work）の情報で表記・発売日・価格・ジャンルを整理"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-002",
+      "category": "famicom",
+      "title": "ドラゴンボール 大魔王復活",
+      "release": {
+        "value": "1988-08-12",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。一覧表ではRPG。同サイトの個別記事では「アドベンチャーRPG」、紹介文では「アドベンチャーとカードバトルを組み合わせた作品」とされる。"
+      },
+      "listPrice": {
+        "value": 6380,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイト（asobigokoro.work）の情報で表記・発売日・価格・ジャンルを整理"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-003",
+      "category": "famicom",
+      "title": "ドラゴンボール3 悟空伝",
+      "release": {
+        "value": "1989-10-27",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 7480,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイト（asobigokoro.work）の情報で表記・発売日・価格・ジャンルを整理"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-004",
+      "category": "famicom",
+      "title": "ドラゴンボールZ 強襲!サイヤ人",
+      "release": {
+        "value": "1990-10-27",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 8580,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "当初は「ドラゴンボールZ 強襲サイヤ人」で登録。参考サイトの表記「強襲!サイヤ人」に変更。正式表記は現物で要確認。 【収集メモ】参考サイトによると、販売店・卸業者向けに配布された非売品「90'メモリアルバージョン」（金メッキカセット、外箱にメモリアルバージョンのシール）が存在する。",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトの情報で整理（名称を「強襲!サイヤ人」に変更）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-005",
+      "category": "famicom",
+      "title": "ドラゴンボールZII 激神フリーザ!!",
+      "release": {
+        "value": "1991-08-10",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 9020,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイト（asobigokoro.work）の情報で表記・発売日・価格・ジャンルを整理"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-006",
+      "category": "famicom",
+      "title": "ドラゴンボールZIII 烈戦人造人間",
+      "release": {
+        "value": "1992-08-07",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 8580,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "当初は FC-007「ドラゴンボールZ3 烈戦！人造人間」として登録。参考サイトの表記に合わせて名称を変更し、発売順に並べ直したため管理IDを FC-006 に変更。正式表記は現物で要確認。",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "FC-007「ドラゴンボールZ3 烈戦！人造人間」として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトの情報で整理（名称を「ドラゴンボールZIII 烈戦人造人間」に変更、管理IDを FC-006 に変更）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "FC-007",
+      "category": "famicom",
+      "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
+      "release": {
+        "value": "1993-08-06",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          },
+          {
+            "title": "ピコピコ大百科 商品ページ（FC）",
+            "url": "https://www.gavas.jp/products/detail.php?product_id=4209"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの各作品紹介で「バンダイから発売」と記載。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "ファミリーコンピュータ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 8580,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】ファミコンゲーム全8作品一覧」（2026.09.12更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-famicom-soft/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "参考サイトのファミコン版一覧に掲載（ファミコン最後のドラゴンボール作品）。旧 FC-006「超サイヤ伝説」（スーパーファミコン用）に代わってファミコンの収集対象に追加。",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのファミコン版一覧にもとづき収集対象に追加"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-001",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超サイヤ伝説",
+      "release": {
+        "value": "1992-01-25",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          },
+          {
+            "title": "ピコピコ大百科 商品ページ（SFC）",
+            "url": "https://www.gavas.jp/products/detail.php?product_id=2063"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 10450,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "当初は FC-006 としてファミコンの収集対象に登録していたが、スーパーファミコン用ソフトのため SFC-001 に移動。",
+      "history": [
+        {
+          "date": "2026-10-02",
+          "change": "FC-006 としてファミコンの収集対象に登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "スーパーファミコン用と判明したため SFC-001 に移動"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-002",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超武闘伝",
+      "release": {
+        "value": "1993-03-20",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "対戦格闘",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 10780,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-003",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超武闘伝2",
+      "release": {
+        "value": "1993-12-17",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "対戦格闘",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 10780,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-004",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超武闘伝3",
+      "release": {
+        "value": "1994-09-29",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "対戦格闘",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 10780,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-005",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超悟空伝 -突激編-",
+      "release": {
+        "value": "1995-03-24",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。参考サイトでは「プレイングコミック」形式のRPGと紹介。"
+      },
+      "listPrice": {
+        "value": 11880,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-006",
+      "category": "sfc",
+      "title": "ドラゴンボールZ 超悟空伝 -覚醒編-",
+      "release": {
+        "value": "1995-09-22",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "RPG",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。参考サイトでは「プレイングコミック」形式のRPGと紹介。"
+      },
+      "listPrice": {
+        "value": 11880,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    },
+    {
+      "id": "SFC-007",
+      "category": "sfc",
+      "title": "ドラゴンボールZ HYPER DIMENSION",
+      "release": {
+        "value": "1996-03-29",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "publisher": {
+        "value": "バンダイ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "箱・カセットの型番表記で要確認。"
+      },
+      "platform": {
+        "value": "スーパーファミコン",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": ""
+      },
+      "genre": {
+        "value": "対戦格闘",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトのページ本文で確認（2026-10-03）。"
+      },
+      "listPrice": {
+        "value": 8580,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "遊びゴコロ「【ドラゴンボール】発売されたゲームソフト スーパーファミコン編 7選まとめ」（2026.09.25更新版）",
+            "url": "https://asobigokoro.work/dragon-ball-a-summary-of-the-7-game-software-released-for-the-super-famicom-from-dragon-ball-z-super-saiyan-densetsu-to-dragon-ball-z-hyper-dimension/"
+          }
+        ],
+        "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-03",
+          "change": "収集対象として登録（スーパーファミコン版の追加）"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        }
+      ]
+    }
+  ]
+}
