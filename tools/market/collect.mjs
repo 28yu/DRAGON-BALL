@@ -114,12 +114,22 @@ const SOURCES = {
     async fetch(q) {
       const r = await getText(this.searchUrl(q));
       if (r.skipped) return r;
+      // ページ内に埋め込まれたデータ（__NEXT_DATA__）から、商品名と落札価格を持つ項目を集める
       const rows = [];
-      for (const block of r.text.split(/<li class="Product[\s"]/).slice(1)) {
-        const t = block.match(/class="Product__titleLink[^"]*"[^>]*>([\s\S]*?)<\/a>/);
-        const p = block.match(/class="Product__priceValue[^"]*"[^>]*>([\s\S]*?)<\/span>/);
-        const u = block.match(/class="Product__titleLink[^"]*"[^>]*href="([^"]+)"/) || block.match(/href="([^"]+)"[^>]*class="Product__titleLink/);
-        if (t && p) rows.push({ title: decode(t[1]), price: toNum(decode(p[1])), url: u ? u[1] : null });
+      const m = r.text.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+      if (m) {
+        const seen = new Set();
+        const walk = (o) => {
+          if (Array.isArray(o)) return o.forEach(walk);
+          if (!o || typeof o !== "object") return;
+          if (typeof o.auctionId === "string" && typeof o.title === "string" && typeof o.price === "number" && !seen.has(o.auctionId)) {
+            seen.add(o.auctionId);
+            const url = o.isFleamarketItem ? null : `https://auctions.yahoo.co.jp/jp/auction/${o.auctionId}`;
+            rows.push({ title: o.title, price: o.price, url });
+          }
+          Object.values(o).forEach(walk);
+        };
+        try { walk(JSON.parse(m[1])); } catch (e) { throw new Error(`埋め込みデータを読めない: ${e.message}`); }
       }
       return { rows, htmlLength: r.text.length, html: r.text };
     },
@@ -149,18 +159,13 @@ const SOURCES = {
     async fetch(q) {
       const r = await getText(this.searchUrl(q));
       if (r.skipped) return r;
+      // 商品ごとのブロック（productItem）から、商品名（productItem__title）と価格欄（productItem__price）を読む
       const rows = [];
-      const seen = new Set();
-      // 商品ページ（/used/番号 または /new/番号）へのリンクを手がかりに、近くの商品名と価格を読む
-      const re = /href="((?:https:\/\/shopping\.bookoff\.co\.jp)?\/(?:used|new)\/\d+)"/g;
-      let m;
-      while ((m = re.exec(r.text))) {
-        const url = new URL(m[1], "https://shopping.bookoff.co.jp").href;
-        if (seen.has(url)) continue;
-        const chunk = r.text.slice(m.index, m.index + 2500);
-        const t = chunk.match(/(?:title|name)[^>]*>([^<]{4,120})</i) || chunk.match(/alt="([^"]{4,120})"/);
-        const p = chunk.match(/([\d,]{3,})\s*<?[^<]{0,20}?円/) || chunk.match(/[￥¥]\s*([\d,]+)/);
-        if (t && p) { seen.add(url); rows.push({ title: decode(t[1]), price: toNum(p[1]), url }); }
+      for (const block of r.text.split(/<div class="productItem[\s"]/).slice(1)) {
+        const t = block.match(/class="productItem__title"[^>]*>([\s\S]*?)<\/p>/);
+        const p = block.match(/class="productItem__price"[^>]*>\s*(?:&yen;|[￥¥])\s*([\d,]+)/);
+        const u = block.match(/href="(\/(?:used|new)\/\d+)"/);
+        if (t && p) rows.push({ title: decode(t[1]), price: toNum(p[1]), url: u ? new URL(u[1], "https://shopping.bookoff.co.jp").href : null });
       }
       return { rows, htmlLength: r.text.length, html: r.text };
     },
@@ -204,15 +209,6 @@ for (const [key, src] of Object.entries(SOURCES)) {
       const s = stats(rows);
       if (s.count === 0) st.empty++; else st.ok++;
       console.log(`[${key}] ${item.id} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
-      if (process.env.MARKET_DEBUG && r.html && item.id === "FC-007") {
-        // 構造調査用：商品リンク周辺と、ページ内に埋め込まれたデータの価格周辺を記録に出す
-        const h = r.html;
-        const link = h.search(/\/(?:used|new)\/\d+|\/jp\/auction\//);
-        console.log(`[${key}] 調査A（商品リンク周辺）: ${h.slice(Math.max(0, link - 300), link + 1700).replace(/\s+/g, " ")}`);
-        const nd = h.indexOf("__NEXT_DATA__");
-        const pi = h.search(/"(?:price|Price|winPrice|currentPrice)"\s*:/);
-        console.log(`[${key}] 調査B（__NEXT_DATA__ ${nd >= 0 ? "あり" : "なし"}、price項目の周辺）: ${pi >= 0 ? h.slice(Math.max(0, pi - 800), pi + 400).replace(/\s+/g, " ") : "price項目なし"}`);
-      }
       if (r.rows.length === 0 && r.html && !st.debugShown) {
         // 初回の調査用：読み取れなかったページの一部を記録に残す（1サイト1回だけ）
         st.debugShown = true;
