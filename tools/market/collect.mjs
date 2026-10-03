@@ -204,6 +204,15 @@ for (const [key, src] of Object.entries(SOURCES)) {
       const s = stats(rows);
       if (s.count === 0) st.empty++; else st.ok++;
       console.log(`[${key}] ${item.id} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
+      if (process.env.MARKET_DEBUG && r.html && item.id === "FC-007") {
+        // 構造調査用：商品リンク周辺と、ページ内に埋め込まれたデータの価格周辺を記録に出す
+        const h = r.html;
+        const link = h.search(/\/(?:used|new)\/\d+|\/jp\/auction\//);
+        console.log(`[${key}] 調査A（商品リンク周辺）: ${h.slice(Math.max(0, link - 300), link + 1700).replace(/\s+/g, " ")}`);
+        const nd = h.indexOf("__NEXT_DATA__");
+        const pi = h.search(/"(?:price|Price|winPrice|currentPrice)"\s*:/);
+        console.log(`[${key}] 調査B（__NEXT_DATA__ ${nd >= 0 ? "あり" : "なし"}、price項目の周辺）: ${pi >= 0 ? h.slice(Math.max(0, pi - 800), pi + 400).replace(/\s+/g, " ") : "price項目なし"}`);
+      }
       if (r.rows.length === 0 && r.html && !st.debugShown) {
         // 初回の調査用：読み取れなかったページの一部を記録に残す（1サイト1回だけ）
         st.debugShown = true;

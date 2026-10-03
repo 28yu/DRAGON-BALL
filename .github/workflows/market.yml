@@ -38,6 +38,7 @@ jobs:
         env:
           RAKUTEN_APP_ID: ${{ secrets.RAKUTEN_APP_ID }}
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
+          MARKET_DEBUG: "1" # ページ構造の調査中（調査が終わったら削除する）
         run: node tools/market/collect.mjs
 
       - name: データチェック
