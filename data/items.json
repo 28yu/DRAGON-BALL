@@ -981,24 +981,77 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（メルカリで購入、手元にあり）。"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり",
+        "manual": "あり（取扱説明書）",
         "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "extras": "内トレイ（透明）",
+        "overall": "出品時の商品の状態は「目立った傷や汚れなし」。",
+        "note": "出品時の説明と写真にもとづく。オーナー自身による状態確認は未実施。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": 2980,
+          "shipping": 0,
+          "shop": "メルカリ",
+          "note": "送料込み2,980円。出品タイトル「ドラゴンボールZIII 烈戦人造人間 ファミコン ソフト」。購入日は未確認。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-006/front.jpg",
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-006/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-006/cartridge.jpg",
+          "caption": "カセット（表）"
+        },
+        {
+          "path": "assets/images/items/FC-006/cartridge-back.jpg",
+          "caption": "カセット（裏）"
+        },
+        {
+          "path": "assets/images/items/FC-006/cartridge-tray.jpg",
+          "caption": "内トレイに入ったカセット"
+        },
+        {
+          "path": "assets/images/items/FC-006/manual.jpg",
+          "caption": "取扱説明書（表紙）"
+        },
+        {
+          "path": "assets/images/items/FC-006/manual-back.jpg",
+          "caption": "取扱説明書（裏表紙）"
+        },
+        {
+          "path": "assets/images/items/FC-006/terminal-1.jpg",
+          "caption": "カセットの端子部分1"
+        },
+        {
+          "path": "assets/images/items/FC-006/terminal-2.jpg",
+          "caption": "カセットの端子部分2"
+        },
+        {
+          "path": "assets/images/items/FC-006/cartridge-top-1.jpg",
+          "caption": "カセットの上部ラベル1"
+        },
+        {
+          "path": "assets/images/items/FC-006/cartridge-top-2.jpg",
+          "caption": "カセットの上部ラベル2"
+        }
+      ],
       "alerts": [],
-      "notes": "当初は FC-007「ドラゴンボールZ3 烈戦！人造人間」として登録。参考サイトの表記に合わせて名称を変更し、発売順に並べ直したため管理IDを FC-006 に変更。正式表記は現物で要確認。",
+      "notes": "当初は FC-007「ドラゴンボールZ3 烈戦！人造人間」として登録。参考サイトの表記に合わせて名称を変更し、発売順に並べ直したため管理IDを FC-006 に変更。正式表記は現物で要確認。\n\n【この個体の表記（写真から確認）】箱・カセット・取扱説明書のタイトル表記は「DRAGON BALL Z III 烈戦人造人間」（ZのあとにIIIのロゴ）。発売元表記は「株式会社バンダイ 玩具第3事業部」、お客様相談センターは（関東）（関西）（中部）の3か所。箱の表に「東映動画・版権許諾証」のシールあり。箱裏のJANコードは 4902425365671、その上に「104017-0036567-7800」の記載あり。",
       "history": [
         {
           "date": "2026-10-02",
@@ -1011,6 +1064,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「所持」に変更（オーナー申告）、画像11枚・購入記録・状態を登録"
         }
       ]
     },

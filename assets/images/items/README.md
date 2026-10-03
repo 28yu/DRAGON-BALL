@@ -20,11 +20,17 @@ assets/images/items/
 |---|---|
 | `front.jpg` | 表（本の表紙・箱の表）。**一覧ページのサムネイルに使う** |
 | `back.jpg` | 裏（裏表紙・箱の裏） |
-| `spine.jpg` | 背表紙・箱の側面 |
-| `cartridge.jpg` | カセット本体（ゲームのみ） |
-| `manual.jpg` | 説明書 |
+| `set.jpg` | セット一式（箱・本体・付属品を並べたもの） |
+| `spine-1.jpg`, `spine-2.jpg` … | 背表紙・箱の側面 |
+| `flap-1.jpg` … | 箱のフタ |
+| `cartridge.jpg` / `cartridge-back.jpg` | カセット本体の表 / 裏（ゲームのみ） |
+| `cartridge-top-1.jpg` … | カセットの上部ラベル |
+| `cartridge-tray.jpg` | 内トレイに入れた状態 |
+| `terminal-1.jpg` … | カセットの端子部分 |
+| `manual.jpg` / `manual-back.jpg` | 説明書の表紙 / 裏表紙 |
+| `inserts.jpg` / `inserts-back.jpg` | 付属品（チラシ・ハガキなど）の表 / 裏 |
 | `obi.jpg` | 帯（本のみ） |
-| `extra-1.jpg`, `extra-2.jpg` … | その他（付属カード、ハガキ、傷のアップなど） |
+| `extra-1.jpg`, `extra-2.jpg` … | その他（傷のアップなど） |
 
 - 半角の英小文字・数字・ハイフン（`-`）だけを使う（日本語やスペースは使わない）。
 - 形式は `.jpg`（写真）を基本とし、`.png` / `.webp` も可。
