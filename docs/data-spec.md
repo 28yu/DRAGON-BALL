@@ -34,7 +34,7 @@
 | `purchases` | 購入記録（複数可） | 下記参照 |
 | `marketPrices` | 中古相場の調査記録（複数可） | 下記参照 |
 | `references` | 項目に紐づかない参考URL | `[{ "title": "...", "url": "..." }]` |
-| `images` | 画像 | `[{ "path": "assets/images/items/FC-001-front.jpg", "caption": "箱表" }]`。先頭の1枚が一覧のサムネイルになる |
+| `images` | 画像 | `[{ "path": "assets/images/items/FC-001/front.jpg", "caption": "箱の表" }]`。管理IDのフォルダに置く。先頭の1枚が一覧のサムネイルになる |
 | `alerts` | 要確認事項 | 文字列の配列。一覧と詳細に「要確認」として表示 |
 | `notes` | メモ | 自由記述 |
 | `history` | 変更履歴 | `[{ "date": "2026-10-02", "change": "収集対象として登録" }]` |

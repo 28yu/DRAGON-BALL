@@ -19,7 +19,7 @@ DRAGON-BALL/
 │   ├── js/common.js      共通処理（データ読み込み・表示の部品）
 │   ├── js/index.js       トップページの表示処理
 │   ├── js/item.js        詳細ページの表示処理
-│   └── images/items/     自分で撮影した商品写真を置く場所
+│   └── images/items/     商品画像（管理IDごとのフォルダ。例：FC-001/front.jpg）
 ├── docs/
 │   ├── data-spec.md      データ項目の仕様（どの項目に何を書くか）
 │   ├── operation.md      運用ルール（更新手順・調査方針・相場/画像のルール）
@@ -69,7 +69,7 @@ DRAGON-BALL/
 ### よくある更新の例
 
 - **所持状況を登録する：** 該当商品の `"ownership": { "status": "unconfirmed", ... }` を `"owned"`（所持）または `"not_owned"`（未所持）に変え、`checkedAt` に確認日（例 `"2026-10-05"`）を入れる。
-- **写真を追加する：** 写真を `assets/images/items/FC-001-front.jpg` のように置き、`"images": [ { "path": "assets/images/items/FC-001-front.jpg", "caption": "箱表" } ]` と書く。
+- **写真を追加する：** 画像を `assets/images/items/FC-001/front.jpg` のように管理IDのフォルダに置き、`"images": [ { "path": "assets/images/items/FC-001/front.jpg", "caption": "箱の表" } ]` と書く。ファイル名のルールは `assets/images/items/README.md` を参照。
 - **購入記録・相場を追加する：** `purchases` / `marketPrices` に1件ずつ追加する（書き方は data-spec.md）。
 
 ## GitHub Pages での公開方法

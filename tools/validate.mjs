@@ -69,7 +69,11 @@ for (const item of data.items || []) {
   }
   for (const img of item.images || []) {
     if (!img.path) errors.push(`${where}: images に path がありません`);
+    else if (!img.path.startsWith(`assets/images/items/${item.id}/`)) errors.push(`${where}: 画像は assets/images/items/${item.id}/ に置いてください (${img.path})`);
     else if (!existsSync(join(root, img.path))) errors.push(`${where}: 画像ファイルが見つかりません (${img.path})`);
+  }
+  if (item.id && !existsSync(join(root, "assets/images/items", item.id))) {
+    warnings.push(`${where}: 画像フォルダ assets/images/items/${item.id}/ がありません`);
   }
   if (item.ownership?.status === "owned" && !item.ownership.checkedAt) {
     warnings.push(`${where}: 所持になっていますが確認日 checkedAt が空です`);

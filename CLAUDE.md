@@ -30,7 +30,7 @@
 - 調べた情報には出典URLを付ける。二次資料は `reference`、現物・公式で確認できたものだけ `confirmed`。
 - 相場情報は必ず調査日と出典（または根拠）をセットで記録し、古い記録は消さない。
 - 管理IDは一度付けたら変更・再利用しない。
-- 公式画像・書籍スキャン・他サイトの画像は保存しない（写真はオーナー撮影のもののみ）。
+- 公式画像・書籍スキャン・他サイトの画像は保存しない（画像はオーナーが撮影・作成したもののみ）。
 - メールアドレスなどの個人情報・秘密情報をリポジトリに含めない。コミットの作成者メールは GitHub の noreply アドレスを使う。
 - リポジトリの公開設定や GitHub Pages の設定は勝手に変更しない。
 
@@ -55,7 +55,7 @@
 - `assets/js/common.js`：データ読み込みと表示の共通処理
 - `assets/js/index.js` / `assets/js/item.js`：各ページの表示処理
 - `assets/css/style.css`：デザイン（色は `:root` の変数で管理）
-- `assets/images/items/`：オーナー撮影の写真（`管理ID-内容.jpg`）
+- `assets/images/items/管理ID/`：オーナーが撮影・作成した画像（`front.jpg` など。命名ルールは同フォルダの README.md）
 - `docs/data-spec.md`：データ項目の仕様
 - `docs/operation.md`：運用ルール
 - `docs/research-log.md`：調査履歴
