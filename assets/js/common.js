@@ -62,9 +62,14 @@ function unconfirmedText(text = "未確認") {
 function thumbHTML(item) {
   const img = (item.images || [])[0];
   if (img && img.path) {
-    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy"></div>`;
+    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">${referenceLabel(img)}</div>`;
   }
   return `<div class="thumb"><span class="thumb-placeholder">画像未登録</span></div>`;
+}
+
+// 未所持品の参考画像（オーナーの撮影ではない画像）に付けるラベル
+function referenceLabel(img) {
+  return img && img.kind === "reference" ? `<span class="ref-label">参考画像</span>` : "";
 }
 
 function itemURL(id) {

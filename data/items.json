@@ -565,9 +565,9 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未購入）。"
       },
       "condition": {
         "box": null,
@@ -580,7 +580,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-002/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -595,6 +601,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）、参考画像（箱の表）を登録"
         }
       ]
     },
@@ -670,9 +680,9 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未購入）。"
       },
       "condition": {
         "box": null,
@@ -685,7 +695,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-003/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -700,6 +716,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）、参考画像（箱の表）を登録"
         }
       ]
     },
@@ -775,9 +795,9 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未購入）。"
       },
       "condition": {
         "box": null,
@@ -790,7 +810,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-004/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "当初は「ドラゴンボールZ 強襲サイヤ人」で登録。参考サイトの表記「強襲!サイヤ人」に変更。正式表記は現物で要確認。 【収集メモ】参考サイトによると、販売店・卸業者向けに配布された非売品「90'メモリアルバージョン」（金メッキカセット、外箱にメモリアルバージョンのシール）が存在する。",
       "history": [
@@ -805,6 +831,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）、参考画像（箱の表）を登録"
         }
       ]
     },

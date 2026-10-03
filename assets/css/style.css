@@ -218,6 +218,19 @@ section { margin-bottom: 40px; }
   border-bottom: 1px solid var(--border);
 }
 .thumb img { width: 100%; height: 100%; object-fit: contain; }
+.thumb, .gallery a { position: relative; }
+.ref-label {
+  position: absolute;
+  left: 6px;
+  top: 6px;
+  padding: 1px 7px;
+  border-radius: 4px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  background: rgba(40, 32, 24, 0.78);
+  pointer-events: none;
+}
 .thumb-placeholder {
   text-align: center;
   line-height: 1.5;

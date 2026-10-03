@@ -124,7 +124,7 @@ function galleryHTML(item) {
     .map((img) => `
       <li>
         <a href="${escapeHTML(img.path)}" target="_blank" rel="noopener">
-          <img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">
+          <img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">${referenceLabel(img)}
         </a>
         ${img.caption ? `<span class="gallery-caption">${escapeHTML(img.caption)}</span>` : ""}
       </li>`)
