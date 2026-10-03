@@ -3,16 +3,32 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-03",
-      "startedAt": "2026-10-03T07:42:22.892Z",
+      "startedAt": "2026-10-03T08:10:56.258Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
           "ok": 0,
           "empty": 0,
-          "skipped": 17,
-          "failed": 0,
+          "skipped": 0,
+          "failed": 17,
           "messages": [
-            "楽天のアプリID（RAKUTEN_APP_ID）が未設定"
+            "BOOK-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "BOOK-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "BOOK-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-004: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-005: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-006: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "FC-007: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-004: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-005: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-006: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
+            "SFC-007: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}"
           ]
         },
         "yahoo": {
@@ -52,7 +68,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-03T07:44:28.822Z"
+      "finishedAt": "2026-10-03T08:13:27.105Z"
     },
     "updatedAt": "2026-10-03"
   },
@@ -619,9 +635,9 @@
       "id": "SFC-002",
       "source": "yahoo",
       "kind": "sold",
-      "count": 14,
+      "count": 13,
       "min": 110,
-      "median": 790,
+      "median": 880,
       "max": 30000,
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
       "samples": [
@@ -677,6 +693,11 @@
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
       "samples": [
         {
+          "title": "SFC スーファミ スーパーファミコン ドラゴンボールZ 超武闘伝2 アンケート はがき 葉書 のみ　",
+          "price": 300,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/o1246888627"
+        },
+        {
           "title": "「ドラゴンボールZ 超武闘伝2」 スーパーファミコン ソフト SFC",
           "price": 1300,
           "url": "https://auctions.yahoo.co.jp/jp/auction/v1246139352"
@@ -685,11 +706,6 @@
           "title": "ドラゴンボールZ 超武闘伝2 スーパーファミコン 鳥山明 DRAGON BALL チラシ 広告 ポスター 当時物 ゲーム雑誌切り抜き レトロゲーム SFC",
           "price": 1200,
           "url": "https://auctions.yahoo.co.jp/jp/auction/l1245285467"
-        },
-        {
-          "title": "スーパーファミコン ソフト 10本 スーパーマリオコレクション・R-TYPE・パワフルプロ野球'96 ・ドラゴンボールZ超武闘伝2・祇園花 他",
-          "price": 2100,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/w1245310417"
         }
       ]
     },
