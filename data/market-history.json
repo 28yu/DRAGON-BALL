@@ -3,33 +3,15 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-03",
-      "startedAt": "2026-10-03T08:10:56.258Z",
+      "startedAt": "2026-10-03T08:14:12.504Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
-          "ok": 0,
-          "empty": 0,
+          "ok": 15,
+          "empty": 2,
           "skipped": 0,
-          "failed": 17,
-          "messages": [
-            "BOOK-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "BOOK-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "BOOK-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-004: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-005: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-006: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "FC-007: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-001: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-002: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-003: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-004: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-005: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-006: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}",
-            "SFC-007: HTTP 400 {\"error_description\":\"API Configuration not found\",\"error\":\"wrong_parameter\"}"
-          ]
+          "failed": 0,
+          "messages": []
         },
         "yahoo": {
           "label": "ヤフオク（落札済み）",
@@ -68,7 +50,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-03T08:13:27.105Z"
+      "finishedAt": "2026-10-03T08:16:42.889Z"
     },
     "updatedAt": "2026-10-03"
   },
@@ -83,6 +65,18 @@
       "median": null,
       "max": null,
       "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-001",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1/",
       "samples": []
     },
     {
@@ -128,6 +122,18 @@
     {
       "date": "2026-10-03",
       "id": "BOOK-002",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2/",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-002",
       "source": "yahoo",
       "kind": "sold",
       "count": 10,
@@ -168,6 +174,24 @@
           "title": "カードダス奥義大全書 ドラゴンボールZ(1) ジャンプC",
           "price": 440,
           "url": "https://shopping.bookoff.co.jp/used/0015067727"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-003",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 1,
+      "min": 9631,
+      "median": 9631,
+      "max": 9631,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ/",
+      "samples": [
+        {
+          "title": "【中古】カードダス奥義大全書ドラゴンボールZ (ジャンプコミックスセレクション)",
+          "price": 9631,
+          "url": "https://item.rakuten.co.jp/buriruby/6v3bgswt22cmjcnx2xavklq4km/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -225,6 +249,34 @@
     {
       "date": "2026-10-03",
       "id": "FC-001",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 13,
+      "min": 460,
+      "median": 4080,
+      "max": 29800,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ファミコン (FC)　ドラゴンボール 神龍の謎 (ソフト単品)",
+          "price": 569,
+          "url": "https://item.rakuten.co.jp/bossleaf/fc-t0556/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "ファミコン ドラゴンボール 神龍の謎 （ソフトのみ） FC 【中古】",
+          "price": 980,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000217/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【送料無料】【中古】FC ファミコン ドラゴンボール神龍の謎",
+          "price": 590,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes/19134515/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-001",
       "source": "yahoo",
       "kind": "sold",
       "count": 38,
@@ -270,6 +322,34 @@
           "title": "【※箱説なし※】ドラゴンボール 大魔王復活",
           "price": 1210,
           "url": "https://shopping.bookoff.co.jp/used/0017415495"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-002",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 6,
+      "min": 564,
+      "median": 1187,
+      "max": 25800,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ファミコン (FC)　ドラゴンボール 大魔王復活 (ソフト単品)",
+          "price": 564,
+          "url": "https://item.rakuten.co.jp/bossleaf/fc-t0557/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "ファミコン ドラゴンボール 大魔王復活 （ソフトのみ） FC 【中古】",
+          "price": 1180,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000218/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【送料無料】【中古】FC ファミコン ドラゴンボール 大魔王復活",
+          "price": 780,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes-2/19134543/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -327,6 +407,34 @@
     {
       "date": "2026-10-03",
       "id": "FC-003",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 8,
+      "min": 420,
+      "median": 2153,
+      "max": 4580,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ファミコン (FC)　ドラゴンボール3 悟空伝 (ソフト単品)",
+          "price": 420,
+          "url": "https://item.rakuten.co.jp/bossleaf/fc-t0558/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【送料無料】【中古】FC ファミコン ドラゴンボール3 悟空伝",
+          "price": 1026,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes/10020713/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "ファミコン ドラゴンボール3　悟空伝 FC（ソフトのみ） FC【中古】",
+          "price": 1280,
+          "url": "https://item.rakuten.co.jp/auc-egames/fc-0610/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-003",
       "source": "yahoo",
       "kind": "sold",
       "count": 4,
@@ -372,6 +480,29 @@
           "title": "【※箱説なし※】ドラゴンボールZ 強襲！サイヤ人",
           "price": 297,
           "url": "https://shopping.bookoff.co.jp/used/0017415497"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-004",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 2,
+      "min": 1180,
+      "median": 4090,
+      "max": 7000,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "ファミコン ドラゴンボールZ 強襲サイヤ人 （ソフトのみ） FC 【中古】",
+          "price": 1180,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000219/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "新品同様　ファミコン　FC　ドラゴンボールZ 強襲サイヤ人",
+          "price": 7000,
+          "url": "https://item.rakuten.co.jp/niziya/25398/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -429,6 +560,34 @@
     {
       "date": "2026-10-03",
       "id": "FC-005",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 3,
+      "min": 1780,
+      "median": 1980,
+      "max": 3872,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ドラゴンボールZ2　激神フリーザ！！／ファミコン",
+          "price": 3872,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984676/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "ファミコン ドラゴンボールZ2 激神フリーザ！！ セーブ可（ソフトのみ） FC 【中古】",
+          "price": 1780,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000220/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】FC ドラゴンボールZ2 激神フリーザ!! ※カートリッジ単品",
+          "price": 1980,
+          "url": "https://item.rakuten.co.jp/auc-stepreikodo/ugfc-20260716-002/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-005",
       "source": "yahoo",
       "kind": "sold",
       "count": 25,
@@ -474,6 +633,29 @@
           "title": "【※箱説なし※】ドラゴンボールZ3 烈戦人造人間",
           "price": 990,
           "url": "https://shopping.bookoff.co.jp/used/0017415499"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-006",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 2,
+      "min": 1780,
+      "median": 2364,
+      "max": 2948,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "ファミコン ドラゴンボールZ3 烈戦人造人間 セーブ可 シール貼り等あり（ソフトのみ） FC 【中古】",
+          "price": 1780,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000221/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "ファミコンソフト ドラゴンボールZ3 烈戦人造人間【中古】",
+          "price": 2948,
+          "url": "https://item.rakuten.co.jp/wattmann/9333050107810/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -531,6 +713,34 @@
     {
       "date": "2026-10-03",
       "id": "FC-007",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 4,
+      "min": 4518,
+      "median": 5360,
+      "max": 7630,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ドラゴンボールZ外伝　サイヤ人絶滅計画／ファミコン",
+          "price": 4719,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984712/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 BANDAI ファミリーコンピュータ ドラゴンボールZ外伝 サイヤ人絶滅計画 a1",
+          "price": 6000,
+          "url": "https://item.rakuten.co.jp/recycle-kyoto/rc_it2xx3ax3rko_fowh/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】FC）ドラゴンボールZ外伝サイヤ人絶滅計画[92]",
+          "price": 7630,
+          "url": "https://item.rakuten.co.jp/otakarasouko/1-240092130037/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-007",
       "source": "yahoo",
       "kind": "sold",
       "count": 43,
@@ -576,6 +786,34 @@
           "title": "ドラゴンボールZ 超サイヤ伝説",
           "price": 4290,
           "url": "https://shopping.bookoff.co.jp/used/0000984682"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-001",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 3,
+      "min": 2780,
+      "median": 5648,
+      "max": 9926,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "SFC ドラゴンボールZ 超サイヤ伝説 セーブ可（ソフトのみ）【中古】 スーパーファミコン スーファミ",
+          "price": 2780,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000261/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 ドラゴンボールZ超サイヤ伝説",
+          "price": 9926,
+          "url": "https://item.rakuten.co.jp/bearhomes/2024-07-23-598/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】SFC ドラゴンボールZ　超サイヤ伝説",
+          "price": 5648,
+          "url": "https://item.rakuten.co.jp/renet20/r0013977809/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -633,6 +871,34 @@
     {
       "date": "2026-10-03",
       "id": "SFC-002",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 9,
+      "min": 330,
+      "median": 980,
+      "max": 8000,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 スーパーファミコン (SFC) ドラゴンボールZ 超武闘伝(ソフト単品)",
+          "price": 330,
+          "url": "https://item.rakuten.co.jp/bossleaf/sfc-t0917/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 ドラゴンボールZ　超武闘伝／スーパーファミコン",
+          "price": 1815,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984699/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "SFC ドラゴンボールZ 超武闘伝 （ソフトのみ）【中古】 スーパーファミコン スーファミ",
+          "price": 780,
+          "url": "https://item.rakuten.co.jp/auc-egames/sfc-0030/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-002",
       "source": "yahoo",
       "kind": "sold",
       "count": 13,
@@ -678,6 +944,34 @@
           "title": "【※箱説なし※】ドラゴンボールZ 超武闘伝2",
           "price": 110,
           "url": "https://shopping.bookoff.co.jp/used/0017424428"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-003",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 20,
+      "min": 352,
+      "median": 5651,
+      "max": 18199,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【中古】 ドラゴンボールZ　超武闘伝2／スーパーファミコン",
+          "price": 4961,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984725/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "SFC ドラゴンボールZ 超武闘伝2（ソフトのみ）【中古】 スーパーファミコン スーファミ",
+          "price": 980,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000251/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【送料無料】【中古】SFC スーパーファミコン ドラゴンボールZ 超武闘伝2",
+          "price": 1121,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes-2/19134673/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
         }
       ]
     },
@@ -735,6 +1029,34 @@
     {
       "date": "2026-10-03",
       "id": "SFC-004",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 7,
+      "min": 330,
+      "median": 2783,
+      "max": 7871,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "SFC ドラゴンボールZ 超武闘伝3 （ソフトのみ）【中古】 スーパーファミコン スーファミ",
+          "price": 780,
+          "url": "https://item.rakuten.co.jp/auc-egames/10000627/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 ドラゴンボールZ 超武闘伝3／スーパーファミコン",
+          "price": 2783,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984863/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 スーパーファミコン (SFC) ドラゴンボールZ 超武闘伝3(ソフト単品)",
+          "price": 330,
+          "url": "https://item.rakuten.co.jp/bossleaf/sfc-t0918/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-004",
       "source": "yahoo",
       "kind": "sold",
       "count": 20,
@@ -771,6 +1093,34 @@
       "max": null,
       "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
       "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-005",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 5,
+      "min": 723,
+      "median": 1596,
+      "max": 2980,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【送料無料】【中古】SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編",
+          "price": 1216,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes/19134672/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】[SFC] ドラゴンボールZ 超悟空伝 突激編(スーパー悟空伝) バンダイ (19950324)",
+          "price": 2492,
+          "url": "https://item.rakuten.co.jp/mediaworldkaitoriworld/10005956001/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】【箱説明書なし】[SFC] ドラゴンボールZ 超悟空伝(スーパーごくうでん) 突激編 バンダイ (19950324)",
+          "price": 723,
+          "url": "https://item.rakuten.co.jp/mediaworldkaitoriworld/10005956003/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
     },
     {
       "date": "2026-10-03",
@@ -826,6 +1176,34 @@
     {
       "date": "2026-10-03",
       "id": "SFC-006",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 7,
+      "min": 3781,
+      "median": 10071,
+      "max": 15033,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【送料無料】【中古】SFC スーパーファミコン ドラゴンボールZ超悟空伝 覚醒編",
+          "price": 3781,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes/10003552/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】 ドラゴンボールZ　超悟空伝覚醒編／スーパーファミコン",
+          "price": 9801,
+          "url": "https://item.rakuten.co.jp/bookoffonline/0000984871/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "BANDAI　SFCソフト　ドラゴンボールZ 超悟空伝 覚醒編【中古】",
+          "price": 8338,
+          "url": "https://item.rakuten.co.jp/wattmann/9317020030711/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-006",
       "source": "yahoo",
       "kind": "sold",
       "count": 44,
@@ -862,6 +1240,29 @@
       "max": null,
       "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
       "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-007",
+      "source": "rakuten",
+      "kind": "listing",
+      "count": 2,
+      "min": 3287,
+      "median": 11644,
+      "max": 20000,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/",
+      "samples": [
+        {
+          "title": "【送料無料】【中古】SFC スーパーファミコン ドラゴンボールZ HYPER DIMENSION",
+          "price": 3287,
+          "url": "https://item.rakuten.co.jp/kaitoriheroes/10005146/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        },
+        {
+          "title": "【中古】【動作確認済】スーパーファミコンソフト　ドラゴンボールZ Hyper Dimension＜レトロゲーム＞（代引き不可）6603",
+          "price": 20000,
+          "url": "https://item.rakuten.co.jp/wondergoo/660320260828107/?rafcid=wsc_i_is_40393304-558b-4caf-ba71-75a830770f1b"
+        }
+      ]
     },
     {
       "date": "2026-10-03",
