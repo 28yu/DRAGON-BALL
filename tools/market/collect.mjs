@@ -1,6 +1,6 @@
 // 中古相場の自動取得（1日1回、GitHub Actions から実行）
 // 使い方: node tools/market/collect.mjs
-//   環境変数 RAKUTEN_APP_ID（必須：楽天）/ RAKUTEN_ACCESS_KEY（任意）
+//   環境変数 RAKUTEN_APP_ID / RAKUTEN_ACCESS_KEY（楽天を取得する場合はどちらも必須）
 //
 // 方針
 // - 楽天市場は公式API、ヤフオク（落札済み）・駿河屋・ブックオフは公開ページを1日1回だけ読む。
@@ -8,6 +8,7 @@
 // - リクエストの間は数秒あけ、サイトに負荷をかけない。
 // - メルカリは公開ページに価格が含まれず、非公開の仕組みを回避しないと取得できないため対象外。
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
+import { request } from "node:https";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -16,6 +17,8 @@ const ITEMS = join(ROOT, "data/items.json");
 const HISTORY = join(ROOT, "data/market-history.json");
 const UA = "DragonBallCollectionBot/1.0 (personal collection price log; +https://github.com/28yu/DRAGON-BALL)";
 const WAIT_MS = 3000;
+// 楽天APIに「許可されたWebサイト」として登録するサイトのURL
+const SITE_URL = "https://28yu.github.io/DRAGON-BALL/";
 // どの商品でも除外する出品（まとめ売り・本体・攻略本など相場をゆがめるもの）
 const GLOBAL_EXCLUDE = ["まとめ", "セット", "本体", "大量", "空箱", "箱のみ", "説明書のみ"];
 
@@ -85,6 +88,21 @@ async function getText(url) {
   return { text: await res.text() };
 }
 
+// Referer を確実に送るため、fetch ではなく node:https で取得する（楽天API用）
+function httpsGet(url, headers) {
+  return new Promise((resolve, reject) => {
+    const req = request(url, { headers, timeout: 30000 }, (res) => {
+      let body = "";
+      res.setEncoding("utf8");
+      res.on("data", (c) => (body += c));
+      res.on("end", () => resolve({ status: res.statusCode, body }));
+    });
+    req.on("timeout", () => req.destroy(new Error("timeout")));
+    req.on("error", reject);
+    req.end();
+  });
+}
+
 const decode = (s) => s.replace(/<[^>]+>/g, "").replace(/&amp;/g, "&").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, "<").replace(/&gt;/g, ">").replace(/\s+/g, " ").trim();
 const toNum = (s) => Number(String(s).replace(/[^\d]/g, ""));
 
@@ -95,15 +113,22 @@ const SOURCES = {
     kind: "listing",
     searchUrl: (q) => `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(q)}/`,
     async fetch(q) {
+      // 2026年の楽天APIの刷新に対応：新しい窓口（openapi.rakuten.co.jp）、アプリIDとアクセスキーの両方が必須、
+      // 登録した「許可されたWebサイト」からの呼び出しであることを示す Referer を付ける
       const appId = process.env.RAKUTEN_APP_ID;
+      const accessKey = process.env.RAKUTEN_ACCESS_KEY;
       if (!appId) return { skipped: "楽天のアプリID（RAKUTEN_APP_ID）が未設定" };
-      const params = new URLSearchParams({ format: "json", applicationId: appId, keyword: q, hits: "30", sort: "standard" });
-      if (process.env.RAKUTEN_ACCESS_KEY) params.set("accessKey", process.env.RAKUTEN_ACCESS_KEY);
+      if (!accessKey) return { skipped: "楽天のアクセスキー（RAKUTEN_ACCESS_KEY）が未設定" };
+      const params = new URLSearchParams({ format: "json", applicationId: appId, accessKey, keyword: q, hits: "30", sort: "standard" });
       await sleep(1200); // APIの利用回数制限（1秒1回）に合わせる
-      const res = await fetch(`https://app.rakuten.co.jp/services/api/IchibaItem/Search/20220601?${params}`);
-      if (!res.ok) throw new Error(`HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
-      const json = await res.json();
-      return { rows: (json.Items || []).map(({ Item }) => ({ title: Item.itemName, price: Item.itemPrice, url: Item.itemUrl })) };
+      const { status, body } = await httpsGet(`https://openapi.rakuten.co.jp/ichibams/api/IchibaItem/Search/20220601?${params}`, {
+        "User-Agent": UA,
+        Referer: SITE_URL,
+        Origin: new URL(SITE_URL).origin,
+      });
+      if (status !== 200) throw new Error(`HTTP ${status} ${body.slice(0, 200)}`);
+      const json = JSON.parse(body);
+      return { rows: (json.Items || []).map((x) => x.Item || x).map((Item) => ({ title: Item.itemName, price: Item.itemPrice, url: Item.itemUrl })) };
     },
   },
   // ヤフオク：落札済みの検索結果（過去の落札価格）
