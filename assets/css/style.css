@@ -368,6 +368,33 @@ section { margin-bottom: 40px; }
   margin-bottom: 10px;
 }
 
+/* ---------- 画像ギャラリー ---------- */
+.gallery {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 10px;
+}
+.gallery a {
+  display: block;
+  aspect-ratio: 4 / 3;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  overflow: hidden;
+}
+.gallery a:hover, .gallery a:focus-visible { border-color: var(--accent); }
+.gallery img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.gallery-caption {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
 /* ---------- フッター ---------- */
 .site-footer {
   border-top: 1px solid var(--border);
@@ -396,4 +423,5 @@ section { margin-bottom: 40px; }
     font-size: 0.7rem;
   }
   .thumb-placeholder::before { width: 24px; height: 18px; }
+  .gallery { grid-template-columns: repeat(2, 1fr); }
 }

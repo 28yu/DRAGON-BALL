@@ -383,24 +383,93 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（メルカリで落札し、手元にあり）。"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり（スレ・シワあり）",
+        "manual": "あり（取扱説明書）",
         "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "extras": "内トレイ、ゲーム・マテリアル（マル秘）、「神龍を探せ!!」キャンペーンチラシ（応募券付き）、バンダイファミコンプレス Vol.2",
+        "overall": "出品時の説明では「傷や汚れあり」「箱はスレや、シワがあります」。出品タイトルに「動作確認」とあり。",
+        "note": "出品時の説明と写真にもとづく。オーナー自身による状態確認は未実施。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": 6000,
+          "shipping": 0,
+          "shop": "メルカリ",
+          "note": "送料込み6,000円（ゆうパケットポストmini、送料は出品者負担）。出品タイトル「【動作確認】ドラゴンボール 神龍の謎 ファミコン ソフト」。購入日は未確認。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-001/front.jpg",
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-001/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-001/set.jpg",
+          "caption": "セット一式（箱・カセット・説明書・付属品）"
+        },
+        {
+          "path": "assets/images/items/FC-001/cartridge.jpg",
+          "caption": "カセットと取扱説明書（表）"
+        },
+        {
+          "path": "assets/images/items/FC-001/cartridge-back.jpg",
+          "caption": "カセットと取扱説明書（裏）"
+        },
+        {
+          "path": "assets/images/items/FC-001/inserts.jpg",
+          "caption": "付属品（ゲーム・マテリアル、キャンペーンチラシ、バンダイファミコンプレス Vol.2）"
+        },
+        {
+          "path": "assets/images/items/FC-001/inserts-back.jpg",
+          "caption": "付属品（裏面）"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-1.jpg",
+          "caption": "箱の側面1"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-2.jpg",
+          "caption": "箱の側面2"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-3.jpg",
+          "caption": "箱の側面3"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-4.jpg",
+          "caption": "箱の側面4"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-5.jpg",
+          "caption": "箱の側面5"
+        },
+        {
+          "path": "assets/images/items/FC-001/spine-6.jpg",
+          "caption": "箱の側面6"
+        },
+        {
+          "path": "assets/images/items/FC-001/flap-1.jpg",
+          "caption": "箱のフタ（表側）"
+        },
+        {
+          "path": "assets/images/items/FC-001/flap-2.jpg",
+          "caption": "箱のフタ（裏側）"
+        }
+      ],
       "alerts": [],
-      "notes": "【収集メモ】参考サイトによると初期版と復刻版があり、見分けるポイントは箱・カセット・説明書の表記：①「玩具第2事業部」の表記の有無、②お客様相談センターの表記が「名古屋」か「中部」か、③JASRAC許諾証がシールか印刷か。購入時に確認すること。",
+      "notes": "【収集メモ】参考サイトによると初期版と復刻版があり、見分けるポイントは箱・カセット・説明書の表記：①「玩具第2事業部」の表記の有無、②お客様相談センターの表記が「名古屋」か「中部」か、③JASRAC許諾証がシールか印刷か。購入時に確認すること。\n\n【この個体の表記（写真から確認）】箱裏・カセット裏の発売元表記は「玩具部(E/L)」、お客様相談センターの所在地に「(名古屋)」の記載あり。参考サイトの見分け方（復刻版は「玩具第2事業部」「中部」）に照らすと初期版の特徴に該当する（JASRAC許諾証がシールか印刷かは未確認）。箱裏のJANコードは 4902425069814、その上に「104017-0006981-5300」の記載あり。",
       "history": [
         {
           "date": "2026-10-02",
@@ -413,6 +482,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「所持」に変更（オーナー申告）、画像15枚・購入記録・状態を登録"
         }
       ]
     },

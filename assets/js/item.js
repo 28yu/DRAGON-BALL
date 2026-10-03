@@ -116,6 +116,21 @@ function historyHTML(item) {
   return `<table class="info-table">${list.map((h) => row(formatDate(h.date), escapeHTML(h.change))).join("")}</table>`;
 }
 
+// 登録された画像を一覧で表示する（押すと原寸の画像が別タブで開く）
+function galleryHTML(item) {
+  const list = (item.images || []).filter((img) => img.path);
+  if (list.length === 0) return `<p class="empty-box">画像はまだ登録されていません。</p>`;
+  return `<ul class="gallery">${list
+    .map((img) => `
+      <li>
+        <a href="${escapeHTML(img.path)}" target="_blank" rel="noopener">
+          <img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">
+        </a>
+        ${img.caption ? `<span class="gallery-caption">${escapeHTML(img.caption)}</span>` : ""}
+      </li>`)
+    .join("")}</ul>`;
+}
+
 function section(title, body) {
   return `<section><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
 }
@@ -152,10 +167,11 @@ function renderItem(data, item) {
       <span>${unconfirmedText()} まだ調べていない／確認できない</span>
     </div>
     ${section("基本情報", basicInfoHTML(item, category))}
+    ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
     ${section("中古相場", marketPricesHTML(item))}
-    ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text)">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
+    ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
     ${section("参考URL・出典", referencesHTML(item))}
     ${section("変更履歴", historyHTML(item))}
   `;
