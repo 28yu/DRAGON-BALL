@@ -1199,19 +1199,27 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
+        "status": "owned",
         "checkedAt": "2026-10-03",
-        "note": "オーナーの申告（未購入）。"
+        "note": "オーナーの申告（まんだらけ中野店で購入）。詳細と写真は後日。"
       },
       "condition": {
         "box": null,
-        "manual": null,
+        "manual": "あり（オーナー申告）",
         "obi": null,
         "extras": null,
         "overall": null,
-        "note": ""
+        "note": "オーナー申告（説明書付き）。その他の状態は写真の受け取り後に登録予定。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": 6600,
+          "shipping": 0,
+          "shop": "まんだらけ中野店（店頭）",
+          "note": "税込6,600円。説明書付き。店頭購入のため送料なし。購入日・箱の有無などの詳細は後日オーナーから連絡予定。"
+        }
+      ],
       "marketPrices": [
         {
           "surveyedAt": "2026-10-03",
@@ -1254,7 +1262,7 @@
       "images": [
         {
           "path": "assets/images/items/FC-007/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
+          "caption": "箱の表（参考画像・自分の写真に差し替え予定）",
           "kind": "reference"
         }
       ],
@@ -1280,6 +1288,10 @@
         {
           "date": "2026-10-03",
           "change": "中古相場の調査結果を3件記録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「所持」に変更（まんだらけ中野店で購入、オーナー申告）、購入記録を登録"
         }
       ]
     },
