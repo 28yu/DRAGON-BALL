@@ -3,7 +3,7 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-03",
-      "startedAt": "2026-10-03T06:50:55.039Z",
+      "startedAt": "2026-10-03T06:54:27.417Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
@@ -52,7 +52,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-03T06:53:04.710Z"
+      "finishedAt": "2026-10-03T06:56:31.136Z"
     },
     "updatedAt": "2026-10-03"
   },
