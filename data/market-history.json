@@ -3,7 +3,7 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-03",
-      "startedAt": "2026-10-03T06:57:58.773Z",
+      "startedAt": "2026-10-03T07:42:22.892Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
@@ -52,7 +52,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-03T07:00:03.796Z"
+      "finishedAt": "2026-10-03T07:44:28.822Z"
     },
     "updatedAt": "2026-10-03"
   },
@@ -392,9 +392,9 @@
       "id": "FC-005",
       "source": "bookoff",
       "kind": "listing",
-      "count": 3,
-      "min": 495,
-      "median": 528,
+      "count": 2,
+      "min": 528,
+      "median": 2024,
       "max": 3520,
       "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
       "samples": [
@@ -402,11 +402,6 @@
           "title": "【※箱説なし※】ドラゴンボールZ2 激神フリーザ!!",
           "price": 528,
           "url": "https://shopping.bookoff.co.jp/used/0017415498"
-        },
-        {
-          "title": "ファミコン奥義大全書 ドラゴンボールZ2激神フリーザ ジャンプCセレクション",
-          "price": 495,
-          "url": "https://shopping.bookoff.co.jp/used/0015067729"
         },
         {
           "title": "ドラゴンボールZ2 激神フリーザ!!",
@@ -420,9 +415,9 @@
       "id": "FC-005",
       "source": "yahoo",
       "kind": "sold",
-      "count": 26,
+      "count": 25,
       "min": 209,
-      "median": 540,
+      "median": 500,
       "max": 12556,
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
       "samples": [
@@ -448,9 +443,9 @@
       "id": "FC-006",
       "source": "bookoff",
       "kind": "listing",
-      "count": 3,
-      "min": 495,
-      "median": 990,
+      "count": 2,
+      "min": 990,
+      "median": 1595,
       "max": 2200,
       "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
       "samples": [
@@ -463,11 +458,6 @@
           "title": "【※箱説なし※】ドラゴンボールZ3 烈戦人造人間",
           "price": 990,
           "url": "https://shopping.bookoff.co.jp/used/0017415499"
-        },
-        {
-          "title": "ファミコン奥義大全書 ドラゴンボールZⅢ 烈戦人造人間 ジャンプCセレクション",
-          "price": 495,
-          "url": "https://shopping.bookoff.co.jp/used/0015068395"
         }
       ]
     },
@@ -476,7 +466,7 @@
       "id": "FC-006",
       "source": "yahoo",
       "kind": "sold",
-      "count": 31,
+      "count": 30,
       "min": 150,
       "median": 380,
       "max": 2200,
@@ -578,9 +568,9 @@
       "id": "SFC-001",
       "source": "yahoo",
       "kind": "sold",
-      "count": 36,
+      "count": 35,
       "min": 200,
-      "median": 1000,
+      "median": 999,
       "max": 34999,
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
       "samples": [
