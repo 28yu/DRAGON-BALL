@@ -96,28 +96,45 @@
         "note": ""
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（まんだらけオンラインストアで購入）。"
       },
       "condition": {
         "box": null,
         "manual": null,
-        "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "obi": "あり（オーナー申告）",
+        "extras": "特製オリジナルカードダス（4枚組）・ポスター付き（オーナー申告）",
+        "overall": "良好・完品（オーナー申告）",
+        "note": "オーナー申告：状態良好、帯・カード・ポスター付きの完品。写真では未開封のビニール包装入り。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-09-22",
+          "price": 16500,
+          "shipping": null,
+          "shop": "まんだらけ（オンラインストア）",
+          "note": "帯・カード・ポスター付きの完品。送料の有無・金額は未確認。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/BOOK-001/front.jpg",
+          "caption": "表紙（帯付き・ビニール包装）"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
         {
           "date": "2026-10-02",
           "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "購入記録（2026-09-22 まんだらけオンラインストア 16,500円）・状態・写真を登録し、所持状況を「所持」に変更（オーナー申告）"
         }
       ],
       "market": {
@@ -217,13 +234,23 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/BOOK-002/front.jpg",
+          "caption": "表紙（帯付き・参考画像）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
         {
           "date": "2026-10-02",
           "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "オーナー提供の参考画像を登録"
         }
       ],
       "market": {
@@ -323,13 +350,23 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/BOOK-003/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "検索結果では「カードダス奥義大全書 ドラゴンボールZ」という語順の表記も見られる。正式表記は現物で要確認。",
       "history": [
         {
           "date": "2026-10-02",
           "change": "収集対象として登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "オーナー提供の参考画像を登録"
         }
       ],
       "market": {
