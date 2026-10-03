@@ -1,0 +1,601 @@
+{
+  "meta": {
+    "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
+    "lastRun": {
+      "date": "2026-10-03",
+      "startedAt": "2026-10-03T06:50:55.039Z",
+      "sources": {
+        "rakuten": {
+          "label": "楽天市場（出品中）",
+          "ok": 0,
+          "empty": 0,
+          "skipped": 17,
+          "failed": 0,
+          "messages": [
+            "楽天のアプリID（RAKUTEN_APP_ID）が未設定"
+          ]
+        },
+        "yahoo": {
+          "label": "ヤフオク（落札済み）",
+          "ok": 0,
+          "empty": 17,
+          "skipped": 0,
+          "failed": 0,
+          "messages": []
+        },
+        "surugaya": {
+          "label": "駿河屋（出品中）",
+          "ok": 0,
+          "empty": 0,
+          "skipped": 17,
+          "failed": 0,
+          "messages": [
+            "robots.txt を確認できなかったため取得しない"
+          ]
+        },
+        "bookoff": {
+          "label": "ブックオフ（出品中）",
+          "ok": 12,
+          "empty": 5,
+          "skipped": 0,
+          "failed": 0,
+          "messages": []
+        },
+        "mercari": {
+          "label": "メルカリ",
+          "ok": 0,
+          "empty": 0,
+          "skipped": 17,
+          "failed": 0,
+          "messages": [
+            "公開ページに価格が含まれず、非公開の仕組みを回避しないと取得できないため対象外"
+          ]
+        }
+      },
+      "finishedAt": "2026-10-03T06:53:04.710Z"
+    },
+    "updatedAt": "2026-10-03"
+  },
+  "records": [
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-001",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-001",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-002",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-002",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-003",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "BOOK-003",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&va=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-001",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 2640,
+      "median": 3740,
+      "max": 4840,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボール 神龍の謎",
+          "price": 2640,
+          "url": "https://shopping.bookoff.co.jp/used/0000984637"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボール 神龍の謎",
+          "price": 4840,
+          "url": "https://shopping.bookoff.co.jp/used/0017415494"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-001",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-002",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 2090,
+      "median": 3630,
+      "max": 5170,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボール 大魔王復活",
+          "price": 2090,
+          "url": "https://shopping.bookoff.co.jp/used/0000984647"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボール 大魔王復活",
+          "price": 5170,
+          "url": "https://shopping.bookoff.co.jp/used/0017415495"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-002",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-003",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 4730,
+      "median": 5841,
+      "max": 6952,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボール3 悟空伝",
+          "price": 4730,
+          "url": "https://shopping.bookoff.co.jp/used/0000984658"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボール3 悟空伝",
+          "price": 6952,
+          "url": "https://shopping.bookoff.co.jp/used/0017415496"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-003",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-004",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 5390,
+      "median": 6837,
+      "max": 8283,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ 強襲！サイヤ人",
+          "price": 5390,
+          "url": "https://shopping.bookoff.co.jp/used/0000984667"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 強襲！サイヤ人",
+          "price": 8283,
+          "url": "https://shopping.bookoff.co.jp/used/0017415497"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-004",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-005",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 5500,
+      "median": 6996,
+      "max": 8492,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ2 激神フリーザ!!",
+          "price": 8492,
+          "url": "https://shopping.bookoff.co.jp/used/0017415498"
+        },
+        {
+          "title": "ドラゴンボールZ2 激神フリーザ!!",
+          "price": 5500,
+          "url": "https://shopping.bookoff.co.jp/used/0000984676"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-005",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-006",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 6380,
+      "median": 6985,
+      "max": 7590,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ3 烈戦人造人間",
+          "price": 6380,
+          "url": "https://shopping.bookoff.co.jp/used/0000984694"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ3 烈戦人造人間",
+          "price": 7590,
+          "url": "https://shopping.bookoff.co.jp/used/0017415499"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-006",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-007",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 4290,
+      "median": 5555,
+      "max": 6820,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
+          "price": 4290,
+          "url": "https://shopping.bookoff.co.jp/used/0000984712"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ外伝 サイヤ人絶滅計画",
+          "price": 6820,
+          "url": "https://shopping.bookoff.co.jp/used/0017415500"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "FC-007",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-001",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 6160,
+      "median": 7810,
+      "max": 9460,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 超サイヤ伝説",
+          "price": 9460,
+          "url": "https://shopping.bookoff.co.jp/used/0017424420"
+        },
+        {
+          "title": "ドラゴンボールZ 超サイヤ伝説",
+          "price": 6160,
+          "url": "https://shopping.bookoff.co.jp/used/0000984682"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-001",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-002",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 9130,
+      "median": 9900,
+      "max": 10670,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ 超武闘伝",
+          "price": 9130,
+          "url": "https://shopping.bookoff.co.jp/used/0000984699"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 超武闘伝",
+          "price": 10670,
+          "url": "https://shopping.bookoff.co.jp/used/0017424427"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-002",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-003",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 6270,
+      "median": 8470,
+      "max": 10670,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ 超武闘伝2",
+          "price": 6270,
+          "url": "https://shopping.bookoff.co.jp/used/0000984725"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 超武闘伝2",
+          "price": 10670,
+          "url": "https://shopping.bookoff.co.jp/used/0017424428"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-003",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-004",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 8250,
+      "median": 9460,
+      "max": 10670,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ 超武闘伝3",
+          "price": 8250,
+          "url": "https://shopping.bookoff.co.jp/used/0000984863"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 超武闘伝3",
+          "price": 10670,
+          "url": "https://shopping.bookoff.co.jp/used/0017424429"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-004",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-005",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-005",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-006",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 2,
+      "min": 2970,
+      "median": 6600,
+      "max": 10230,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": [
+        {
+          "title": "ドラゴンボールZ 超悟空伝覚醒編",
+          "price": 2970,
+          "url": "https://shopping.bookoff.co.jp/used/0000984871"
+        },
+        {
+          "title": "【※箱説なし※】ドラゴンボールZ 超悟空伝覚醒編",
+          "price": 10230,
+          "url": "https://shopping.bookoff.co.jp/used/0017424422"
+        }
+      ]
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-006",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-007",
+      "source": "bookoff",
+      "kind": "listing",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "samples": []
+    },
+    {
+      "date": "2026-10-03",
+      "id": "SFC-007",
+      "source": "yahoo",
+      "kind": "sold",
+      "count": 0,
+      "min": null,
+      "median": null,
+      "max": null,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "samples": []
+    }
+  ]
+}
