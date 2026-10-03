@@ -910,9 +910,9 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未購入）。"
       },
       "condition": {
         "box": null,
@@ -928,7 +928,7 @@
       "images": [
         {
           "path": "assets/images/items/FC-005/front.jpg",
-          "caption": "箱の表（参考画像）",
+          "caption": "箱の表（参考画像・未所持）",
           "kind": "reference"
         }
       ],
@@ -950,6 +950,10 @@
         {
           "date": "2026-10-03",
           "change": "参考画像（箱の表）を登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）"
         }
       ]
     },
@@ -1195,9 +1199,9 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未購入）。"
       },
       "condition": {
         "box": null,
@@ -1213,7 +1217,7 @@
       "images": [
         {
           "path": "assets/images/items/FC-007/front.jpg",
-          "caption": "箱の表（参考画像）",
+          "caption": "箱の表（参考画像・未所持）",
           "kind": "reference"
         }
       ],
@@ -1231,6 +1235,10 @@
         {
           "date": "2026-10-03",
           "change": "参考画像（箱の表）を登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）"
         }
       ]
     },
