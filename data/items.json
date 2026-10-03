@@ -219,9 +219,9 @@
         "note": ""
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（未所持）。"
       },
       "condition": {
         "box": null,
@@ -251,6 +251,10 @@
         {
           "date": "2026-10-03",
           "change": "オーナー提供の参考画像を登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "所持状況を「未所持」に変更（オーナー申告）"
         }
       ],
       "market": {
@@ -335,9 +339,9 @@
         "note": ""
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "ordered",
+        "checkedAt": "2026-10-03",
+        "note": "オーナーの申告（Amazonで駿河屋の出品を注文済み・未着）。"
       },
       "condition": {
         "box": null,
@@ -345,9 +349,17 @@
         "obi": null,
         "extras": null,
         "overall": null,
-        "note": ""
+        "note": "未着のため状態は未確認。届いたら確認して登録する。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-10-03",
+          "price": 5624,
+          "shipping": null,
+          "shop": "駿河屋（Amazon出品）",
+          "note": "未着。送料の有無・金額は未確認。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
@@ -367,6 +379,10 @@
         {
           "date": "2026-10-03",
           "change": "オーナー提供の参考画像を登録"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "購入記録（2026-10-03 駿河屋のAmazon出品 5,624円）を登録し、所持状況を「購入手続き中」に変更（オーナー申告）"
         }
       ],
       "market": {

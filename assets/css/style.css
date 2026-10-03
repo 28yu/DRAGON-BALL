@@ -82,13 +82,8 @@ a:hover { text-decoration-thickness: 2px; }
 }
 .site-title a { color: inherit; text-decoration: none; }
 .site-title .mark { color: var(--accent); }
-.site-lead {
-  margin: 6px 0 0;
-  color: var(--text-muted);
-  font-size: 0.95rem;
-}
-
-main { padding: 28px 0 48px; }
+/* .container の左右余白を保ったまま、上下の余白を付ける */
+main.container { padding-top: 28px; padding-bottom: 48px; }
 
 section { margin-bottom: 40px; }
 
