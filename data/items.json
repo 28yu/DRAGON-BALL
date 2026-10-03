@@ -1200,7 +1200,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/FC-007/front.jpg",
+          "caption": "箱の表（参考画像）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "参考サイトのファミコン版一覧に掲載（ファミコン最後のドラゴンボール作品）。旧 FC-006「超サイヤ伝説」（スーパーファミコン用）に代わってファミコンの収集対象に追加。",
       "history": [
@@ -1211,6 +1217,10 @@
         {
           "date": "2026-10-03",
           "change": "参考サイトのページ本文と照合し、出典・ジャンル・価格を更新"
+        },
+        {
+          "date": "2026-10-03",
+          "change": "参考画像（箱の表）を登録"
         }
       ]
     },
