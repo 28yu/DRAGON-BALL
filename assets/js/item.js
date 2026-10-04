@@ -285,8 +285,8 @@ function renderItem(data, item) {
       <span><span class="tag tag-reference">参考情報・要確認</span> 二次資料による情報</span>
       <span>${unconfirmedText()} まだ調べていない／確認できない</span>
     </div>
-    ${section("基本情報", basicInfoHTML(item, category))}
     ${figuresHTML(item)}
+    ${section("基本情報", basicInfoHTML(item, category))}
     ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
