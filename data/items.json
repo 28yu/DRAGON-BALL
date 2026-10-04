@@ -1663,7 +1663,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-001/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "当初は FC-006 としてファミコンの収集対象に登録していたが、スーパーファミコン用ソフトのため SFC-001 に移動。",
       "history": [
@@ -1682,6 +1688,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {
@@ -2177,7 +2187,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-005/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2192,6 +2208,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {
@@ -2305,7 +2325,18 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-006/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/SFC-006/extra-1.png",
+          "caption": "箱を斜めから見たところ（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2320,6 +2351,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表・斜めから見た箱）を登録（オーナー提供）"
         }
       ],
       "market": {
@@ -2433,7 +2468,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-007/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2448,6 +2489,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {

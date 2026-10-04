@@ -307,7 +307,8 @@ section[id], h2[id] { scroll-margin-top: 12px; }
   border-bottom: 3px solid var(--ink);
   overflow: hidden;
 }
-.thumb img { width: 100%; height: 100%; object-fit: contain; }
+/* 枠いっぱいに置き、縦長の箱の画像も切れずに全体が見えるようにする */
+.thumb img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; }
 .thumb, .gallery a { position: relative; }
 /* 参考画像（オーナーの撮影ではない画像）のラベル */
 .ref-label {
@@ -565,7 +566,6 @@ section[id], h2[id] { scroll-margin-top: 12px; }
     border-right: 3px solid var(--ink);
     font-size: 0.68rem;
   }
-  .item-card .thumb img { object-fit: cover; }
   .item-body { padding: 8px 12px 10px; }
   .thumb-placeholder::before { width: 24px; height: 18px; }
   .gallery { grid-template-columns: repeat(2, 1fr); }
