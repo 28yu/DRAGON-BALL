@@ -1,6 +1,6 @@
 # CLAUDE.md — 作業メモ（Claude Code 向け）
 
-このリポジトリで作業するときに最初に読むファイル。詳しい内容は README.md と docs/ を参照。
+このリポジトリで作業するときに最初に読むファイル。**続けて `docs/handoff.md`（引き継ぎメモ：現在の状況・連絡待ち・次の目標）を読む。** 詳しい内容は README.md と docs/ を参照。
 
 ## 言語のルール（最優先）
 
@@ -62,6 +62,7 @@
 - `docs/data-spec.md`：データ項目の仕様
 - `docs/operation.md`：運用ルール
 - `docs/research-log.md`：調査履歴
+- `docs/handoff.md`：引き継ぎメモ（セッションを切り替えるときに更新する）
 - `tools/validate.mjs`：データ整合性チェック
 
 ## 未対応・今後の候補

@@ -2,6 +2,19 @@
 
 商品情報を調べた経緯の記録です。値そのものは `data/items.json` に記録し、ここには「いつ・何を・どう調べたか・何が分かっていないか」を残します。
 
+## 2026-10-03 楽天市場APIの新仕様への対応
+
+- 楽天ウェブサービスは2026年に刷新されていた。
+  - 窓口：`openapi.rakuten.co.jp` に変わった。
+  - 認証：アプリIDとアクセスキーの両方が必須になった。
+  - アプリ設定の「許可されたWebサイト」に登録したサイトの Referer を付けて送る必要がある。
+- 商品検索の 20220601 版は「API Configuration not found」（HTTP 400）で使えなかった。20260701 版（formatVersion=2）に変更して、17点中15点で価格を取得できた。
+- 出典：
+  - [楽天ウェブサービスのAPI移行メモ](https://kanaxx.hatenablog.jp/entry/rakuten-webservice-new-spec)
+  - [楽天API新仕様の移行ガイド](https://ai-fukugyo-hack.com/rakuten-api-2026-migration/)
+  - [Referer 必須の事例（hitoshi260828-dev/hobnova#15）](https://github.com/hitoshi260828-dev/hobnova/pull/15)
+  - [20260701 版への更新事例（omochairo/amazon#8257）](https://github.com/omochairo/amazon/pull/8257)
+
 ## 2026-10-03 FC-007 サイヤ人絶滅計画の中古相場
 
 **方法：** Web検索（検索エンジンの要約）。Yahoo!オークション・駿河屋・メルカリ等は作業環境のネットワーク設定で直接開けなかった。取引日や個々の商品の状態は未確認。

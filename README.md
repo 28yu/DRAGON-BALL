@@ -23,7 +23,8 @@ DRAGON-BALL/
 ├── docs/
 │   ├── data-spec.md      データ項目の仕様（どの項目に何を書くか）
 │   ├── operation.md      運用ルール（更新手順・調査方針・相場/画像のルール）
-│   └── research-log.md   調査履歴（いつ何を調べたか）
+│   ├── research-log.md   調査履歴（いつ何を調べたか）
+│   └── handoff.md        引き継ぎメモ（現在の状況・連絡待ち・次の目標）
 ├── .github/workflows/
 │   └── market.yml        中古相場の自動取得（毎朝6時ごろ）
 └── tools/
