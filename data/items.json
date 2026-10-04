@@ -2648,7 +2648,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-001/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2663,6 +2669,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：ホビーサーチ掲載の画像、オーナー提供）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -2915,7 +2925,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-002/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2930,6 +2946,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：オーナー提供のスクリーンショット）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -3182,7 +3202,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-003/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -3197,6 +3223,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：ホビーサーチ掲載の画像、オーナー提供）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -3449,7 +3479,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-004/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -3464,6 +3500,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：オーナー提供のスクリーンショット）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -3716,7 +3756,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-005/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）。2枚の写真を上下に並べて1枚にしたもの",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -3731,6 +3777,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：オーナー提供のスクリーンショット）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -3983,7 +4033,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-006/flyer.jpg",
+          "caption": "発売時のチラシ（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -4002,6 +4058,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア「ブッ飛べヤコン」の読みをオーナーに確認"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -4254,7 +4314,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-007/flyer.jpg",
+          "caption": "発売時のチラシ（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -4269,6 +4335,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：オーナー提供のスクリーンショット）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -4521,7 +4591,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-008/flyer.jpg",
+          "caption": "発売時のチラシ（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -4536,6 +4612,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：ホビーサーチ掲載の画像、オーナー提供）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -4788,7 +4868,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-009/flyer.jpg",
+          "caption": "発売時のチラシ（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -4803,6 +4889,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：ホビーサーチ掲載の画像、オーナー提供）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -5400,7 +5490,13 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-012/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）。2枚の写真を上下に並べて1枚にしたもの",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -5415,6 +5511,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：オーナー提供のスクリーンショット）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
@@ -5662,7 +5762,18 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-013/flyer.jpg",
+          "caption": "発売時のチラシ（参考画像・オーナー提供）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/package.jpg",
+          "caption": "パッケージ写真（参考画像・オーナー提供）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -5677,6 +5788,10 @@
         {
           "date": "2026-10-04",
           "change": "フィギュア7体の名称を登録（参考情報：ホビーサーチ掲載の画像、オーナー提供）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（ホビーサーチ掲載のパッケージ写真・チラシ、オーナー提供）を登録"
         }
       ],
       "figures": [
