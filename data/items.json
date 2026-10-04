@@ -1804,7 +1804,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-002/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -1819,6 +1825,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {
@@ -1933,7 +1943,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-003/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -1948,6 +1964,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {
@@ -2060,7 +2080,13 @@
       "purchases": [],
       "marketPrices": [],
       "references": [],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/SFC-004/front.jpg",
+          "caption": "箱の表（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -2075,6 +2101,10 @@
         {
           "date": "2026-10-04",
           "change": "所持状況を「未所持」に変更（オーナー申告）"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "参考画像（箱の表）を登録（オーナー提供）"
         }
       ],
       "market": {
