@@ -111,6 +111,9 @@ const SOURCES = {
   rakuten: {
     label: "楽天市場（出品中）",
     kind: "listing",
+    // 楽天ウェブサービス規約 第10条9号（取得した情報を不特定多数と共有できる場所に保存しない）に合わせ、
+    // 公開リポジトリには個々の出品情報（商品名・URL）を残さず、集計値（件数・最安・中央値・最高）だけを記録する
+    storeSamples: false,
     searchUrl: (q) => `https://search.rakuten.co.jp/search/mall/${encodeURIComponent(q)}/`,
     async fetch(q) {
       // 2026年の楽天APIの刷新に対応：新しい窓口（openapi.rakuten.co.jp、商品検索は 20260701 版）、アプリIDとアクセスキーの両方が必須、
@@ -246,7 +249,7 @@ for (const [key, src] of Object.entries(SOURCES)) {
       history.records.push({
         date: today, id: item.id, source: key, kind: src.kind, ...s,
         searchUrl: src.searchUrl(item.market.query),
-        samples: rows.slice(0, 3).map((x) => ({ title: x.title.slice(0, 80), price: x.price, url: x.url })),
+        ...(src.storeSamples === false ? {} : { samples: rows.slice(0, 3).map((x) => ({ title: x.title.slice(0, 80), price: x.price, url: x.url })) }),
       });
     } catch (e) {
       st.failed++;
