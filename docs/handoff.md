@@ -80,7 +80,8 @@
 - Claude Design（claude.ai の Design キャンバス）で3案を作成し、オーナーが **案C「マンガ誌面」** を選んだ。
   - キャンバス（非公開）：https://claude.ai/artifact/E7EL5zKcjmidR5BbKrU1Jh（案A カプセル・ラボ／案B 8ビット冒険の書／案C マンガ誌面。各スマホ幅のトップ・詳細）
 - 反映内容（作業ブランチ `claude/relaxed-dirac-cr1hoc`）：
-  - `assets/css/style.css` を全面書き換え。クリーム色の紙・太い黒枠・ずらし影・オレンジの網点ヘッダー・斜めの黒帯見出し。色は今まで通り `:root` の変数で管理し、ダークモードも用意。
+  - `assets/css/style.css` を全面書き換え。クリーム色の紙・太い黒枠・ずらし影・オレンジの網点ヘッダー・斜めの黒帯見出し。色は今まで通り `:root` の変数で管理。
+  - 配色は初期表示がいつも明るい配色（端末のダークモードには合わせない）。ヘッダーの切り替えボタンで暗い配色（`:root[data-theme="dark"]`）にでき、選択は localStorage の `db-theme` に保存（2026-10-04 オーナー指示）。
   - フォントは Google Fonts の Dela Gothic One（見出し）と Zen Kaku Gothic New（本文）。`index.html` / `item.html` で読み込む。
   - トップ：カテゴリーメニュー（`#cat-nav`、各カテゴリーへのリンク）、所持率の丸い表示、カテゴリー別の所持数カード（`assets/js/index.js`）。
   - 詳細：写真の角に所持状況のハンコ風表示（`ownershipStamp`、`assets/js/item.js`）。

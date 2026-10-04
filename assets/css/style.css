@@ -33,29 +33,28 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #17140f;
-    --surface: #221e18;
-    --surface-alt: #2e2820;
-    --text: #f3ebdd;
-    --text-muted: #c2b8a6;
-    --ink: #f3ebdd;
-    --ink-text: #17140f;
-    --shadow-color: #000000;
-    --line: #5a5146;
-    --accent: #ffa866;
-    --brand: #c9621a;
-    --brand-yellow: #e0b52f;
-    --dot: rgba(0, 0, 0, 0.28);
-    --ordered: #e0b52f;
-    --notowned-text: #f3ebdd;
-    --unconfirmed: #a99f92;
-    --progress-rest: #3a3329;
-    --warn: #f0a07a;
-    --warn-soft: #43271b;
-    color-scheme: dark;
-  }
+/* 暗い配色：ヘッダーの切り替えボタンで選んだときだけ使う（初期表示はいつも明るい配色） */
+:root[data-theme="dark"] {
+  --bg: #17140f;
+  --surface: #221e18;
+  --surface-alt: #2e2820;
+  --text: #f3ebdd;
+  --text-muted: #c2b8a6;
+  --ink: #f3ebdd;
+  --ink-text: #17140f;
+  --shadow-color: #000000;
+  --line: #5a5146;
+  --accent: #ffa866;
+  --brand: #c9621a;
+  --brand-yellow: #e0b52f;
+  --dot: rgba(0, 0, 0, 0.28);
+  --ordered: #e0b52f;
+  --notowned-text: #f3ebdd;
+  --unconfirmed: #a99f92;
+  --progress-rest: #3a3329;
+  --warn: #f0a07a;
+  --warn-soft: #43271b;
+  color-scheme: dark;
 }
 
 * { box-sizing: border-box; }
@@ -87,6 +86,32 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
   border-bottom: 4px solid var(--ink);
   padding: 26px 0 24px;
 }
+.site-header .container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+/* 明るい／暗い配色の切り替えボタン */
+.theme-toggle {
+  flex: none;
+  min-height: 44px;
+  padding: 0 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--surface);
+  color: var(--text);
+  border: 3px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--shadow-color);
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.theme-toggle:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow-color); }
+.theme-toggle:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
+.theme-toggle svg { width: 18px; height: 18px; }
 .site-title {
   margin: 0;
   font-weight: 400;
@@ -550,6 +575,15 @@ section[id], h2[id] { scroll-margin-top: 12px; }
 /* ---------- スマートフォン ---------- */
 @media (max-width: 640px) {
   .site-header { padding: 20px 0 18px; }
+  /* スマホではボタンをマークだけにして、ロゴを1行に収める（文字は読み上げ用に残す） */
+  .theme-toggle { width: 44px; padding: 0; justify-content: center; }
+  .theme-toggle-text {
+    position: absolute;
+    width: 1px; height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
   main.container { padding-top: 22px; }
   .detail-head { grid-template-columns: 1fr; gap: 20px; }
   .stamp { right: -6px; }
