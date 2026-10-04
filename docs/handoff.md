@@ -88,6 +88,7 @@
   3. `node tools/validate.mjs` を実行する。
   4. 作業ブランチを送信する。
   5. `git branch -f main HEAD` のあと、`git push origin main` を実行する（オーナー承認済み）。
+     - `git push origin main` は**他のコマンドと `&&` などでつなげず、単独で実行する**。単独なら `.claude/settings.json` の許可に当てはまり確認なしで送れるが、つなげると許可に当てはまらず、安全チェックで止められる（2026-10-05）。
   - force push・履歴の書き換え（amend / rebase）はしない。
 
 ## 5-2. オーナーのPC（Windows）での作業環境（2026-10-04 準備済み）
