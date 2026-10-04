@@ -91,6 +91,14 @@ function renderCategoryNav(data) {
     .join("")}`;
 }
 
+// 一覧カードに出す名前。ドラゴンボールカプセルはセクション名で分かるので、先頭のシリーズ名を省いてシリーズ名だけにする
+// （正式名称 title は変えず、詳細ページではそのまま表示する）
+function cardTitle(item) {
+  if (item.category !== "capsule") return item.title;
+  const short = item.title.replace(/^ドラゴンボールカプセル・?/, "").replace(/^ネオ\s*/, "ネオ ").trim();
+  return short || item.title;
+}
+
 function itemCardHTML(item, cat) {
   const release = item.release?.value
     ? `<span>${escapeHTML(formatDate(item.release.value))}${item.release.status !== "confirmed" ? "（要確認）" : ""}</span>`
@@ -102,7 +110,7 @@ function itemCardHTML(item, cat) {
         ${thumbHTML(item)}
         <div class="item-body">
           <span class="item-id">${escapeHTML(item.id)}</span>
-          <h3 class="item-title">${escapeHTML(item.title)}</h3>
+          <h3 class="item-title">${escapeHTML(cardTitle(item))}</h3>
           <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">情報のみ</span>`}${alert}${release}</div>
         </div>
       </a>
