@@ -9,7 +9,7 @@ function countByOwnership(items) {
   return counts;
 }
 
-function progressHTML(items) {
+function progressHTML(items, withBreakdown = true) {
   const total = items.length;
   const c = countByOwnership(items);
   const notOwned = c.not_owned + c.ordered;
@@ -20,34 +20,50 @@ function progressHTML(items) {
       ${notOwned ? `<span class="p-notowned" style="width:${pct(notOwned)}%"></span>` : ""}
       ${c.unconfirmed ? `<span class="p-unconfirmed" style="width:${pct(c.unconfirmed)}%"></span>` : ""}
     </div>
-    <ul class="breakdown">
+    ${withBreakdown ? `<ul class="breakdown">
       <li class="b-owned">所持 ${c.owned}点</li>
       <li class="b-notowned">未所持 ${notOwned}点</li>
       <li class="b-unconfirmed">未確認 ${c.unconfirmed}点</li>
-    </ul>`;
+    </ul>` : ""}`;
 }
 
-function summaryCardHTML(label, items) {
+// カテゴリーごとの小さなカード（所持数 / 総数）
+function categoryCardHTML(cat, items) {
+  const owned = countByOwnership(items).owned;
   return `
-    <div class="summary-card">
-      <h3>${escapeHTML(label)}</h3>
-      <p class="summary-count">${items.length}<small>点</small></p>
-      ${progressHTML(items)}
-    </div>`;
+    <a class="cat-card" href="#cat-${escapeHTML(cat.id)}">
+      <span class="cat-card-label">${escapeHTML(cat.label)}</span>
+      <span class="cat-card-count">${owned}<small> / ${items.length}</small></span>
+      ${progressHTML(items, false)}
+    </a>`;
 }
 
 function renderSummary(data) {
   const el = document.getElementById("summary");
   const all = data.items;
-  const cards = [summaryCardHTML("収集対象の総数", all)];
-  for (const cat of data.categories) {
-    cards.push(summaryCardHTML(cat.label, all.filter((i) => i.category === cat.id)));
-  }
-
   const c = countByOwnership(all);
+  const rate = all.length ? Math.round((c.owned / all.length) * 100) : 0;
+
+  const hero = `
+    <div class="hero-card">
+      <div class="rate-circle">
+        <span class="rate-num">${rate}<small>%</small></span>
+        <span class="rate-label">${c.unconfirmed > 0 ? "所持率（暫定）" : "所持率"}</span>
+      </div>
+      <div class="hero-body">
+        <p class="hero-label">所持 / 収集対象</p>
+        <p class="hero-count">${c.owned}<small> / ${all.length}点</small></p>
+      </div>
+      <div class="hero-progress">${progressHTML(all)}</div>
+    </div>`;
+
+  const cats = data.categories
+    .map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id)))
+    .join("");
+
   const notice = c.unconfirmed > 0
     ? `<p class="notice">所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。</p>`
-    : `<p class="notice">所持率：${all.length ? Math.round((c.owned / all.length) * 100) : 0}%（${c.owned} / ${all.length}点）</p>`;
+    : `<p class="notice">所持率：${rate}%（${c.owned} / ${all.length}点）</p>`;
 
   const alertItems = all.filter((i) => (i.alerts || []).length > 0);
   const alertNotice = alertItems.length
@@ -56,7 +72,16 @@ function renderSummary(data) {
         .join("、")}</p>`
     : "";
 
-  el.innerHTML = `<div class="summary-grid">${cards.join("")}</div>${notice}${alertNotice}`;
+  el.innerHTML = `${hero}<div class="cat-grid">${cats}</div>${notice}${alertNotice}`;
+}
+
+// ページ上部のカテゴリーメニュー（各カテゴリーの見出しへ移動するリンク）
+function renderCategoryNav(data) {
+  const el = document.getElementById("cat-nav");
+  if (!el) return;
+  el.innerHTML = `<li><a href="#summary-title">概要</a></li>${data.categories
+    .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${escapeHTML(cat.label)}</a></li>`)
+    .join("")}`;
 }
 
 function itemCardHTML(item) {
@@ -95,6 +120,7 @@ function renderCategories(data) {
 (async () => {
   try {
     const data = await loadCollection();
+    renderCategoryNav(data);
     renderSummary(data);
     renderCategories(data);
     const updated = document.getElementById("data-updated");

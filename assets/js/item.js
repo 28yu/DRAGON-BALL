@@ -178,6 +178,12 @@ async function renderAutoMarket(item) {
       件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは区別していません。</div>` : ""}`;
 }
 
+// 詳細ページの写真の角に付ける所持状況のハンコ風表示（文字は OWNERSHIP_LABELS と同じ）
+function ownershipStamp(status) {
+  const key = OWNERSHIP_LABELS[status] ? status : "unconfirmed";
+  return `<span class="stamp stamp-${key}" aria-hidden="true">${OWNERSHIP_LABELS[key]}</span>`;
+}
+
 function renderItem(data, item) {
   const category = data.categories.find((c) => c.id === item.category);
   document.title = `${item.id} ${item.title} | ${data.meta?.title || "DRAGON BALL COLLECTION"}`;
@@ -193,7 +199,7 @@ function renderItem(data, item) {
       ${escapeHTML(item.id)}
     </nav>
     <div class="detail-head">
-      ${thumbHTML(item)}
+      <div class="detail-photo">${thumbHTML(item)}${ownershipStamp(item.ownership?.status)}</div>
       <div>
         <span class="item-id">${escapeHTML(item.id)}</span>
         <h1 class="detail-title">${escapeHTML(item.title)}</h1>
