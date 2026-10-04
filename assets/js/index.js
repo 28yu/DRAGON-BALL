@@ -61,9 +61,10 @@ function renderSummary(data) {
     .map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id)))
     .join("");
 
+  // 所持状況が未確認の対象があるときだけ注意書きを出す（所持率は上の丸い表示で示す）
   const notice = c.unconfirmed > 0
     ? `<p class="notice">所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。</p>`
-    : `<p class="notice">所持率：${rate}%（${c.owned} / ${all.length}点）</p>`;
+    : "";
 
   const alertItems = all.filter((i) => (i.alerts || []).length > 0);
   const alertNotice = alertItems.length
