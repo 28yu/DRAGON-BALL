@@ -68,7 +68,7 @@
 
 ## 5. 作業環境での注意（Claude Code 向け）
 
-- 返答はすべて日本語。Stop フック（`.claude/hooks/check-japanese-reply.py`）が英語の返答を差し止める。
+- 返答はすべて日本語。Stop フック（`.claude/hooks/check-japanese-reply.mjs`）が英語の返答を差し止める。
 - 画像は Pillow で長辺1200px程度に縮小し、`assets/images/items/<管理ID>/front.jpg` などに置く。`.gitkeep` は画像を置いたら消す。
 - ネットの画像を自分から探して保存しない。参考画像はオーナーが提供したものだけ、未所持品に `"kind": "reference"` で置く。
   - 例外：BOOK-003・FC-007 は「所持」だが、写真が届くまで参考画像のまま。
@@ -83,6 +83,14 @@
   4. 作業ブランチを送信する。
   5. `git branch -f main HEAD` のあと、`git push origin main` を実行する（オーナー承認済み）。
   - force push・履歴の書き換え（amend / rebase）はしない。
+
+## 5-2. オーナーのPC（Windows）での作業環境（2026-10-04 準備中）
+
+- 目的：オーナーのPCのフォルダにある写真を、Claude が直接読んでサイトに登録できるようにする。
+- オーナーのPC：Windows。Claude デスクトップアプリ（Code タブ → Local）で、`C:\GitHub\DRAGON-BALL`（GitHub Desktop でクローン済み）を開いて作業する。
+- 導入済み：GitHub Desktop（コミットの作成者メールは noreply 設定を確認済み）、Git for Windows、Node.js（LTS）、Python（PATH に追加）。
+- 日本語チェックの Stop フックは、Windows で `python3` が使えないことがあるため Node.js 版（`.claude/hooks/check-japanese-reply.mjs`）に置き換えた。
+- PC上での注意：作業前に `git pull` で最新を取り込む（GitHub Actions が毎朝 `main` に相場を記録するため）。画像の縮小は Python の Pillow（`pip install pillow`）を使う予定。
 
 ## 6. デザインの刷新（2026-10-04）
 

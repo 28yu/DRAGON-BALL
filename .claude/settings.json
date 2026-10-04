@@ -14,7 +14,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/check-japanese-reply.py\"",
+            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/check-japanese-reply.mjs\"",
             "timeout": 30
           }
         ]
