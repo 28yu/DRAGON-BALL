@@ -85,7 +85,7 @@
   - トップ：カテゴリーメニュー（`#cat-nav`、各カテゴリーへのリンク）、所持率の丸い表示、カテゴリー別の所持数カード（`assets/js/index.js`）。
   - 詳細：写真の角に所持状況のハンコ風表示（`ownershipStamp`、`assets/js/item.js`）。
   - データ・表示する情報（所持状況、確認状況のタグ、参考画像ラベル、相場表など）は変更なし。
-- **`main` への反映はオーナーの OK 待ち。**
+- 2026-10-04 オーナーの OK を得て `main` に反映済み（[28yu/DRAGON-BALL#1](https://github.com/28yu/DRAGON-BALL/pull/1) の内容）。
 - 表示確認の注意：確認用ブラウザ（Playwright）は外部サイトに直接つながらないため、Google Fonts は `page.route` で curl 経由の取得に差し替えて確認した。
 
 ## 7. 今後の候補
