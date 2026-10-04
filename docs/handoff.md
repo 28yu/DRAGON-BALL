@@ -84,13 +84,15 @@
   5. `git branch -f main HEAD` のあと、`git push origin main` を実行する（オーナー承認済み）。
   - force push・履歴の書き換え（amend / rebase）はしない。
 
-## 5-2. オーナーのPC（Windows）での作業環境（2026-10-04 準備中）
+## 5-2. オーナーのPC（Windows）での作業環境（2026-10-04 準備済み）
 
 - 目的：オーナーのPCのフォルダにある写真を、Claude が直接読んでサイトに登録できるようにする。
 - オーナーのPC：Windows。Claude デスクトップアプリ（Code タブ → Local）で、`C:\GitHub\DRAGON-BALL`（GitHub Desktop でクローン済み）を開いて作業する。
 - 導入済み：GitHub Desktop（コミットの作成者メールは noreply 設定を確認済み）、Git for Windows、Node.js（LTS）、Python（PATH に追加）。
 - 日本語チェックの Stop フックは、Windows で `python3` が使えないことがあるため Node.js 版（`.claude/hooks/check-japanese-reply.mjs`）に置き換えた。
-- PC上での注意：作業前に `git pull` で最新を取り込む（GitHub Actions が毎朝 `main` に相場を記録するため）。画像の縮小は Python の Pillow（`pip install pillow`）を使う予定。
+- 2026-10-04：PCの Claude で git pull・データチェック・python・noreply メールの確認が済み、作業可能になった。PCでは `python3` ではなく `python` を使う。
+- 写真の受け渡し：リポジトリ直下の `_inbox/`（GitHub には送らない）に写真を入れてもらい、縮小・Exif除去して登録する。手順は `assets/images/items/README.md`。
+- PC上での注意：作業前に `git pull` で最新を取り込む（GitHub Actions が毎朝 `main` に相場を記録するため）。クラウドとPCの Claude を同時に動かさない（同じファイルを別々に変えるとぶつかるため）。
 
 ## 6. デザインの刷新（2026-10-04）
 
