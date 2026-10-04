@@ -17,6 +17,8 @@
 - HTML / CSS / JavaScript のみの静的サイト。GitHub Pages（`main` ブランチ / ルート）で公開。
 - 公開URL: https://28yu.github.io/DRAGON-BALL/
 - 収集対象：カードダス関連資料（BOOK-）、ファミコンソフト（FC-）、スーパーファミコンソフト（SFC-）。
+- 情報のみ掲載（収集予定、コレクション概要の集計に含めない）：ドラゴンボールカプセル（DBC-。シリーズごとに1件、各フィギュアは `DBC-001-01` 形式）。
+- 作業は、クラウド（claude.ai/code）とオーナーのPC（Windows、Claude デスクトップアプリのローカル）の両方で行う。同時には動かさない。PCでの写真の受け渡しは `_inbox/`（`docs/handoff.md` の「5-2」）。
 
 ## オーナーについて
 
