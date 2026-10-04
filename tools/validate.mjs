@@ -83,8 +83,14 @@ for (const item of data.items || []) {
     for (const img of fig.images || []) {
       if (!img.path || !existsSync(join(root, img.path))) errors.push(`${fw}: 画像ファイルが見つかりません (${img.path})`);
     }
+    if (fig.market && !fig.market.query) errors.push(`${fw}: market には検索語 query が必須です`);
+    for (const m of fig.marketPrices || []) {
+      if (!m.surveyedAt || !DATE_RE.test(m.surveyedAt)) errors.push(`${fw}: 相場情報には調査日 surveyedAt が必須です`);
+      if (!m.source?.url && !m.basis) errors.push(`${fw}: 相場情報には出典（source）か根拠（basis）が必須です`);
+    }
   }
 
+  if (item.market && !item.market.query) errors.push(`${where}: market には検索語 query が必須です`);
   for (const p of item.purchases || []) {
     if (p.date && !DATE_RE.test(p.date)) errors.push(`${where}: 購入日の形式が不正です (${p.date})`);
   }

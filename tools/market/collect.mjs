@@ -7,6 +7,8 @@
 // - 各サイトの robots.txt を毎回確認し、アクセスが禁止されていれば取得しない。
 // - リクエストの間は数秒あけ、サイトに負荷をかけない。
 // - メルカリは公開ページに価格が含まれず、非公開の仕組みを回避しないと取得できないため対象外。
+// - 対象は market を設定した商品と、シリーズ内のフィギュア（figures）1体ずつ。
+// - 同じ検索語（再販シリーズなど）は1回の実行で1度だけ読み、結果を使い回す。
 import { readFileSync, writeFileSync, existsSync } from "node:fs";
 import { request } from "node:https";
 import { fileURLToPath } from "node:url";
@@ -205,7 +207,9 @@ const SOURCES = {
 // ---------- 集計 ----------
 function filterRows(rows, market) {
   const inc = (market.mustInclude || []).map((s) => new RegExp(s, "i"));
-  const exc = [...(market.exclude || []), ...GLOBAL_EXCLUDE];
+  // allowWords：共通の除外語のうち、この商品では除外しない語（全種セットの相場を取るシリーズの「セット」など）
+  const allow = market.allowWords || [];
+  const exc = [...(market.exclude || []), ...GLOBAL_EXCLUDE.filter((w) => !allow.includes(w))];
   return rows.filter((r) => r.price > 0 && inc.every((re) => re.test(r.title)) && !exc.some((w) => new RegExp(w, "i").test(r.title)));
 }
 function stats(rows) {
@@ -217,7 +221,7 @@ function stats(rows) {
 }
 
 // ---------- メイン ----------
-const items = JSON.parse(readFileSync(ITEMS, "utf-8")).items.filter((i) => i.market?.query);
+const items = JSON.parse(readFileSync(ITEMS, "utf-8")).items.flatMap((i) => [i, ...(i.figures || [])]).filter((i) => i.market?.query);
 const history = existsSync(HISTORY)
   ? JSON.parse(readFileSync(HISTORY, "utf-8"))
   : { meta: { description: "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。" }, records: [] };
@@ -225,9 +229,11 @@ const history = existsSync(HISTORY)
 const run = { date: today, startedAt: new Date().toISOString(), sources: {} };
 for (const [key, src] of Object.entries(SOURCES)) {
   const st = { label: src.label, ok: 0, empty: 0, skipped: 0, failed: 0, messages: [] };
+  const cache = new Map();
   for (const item of items) {
     try {
-      const r = await src.fetch(item.market.query);
+      if (!cache.has(item.market.query)) cache.set(item.market.query, await src.fetch(item.market.query));
+      const r = cache.get(item.market.query);
       if (r.skipped) {
         st.skipped++;
         if (!st.messages.includes(r.skipped)) st.messages.push(r.skipped);

@@ -26,7 +26,8 @@ concurrency:
 jobs:
   collect:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # フィギュア1体ずつも取得するため（約110件、サイトごとに数秒の間隔をあける）余裕を持たせる
+    timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
 

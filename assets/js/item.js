@@ -181,7 +181,8 @@ function isMercariRecord(m) {
 }
 
 function mercariSearchURL(item) {
-  const q = item.market?.query || item.title;
+  // mercariQuery：メルカリ用の検索語（カプセルのシリーズは「… セット」で全種セットを探す）
+  const q = item.market?.mercariQuery || item.market?.query || item.title;
   return `https://jp.mercari.com/search?${new URLSearchParams({ keyword: q, status: "sold_out" })}`;
 }
 
@@ -228,6 +229,9 @@ async function renderAutoMarket(item) {
       }).join("")
     : "";
   const mine = (hist.records || []).filter((r) => r.id === item.id);
+  const setNote = isCapsuleSeries(item)
+    ? `<p class="notice">このシリーズの相場は、<strong>全${item.figures.length}種そろったセット</strong>（「全${item.figures.length}種」「コンプ」「${item.figures.length}個セット」など）の出品だけを集計しています。1体ずつの相場は、上の「このシリーズのフィギュア」から各フィギュアのページで見られます。</p>`
+    : "";
   const blocks = SOURCE_ORDER.map((key) => {
     const recs = mine.filter((r) => r.source === key).sort((a, b) => b.date.localeCompare(a.date));
     if (recs.length === 0) return "";
@@ -242,10 +246,16 @@ async function renderAutoMarket(item) {
         <tbody>${rows}</tbody></table></div>`;
   }).join("");
   el.innerHTML = `
+    ${setNote}
     ${mercariBlockHTML(item)}
     ${blocks || `<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
     ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
       件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは区別していません。</div>` : ""}`;
+}
+
+// カプセルのシリーズ（フィギュアの一覧を持つ商品）。相場は全種セットのものを表示する
+function isCapsuleSeries(item) {
+  return item.category === "capsule" && (item.figures || []).length > 0;
 }
 
 // 詳細ページの写真の角に付ける所持状況のハンコ風表示（文字は OWNERSHIP_LABELS と同じ）
@@ -290,8 +300,8 @@ function renderItem(data, item) {
     ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
-    ${section("中古相場（調査記録）", marketPricesHTML(item))}
-    <section><h2 class="section-title">相場の推移（自動取得＋メルカリ）</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
+    ${section(isCapsuleSeries(item) ? "中古相場（全種セットの調査記録）" : "中古相場（調査記録）", marketPricesHTML(item))}
+    <section><h2 class="section-title">${isCapsuleSeries(item) ? "相場の推移（全種セット・自動取得＋メルカリ）" : "相場の推移（自動取得＋メルカリ）"}</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
     ${section("参考URL・出典", referencesHTML(item))}
     ${section("変更履歴", historyHTML(item))}
@@ -304,7 +314,6 @@ function renderFigure(data, series, fig) {
   const name = figureName(fig);
   document.title = `${fig.id} ${name} | ${data.meta?.title || "DRAGON BALL COLLECTION"}`;
   const o = fig.ownership || {};
-  const official = officialPageURL(series);
   document.getElementById("detail").innerHTML = `
     <nav class="breadcrumb" aria-label="パンくずリスト">
       <a href="index.html">トップ</a> ›
@@ -337,7 +346,10 @@ function renderFigure(data, series, fig) {
     ${section("所持状況", `<table class="info-table">
       ${row("所持状況", `${ownershipBadge(o.status)}${o.checkedAt ? `<span class="sub-note">確認日：${escapeHTML(formatDate(o.checkedAt))}</span>` : ""}${o.note ? `<span class="sub-note">${escapeHTML(o.note)}</span>` : ""}`)}
     </table>`)}
-    ${section("相場", `<p class="empty-box">相場はシリーズのページにまとめて表示しています。<a href="${itemURL(series.id)}">シリーズのページへ</a>${official ? `／<a href="${escapeHTML(official)}" target="_blank" rel="noopener noreferrer">メーカー公式ページ</a>` : ""}</p>`)}
+    ${section("中古相場（調査記録）", marketPricesHTML(fig))}
+    <section><h2 class="section-title">相場の推移（自動取得＋メルカリ）</h2>
+      <p class="notice">このフィギュア1体だけの出品を集計しています（セット・まとめ売りは除外）。全種セットの相場は<a href="${itemURL(series.id)}">シリーズのページ</a>で見られます。</p>
+      <div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section("ほかのフィギュア", `<ul class="figure-nav">${(series.figures || [])
       .map((f) => `<li>${f.id === fig.id ? `<strong>${escapeHTML(figureName(f))}</strong>` : `<a href="${itemURL(f.id)}">${escapeHTML(figureName(f))}</a>`}</li>`)
       .join("")}</ul>`)}
@@ -361,6 +373,7 @@ function findFigure(data, id) {
     const figure = item ? null : findFigure(data, id);
     if (figure) {
       renderFigure(data, figure.series, figure.fig);
+      renderAutoMarket({ ...figure.fig, title: figureName(figure.fig) });
       return;
     }
     if (!item) {
