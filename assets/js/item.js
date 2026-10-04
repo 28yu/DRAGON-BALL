@@ -136,6 +136,37 @@ function section(title, body) {
   return `<section><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
 }
 
+// メルカリの欄。メルカリは自動取得できない（公開ページに価格が含まれない）ため、
+// 売り切れ一覧へのリンクと、marketPrices のうち出典がメルカリの手入力記録を必ず表示する。
+function isMercariRecord(m) {
+  return /mercari/i.test(m.source?.url || "");
+}
+
+function mercariSearchURL(item) {
+  const q = item.market?.query || item.title;
+  return `https://jp.mercari.com/search?${new URLSearchParams({ keyword: q, status: "sold_out" })}`;
+}
+
+function mercariBlockHTML(item) {
+  const recs = (item.marketPrices || [])
+    .filter(isMercariRecord)
+    .sort((a, b) => String(b.surveyedAt).localeCompare(String(a.surveyedAt)));
+  const rows = recs.map((m) => {
+    const range = m.priceMin != null && m.priceMax != null && m.priceMin !== m.priceMax
+      ? `${formatYen(m.priceMin)} 〜 ${formatYen(m.priceMax)}`
+      : formatYen(m.priceMin ?? m.priceMax);
+    return `<tr><td>${escapeHTML(formatDate(m.surveyedAt))}</td><td>${range ? escapeHTML(range) : "—"}</td>
+      <td>${escapeHTML(m.condition || "—")}</td><td>${escapeHTML(m.basis || "—")}</td></tr>`;
+  }).join("");
+  return `
+    <h3 class="sub-title">メルカリ（売り切れ・手入力の記録） <a class="sub-link" href="${escapeHTML(mercariSearchURL(item))}" target="_blank" rel="noopener noreferrer">売り切れ一覧を開く</a></h3>
+    ${rows
+      ? `<div class="table-scroll"><table class="info-table history-table">
+          <thead><tr><th>調査日</th><th>価格</th><th>状態</th><th>根拠</th></tr></thead>
+          <tbody>${rows}</tbody></table></div>`
+      : `<p class="empty-box">メルカリの記録はまだありません。メルカリは自動で取得できないため、売り切れ価格を確認して手で記録します。「売り切れ一覧を開く」から今の売り切れ価格を確認できます。</p>`}`;
+}
+
 // 自動取得した相場（data/market-history.json）を表示する
 const SOURCE_ORDER = ["yahoo", "surugaya", "bookoff", "rakuten", "mercari"];
 async function renderAutoMarket(item) {
@@ -146,7 +177,7 @@ async function renderAutoMarket(item) {
     if (!res.ok) throw new Error();
     hist = await res.json();
   } catch {
-    el.innerHTML = `<p class="empty-box">まだ自動取得の記録はありません（1日1回、朝6時ごろに更新）。</p>`;
+    el.innerHTML = `${mercariBlockHTML(item)}<p class="empty-box">まだ自動取得の記録はありません（1日1回、朝6時ごろに更新）。</p>`;
     return;
   }
   const run = hist.meta?.lastRun;
@@ -173,6 +204,7 @@ async function renderAutoMarket(item) {
         <tbody>${rows}</tbody></table></div>`;
   }).join("");
   el.innerHTML = `
+    ${mercariBlockHTML(item)}
     ${blocks || `<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
     ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
       件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは区別していません。</div>` : ""}`;
@@ -220,7 +252,7 @@ function renderItem(data, item) {
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
     ${section("中古相場（調査記録）", marketPricesHTML(item))}
-    <section><h2 class="section-title">相場の推移（自動取得）</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
+    <section><h2 class="section-title">相場の推移（自動取得＋メルカリ）</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
     ${section("参考URL・出典", referencesHTML(item))}
     ${section("変更履歴", historyHTML(item))}
