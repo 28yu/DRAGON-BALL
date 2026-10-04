@@ -408,6 +408,8 @@ section[id], h2[id] { scroll-margin-top: 12px; }
 .badge-warn { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
 /* 情報のみ掲載（収集予定）のカテゴリー */
 .badge-info { background: var(--brand-yellow); color: #161616; }
+.series-link { margin: 12px 0 0; font-size: 0.9rem; font-weight: 700; }
+.figure-nav { margin: 0; padding-left: 1.4em; display: grid; gap: 4px; }
 .info-only-note { margin: 4px 0 0; font-size: 0.85rem; font-weight: 700; }
 
 /* ---------- タグ（情報の確度など） ---------- */

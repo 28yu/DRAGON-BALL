@@ -71,6 +71,20 @@ for (const item of data.items || []) {
     errors.push(`${where}: release.value は YYYY / YYYY-MM / YYYY-MM-DD 形式`);
   }
 
+  // シリーズ内のフィギュア（ドラゴンボールカプセル等）。管理IDは「シリーズID-2桁の番号」
+  for (const fig of item.figures || []) {
+    const fw = fig.id || `${where} のフィギュア(IDなし)`;
+    if (!new RegExp(`^${item.id}-\\d{2}$`).test(fig.id || "")) errors.push(`${fw}: フィギュアの管理IDは ${item.id}-01 の形式にしてください`);
+    if (seen.has(fig.id)) errors.push(`${fw}: 管理IDが重複しています`);
+    seen.add(fig.id);
+    if (!OWNERSHIP.includes(fig.ownership?.status)) errors.push(`${fw}: ownership.status は ${OWNERSHIP.join(" / ")} のいずれか`);
+    if (!fig.name || !FACT_STATUS.includes(fig.name.status)) errors.push(`${fw}: name の形式が不正です`);
+    else if (fig.name.status !== "unconfirmed" && !fig.name.value) errors.push(`${fw}: name は値が空なのに status が ${fig.name.status} です`);
+    for (const img of fig.images || []) {
+      if (!img.path || !existsSync(join(root, img.path))) errors.push(`${fw}: 画像ファイルが見つかりません (${img.path})`);
+    }
+  }
+
   for (const p of item.purchases || []) {
     if (p.date && !DATE_RE.test(p.date)) errors.push(`${where}: 購入日の形式が不正です (${p.date})`);
   }

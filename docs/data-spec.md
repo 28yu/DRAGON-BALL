@@ -31,6 +31,7 @@
 | `genre` | ジャンル（ゲーム） | 情報項目形式。表記は `RPG` / `対戦格闘` / `アクション` などにそろえる |
 | `listPrice` | 発売時の価格 | 情報項目形式。値は円の整数（例 `5830`）。税込・税抜の別は `note` に書く。中古相場とは別物 |
 | `contents` | 商品内容（フィギュア等） | 情報項目形式。`capsule` で使用（全何種・ボーナスパーツ等）。詳細画面では価格を「メーカー希望小売価格」として表示 |
+| `figures` | シリーズ内のフィギュア（`capsule`） | `[{ "id": "DBC-001-01", "no": 1, "name": 情報項目, "ownership": {...}, "images": [], "notes": "" }]`。管理IDは「シリーズID-2桁の番号」で、`item.html?id=DBC-001-01` が1体のページになる。名称が公式で分からないものは `name.status: "unconfirmed"`（画面では「No.1（名称未確認）」）。画像はシリーズのフォルダに置く |
 | `market` | 相場の自動取得の検索条件 | `{ "query": "検索語", "mustInclude": ["必ず含む語（正規表現）"], "exclude": ["除外する語"] }`。詳しくは下の「相場の自動取得」 |
 | `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }` |
 | `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null` |

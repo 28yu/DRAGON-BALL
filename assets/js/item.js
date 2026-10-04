@@ -124,9 +124,41 @@ function historyHTML(item) {
 }
 
 // 登録された画像を一覧で表示する（押すと原寸の画像が別タブで開く）
+// フィギュア（ドラゴンボールカプセル）の公式商品ページ。画像は転載禁止のため、リンクで案内する
+function officialPageURL(item) {
+  return item.category === "capsule" ? item.contents?.sources?.[0]?.url || "" : "";
+}
+
+// シリーズに含まれるフィギュアの一覧（1体ずつのページへのリンク）
+function figureName(fig) {
+  return fig.name?.value || `No.${fig.no}（名称未確認）`;
+}
+
+function figuresHTML(item) {
+  const figs = item.figures || [];
+  if (figs.length === 0) return "";
+  const cards = figs.map((fig) => `
+    <li class="item-card">
+      <a href="${itemURL(fig.id)}">
+        ${thumbHTML({ images: fig.images, title: figureName(fig) })}
+        <div class="item-body">
+          <span class="item-id">${escapeHTML(fig.id)}</span>
+          <h3 class="item-title">${escapeHTML(figureName(fig))}</h3>
+          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${fig.name?.status === "unconfirmed" ? "" : `<span class="tag tag-${escapeHTML(fig.name.status)}">${FACT_STATUS_LABELS[fig.name.status]}</span>`}</div>
+        </div>
+      </a>
+    </li>`).join("");
+  return section(`このシリーズのフィギュア（${figs.length}体）`, `<ul class="item-grid">${cards}</ul>`);
+}
+
 function galleryHTML(item) {
   const list = (item.images || []).filter((img) => img.path);
-  if (list.length === 0) return `<p class="empty-box">画像はまだ登録されていません。</p>`;
+  if (list.length === 0) {
+    const official = officialPageURL(item);
+    return `<p class="empty-box">画像はまだ登録されていません。${official
+      ? `<br>メーカーの商品画像は<a href="${escapeHTML(official)}" target="_blank" rel="noopener noreferrer">公式ページ</a>で見られます（メーカーが画像の転載を禁止しているため、このサイトには載せていません）。`
+      : ""}</p>`;
+  }
   return `<ul class="gallery">${list
     .map((img) => `
       <li>
@@ -254,6 +286,7 @@ function renderItem(data, item) {
       <span>${unconfirmedText()} まだ調べていない／確認できない</span>
     </div>
     ${section("基本情報", basicInfoHTML(item, category))}
+    ${figuresHTML(item)}
     ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}
@@ -265,12 +298,71 @@ function renderItem(data, item) {
   `;
 }
 
+// フィギュア1体のページ（item.html?id=DBC-001-01）
+function renderFigure(data, series, fig) {
+  const category = data.categories.find((c) => c.id === series.category);
+  const name = figureName(fig);
+  document.title = `${fig.id} ${name} | ${data.meta?.title || "DRAGON BALL COLLECTION"}`;
+  const o = fig.ownership || {};
+  const official = officialPageURL(series);
+  document.getElementById("detail").innerHTML = `
+    <nav class="breadcrumb" aria-label="パンくずリスト">
+      <a href="index.html">トップ</a> ›
+      <a href="index.html#cat-${escapeHTML(series.category)}">${escapeHTML(category?.label || series.category)}</a> ›
+      <a href="${itemURL(series.id)}">${escapeHTML(series.id)}</a> ›
+      ${escapeHTML(fig.id)}
+    </nav>
+    <div class="detail-head">
+      <div class="detail-photo">${thumbHTML({ images: fig.images, title: name })}${ownershipStamp(o.status)}</div>
+      <div>
+        <span class="item-id">${escapeHTML(fig.id)}</span>
+        <h1 class="detail-title">${escapeHTML(name)}</h1>
+        <div class="detail-badges">
+          ${ownershipBadge(o.status)}
+          <span class="tag">${escapeHTML(category?.label || series.category)}</span>
+        </div>
+        <p class="series-link">シリーズ：<a href="${itemURL(series.id)}">${escapeHTML(series.title)}</a></p>
+      </div>
+    </div>
+    ${section("フィギュアの情報", `<table class="info-table">
+      ${row("管理ID", `<span class="item-id">${escapeHTML(fig.id)}</span>`)}
+      ${row("名称", factHTML(fig.name))}
+      ${row("シリーズ内の番号", `${fig.no} / ${(series.figures || []).length}`)}
+      ${row("シリーズ", `<a href="${itemURL(series.id)}">${escapeHTML(series.id)} ${escapeHTML(series.title)}</a>`)}
+      ${row("発売日・発売年", factHTML(series.release, formatDate))}
+      ${row("メーカー希望小売価格", factHTML(series.listPrice, formatYen))}
+      ${fig.notes ? row("メモ", escapeHTML(fig.notes)) : ""}
+    </table>`)}
+    ${section(`画像（${(fig.images || []).length}枚）`, galleryHTML({ ...series, images: fig.images, title: name }))}
+    ${section("所持状況", `<table class="info-table">
+      ${row("所持状況", `${ownershipBadge(o.status)}${o.checkedAt ? `<span class="sub-note">確認日：${escapeHTML(formatDate(o.checkedAt))}</span>` : ""}${o.note ? `<span class="sub-note">${escapeHTML(o.note)}</span>` : ""}`)}
+    </table>`)}
+    ${section("相場", `<p class="empty-box">相場はシリーズのページにまとめて表示しています。<a href="${itemURL(series.id)}">シリーズのページへ</a>${official ? `／<a href="${escapeHTML(official)}" target="_blank" rel="noopener noreferrer">メーカー公式ページ</a>` : ""}</p>`)}
+    ${section("ほかのフィギュア", `<ul class="figure-nav">${(series.figures || [])
+      .map((f) => `<li>${f.id === fig.id ? `<strong>${escapeHTML(figureName(f))}</strong>` : `<a href="${itemURL(f.id)}">${escapeHTML(figureName(f))}</a>`}</li>`)
+      .join("")}</ul>`)}
+  `;
+}
+
+function findFigure(data, id) {
+  for (const series of data.items) {
+    const fig = (series.figures || []).find((f) => f.id === id);
+    if (fig) return { series, fig };
+  }
+  return null;
+}
+
 (async () => {
   const el = document.getElementById("detail");
   try {
     const data = await loadCollection();
     const id = new URLSearchParams(location.search).get("id");
     const item = data.items.find((i) => i.id === id);
+    const figure = item ? null : findFigure(data, id);
+    if (figure) {
+      renderFigure(data, figure.series, figure.fig);
+      return;
+    }
     if (!item) {
       el.innerHTML = `
         <div class="notice notice-warn">管理ID「${escapeHTML(id || "（指定なし）")}」の商品は見つかりませんでした。</div>

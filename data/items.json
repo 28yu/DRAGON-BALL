@@ -2655,6 +2655,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-001-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-001-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
         }
       ]
     },
@@ -2758,6 +2883,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-002-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -2861,6 +3111,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-003-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-003-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -2964,6 +3339,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-004-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-004-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3067,6 +3567,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-005-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-005-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3170,6 +3795,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-006-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-006-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3273,6 +4023,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-007-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-007-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3376,6 +4251,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-008-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-008-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3479,6 +4479,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-009-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-009-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3582,6 +4707,78 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア3体分の登録欄を追加（名称は公式の商品名による）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-010-01",
+          "no": 1,
+          "name": {
+            "value": "孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/1835/"
+              }
+            ],
+            "note": "公式の商品名に「01 孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-010-02",
+          "no": 2,
+          "name": {
+            "value": "超サイヤ人 孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/1835/"
+              }
+            ],
+            "note": "公式の商品名に「02 超サイヤ人 孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-010-03",
+          "no": 3,
+          "name": {
+            "value": "超サイヤ人3孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/1835/"
+              }
+            ],
+            "note": "公式の商品名に「03 超サイヤ人3孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
         }
       ]
     },
@@ -3685,6 +4882,78 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア3体分の登録欄を追加（名称は公式の商品名による）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-011-01",
+          "no": 1,
+          "name": {
+            "value": "孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/2428/"
+              }
+            ],
+            "note": "公式の商品名に「01 孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-011-02",
+          "no": 2,
+          "name": {
+            "value": "超サイヤ人 孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/2428/"
+              }
+            ],
+            "note": "公式の商品名に「02 超サイヤ人 孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
+        },
+        {
+          "id": "DBC-011-03",
+          "no": 3,
+          "name": {
+            "value": "超サイヤ人3 孫悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+                "url": "https://www.megahouse.co.jp/products/item/2428/"
+              }
+            ],
+            "note": "公式の商品名に「03 超サイヤ人3 孫悟空」と記載。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": ""
         }
       ]
     },
@@ -3783,6 +5052,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-012-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-012-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     },
@@ -3881,6 +5275,131 @@
         {
           "date": "2026-10-04",
           "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        },
+        {
+          "date": "2026-10-04",
+          "change": "シリーズ内のフィギュア7体分の登録欄を追加（名称は未確認）"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-013-01",
+          "no": 1,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-02",
+          "no": 2,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-03",
+          "no": 3,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-04",
+          "no": 4,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-05",
+          "no": 5,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-06",
+          "no": 6,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-013-07",
+          "no": 7,
+          "name": {
+            "value": null,
+            "status": "unconfirmed",
+            "sources": [],
+            "note": "公式ページに各フィギュアの名称の記載なし。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "images": [],
+          "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         }
       ]
     }
