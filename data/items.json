@@ -23,6 +23,13 @@
       "idPrefix": "SFC",
       "label": "スーパーファミコンソフト",
       "description": "スーパーファミコン版ドラゴンボールシリーズ"
+    },
+    {
+      "id": "capsule",
+      "idPrefix": "DBC",
+      "label": "ドラゴンボールカプセル",
+      "description": "メガハウスのコレクションフィギュア（ドラゴンボール形のカプセルに名シーンのジオラマ入り）。現在は情報のみ掲載し、今後収集予定。コレクション概要の集計には含めない",
+      "inSummary": false
     }
   ],
   "items": [
@@ -2547,6 +2554,1335 @@
           "本のみ"
         ]
       }
+    },
+    {
+      "id": "DBC-001",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編",
+      "release": {
+        "value": "2001-01",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/481/"
+          }
+        ],
+        "note": "公式ページの表記は「2001年1月」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/481/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 528,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/481/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種。彩色済みジオラマ1個＋亀仙人＆ブルマのボーナスパーツ1個入り。ブルマとの出会いから第22回天下一武道会までの名場面。ボーナスパーツを全部そろえると「ぱふぱふ」のシーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/481/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-002",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編",
+      "release": {
+        "value": "2005-07",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/480/"
+          }
+        ],
+        "note": "公式ページの表記は「2005年7月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/480/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 528,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/480/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。彩色済みジオラマ1個＋ボーナスパーツ1個入り。ブルマとの出会いからピッコロ大魔王との決着まで。ボーナスパーツを全部そろえると、悟空とピッコロ大魔王の決着シーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/480/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-003",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編",
+      "release": {
+        "value": "2005-10",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/478/"
+          }
+        ],
+        "note": "公式ページの表記は「2005年10月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/478/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 528,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/478/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。彩色済みジオラマ1個＋ボーナスパーツ1個入り。物語の最初から第23回天下一武道会終了までのシーン。ボーナスパーツを全部そろえると、悟空とチチのウェディングシーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/478/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-004",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編",
+      "release": {
+        "value": "2006-01",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/479/"
+          }
+        ],
+        "note": "公式ページの表記は「2006年1月上旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/479/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 528,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/479/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。彩色済みジオラマ1個＋ボーナスパーツ1個入り。第23回天下一武道会終了までのシーン。ボーナスパーツを全部そろえると、ブルマ＆戦闘機のフィギュアが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/479/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-005",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編",
+      "release": {
+        "value": "2008-04",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/477/"
+          }
+        ],
+        "note": "公式ページの表記は「2008年4月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/477/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/477/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。彩色済みジオラマ1個＋ボーナスパーツ1個入り。天下一武道会の名シーン。ボーナスパーツを全部そろえると、『ドラゴンボールZ』第1期エンディングのシーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/477/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-006",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ帰ってきたブウ編",
+      "release": {
+        "value": "2009-08",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ帰ってきたブウ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/474/"
+          }
+        ],
+        "note": "公式ページの表記は「2009年8月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ帰ってきたブウ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/474/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ帰ってきたブウ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/474/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。旧「ドラカプ」第4弾「帰ってきたブウ編」を新規造形でリニューアル。ボーナスパーツを全部そろえると、「カミカゼアタック戦略会議」のシーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ帰ってきたブウ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/474/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-007",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ激闘総集編",
+      "release": {
+        "value": "2010-02",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ激闘総集編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/473/"
+          }
+        ],
+        "note": "公式ページの表記は「2010年2月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ激闘総集編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/473/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ激闘総集編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/473/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。フィギュア1体＋ボーナスパーツ1個入り。過去のサイヤ人編・フリーザ編から人気の高かったシーンを再立体化。ボーナスパーツを全部そろえると、戦士たちの肖像が完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ激闘総集編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/473/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-008",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ EDITION of THE MOVIE",
+      "release": {
+        "value": "2010-06",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ EDITION of THE MOVIE」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/205/"
+          }
+        ],
+        "note": "公式ページの表記は「2010年6月上旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ EDITION of THE MOVIE」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/205/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ EDITION of THE MOVIE」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/205/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。フィギュア1体＋ボーナスパーツ1個入り。劇場版のキャラクターが中心。シリーズ中の「幻の元気玉」の悟空と、ボーナスパーツの悟空を差し替えて飾れる。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ EDITION of THE MOVIE」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/205/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-009",
+      "category": "capsule",
+      "title": "セル編改",
+      "release": {
+        "value": "2011-07",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「セル編改」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/390/"
+          }
+        ],
+        "note": "公式ページの表記は「2011年7月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「セル編改」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/390/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 660,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「セル編改」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/390/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。「ドラゴンボールカプセル・ネオ」のセル編。セルの出現シーンや親子かめはめ波など。ボーナスパーツを全部そろえると、悟空一家の「家族の肖像」が完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「セル編改」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/390/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-010",
+      "category": "capsule",
+      "title": "ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空",
+      "release": {
+        "value": "2016-03",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/1835/"
+          }
+        ],
+        "note": "公式ページの表記は「2016年3月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/1835/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 1650,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/1835/"
+          }
+        ],
+        "note": "1体ずつの価格（公式の表記は「各1,650円(税込)」）。公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "彩色済み完成品フィギュア。01 孫悟空／02 超サイヤ人 孫悟空／03 超サイヤ人3 孫悟空。ドラカプシリーズを重厚な彩色でリペイントし、透明パッケージに入れたもの。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル 01 孫悟空/02 超サイヤ人 孫悟空/03 超サイヤ人3孫悟空」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/1835/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-011",
+      "category": "capsule",
+      "title": "ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)",
+      "release": {
+        "value": "2018-05",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/2428/"
+          }
+        ],
+        "note": "公式ページの表記は「2018年5月下旬」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/2428/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 1650,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/2428/"
+          }
+        ],
+        "note": "1体ずつの価格（公式の表記は「各1,650円(税込)」）。公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "彩色済み完成品フィギュア。01 孫悟空／02 超サイヤ人 孫悟空／03 超サイヤ人3 孫悟空。2016年発売の「ドラカプメモリアル」の再販。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラカプメモリアル ドラゴンボールZ 01 孫悟空　02 超サイヤ人 孫悟空　03 超サイヤ人3 孫悟空(再販)」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/2428/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-012",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編",
+      "release": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "公式ページの発売日欄は「発売中」で、発売時期の記載なし。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/476/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/476/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。彩色済みジオラマ1個＋ボーナスパーツ1個入り。旧「ドラカプ」第1弾「サイヤ人編」を新規造形でリニューアル。ボーナスパーツを全部そろえると、『ドラゴンボールZ』第1期エンディングの孫悟飯参上シーンが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/476/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
+    },
+    {
+      "id": "DBC-013",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編",
+      "release": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "公式ページの発売日欄は「発売中」で、発売時期の記載なし。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/475/"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "JANコード・型番は公式ページに記載なし。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 550,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/475/"
+          }
+        ],
+        "note": "公式ページのメーカー希望小売価格（税込）。発売当時の価格表記（税抜・当時の税率）との関係は未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種にフル彩色版とブロンズ彩色版の2種類あり）。旧「ドラカプ」第2弾（フリーザ編）を新規造形でリニューアル。ボーナスパーツを全部そろえると、ポルンガ出現シーンの巨大ジオラマが完成する。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "メガハウス公式「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編」商品ページ",
+            "url": "https://www.megahouse.co.jp/products/item/475/"
+          }
+        ],
+        "note": "公式ページの「商品内容」と紹介文をもとに要約。各回の7種の内訳（キャラクター・シーン名）は公式ページに記載なし。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": "情報のみ掲載（収集予定）。"
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [],
+      "alerts": [],
+      "notes": "",
+      "history": [
+        {
+          "date": "2026-10-04",
+          "change": "収集対象（情報のみ）として登録。メガハウス公式ページの情報をもとに作成"
+        }
+      ]
     }
   ]
 }

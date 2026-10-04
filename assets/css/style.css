@@ -406,6 +406,9 @@ section[id], h2[id] { scroll-margin-top: 12px; }
 .badge-not_owned { background: var(--surface); color: var(--notowned-text); border-style: dashed; }
 .badge-unconfirmed { background: var(--surface); color: var(--unconfirmed); border-color: var(--unconfirmed); border-style: dashed; }
 .badge-warn { background: var(--warn-soft); color: var(--warn); border-color: var(--warn); }
+/* 情報のみ掲載（収集予定）のカテゴリー */
+.badge-info { background: var(--brand-yellow); color: #161616; }
+.info-only-note { margin: 4px 0 0; font-size: 0.85rem; font-weight: 700; }
 
 /* ---------- タグ（情報の確度など） ---------- */
 .tag {

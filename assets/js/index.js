@@ -38,9 +38,15 @@ function categoryCardHTML(cat, items) {
     </a>`;
 }
 
+// コレクション概要の集計に含めるカテゴリーか（"inSummary": false のカテゴリーは情報のみ掲載で、集計しない）
+function inSummary(cat) {
+  return cat?.inSummary !== false;
+}
+
 function renderSummary(data) {
   const el = document.getElementById("summary");
-  const all = data.items;
+  const summaryCats = data.categories.filter(inSummary);
+  const all = data.items.filter((i) => summaryCats.some((cat) => cat.id === i.category));
   const c = countByOwnership(all);
   const rate = all.length ? Math.round((c.owned / all.length) * 100) : 0;
 
@@ -57,7 +63,7 @@ function renderSummary(data) {
       <div class="hero-progress">${progressHTML(all)}</div>
     </div>`;
 
-  const cats = data.categories
+  const cats = summaryCats
     .map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id)))
     .join("");
 
@@ -66,7 +72,7 @@ function renderSummary(data) {
     ? `<p class="notice">所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。</p>`
     : "";
 
-  const alertItems = all.filter((i) => (i.alerts || []).length > 0);
+  const alertItems = data.items.filter((i) => (i.alerts || []).length > 0);
   const alertNotice = alertItems.length
     ? `<p class="notice notice-warn">確認が必要な対象があります：${alertItems
         .map((i) => `<a href="${itemURL(i.id)}">${escapeHTML(i.id)}</a>`)
@@ -85,7 +91,7 @@ function renderCategoryNav(data) {
     .join("")}`;
 }
 
-function itemCardHTML(item) {
+function itemCardHTML(item, cat) {
   const release = item.release?.value
     ? `<span>${escapeHTML(formatDate(item.release.value))}${item.release.status !== "confirmed" ? "（要確認）" : ""}</span>`
     : "";
@@ -97,7 +103,7 @@ function itemCardHTML(item) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(item.id)}</span>
           <h3 class="item-title">${escapeHTML(item.title)}</h3>
-          <div class="item-meta">${ownershipBadge(item.ownership?.status)}${alert}${release}</div>
+          <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">情報のみ</span>`}${alert}${release}</div>
         </div>
       </a>
     </li>`;
@@ -111,8 +117,9 @@ function renderCategories(data) {
       return `
         <section id="cat-${escapeHTML(cat.id)}" aria-labelledby="cat-${escapeHTML(cat.id)}-title">
           <h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(cat.label)}（${items.length}点）</h2>
+          ${inSummary(cat) ? "" : `<p class="info-only-note"><span class="badge badge-info">情報のみ</span> 収集予定のシリーズです。コレクション概要の集計には含めていません。</p>`}
           <p class="section-desc">${escapeHTML(cat.description || "")}</p>
-          <ul class="item-grid">${items.map(itemCardHTML).join("")}</ul>
+          <ul class="item-grid">${items.map((item) => itemCardHTML(item, cat)).join("")}</ul>
         </section>`;
     })
     .join("");

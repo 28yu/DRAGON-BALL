@@ -45,6 +45,12 @@ function basicInfoHTML(item, category) {
   ];
   if (item.category === "book") {
     rows.push(row("ISBN", factHTML(item.isbn)));
+  } else if (item.category === "capsule") {
+    // フィギュア（ドラゴンボールカプセル）：商品内容を表示し、価格はメーカー希望小売価格として出す
+    rows.push(row("商品内容", factHTML(item.contents)));
+    rows.push(row("JANコード・型番", factHTML(item.modelNumber)));
+    rows.push(row("メーカー希望小売価格", factHTML(item.listPrice, formatYen)));
+    return `<table class="info-table">${rows.join("")}</table>`;
   } else {
     rows.push(row("対応機種", factHTML(item.platform)));
     rows.push(row("ジャンル", factHTML(item.genre)));

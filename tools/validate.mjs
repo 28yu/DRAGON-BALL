@@ -22,6 +22,9 @@ const FACT_KEYS = ["release", "publisher", "isbn", "modelNumber", "platform", "g
 const DATE_RE = /^\d{4}(-\d{2}(-\d{2})?)?$/;
 
 const categories = new Map((data.categories || []).map((c) => [c.id, c]));
+for (const c of data.categories || []) {
+  if (c.inSummary !== undefined && typeof c.inSummary !== "boolean") errors.push(`カテゴリー ${c.id}: inSummary は true / false で書いてください`);
+}
 const seen = new Set();
 
 for (const item of data.items || []) {
@@ -51,6 +54,14 @@ for (const item of data.items || []) {
     }
     if (f.status === "confirmed" && (!f.sources || f.sources.length === 0)) {
       warnings.push(`${where}: ${key} は確認済みですが出典がありません（現物確認ならメモに記載を）`);
+    }
+  }
+  // 商品内容（フィギュア等の任意項目）も情報項目と同じ形式
+  if (item.contents) {
+    const f = item.contents;
+    if (!FACT_STATUS.includes(f.status)) errors.push(`${where}: contents.status が不正です`);
+    if (f.status !== "unconfirmed" && (f.value === null || f.value === "")) {
+      errors.push(`${where}: contents は値が空なのに status が ${f.status} です`);
     }
   }
   if (item.listPrice?.value != null && !Number.isInteger(item.listPrice.value)) {
