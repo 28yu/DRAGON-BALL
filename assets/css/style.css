@@ -683,6 +683,28 @@ html.lightbox-open { overflow: hidden; }
   box-shadow: 3px 3px 0 #161616;
 }
 .lightbox-close:focus-visible { outline: 3px solid var(--brand-yellow); outline-offset: 2px; }
+.lightbox-hint { display: none; }
+/* 拡大表示の写真は横の動きだけをブラウザに任せ、縦の動き（下へのスライドで閉じる）はページ側で受け取る */
+.lightbox .slider-track { touch-action: pan-x; }
+/* スマホ（指で操作する端末）：×ボタンは出さず、下へのスライドで閉じる。案内を上に小さく出す */
+@media (hover: none) and (pointer: coarse) {
+  .lightbox-close { display: none; }
+  .lightbox-hint {
+    display: block;
+    position: absolute;
+    top: 14px;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    margin: 0;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.78rem;
+    font-weight: 700;
+    pointer-events: none;
+  }
+  .lightbox-hint::before { content: "▼ "; font-size: 0.7rem; }
+}
 .gallery a { cursor: zoom-in; }
 
 /* 動作確認用の仮の画像 */

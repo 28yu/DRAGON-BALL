@@ -284,6 +284,7 @@ function initLightbox(root = document) {
   box.setAttribute("aria-label", "写真の拡大表示");
   box.innerHTML = `
     <button type="button" class="lightbox-close" aria-label="閉じる">×</button>
+    <p class="lightbox-hint" aria-hidden="true">下にスライドで閉じる</p>
     <div class="photo-slider lightbox-slider" data-count="${n}">
       <div class="slider-track" tabindex="-1">${topTrack.innerHTML}</div>
       ${n > 1 ? `<button type="button" class="slider-edge prev" aria-label="前の写真"></button>
@@ -298,6 +299,7 @@ function initLightbox(root = document) {
   let opener = null;
   const open = (index, from) => {
     opener = from || null;
+    resetDrag(false);
     box.hidden = false;
     document.documentElement.classList.add("lightbox-open");
     // 開いた瞬間に目的の写真の位置へ（Safari の一部の版は behavior: "instant" を受け付けないため、scrollLeft を直接変える）
@@ -311,6 +313,50 @@ function initLightbox(root = document) {
     if (opener) opener.focus();
   };
   box.querySelector(".lightbox-close").addEventListener("click", close);
+
+  // スマホ：画面を押したまま下へ大きく動かすと閉じる（横の動きは写真の切り替え）。少しだけなら元に戻る
+  const panel = box.querySelector(".lightbox-slider");
+  let startX = 0, startY = 0, dy = 0, mode = null; // mode: null（未判定）/ "down"（下へ）/ "side"（横へ）
+  function resetDrag(animate) {
+    panel.style.transition = animate ? "transform 0.2s ease" : "";
+    box.style.transition = animate ? "background-color 0.2s ease" : "";
+    panel.style.transform = "";
+    box.style.backgroundColor = "";
+  }
+  box.addEventListener("touchstart", (e) => {
+    if (e.touches.length !== 1) { mode = "side"; return; }
+    startX = e.touches[0].clientX; startY = e.touches[0].clientY; dy = 0; mode = null;
+    panel.style.transition = ""; box.style.transition = "";
+  }, { passive: true });
+  box.addEventListener("touchmove", (e) => {
+    if (mode === "side" || e.touches.length !== 1) return;
+    const mx = e.touches[0].clientX - startX, my = e.touches[0].clientY - startY;
+    if (mode === null) {
+      if (Math.abs(mx) < 8 && Math.abs(my) < 8) return;
+      mode = my > 0 && Math.abs(my) > Math.abs(mx) ? "down" : "side";
+      if (mode !== "down") return;
+    }
+    e.preventDefault();
+    dy = Math.max(0, my);
+    panel.style.transform = `translateY(${dy}px) scale(${1 - Math.min(dy / 2000, 0.1)})`;
+    box.style.backgroundColor = `rgba(12, 12, 12, ${1 - Math.min(dy / 400, 0.75)})`;
+  }, { passive: false });
+  const endDrag = () => {
+    if (mode !== "down") { mode = null; return; }
+    mode = null;
+    if (dy > Math.min(140, window.innerHeight * 0.18)) {
+      // 下へ大きく動かした：画面の外へ流して閉じる
+      panel.style.transition = "transform 0.2s ease";
+      box.style.transition = "background-color 0.2s ease";
+      panel.style.transform = `translateY(${window.innerHeight}px)`;
+      box.style.backgroundColor = "rgba(12, 12, 12, 0)";
+      setTimeout(() => { close(); resetDrag(false); }, 200);
+    } else {
+      resetDrag(true); // 少しだけ：元の位置へ戻す
+    }
+  };
+  box.addEventListener("touchend", endDrag);
+  box.addEventListener("touchcancel", endDrag);
   // 写真の外側（暗い部分）をタップすると閉じる。写真は枠いっぱいの入れ物に縦横比を保って描かれるので、実際に描かれた範囲で判定する
   const onPicture = (e) => {
     if (e.target.closest(".demo-slide span")) return true;
