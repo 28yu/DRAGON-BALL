@@ -75,6 +75,7 @@
   - そのため、作業前・送信前に必ず `git pull --no-rebase origin main` で取り込む。
 - `tools/market/**` か workflow ファイルを変えて `main` に送ると、その場で1回実行される。
 - 手動での再実行（Run workflow）は、GitHub MCP からは権限エラー（403）でできない。
+- 2026-10-05：GitHub Pages の公開処理（pages build and deployment）が、組み立て（build）は成功したのに最後の公開（deploy）だけ「queued（順番待ち）」のまま30分以上止まったことがある。GitHub 側の待ち。取り消し・やり直しは GitHub MCP から 403 でできないため、次の変更を `main` に送って新しい公開処理を始めるか、オーナーに Actions 画面の「Re-run all jobs」を押してもらう。
   - すぐ動かしたいときは、取得プログラムの意味のある修正を `main` に送るか、オーナーに Actions 画面の「Run workflow」を押してもらう。
   - 空のコミットで動かすのは禁止。
 - 実行状況は `curl https://api.github.com/repos/28yu/DRAGON-BALL/actions/runs` で確認できる（公開リポジトリなので認証不要）。
