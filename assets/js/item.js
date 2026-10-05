@@ -221,6 +221,43 @@ function section(title, body, id = "") {
   return `<section${id ? ` id="${escapeHTML(id)}"` : ""}><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
 }
 
+// ---------- 前後の商品へ移動する矢印（四星球のボタン） ----------
+// 同じグループ（カテゴリー、またはフィギュアは同じシリーズ）の中だけを移動し、端では反対側の端に戻る
+function dragonBallSVG(key) {
+  const star = (x, y) => `<polygon transform="translate(${x} ${y}) scale(.5)" points="0,-12 3.5,-4 12,-4 5.5,2 8,11 0,6 -8,11 -5.5,2 -12,-4 -3.5,-4"/>`;
+  return `<svg class="db-ball" viewBox="0 0 64 64" width="52" height="52" aria-hidden="true" focusable="false">
+    <defs><radialGradient id="db-grad-${key}" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#ffe9a8"/><stop offset=".35" stop-color="#ffb12e"/><stop offset="1" stop-color="#e2620b"/>
+    </radialGradient></defs>
+    <circle cx="32" cy="32" r="29" fill="url(#db-grad-${key})" stroke="#161616" stroke-width="3"/>
+    <ellipse cx="21" cy="17" rx="9" ry="5" fill="#fff" opacity=".75" transform="rotate(-30 21 17)"/>
+    <g fill="#d92d20">${star(23, 25)}${star(41, 25)}${star(23, 42)}${star(41, 42)}</g>
+  </svg>`;
+}
+// 矢印に出す名前：先頭の「ドラゴンボール」は省いて短くする（例：ドラゴンボールZ外伝 サイヤ人絶滅計画 → Z外伝 サイヤ人絶滅計画）
+function pagerName(name) {
+  const short = String(name).replace(/^(DRAGON BALL|ドラゴンボール)\s*/, "").trim();
+  return short || name;
+}
+// 矢印の真ん中に出すグループの短い名前
+const PAGER_GROUP_LABELS = { book: "書籍", famicom: "ファミコン", sfc: "スーファミ", capsule: "カプセル" };
+function pagerHTML(list, index, groupLabel, nameOf) {
+  if (list.length < 2) return "";
+  const prev = list[(index - 1 + list.length) % list.length];
+  const next = list[(index + 1) % list.length];
+  const link = (it, dir) => `
+    <a class="pager-link ${dir}" href="${itemURL(it.id)}" aria-label="${dir === "prev" ? "前へ" : "次へ"}：${escapeHTML(it.id)} ${escapeHTML(nameOf(it))}">
+      ${dir === "prev" ? dragonBallSVG(dir) : ""}
+      <span class="pager-text"><span class="pager-dir">${dir === "prev" ? "前へ" : "次へ"}<span class="pager-id">${escapeHTML(it.id)}</span></span><span class="pager-name">${escapeHTML(pagerName(nameOf(it)))}</span></span>
+      ${dir === "next" ? dragonBallSVG(dir) : ""}
+    </a>`;
+  return `<nav class="item-pager" aria-label="${escapeHTML(groupLabel)}の前後の商品">
+    ${link(prev, "prev")}
+    <span class="pager-pos">${escapeHTML(groupLabel)}<br><strong>${index + 1} / ${list.length}</strong></span>
+    ${link(next, "next")}
+  </nav>`;
+}
+
 // ---------- C：ページ内の目次（スマホでは画面上部に固定） ----------
 function tocHTML(entries) {
   const list = entries.filter(Boolean);
@@ -433,7 +470,13 @@ function renderItem(data, item) {
       ${escapeHTML(item.id)}
     </nav>
     <div class="detail-head">
-      <div class="detail-photo">${thumbHTML(item)}${ownershipStamp(item.ownership?.status)}</div>
+      <div class="detail-photo-col">
+        <div class="detail-photo">${thumbHTML(item)}${ownershipStamp(item.ownership?.status)}</div>
+        ${(() => {
+          const group = data.items.filter((i) => i.category === item.category);
+          return pagerHTML(group, group.indexOf(item), PAGER_GROUP_LABELS[item.category] || category?.label || item.category, cardTitle);
+        })()}
+      </div>
       <div>
         <span class="item-id">${escapeHTML(item.id)}</span>
         <h1 class="detail-title">${escapeHTML(item.title)}</h1>
@@ -482,7 +525,10 @@ function renderFigure(data, series, fig) {
       ${escapeHTML(fig.id)}
     </nav>
     <div class="detail-head">
-      <div class="detail-photo">${thumbHTML({ images: fig.images, title: name })}${ownershipStamp(o.status)}</div>
+      <div class="detail-photo-col">
+        <div class="detail-photo">${thumbHTML({ images: fig.images, title: name })}${ownershipStamp(o.status)}</div>
+        ${pagerHTML(series.figures || [], (series.figures || []).indexOf(fig), series.id, figureName)}
+      </div>
       <div>
         <span class="item-id">${escapeHTML(fig.id)}</span>
         <h1 class="detail-title">${escapeHTML(name)}</h1>

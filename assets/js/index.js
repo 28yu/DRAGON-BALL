@@ -92,14 +92,6 @@ function renderCategoryNav(data) {
     .join("")}`;
 }
 
-// 一覧カードに出す名前。ドラゴンボールカプセルはセクション名で分かるので、先頭のシリーズ名を省いてシリーズ名だけにする
-// （正式名称 title は変えず、詳細ページではそのまま表示する）
-function cardTitle(item) {
-  if (item.category !== "capsule") return item.title;
-  const short = item.title.replace(/^ドラゴンボールカプセル・?/, "").replace(/^ネオ\s*/, "ネオ ").trim();
-  return short || item.title;
-}
-
 function itemCardHTML(item, cat) {
   const release = item.release?.value
     ? `<span>${escapeHTML(formatDate(item.release.value))}</span>`
