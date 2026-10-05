@@ -246,7 +246,9 @@ function gradeStats(rows, grades) {
 // ---------- メイン ----------
 const DATA = JSON.parse(readFileSync(ITEMS, "utf-8"));
 const categoryGrades = Object.fromEntries((DATA.categories || []).map((c) => [c.id, c.marketGrades]));
-const items = DATA.items.flatMap((i) => [i, ...(i.figures || []).map((f) => ({ ...f, category: i.category }))]).filter((i) => i.market?.query);
+// 版ごとの相場（market.variants。例：ファミコンの完全復刻版）は、通常の検索とは別に検索し、記録に variant を付けて分ける
+const withVariants = (i) => [i, ...(i.market?.variants || []).map((v) => ({ id: i.id, category: i.category, variant: v.key, variantLabel: v.label, market: v }))];
+const items = DATA.items.flatMap((i) => [i, ...(i.figures || []).map((f) => ({ ...f, category: i.category }))]).flatMap(withVariants).filter((i) => i.market?.query);
 const history = existsSync(HISTORY)
   ? JSON.parse(readFileSync(HISTORY, "utf-8"))
   : { meta: { description: "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。" }, records: [] };
@@ -270,16 +272,16 @@ for (const [key, src] of Object.entries(SOURCES)) {
       const grades = src.useGrades ? item.market.grades || categoryGrades[item.category] : null;
       const s = stats(rows);
       if (s.count === 0) st.empty++; else st.ok++;
-      console.log(`[${key}] ${item.id} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
+      console.log(`[${key}] ${item.id}${item.variant ? `（${item.variantLabel}）` : ""} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
       if (r.rows.length === 0 && r.html && !st.debugShown) {
         // 初回の調査用：読み取れなかったページの一部を記録に残す（1サイト1回だけ）
         st.debugShown = true;
         const i = Math.max(0, r.html.search(/円|￥|¥|Product|item/));
         console.log(`[${key}] 調査用（ページの一部）: ${r.html.slice(i, i + 1500).replace(/\s+/g, " ")}`);
       }
-      history.records = history.records.filter((x) => !(x.date === today && x.id === item.id && x.source === key));
+      history.records = history.records.filter((x) => !(x.date === today && x.id === item.id && x.source === key && (x.variant || null) === (item.variant || null)));
       history.records.push({
-        date: today, id: item.id, source: key, kind: src.kind, ...s,
+        date: today, id: item.id, ...(item.variant ? { variant: item.variant, variantLabel: item.variantLabel } : {}), source: key, kind: src.kind, ...s,
         ...(grades?.length ? { grades: gradeStats(rows, grades) } : {}),
         searchUrl: src.searchUrl(item.market.query),
         ...(src.storeSamples === false ? {} : { samples: rows.slice(0, 3).map((x) => ({ title: x.title.slice(0, 80), price: x.price, url: x.url })) }),

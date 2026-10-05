@@ -266,10 +266,12 @@ async function renderAutoMarket(item) {
   const setNote = isCapsuleSeries(item)
     ? `<p class="notice">このシリーズの相場は、<strong>全${item.figures.length}種そろったセット</strong>（「全${item.figures.length}種」「コンプ」「${item.figures.length}個セット」など）の出品だけを集計しています。1体ずつの相場は、上の「このシリーズのフィギュア」から各フィギュアのページで見られます。</p>`
     : "";
-  const blocks = SOURCE_ORDER.map((key) => {
-    const recs = mine.filter((r) => r.source === key).sort((a, b) => b.date.localeCompare(a.date));
+  // 版ごとの相場（記録の variant。例：完全復刻版）がある商品は、通常版と版ごとに表を分ける
+  const variants = [...new Map(mine.filter((r) => r.variant).map((r) => [r.variant, r.variantLabel || r.variant])).entries()];
+  const blocksFor = (list, groupLabel) => SOURCE_ORDER.map((key) => {
+    const recs = list.filter((r) => r.source === key).sort((a, b) => b.date.localeCompare(a.date));
     if (recs.length === 0) return "";
-    const label = run?.sources[key]?.label || key;
+    const label = (run?.sources[key]?.label || key) + (groupLabel ? `／${groupLabel}` : "");
     const cells = (s) => `<td>${s.count}件</td>
       <td>${s.count ? escapeHTML(formatYen(s.min)) : "—"}</td><td>${s.count ? escapeHTML(formatYen(s.median)) : "—"}</td><td>${s.count ? escapeHTML(formatYen(s.max)) : "—"}</td>`;
     // 状態の区分（未開封・箱付き・箱なし など）ごとの集計がある場合は、日付ごとに「全体」と各区分の行を出す
@@ -289,6 +291,11 @@ async function renderAutoMarket(item) {
         <thead><tr><th>取得日</th>${graded ? "<th>状態</th>" : ""}<th>件数</th><th>最安</th><th>中央値</th><th>最高</th></tr></thead>
         <tbody>${rows}</tbody></table></div>`;
   }).join("");
+  const blocks = variants.length
+    ? `<p class="notice">この商品は版によって相場が大きく違うため、<strong>通常版</strong>と${variants.map(([, l]) => `<strong>${escapeHTML(l)}</strong>`).join("・")}を分けて集計しています。版の見分け方は上の「版の違い・見分け方」を見てください。出品名に版が書かれていない出品は通常版として数えています。</p>` +
+      blocksFor(mine.filter((r) => !r.variant), "通常版") +
+      variants.map(([k, l]) => blocksFor(mine.filter((r) => r.variant === k), l)).join("")
+    : blocksFor(mine);
   el.innerHTML = `
     ${setNote}
     ${mercariBlockHTML(item)}

@@ -107,6 +107,10 @@ for (const item of data.items || []) {
 
   if (item.market && !item.market.query) errors.push(`${where}: market には検索語 query が必須です`);
   checkMarket(where, item.market, item.market?.grades);
+  for (const v of item.market?.variants || []) {
+    if (!v.key || !v.label || !v.query) errors.push(`${where}: market.variants には key・label・query が必須です`);
+    checkMarket(`${where} の ${v.label || v.key}`, v, v.grades);
+  }
   // 版の違い・見分け方（editions）
   const EDITION_KINDS = ["regular", "reprint", "revision", "promo", "overseas", "fake", "other"];
   for (const e of item.editions || []) {
