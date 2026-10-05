@@ -126,3 +126,31 @@ function cardTitle(item) {
   const short = item.title.replace(/^ドラゴンボールカプセル・?/, "").replace(/^ネオ\s*/, "ネオ ").trim();
   return short || item.title;
 }
+
+// ドラゴンボールの絵（星の数 1〜7）。前後移動ボタン（四星球）と、トップページのカテゴリーの目印（2026-10-05 オーナー指示）で使う
+const DB_STAR_POSITIONS = {
+  1: [[32, 32]],
+  2: [[24, 32], [40, 32]],
+  3: [[32, 23], [23, 40], [41, 40]],
+  4: [[23, 25], [41, 25], [23, 42], [41, 42]],
+  5: [[32, 19], [20, 29], [44, 29], [25, 44], [39, 44]],
+  6: [[23, 20], [41, 20], [17, 33], [47, 33], [23, 46], [41, 46]],
+  7: [[32, 32], [32, 16], [45, 24], [45, 40], [32, 48], [19, 40], [19, 24]],
+};
+let dbBallCount = 0;
+function dragonBallIcon(stars, size = 22, className = "db-icon") {
+  const n = Math.min(7, Math.max(1, Number(stars) || 1));
+  const scale = n <= 2 ? 0.7 : n <= 4 ? 0.5 : 0.42;
+  const gid = `db-grad-${++dbBallCount}`;
+  const starShapes = DB_STAR_POSITIONS[n]
+    .map(([x, y]) => `<polygon transform="translate(${x} ${y}) scale(${scale})" points="0,-12 3.5,-4 12,-4 5.5,2 8,11 0,6 -8,11 -5.5,2 -12,-4 -3.5,-4"/>`)
+    .join("");
+  return `<svg class="${className}" viewBox="0 0 64 64" width="${size}" height="${size}" aria-hidden="true" focusable="false">
+    <defs><radialGradient id="${gid}" cx="38%" cy="32%" r="70%">
+      <stop offset="0" stop-color="#ffe9a8"/><stop offset=".35" stop-color="#ffb12e"/><stop offset="1" stop-color="#e2620b"/>
+    </radialGradient></defs>
+    <circle cx="32" cy="32" r="29" fill="url(#${gid})" stroke="#161616" stroke-width="${size < 30 ? 4 : 3}"/>
+    <ellipse cx="21" cy="17" rx="9" ry="5" fill="#fff" opacity=".75" transform="rotate(-30 21 17)"/>
+    <g fill="#d92d20">${starShapes}</g>
+  </svg>`;
+}

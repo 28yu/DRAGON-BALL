@@ -27,12 +27,18 @@ function progressHTML(items, withBreakdown = true) {
     </ul>` : ""}`;
 }
 
+// カテゴリーの目印のボール：カテゴリーの並び順で星の数を変える（1番目＝一星球、2番目＝二星球…。2026-10-05 オーナー指示）
+let categoryOrder = [];
+function categoryBall(cat, size) {
+  return dragonBallIcon(categoryOrder.indexOf(cat.id) + 1, size);
+}
+
 // カテゴリーごとの小さなカード（所持数 / 総数）
 function categoryCardHTML(cat, items) {
   const owned = countByOwnership(items).owned;
   return `
     <a class="cat-card" href="#cat-${escapeHTML(cat.id)}">
-      <span class="cat-card-label">${escapeHTML(cat.label)}</span>
+      <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(cat.label)}</span>
       <span class="cat-card-count">${owned}<small> / ${items.length}</small></span>
       ${progressHTML(items, false)}
     </a>`;
@@ -52,10 +58,10 @@ function renderSummary(data) {
 
   const hero = `
     <div class="hero-card">
-      <div class="rate-circle">
+      <button type="button" class="rate-circle${rateStyle() === "plain" ? "" : " radar"}" id="rate-circle" aria-label="所持率の表示を切り替える">
         <span class="rate-num">${rate}<small>%</small></span>
         <span class="rate-label">${c.unconfirmed > 0 ? "所持率（暫定）" : "所持率"}</span>
-      </div>
+      </button>
       <div class="hero-body">
         <p class="hero-label">所持 / 収集対象</p>
         <p class="hero-count">${c.owned}<small> / ${all.length}点</small></p>
@@ -81,6 +87,20 @@ function renderSummary(data) {
     : "";
 
   el.innerHTML = `${hero}<div class="cat-grid">${cats}</div>${notice}${alertNotice}`;
+  setupRateToggle();
+}
+
+// 所持率の丸：初期表示はドラゴンレーダー風。タップで今までの黄色い丸と切り替え、選んだ方を覚える（2026-10-05 オーナー指示）
+function rateStyle() {
+  try { return localStorage.getItem("db-rate-style") === "plain" ? "plain" : "radar"; } catch (e) { return "radar"; }
+}
+function setupRateToggle() {
+  const btn = document.getElementById("rate-circle");
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    const radar = btn.classList.toggle("radar");
+    try { localStorage.setItem("db-rate-style", radar ? "radar" : "plain"); } catch (e) {}
+  });
 }
 
 // ページ上部のカテゴリーメニュー（各カテゴリーの見出しへ移動するリンク）
@@ -88,7 +108,7 @@ function renderCategoryNav(data) {
   const el = document.getElementById("cat-nav");
   if (!el) return;
   el.innerHTML = `<li><a href="#summary-title">概要</a></li>${data.categories
-    .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${escapeHTML(cat.label)}</a></li>`)
+    .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${categoryBall(cat, 18)}${escapeHTML(cat.label)}</a></li>`)
     .join("")}`;
 }
 
@@ -118,7 +138,7 @@ function renderCategories(data) {
       const items = data.items.filter((i) => i.category === cat.id);
       return `
         <section id="cat-${escapeHTML(cat.id)}" aria-labelledby="cat-${escapeHTML(cat.id)}-title">
-          <h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(cat.label)}（${items.length}点）</h2>
+          <div class="ball-title">${categoryBall(cat, 34)}<h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(cat.label)}（${items.length}点）</h2></div>
           ${inSummary(cat) ? "" : `<p class="info-only-note"><span class="badge badge-info">情報のみ</span> 収集予定のシリーズです。コレクション概要の集計には含めていません。</p>`}
           <p class="section-desc">${escapeHTML(cat.description || "")}</p>
           <ul class="item-grid">${items.map((item) => itemCardHTML(item, cat)).join("")}</ul>
@@ -130,6 +150,7 @@ function renderCategories(data) {
 (async () => {
   try {
     const data = await loadCollection();
+    categoryOrder = data.categories.map((cat) => cat.id);
     renderCategoryNav(data);
     renderSummary(data);
     renderCategories(data);
