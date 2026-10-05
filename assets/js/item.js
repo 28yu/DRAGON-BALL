@@ -207,9 +207,9 @@ function galleryHTML(item) {
       : ""}</p>`;
   }
   return `<ul class="gallery">${list
-    .map((img) => `
+    .map((img, i) => `
       <li>
-        <a href="${escapeHTML(img.path)}" target="_blank" rel="noopener">
+        <a href="${escapeHTML(img.path)}" target="_blank" rel="noopener" data-photo-index="${i}" aria-label="拡大して見る：${escapeHTML(captionText(img.caption) || item.title)}">
           <img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">${referenceLabel(img)}
         </a>
         ${captionText(img.caption) ? `<span class="gallery-caption">${escapeHTML(captionText(img.caption))}</span>` : ""}
@@ -236,7 +236,7 @@ function photoSliderHTML(images, title) {
   }
   const n = slides.length;
   return `<div class="photo-slider" data-count="${n}">
-    <div class="slider-track" tabindex="0" aria-label="写真${n > 1 ? "（左右にスクロールで切り替え）" : ""}">${slides.join("")}</div>
+    <div class="slider-track" tabindex="0" role="button" aria-label="写真${n > 1 ? "（左右にスクロールで切り替え、タップで拡大）" : "（タップで拡大）"}">${slides.join("")}</div>
     ${n > 1 ? `<button type="button" class="slider-edge prev" aria-label="前の写真"></button>
       <button type="button" class="slider-edge next" aria-label="次の写真"></button>
       <span class="slider-count" aria-live="polite">1 / ${n}</span>` : ""}
@@ -263,6 +263,74 @@ function initPhotoSliders(root = document) {
       ticking = true;
       requestAnimationFrame(() => { counter.textContent = `${current() + 1} / ${n}`; ticking = false; });
     });
+  });
+}
+
+// ---------- 拡大表示（ページの上に重ねて表示。拡大中も横スクロール・両端タップで切り替え） ----------
+// 一番上の写真の中央をタップ、または下の画像一覧の写真をタップすると開く
+function initLightbox(root = document) {
+  const top = root.querySelector(".detail-photo .photo-slider");
+  if (!top) return;
+  const topTrack = top.querySelector(".slider-track");
+  const n = Number(top.dataset.count) || 1;
+  const box = document.createElement("div");
+  box.className = "lightbox";
+  box.hidden = true;
+  box.setAttribute("role", "dialog");
+  box.setAttribute("aria-modal", "true");
+  box.setAttribute("aria-label", "写真の拡大表示");
+  box.innerHTML = `
+    <button type="button" class="lightbox-close" aria-label="閉じる">×</button>
+    <div class="photo-slider lightbox-slider" data-count="${n}">
+      <div class="slider-track" tabindex="-1">${topTrack.innerHTML}</div>
+      ${n > 1 ? `<button type="button" class="slider-edge prev" aria-label="前の写真"></button>
+        <button type="button" class="slider-edge next" aria-label="次の写真"></button>
+        <span class="slider-count" aria-live="polite">1 / ${n}</span>` : ""}
+    </div>`;
+  document.body.appendChild(box);
+  box.querySelectorAll("img").forEach((img) => img.removeAttribute("loading"));
+  initPhotoSliders(box);
+  const track = box.querySelector(".slider-track");
+  const counter = box.querySelector(".slider-count");
+  let opener = null;
+  const open = (index, from) => {
+    opener = from || null;
+    box.hidden = false;
+    document.documentElement.classList.add("lightbox-open");
+    track.scrollTo({ left: index * track.clientWidth, behavior: "instant" });
+    if (counter) counter.textContent = `${index + 1} / ${n}`;
+    box.querySelector(".lightbox-close").focus();
+  };
+  const close = () => {
+    box.hidden = true;
+    document.documentElement.classList.remove("lightbox-open");
+    if (opener) opener.focus();
+  };
+  box.querySelector(".lightbox-close").addEventListener("click", close);
+  // 写真の外側（暗い部分）をタップすると閉じる。写真は枠いっぱいの入れ物に縦横比を保って描かれるので、実際に描かれた範囲で判定する
+  const onPicture = (e) => {
+    if (e.target.closest(".demo-slide span")) return true;
+    const img = e.target.closest("img");
+    if (!img || !img.naturalWidth) return false;
+    const r = img.getBoundingClientRect();
+    const scale = Math.min(r.width / img.naturalWidth, r.height / img.naturalHeight);
+    const w = img.naturalWidth * scale, h = img.naturalHeight * scale;
+    const left = r.left + (r.width - w) / 2, top = r.top + (r.height - h) / 2;
+    return e.clientX >= left && e.clientX <= left + w && e.clientY >= top && e.clientY <= top + h;
+  };
+  track.addEventListener("click", (e) => { if (!onPicture(e)) close(); });
+  document.addEventListener("keydown", (e) => {
+    if (box.hidden) return;
+    if (e.key === "Escape") close();
+    if (e.key === "ArrowLeft") box.querySelector(".slider-edge.prev")?.click();
+    if (e.key === "ArrowRight") box.querySelector(".slider-edge.next")?.click();
+  });
+  // 一番上の写真：中央をタップすると、今見ている写真から拡大
+  topTrack.addEventListener("click", () => open(Math.round(topTrack.scrollLeft / topTrack.clientWidth), topTrack));
+  topTrack.addEventListener("keydown", (e) => { if (e.key === "Enter") open(Math.round(topTrack.scrollLeft / topTrack.clientWidth), topTrack); });
+  // 下の画像一覧：タップした写真から拡大（一番上の写真と同じ順番）
+  root.querySelectorAll(".gallery a[data-photo-index]").forEach((a) => {
+    a.addEventListener("click", (e) => { e.preventDefault(); open(Number(a.dataset.photoIndex), a); });
   });
 }
 
@@ -627,6 +695,8 @@ function findFigure(data, id) {
     if (figure) {
       renderFigure(data, figure.series, figure.fig);
       initPhotoSliders(el);
+    initLightbox(el);
+      initLightbox(el);
       renderAutoMarket({ ...figure.fig, title: figureName(figure.fig) });
       return;
     }
@@ -638,6 +708,7 @@ function findFigure(data, id) {
     }
     renderItem(data, item);
     initPhotoSliders(el);
+    initLightbox(el);
     renderAutoMarket(item);
   } catch (err) {
     showLoadError(el, err);
