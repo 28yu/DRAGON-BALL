@@ -363,7 +363,7 @@ function renderItem(data, item) {
     <section><h2 class="section-title">${isCapsuleSeries(item) ? "相場の推移（全種セット・自動取得＋メルカリ）" : "相場の推移（自動取得＋メルカリ）"}</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
     ${section("参考URL・出典", referencesHTML(item))}
-    ${section("変更履歴", historyHTML(item))}
+    ${/* 変更履歴はオーナー指示（2026-10-05）で表示しない（データの history は残す） */ ""}
   `;
 }
 

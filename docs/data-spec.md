@@ -43,7 +43,7 @@
 | `images` | 画像 | `[{ "path": "assets/images/items/FC-001/front.jpg", "caption": "箱の表" }]`。管理IDのフォルダに置く。先頭の1枚が一覧のサムネイルになる。未所持品の参考画像には `"kind": "reference"` を付ける（画面の「参考画像」ラベル、説明文の「（参考画像・…）」は 2026-10-05 オーナー指示で表示しない） |
 | `alerts` | 要確認事項 | 文字列の配列。一覧と詳細に「要確認」として表示 |
 | `notes` | メモ | 自由記述 |
-| `history` | 変更履歴 | `[{ "date": "2026-10-02", "change": "収集対象として登録" }]` |
+| `history` | 変更履歴 | `[{ "date": "2026-10-02", "change": "収集対象として登録" }]`。記録は続けるが、画面には表示しない（2026-10-05 オーナー指示） |
 
 ### 情報項目（release / publisher / isbn / modelNumber / platform / genre / listPrice）
 
