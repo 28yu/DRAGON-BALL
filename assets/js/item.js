@@ -89,6 +89,40 @@ function purchasesHTML(item) {
     .join("");
 }
 
+// 版の違い・見分け方（復刻版・前期／後期・非売品・海外版など）
+const EDITION_KIND_LABELS = {
+  regular: "通常版",
+  reprint: "再販・復刻",
+  revision: "修正版",
+  promo: "非売品",
+  overseas: "海外版",
+  fake: "偽物に注意",
+  other: "その他",
+};
+function editionsHTML(item) {
+  const list = item.editions || [];
+  const note = item.editionsNote ? `<p class="empty-box" style="border-style:solid;color:var(--text)">${escapeHTML(item.editionsNote)}</p>` : "";
+  if (list.length === 0) return note || `<p class="empty-box">版の違いの情報はまだありません。</p>`;
+  const cards = list.map((e) => {
+    const status = FACT_STATUS_LABELS[e.status] ? e.status : "reference";
+    const kindLabel = EDITION_KIND_LABELS[e.kind] || EDITION_KIND_LABELS.other;
+    const rows = [
+      e.release ? row("発売・配布", escapeHTML(formatDate(e.release))) : "",
+      row("どんな版か", `<span style="white-space:pre-line">${escapeHTML(e.summary || "")}</span>`),
+      (e.identify || []).length ? row("見分け方", `<ul class="check-list">${e.identify.map((t) => `<li>${escapeHTML(t)}</li>`).join("")}</ul>`) : "",
+      e.price ? row("価格の目安", escapeHTML(e.price)) : "",
+      e.note ? row("補足", escapeHTML(e.note)) : "",
+      (e.sources || []).length ? row("出典", sourcesHTML(e.sources)) : "",
+    ].join("");
+    return `
+      <h3 class="sub-title">${escapeHTML(e.name)}
+        ${String(e.name).startsWith(kindLabel) ? "" : `<span class="tag">${escapeHTML(kindLabel)}</span>`}
+        <span class="tag tag-${status}">${FACT_STATUS_LABELS[status]}</span></h3>
+      <table class="info-table"><tbody>${rows}</tbody></table>`;
+  }).join("");
+  return `<p class="notice">欲しい版と違う物を買わないための情報です。資料（ブログ・記事など）をもとにまとめた参考情報で、現物での確認はまだです。</p>${cards}${note}`;
+}
+
 function marketPricesHTML(item) {
   const list = item.marketPrices || [];
   if (list.length === 0) return `<p class="empty-box">相場調査の記録はまだありません。</p>`;
@@ -307,6 +341,7 @@ function renderItem(data, item) {
     </div>
     ${figuresHTML(item)}
     ${section("基本情報", basicInfoHTML(item, category))}
+    ${item.editions || item.editionsNote ? section("版の違い・見分け方", editionsHTML(item)) : ""}
     ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
     ${section("所持状況・商品の状態", ownershipHTML(item))}
     ${section("購入記録", purchasesHTML(item))}

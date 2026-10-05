@@ -107,6 +107,17 @@ for (const item of data.items || []) {
 
   if (item.market && !item.market.query) errors.push(`${where}: market には検索語 query が必須です`);
   checkMarket(where, item.market, item.market?.grades);
+  // 版の違い・見分け方（editions）
+  const EDITION_KINDS = ["regular", "reprint", "revision", "promo", "overseas", "fake", "other"];
+  for (const e of item.editions || []) {
+    const ew = `${where} の版「${e.name || "(名前なし)"}」`;
+    if (!e.name) errors.push(`${ew}: name が必須です`);
+    if (!EDITION_KINDS.includes(e.kind)) errors.push(`${ew}: kind は ${EDITION_KINDS.join(" / ")} のいずれか`);
+    if (!FACT_STATUS.includes(e.status)) errors.push(`${ew}: status は ${FACT_STATUS.join(" / ")} のいずれか`);
+    if (e.release && !DATE_RE.test(e.release)) errors.push(`${ew}: release の日付の形式が不正です (${e.release})`);
+    if (!(e.sources || []).length) errors.push(`${ew}: 出典 sources が必須です`);
+    for (const src of e.sources || []) if (!src.url) errors.push(`${ew}: 出典に url がありません`);
+  }
   for (const p of item.purchases || []) {
     if (p.date && !DATE_RE.test(p.date)) errors.push(`${where}: 購入日の形式が不正です (${p.date})`);
   }

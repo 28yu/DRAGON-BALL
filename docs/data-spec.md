@@ -33,6 +33,8 @@
 | `contents` | 商品内容（フィギュア等） | 情報項目形式。`capsule` で使用（全何種・ボーナスパーツ等）。詳細画面では価格を「メーカー希望小売価格」として表示 |
 | `figures` | シリーズ内のフィギュア（`capsule`） | `[{ "id": "DBC-001-01", "no": 1, "name": 情報項目, "ownership": {...}, "market": {...}, "marketPrices": [], "images": [], "notes": "" }]`。`market` / `marketPrices` はフィギュア1体ずつの相場（書き方は商品と同じ）。管理IDは「シリーズID-2桁の番号」で、`item.html?id=DBC-001-01` が1体のページになる。名称が公式で分からないものは `name.status: "unconfirmed"`（画面では「No.1（名称未確認）」）。画像はシリーズのフォルダに置く |
 | `market` | 相場の自動取得の検索条件 | `{ "query": "検索語", "mustInclude": ["必ず含む語（正規表現）"], "exclude": ["除外する語"] }`。任意で `allowWords`（共通の除外語のうち、この商品では除外しない語）、`mercariQuery`（メルカリの売り切れ一覧の検索語。省略時は `query`）。詳しくは下の「相場の自動取得」 |
+| `editions` | 版の違い・見分け方（2026-10-05 から、FC・SFC） | 下記「版の違い（editions）」参照。詳細ページの基本情報の下に表示 |
+| `editionsNote` | 版の違いについての補足 | 例：「調べた範囲では版違いは見つかっていない（2026-10-05）」 |
 | `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }` |
 | `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null` |
 | `purchases` | 購入記録（複数可） | 下記参照 |
@@ -61,6 +63,28 @@
 | `unconfirmed` | 未確認 | まだ調べていない／確認できない（`value` は `null`） |
 | `reference` | 参考情報・要確認 | 書店・データベース・ファンサイトなど二次資料の情報 |
 | `confirmed` | 確認済み | 現物（奥付・箱）や公式情報で確認できた |
+
+### 版の違い（editions）
+
+欲しい版と違う物を買わないための情報。1つの版は次の形。
+
+```json
+{
+  "name": "完全復刻版",
+  "kind": "reprint",
+  "release": "1991-07-27",
+  "status": "reference",
+  "summary": "どんな版か",
+  "identify": ["見分け方（チェック項目）", "..."],
+  "price": "価格の目安（いつ・どこの値段か）",
+  "note": "補足",
+  "sources": [ { "title": "...", "url": "https://..." } ]
+}
+```
+
+- `kind`：`regular`（通常版）/ `reprint`（再販・復刻）/ `revision`（修正版）/ `promo`（非売品）/ `overseas`（海外版）/ `fake`（偽物に注意）/ `other`
+- `status` は情報項目と同じ（ブログ・記事などの二次資料は `reference`、現物で確かめたら `confirmed`）。`sources` は必須。
+- `release` は年・年月・年月日のいずれか（不明なら `null`）。
 
 ### 所持状況（ownership.status）
 

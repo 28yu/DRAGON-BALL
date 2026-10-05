@@ -511,6 +511,12 @@ section[id], h2[id] { scroll-margin-top: 12px; }
   font-size: 0.82rem;
 }
 .source-list a { font-weight: 400; }
+/* 版の違い・見分け方のチェック項目 */
+.check-list {
+  margin: 0;
+  padding-left: 1.2em;
+}
+.check-list li + li { margin-top: 4px; }
 
 .empty-box {
   background: var(--surface);
