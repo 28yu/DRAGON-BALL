@@ -187,7 +187,7 @@ function figuresHTML(item) {
         </div>
       </a>
     </li>`).join("");
-  return section(`このシリーズのフィギュア（${figs.length}体）`, `<ul class="item-grid">${cards}</ul>`);
+  return section(`このシリーズのフィギュア（${figs.length}体）`, `<ul class="item-grid">${cards}</ul>`, "figures");
 }
 
 // 写真の説明文から「（参考画像・…）」の部分を除く（オーナー指示 2026-10-05。データの説明文は残す）
@@ -217,8 +217,64 @@ function galleryHTML(item) {
     .join("")}</ul>`;
 }
 
-function section(title, body) {
-  return `<section><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
+function section(title, body, id = "") {
+  return `<section${id ? ` id="${escapeHTML(id)}"` : ""}><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
+}
+
+// ---------- C：ページ内の目次（スマホでは画面上部に固定） ----------
+function tocHTML(entries) {
+  const list = entries.filter(Boolean);
+  if (list.length < 2) return "";
+  return `<nav class="page-toc" aria-label="このページの目次"><ul>${list
+    .map(([id, label]) => `<li><a href="#${escapeHTML(id)}">${escapeHTML(label)}</a></li>`)
+    .join("")}</ul></nav>`;
+}
+
+// ---------- A：ひと目でわかる要約 ----------
+function summaryTile(label, html, extra = "") {
+  return `<div class="summary-tile"><span class="summary-label">${escapeHTML(label)}</span><div class="summary-value">${html}</div>${extra}</div>`;
+}
+// 注意する版：再販・修正版・非売品の名前（かっこ書きは省く）。無ければ偽物の注意だけ
+function editionAlertHTML(item) {
+  const eds = item.editions || [];
+  const names = eds.filter((e) => ["reprint", "revision", "promo"].includes(e.kind)).map((e) => String(e.name).replace(/（.*?）/g, "").trim());
+  if (names.length) return `<a href="#editions">${escapeHTML([...new Set(names)].join("・"))}あり</a>`;
+  if (eds.some((e) => e.kind === "fake")) return `<a href="#editions">偽物（リプロ品）に注意</a>`;
+  return "";
+}
+function summaryHTML(item, opts = {}) {
+  const o = item.ownership || {};
+  const tiles = [];
+  tiles.push(summaryTile("所持状況", `${ownershipBadge(o.status)}${o.note ? `<span class="summary-sub">${escapeHTML(o.note)}</span>` : ""}`));
+  const p = (item.purchases || [])[0];
+  if (p && p.price != null) {
+    tiles.push(summaryTile("購入価格", `${escapeHTML(formatYen(p.price))}${p.shipping ? `<span class="summary-sub">＋送料${escapeHTML(formatYen(p.shipping))}</span>` : ""}${p.date ? `<span class="summary-sub">${escapeHTML(formatDate(p.date))}</span>` : ""}`));
+  }
+  tiles.push(summaryTile(opts.marketLabel || "相場の目安", `<span id="summary-market">読み込み中…</span>`));
+  const ed = editionAlertHTML(item);
+  if (ed) tiles.push(summaryTile("注意する版", ed));
+  return `<div class="summary-panel">${tiles.join("")}</div>`;
+}
+// 相場の目安（ヤフオク落札の最新の中央値。状態の区分があれば区分ごと、版ごとの集計があれば版も）
+function summaryMarketHTML(mine) {
+  const latest = (list) => list.sort((a, b) => b.date.localeCompare(a.date))[0];
+  const parts = [];
+  const base = latest(mine.filter((r) => !r.variant && r.source === "yahoo"));
+  if (base && base.count) {
+    const gs = (base.grades || []).filter((g) => g.count > 0 && g.key !== "sealed");
+    if (gs.length) gs.forEach((g) => parts.push(`${escapeHTML(g.label.replace(/（.*?）/g, ""))} <strong>${escapeHTML(formatYen(g.median))}</strong>`));
+    else parts.push(`<strong>${escapeHTML(formatYen(base.median))}</strong>`);
+  }
+  const vkeys = [...new Set(mine.filter((r) => r.variant).map((r) => r.variant))];
+  for (const k of vkeys) {
+    const v = latest(mine.filter((r) => r.variant === k && r.source === "yahoo"));
+    if (v && v.count) parts.push(`${escapeHTML(String(v.variantLabel || k).replace(/（.*?）/g, ""))} <strong>${escapeHTML(formatYen(v.median))}</strong>`);
+  }
+  if (parts.length) return `${parts.join("<br>")}<span class="summary-sub">ヤフオク落札の中央値（${escapeHTML(formatDate(base?.date || ""))}）</span>`;
+  // ヤフオクに無ければ、ほかの取得元の最新
+  const other = latest(mine.filter((r) => !r.variant && r.count > 0));
+  if (other) return `<strong>${escapeHTML(formatYen(other.median))}</strong><span class="summary-sub">中央値（${escapeHTML(formatDate(other.date))}）</span>`;
+  return `<span class="summary-sub">まだ記録がありません</span>`;
 }
 
 // メルカリの欄。メルカリは自動取得できない（公開ページに価格が含まれない）ため、
@@ -264,6 +320,8 @@ async function renderAutoMarket(item) {
     hist = await res.json();
   } catch {
     el.innerHTML = `${mercariBlockHTML(item)}<p class="empty-box">まだ自動取得の記録はありません（1日1回、朝6時ごろに更新）。</p>`;
+    const sm = document.getElementById("summary-market");
+    if (sm) sm.innerHTML = `<span class="summary-sub">まだ記録がありません</span>`;
     return;
   }
   const run = hist.meta?.lastRun;
@@ -309,12 +367,45 @@ async function renderAutoMarket(item) {
       blocksFor(mine.filter((r) => !r.variant), "通常版") +
       variants.map(([k, l]) => blocksFor(mine.filter((r) => r.variant === k), l)).join("")
     : blocksFor(mine);
+  // 最新の値だけの一覧（取得元ごとに1行。状態の区分は小さい行で続ける）
+  const yen = (v) => escapeHTML(formatYen(v));
+  const rangeText = (o) => (o.count && o.min !== o.max ? `${yen(o.min)}〜${yen(o.max)}` : "");
+  const latestRows = (list, hideEmpty) => SOURCE_ORDER.map((key) => {
+    const r = list.filter((x) => x.source === key).sort((a, b) => b.date.localeCompare(a.date))[0];
+    if (!r || (hideEmpty && !r.count)) return "";
+    const label = run?.sources[key]?.label || key;
+    const subs = (r.grades || []).filter((g) => g.count > 0).map((g) => `<tr class="sub-row"><td>${escapeHTML(g.label)}</td>
+      <td>${yen(g.median)}${rangeText(g) ? `<span class="summary-sub">${rangeText(g)}</span>` : ""}</td><td>${g.count}件</td></tr>`).join("");
+    return `<tr><td>${escapeHTML(label)} <a class="sub-link" href="${escapeHTML(r.searchUrl)}" target="_blank" rel="noopener noreferrer">検索結果</a><span class="summary-sub">${escapeHTML(formatDate(r.date))}</span></td>
+      <td><strong>${r.count ? yen(r.median) : "—"}</strong>${rangeText(r) ? `<span class="summary-sub">${rangeText(r)}</span>` : ""}</td><td>${r.count}件</td></tr>${subs}`;
+  }).join("");
+  const mercariRecs = (item.marketPrices || []).filter(isMercariRecord).sort((a, b) => String(b.surveyedAt).localeCompare(String(a.surveyedAt)));
+  const m0 = mercariRecs[0];
+  const mRange = m0 && m0.priceMin != null && m0.priceMax != null && m0.priceMin !== m0.priceMax ? `${yen(m0.priceMin)}〜${yen(m0.priceMax)}` : "";
+  const mercariRow = `<tr><td>メルカリ（売り切れ・手入力） <a class="sub-link" href="${escapeHTML(mercariSearchURL(item))}" target="_blank" rel="noopener noreferrer">売り切れ一覧</a>${m0 ? `<span class="summary-sub">${escapeHTML(formatDate(m0.surveyedAt))}</span>` : ""}</td>
+    <td><strong>${m0 ? yen(m0.priceMin ?? m0.priceMax) : "—"}</strong>${mRange ? `<span class="summary-sub">${mRange}</span>` : ""}</td><td>${m0 ? "手入力" : "記録なし"}</td></tr>`;
+  const groups = variants.length
+    ? [["通常版", mine.filter((r) => !r.variant)], ...variants.map(([k, l]) => [l, mine.filter((r) => r.variant === k)])]
+    : [["", mine]];
+  const body = groups.map(([g, list], i) => `${g ? `<tr class="group-row"><th colspan="3">${escapeHTML(g)}</th></tr>` : ""}${i === 0 ? mercariRow : ""}${latestRows(list, i > 0)}`).join("");
+  const hasGrades = mine.some((r) => r.grades?.length);
+  const latestTable = `
+    <div class="table-scroll"><table class="info-table history-table market-latest">
+      <thead><tr><th>取得元</th><th>中央値（価格の幅）</th><th>件数</th></tr></thead>
+      <tbody>${body}</tbody></table></div>
+    <p class="sub-note">ヤフオクは落札済み、ブックオフ・楽天は出品中の価格です。${hasGrades ? "小さい行は、出品名から機械的に分けた状態ごとの目安です。" : ""}${variants.length ? "出品名に版が書かれていない出品は通常版として数えています。" : ""}${run ? `最終取得：${escapeHTML(formatDate(run.date))}（毎朝6時ごろ更新）` : ""}</p>`;
   el.innerHTML = `
     ${setNote}
-    ${mercariBlockHTML(item)}
-    ${blocks || `<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
-    ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
-      件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは、ヤフオクで区分を表示している商品以外は区別していません。</div>` : ""}`;
+    ${mine.length ? latestTable : `${latestTable}<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
+    <details class="more-box"><summary>過去の記録を見る</summary>
+      ${variants.length ? `<p class="notice">この商品は版によって相場が大きく違うため、<strong>通常版</strong>と${variants.map(([, l]) => `<strong>${escapeHTML(l)}</strong>`).join("・")}を分けて集計しています。</p>` : ""}
+      ${mercariBlockHTML(item)}
+      ${blocks}
+      ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
+        件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは、ヤフオクで区分を表示している商品以外は区別していません。</div>` : ""}
+    </details>`;
+  const sm = document.getElementById("summary-market");
+  if (sm) sm.innerHTML = summaryMarketHTML(mine);
 }
 
 // カプセルのシリーズ（フィギュアの一覧を持つ商品）。相場は全種セットのものを表示する
@@ -351,17 +442,27 @@ function renderItem(data, item) {
           <span class="tag">${escapeHTML(category?.label || item.category)}</span>
         </div>
         ${alerts}
+        ${summaryHTML(item, { marketLabel: isCapsuleSeries(item) ? "全種セットの相場" : "相場の目安" })}
       </div>
     </div>
+    ${tocHTML([
+      isCapsuleSeries(item) && ["figures", "フィギュア"],
+      ["basic", "基本情報"],
+      (item.editions || item.editionsNote) && ["editions", "版の違い"],
+      ["gallery", "画像"],
+      ["ownership", "所持・購入"],
+      ["market", "相場"],
+      ["memo", "メモ・出典"],
+    ])}
     ${figuresHTML(item)}
-    ${section("基本情報", basicInfoHTML(item, category))}
-    ${item.editions || item.editionsNote ? section("版の違い・見分け方", editionsHTML(item)) : ""}
-    ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item))}
-    ${section("所持状況・商品の状態", ownershipHTML(item))}
+    ${section("基本情報", basicInfoHTML(item, category), "basic")}
+    ${item.editions || item.editionsNote ? section("版の違い・見分け方", editionsHTML(item), "editions") : ""}
+    ${section(`画像（${(item.images || []).length}枚）`, galleryHTML(item), "gallery")}
+    ${section("所持状況・商品の状態", ownershipHTML(item), "ownership")}
     ${section("購入記録", purchasesHTML(item))}
+    <section id="market"><h2 class="section-title">${isCapsuleSeries(item) ? "相場（全種セット・自動取得＋メルカリ）" : "相場（自動取得＋メルカリ）"}</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
     ${section(isCapsuleSeries(item) ? "中古相場（全種セットの調査記録）" : "中古相場（調査記録）", marketPricesHTML(item))}
-    <section><h2 class="section-title">${isCapsuleSeries(item) ? "相場の推移（全種セット・自動取得＋メルカリ）" : "相場の推移（自動取得＋メルカリ）"}</h2><div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
-    ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`)}
+    ${section("メモ", item.notes ? `<p class="empty-box" style="border-style:solid;color:var(--text);white-space:pre-line">${escapeHTML(item.notes)}</p>` : `<p class="empty-box">メモはありません。</p>`, "memo")}
     ${section("参考URL・出典", referencesHTML(item))}
     ${/* 変更履歴はオーナー指示（2026-10-05）で表示しない（データの history は残す） */ ""}
   `;
@@ -390,8 +491,10 @@ function renderFigure(data, series, fig) {
           <span class="tag">${escapeHTML(category?.label || series.category)}</span>
         </div>
         <p class="series-link">シリーズ：<a href="${itemURL(series.id)}">${escapeHTML(series.title)}</a></p>
+        ${summaryHTML({ ownership: o }, { marketLabel: "1体の相場" })}
       </div>
     </div>
+    ${tocHTML([["basic", "情報"], ["gallery", "画像"], ["market", "相場"], ["others", "ほかのフィギュア"]])}
     ${section("フィギュアの情報", `<table class="info-table">
       ${row("管理ID", `<span class="item-id">${escapeHTML(fig.id)}</span>`)}
       ${row("名称", factHTML(fig.name))}
@@ -400,18 +503,18 @@ function renderFigure(data, series, fig) {
       ${row("発売日・発売年", factHTML(series.release, formatDate))}
       ${row("メーカー希望小売価格", factHTML(series.listPrice, formatYen))}
       ${fig.notes ? row("メモ", escapeHTML(fig.notes)) : ""}
-    </table>`)}
-    ${section(`画像（${(fig.images || []).length}枚）`, galleryHTML({ ...series, images: fig.images, title: name }))}
+    </table>`, "basic")}
+    ${section(`画像（${(fig.images || []).length}枚）`, galleryHTML({ ...series, images: fig.images, title: name }), "gallery")}
     ${section("所持状況", `<table class="info-table">
       ${row("所持状況", `${ownershipBadge(o.status)}${o.checkedAt ? `<span class="sub-note">確認日：${escapeHTML(formatDate(o.checkedAt))}</span>` : ""}${o.note ? `<span class="sub-note">${escapeHTML(o.note)}</span>` : ""}`)}
     </table>`)}
-    ${section("中古相場（調査記録）", marketPricesHTML(fig))}
-    <section><h2 class="section-title">相場の推移（自動取得＋メルカリ）</h2>
-      <p class="notice">このフィギュア1体だけの出品を集計しています（セット・まとめ売りは除外）。全種セットの相場は<a href="${itemURL(series.id)}">シリーズのページ</a>で見られます。</p>
+    <section id="market"><h2 class="section-title">相場（自動取得＋メルカリ）</h2>
+      <p class="sub-note">このフィギュア1体だけの出品を集計しています（セット・まとめ売りは除外）。全種セットの相場は<a href="${itemURL(series.id)}">シリーズのページ</a>で見られます。</p>
       <div id="auto-market"><p class="empty-box">読み込み中…</p></div></section>
+    ${section("中古相場（調査記録）", marketPricesHTML(fig))}
     ${section("ほかのフィギュア", `<ul class="figure-nav">${(series.figures || [])
       .map((f) => `<li>${f.id === fig.id ? `<strong>${escapeHTML(figureName(f))}</strong>` : `<a href="${itemURL(f.id)}">${escapeHTML(figureName(f))}</a>`}</li>`)
-      .join("")}</ul>`)}
+      .join("")}</ul>`, "others")}
   `;
 }
 

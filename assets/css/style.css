@@ -583,6 +583,94 @@ section[id], h2[id] { scroll-margin-top: 12px; }
 }
 .site-footer p { margin: 0 0 4px; }
 
+/* ---------- 詳細ページ：ひと目でわかる要約（A） ---------- */
+.summary-panel {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 10px;
+  margin: 16px 0 6px;
+}
+.summary-tile {
+  background: var(--surface);
+  border: 2px solid var(--ink);
+  box-shadow: var(--shadow);
+  padding: 8px 12px 10px;
+  min-width: 0;
+}
+.summary-label {
+  display: block;
+  font-size: 0.74rem;
+  font-weight: 900;
+  color: var(--text-muted);
+  margin-bottom: 4px;
+}
+.summary-value { font-size: 0.95rem; line-height: 1.5; overflow-wrap: anywhere; }
+.summary-value strong { font-size: 1.05rem; }
+.summary-sub {
+  display: block;
+  font-size: 0.76rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+/* ---------- 詳細ページ：ページ内の目次（C）。スクロールしても上に残る ---------- */
+.page-toc {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  margin: 14px 0 0;
+  padding: 8px 0;
+  background: var(--bg);
+  border-bottom: 2px solid var(--ink);
+}
+.page-toc ul {
+  display: flex;
+  gap: 6px;
+  margin: 0;
+  padding: 0 0 2px;
+  list-style: none;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.page-toc a {
+  display: inline-block;
+  padding: 4px 10px;
+  border: 2px solid var(--ink);
+  background: var(--surface);
+  color: var(--text);
+  font-size: 0.82rem;
+  font-weight: 900;
+  text-decoration: none;
+}
+.page-toc a:hover, .page-toc a:focus-visible { background: var(--brand-yellow); color: #161616; }
+/* 目次で移動したとき、見出しが固定の目次に隠れないようにする */
+#detail section[id] { scroll-margin-top: 64px; }
+
+/* ---------- 詳細ページ：相場の最新一覧（D） ---------- */
+.market-latest { width: 100%; }
+.market-latest td:nth-child(4) { font-weight: 400; }
+.market-latest td:first-child { white-space: normal; min-width: 9em; }
+.market-latest .group-row th {
+  background: var(--surface-alt);
+  color: var(--text);
+  text-align: left;
+  font-weight: 900;
+}
+.market-latest .sub-row td { font-size: 0.82rem; color: var(--text-muted); padding-top: 3px; padding-bottom: 3px; }
+.market-latest .sub-row td:first-child { padding-left: 1.6em; }
+.more-box {
+  margin-top: 14px;
+  border: 2px solid var(--ink);
+  background: var(--surface);
+  padding: 0 12px;
+}
+.more-box > summary {
+  cursor: pointer;
+  padding: 10px 0;
+  font-weight: 900;
+}
+.more-box[open] { padding-bottom: 12px; }
+
 /* ---------- スマートフォン ---------- */
 @media (max-width: 640px) {
   .site-header { padding: 20px 0 18px; }
