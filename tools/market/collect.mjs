@@ -29,23 +29,28 @@ const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // �
 
 // ---------- robots.txt ----------
 const robotsCache = new Map();
+const robotsWhy = new Map();
 async function robotsAllows(url) {
   const u = new URL(url);
   if (!robotsCache.has(u.origin)) {
     let rules = [];
+    let why = "";
     try {
       const res = await fetch(`${u.origin}/robots.txt`, { headers: { "User-Agent": UA } });
       // 404/410（ファイルなし）は制限なし。それ以外のエラーは確認できないものとして扱う
       if (res.ok) rules = parseRobots(await res.text());
       else if (res.status === 404 || res.status === 410) rules = [];
-      else rules = null;
-    } catch {
+      else { rules = null; why = `HTTP ${res.status}`; }
+    } catch (e) {
       rules = null; // robots.txt を確認できない場合は安全側に倒して取得しない
+      why = e.cause?.code || e.message;
     }
     robotsCache.set(u.origin, rules);
+    // 確認できなかった理由（サイトの応答番号・通信エラーの種類）を記録に残す
+    if (rules === null) robotsWhy.set(u.origin, why);
   }
   const rules = robotsCache.get(u.origin);
-  if (rules === null) return { ok: false, reason: "robots.txt を確認できなかったため取得しない" };
+  if (rules === null) return { ok: false, reason: `robots.txt を確認できなかったため取得しない（${robotsWhy.get(u.origin)}）` };
   const path = u.pathname + u.search;
   let best = null;
   for (const r of rules) {
