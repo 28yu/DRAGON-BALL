@@ -25,10 +25,16 @@ function factHTML(fact, format = (v) => v) {
   const status = FACT_STATUS_LABELS[fact.status] ? fact.status : "reference";
   return `
     <span class="value-line">${escapeHTML(format(fact.value))}
-      <span class="tag tag-${status}">${FACT_STATUS_LABELS[status]}</span>
+      ${statusTag(status)}
     </span>
     ${fact.note ? `<span class="sub-note">${escapeHTML(fact.note)}</span>` : ""}
     ${sourcesHTML(fact.sources)}`;
+}
+
+// 確認状況の札。「参考情報・要確認」の札はオーナー指示（2026-10-05）で表示しない（データの status は残す）
+function statusTag(status) {
+  if (!status || status === "reference" || !FACT_STATUS_LABELS[status]) return "";
+  return `<span class="tag tag-${escapeHTML(status)}">${FACT_STATUS_LABELS[status]}</span>`;
 }
 
 function row(label, html) {
@@ -117,7 +123,7 @@ function editionsHTML(item) {
     return `
       <h3 class="sub-title">${escapeHTML(e.name)}
         ${String(e.name).startsWith(kindLabel) ? "" : `<span class="tag">${escapeHTML(kindLabel)}</span>`}
-        <span class="tag tag-${status}">${FACT_STATUS_LABELS[status]}</span></h3>
+        ${statusTag(status)}</h3>
       <table class="info-table"><tbody>${rows}</tbody></table>`;
   }).join("");
   return `<p class="notice">欲しい版と違う物を買わないための情報です。資料（ブログ・記事など）をもとにまとめた参考情報で、現物での確認はまだです。</p>${cards}${note}`;
@@ -178,7 +184,7 @@ function figuresHTML(item) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(fig.id)}</span>
           <h3 class="item-title">${escapeHTML(figureName(fig))}</h3>
-          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${fig.name?.status === "unconfirmed" ? "" : `<span class="tag tag-${escapeHTML(fig.name.status)}">${FACT_STATUS_LABELS[fig.name.status]}</span>`}</div>
+          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${statusTag(fig.name?.status)}</div>
         </div>
       </a>
     </li>`).join("");
@@ -343,7 +349,6 @@ function renderItem(data, item) {
     </div>
     <div class="legend">
       <span><span class="tag tag-confirmed">確認済み</span> 現物・公式情報で確認</span>
-      <span><span class="tag tag-reference">参考情報・要確認</span> 二次資料による情報</span>
       <span>${unconfirmedText()} まだ調べていない／確認できない</span>
     </div>
     ${figuresHTML(item)}
