@@ -25,6 +25,20 @@ const categories = new Map((data.categories || []).map((c) => [c.id, c]));
 for (const c of data.categories || []) {
   if (c.inSummary !== undefined && typeof c.inSummary !== "boolean") errors.push(`カテゴリー ${c.id}: inSummary は true / false で書いてください`);
 }
+// 相場の検索条件（mustInclude / exclude / 状態の区分 grades）が正規表現として正しく書けているか
+function checkMarket(where, market, grades) {
+  const test = (label, src) => {
+    try { new RegExp(src, "i"); } catch (e) { errors.push(`${where}: ${label} の書き方が正しくありません (${src})`); }
+  };
+  for (const w of market?.mustInclude || []) test("market.mustInclude", w);
+  for (const w of market?.exclude || []) test("market.exclude", w);
+  for (const g of grades || []) {
+    if (!g.key || !g.label) errors.push(`${where}: 状態の区分には key と label が必須です`);
+    if (g.match) test("区分の match", g.match);
+    if (g.unless) test("区分の unless", g.unless);
+  }
+}
+for (const c of data.categories || []) checkMarket(`カテゴリー ${c.id}`, null, c.marketGrades);
 const seen = new Set();
 
 for (const item of data.items || []) {
@@ -84,6 +98,7 @@ for (const item of data.items || []) {
       if (!img.path || !existsSync(join(root, img.path))) errors.push(`${fw}: 画像ファイルが見つかりません (${img.path})`);
     }
     if (fig.market && !fig.market.query) errors.push(`${fw}: market には検索語 query が必須です`);
+    checkMarket(fw, fig.market, fig.market?.grades);
     for (const m of fig.marketPrices || []) {
       if (!m.surveyedAt || !DATE_RE.test(m.surveyedAt)) errors.push(`${fw}: 相場情報には調査日 surveyedAt が必須です`);
       if (!m.source?.url && !m.basis) errors.push(`${fw}: 相場情報には出典（source）か根拠（basis）が必須です`);
@@ -91,6 +106,7 @@ for (const item of data.items || []) {
   }
 
   if (item.market && !item.market.query) errors.push(`${where}: market には検索語 query が必須です`);
+  checkMarket(where, item.market, item.market?.grades);
   for (const p of item.purchases || []) {
     if (p.date && !DATE_RE.test(p.date)) errors.push(`${where}: 購入日の形式が不正です (${p.date})`);
   }

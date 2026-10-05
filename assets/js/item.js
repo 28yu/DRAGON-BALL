@@ -236,13 +236,23 @@ async function renderAutoMarket(item) {
     const recs = mine.filter((r) => r.source === key).sort((a, b) => b.date.localeCompare(a.date));
     if (recs.length === 0) return "";
     const label = run?.sources[key]?.label || key;
-    const rows = recs.slice(0, 14).map((r) => `
-      <tr><td>${escapeHTML(formatDate(r.date))}</td><td>${r.count}件</td>
-      <td>${r.count ? escapeHTML(formatYen(r.min)) : "—"}</td><td>${r.count ? escapeHTML(formatYen(r.median)) : "—"}</td><td>${r.count ? escapeHTML(formatYen(r.max)) : "—"}</td></tr>`).join("");
+    const cells = (s) => `<td>${s.count}件</td>
+      <td>${s.count ? escapeHTML(formatYen(s.min)) : "—"}</td><td>${s.count ? escapeHTML(formatYen(s.median)) : "—"}</td><td>${s.count ? escapeHTML(formatYen(s.max)) : "—"}</td>`;
+    // 状態の区分（未開封・箱付き・箱なし など）ごとの集計がある場合は、日付ごとに「全体」と各区分の行を出す
+    const graded = recs.some((r) => r.grades?.length);
+    const rows = graded
+      ? recs.slice(0, 7).map((r) => {
+          const subs = r.grades || [];
+          const span = subs.length + 1;
+          return `<tr><td rowspan="${span}">${escapeHTML(formatDate(r.date))}</td><td><strong>全体</strong></td>${cells(r)}</tr>` +
+            subs.map((g) => `<tr><td>${escapeHTML(g.label)}</td>${cells(g)}</tr>`).join("");
+        }).join("")
+      : recs.slice(0, 14).map((r) => `<tr><td>${escapeHTML(formatDate(r.date))}</td>${cells(r)}</tr>`).join("");
     return `
       <h3 class="sub-title">${escapeHTML(label)} <a class="sub-link" href="${escapeHTML(recs[0].searchUrl)}" target="_blank" rel="noopener noreferrer">検索結果を開く</a></h3>
+      ${graded ? `<p class="notice">状態（未開封・箱付きなど）は、出品名に書かれた語から機械的に分けた目安です。どの区分にも当てはまらない出品は「全体」にだけ含めています。</p>` : ""}
       <div class="table-scroll"><table class="info-table history-table">
-        <thead><tr><th>取得日</th><th>件数</th><th>最安</th><th>中央値</th><th>最高</th></tr></thead>
+        <thead><tr><th>取得日</th>${graded ? "<th>状態</th>" : ""}<th>件数</th><th>最安</th><th>中央値</th><th>最高</th></tr></thead>
         <tbody>${rows}</tbody></table></div>`;
   }).join("");
   el.innerHTML = `
@@ -250,7 +260,7 @@ async function renderAutoMarket(item) {
     ${mercariBlockHTML(item)}
     ${blocks || `<p class="empty-box">この商品の自動取得の記録はまだありません。</p>`}
     ${run ? `<div class="notice"><strong>最終取得：${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
-      件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは区別していません。</div>` : ""}`;
+      件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは、ヤフオクで区分を表示している商品以外は区別していません。</div>` : ""}`;
 }
 
 // カプセルのシリーズ（フィギュアの一覧を持つ商品）。相場は全種セットのものを表示する

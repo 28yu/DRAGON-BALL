@@ -23,6 +23,8 @@ const WAIT_MS = 3000;
 const SITE_URL = "https://28yu.github.io/DRAGON-BALL/";
 // どの商品でも除外する出品（まとめ売り・本体・攻略本など相場をゆがめるもの）
 const GLOBAL_EXCLUDE = ["まとめ", "セット", "本体", "大量", "空箱", "箱のみ", "説明書のみ"];
+// 共通の除外語のうち、そのままだと別の語にも当てはまるものの検索パターン（「セット」が「カセット」に当てはまらないように）
+const GLOBAL_PATTERN = { "セット": "(?<!カ)セット" };
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const today = new Date(Date.now() + 9 * 3600e3).toISOString().slice(0, 10); // 日本時間の日付
@@ -147,6 +149,8 @@ const SOURCES = {
   yahoo: {
     label: "ヤフオク（落札済み）",
     kind: "sold",
+    // 出品名に「箱説付」「未開封」などの状態が書かれるため、状態の区分ごとにも集計する
+    useGrades: true,
     // robots.txt に「Disallow: /closedsearch/*?*n=」（表示件数の指定）があるため n= は付けない（付けなくても1ページ50件まで表示される）
     searchUrl: (q) => `https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=${encodeURIComponent(q)}&va=${encodeURIComponent(q)}&b=1`,
     async fetch(q) {
@@ -215,7 +219,7 @@ function filterRows(rows, market) {
   const inc = (market.mustInclude || []).map((s) => new RegExp(s, "i"));
   // allowWords：共通の除外語のうち、この商品では除外しない語（全種セットの相場を取るシリーズの「セット」など）
   const allow = market.allowWords || [];
-  const exc = [...(market.exclude || []), ...GLOBAL_EXCLUDE.filter((w) => !allow.includes(w))];
+  const exc = [...(market.exclude || []), ...GLOBAL_EXCLUDE.filter((w) => !allow.includes(w)).map((w) => GLOBAL_PATTERN[w] || w)];
   return rows.filter((r) => r.price > 0 && inc.every((re) => re.test(r.title)) && !exc.some((w) => new RegExp(w, "i").test(r.title)));
 }
 function stats(rows) {
@@ -226,8 +230,23 @@ function stats(rows) {
   return { count: prices.length, min: prices[0], median, max: prices[prices.length - 1] };
 }
 
+// 状態の区分（未開封・箱付き・ソフトのみ など）ごとの集計。
+// 区分は items.json の market.grades、なければカテゴリーの marketGrades で定義する。
+// 出品名を上の区分から順に調べ、match に当てはまり unless に当てはまらない最初の区分に入れる（match のない区分は「それ以外すべて」）。
+// どの区分にも入らない出品は、全体の集計にだけ含める。
+function gradeStats(rows, grades) {
+  const groups = grades.map(() => []);
+  for (const r of rows) {
+    const i = grades.findIndex((g) => (!g.match || new RegExp(g.match, "i").test(r.title)) && !(g.unless && new RegExp(g.unless, "i").test(r.title)));
+    if (i >= 0) groups[i].push(r);
+  }
+  return grades.map((g, i) => ({ key: g.key, label: g.label, ...stats(groups[i]) }));
+}
+
 // ---------- メイン ----------
-const items = JSON.parse(readFileSync(ITEMS, "utf-8")).items.flatMap((i) => [i, ...(i.figures || [])]).filter((i) => i.market?.query);
+const DATA = JSON.parse(readFileSync(ITEMS, "utf-8"));
+const categoryGrades = Object.fromEntries((DATA.categories || []).map((c) => [c.id, c.marketGrades]));
+const items = DATA.items.flatMap((i) => [i, ...(i.figures || []).map((f) => ({ ...f, category: i.category }))]).filter((i) => i.market?.query);
 const history = existsSync(HISTORY)
   ? JSON.parse(readFileSync(HISTORY, "utf-8"))
   : { meta: { description: "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。" }, records: [] };
@@ -248,6 +267,7 @@ for (const [key, src] of Object.entries(SOURCES)) {
         continue;
       }
       const rows = filterRows(r.rows, item.market);
+      const grades = src.useGrades ? item.market.grades || categoryGrades[item.category] : null;
       const s = stats(rows);
       if (s.count === 0) st.empty++; else st.ok++;
       console.log(`[${key}] ${item.id} 取得${r.rows.length}件 → 対象${s.count}件` + (r.htmlLength ? `（ページ${r.htmlLength}文字）` : ""));
@@ -260,6 +280,7 @@ for (const [key, src] of Object.entries(SOURCES)) {
       history.records = history.records.filter((x) => !(x.date === today && x.id === item.id && x.source === key));
       history.records.push({
         date: today, id: item.id, source: key, kind: src.kind, ...s,
+        ...(grades?.length ? { grades: gradeStats(rows, grades) } : {}),
         searchUrl: src.searchUrl(item.market.query),
         ...(src.storeSamples === false ? {} : { samples: rows.slice(0, 3).map((x) => ({ title: x.title.slice(0, 80), price: x.price, url: x.url })) }),
       });
