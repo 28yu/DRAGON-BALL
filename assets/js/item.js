@@ -31,10 +31,9 @@ function factHTML(fact, format = (v) => v) {
     ${sourcesHTML(fact.sources)}`;
 }
 
-// 確認状況の札。「参考情報・要確認」の札はオーナー指示（2026-10-05）で表示しない（データの status は残す）
+// 確認状況の札（確認済み・参考情報）はオーナー指示（2026-10-05）で表示しない（データの status は残す）
 function statusTag(status) {
-  if (!status || status === "reference" || !FACT_STATUS_LABELS[status]) return "";
-  return `<span class="tag tag-${escapeHTML(status)}">${FACT_STATUS_LABELS[status]}</span>`;
+  return "";
 }
 
 function row(label, html) {
@@ -191,6 +190,14 @@ function figuresHTML(item) {
   return section(`このシリーズのフィギュア（${figs.length}体）`, `<ul class="item-grid">${cards}</ul>`);
 }
 
+// 写真の説明文から「（参考画像・…）」の部分を除く（オーナー指示 2026-10-05。データの説明文は残す）
+function captionText(caption) {
+  return String(caption || "")
+    .replace(/[・、]参考画像(?=[）)])/g, "")
+    .replace(/[（(]参考画像[^）)]*[）)]/g, "")
+    .trim();
+}
+
 function galleryHTML(item) {
   const list = (item.images || []).filter((img) => img.path);
   if (list.length === 0) {
@@ -205,7 +212,7 @@ function galleryHTML(item) {
         <a href="${escapeHTML(img.path)}" target="_blank" rel="noopener">
           <img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">${referenceLabel(img)}
         </a>
-        ${img.caption ? `<span class="gallery-caption">${escapeHTML(img.caption)}</span>` : ""}
+        ${captionText(img.caption) ? `<span class="gallery-caption">${escapeHTML(captionText(img.caption))}</span>` : ""}
       </li>`)
     .join("")}</ul>`;
 }
@@ -325,9 +332,8 @@ function renderItem(data, item) {
   const category = data.categories.find((c) => c.id === item.category);
   document.title = `${item.id} ${item.title} | ${data.meta?.title || "DRAGON BALL COLLECTION"}`;
 
-  const alerts = (item.alerts || [])
-    .map((a) => `<p class="notice notice-warn"><strong>要確認：</strong>${escapeHTML(a)}</p>`)
-    .join("");
+  // 要確認事項（alerts）の注意書きはオーナー指示（2026-10-05）で表示しない（データは残す）
+  const alerts = "";
 
   document.getElementById("detail").innerHTML = `
     <nav class="breadcrumb" aria-label="パンくずリスト">
@@ -346,10 +352,6 @@ function renderItem(data, item) {
         </div>
         ${alerts}
       </div>
-    </div>
-    <div class="legend">
-      <span><span class="tag tag-confirmed">確認済み</span> 現物・公式情報で確認</span>
-      <span>${unconfirmedText()} まだ調べていない／確認できない</span>
     </div>
     ${figuresHTML(item)}
     ${section("基本情報", basicInfoHTML(item, category))}

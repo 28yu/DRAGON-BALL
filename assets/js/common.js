@@ -54,7 +54,8 @@ function ownershipBadge(status) {
   return `<span class="badge badge-${key}">${OWNERSHIP_LABELS[key]}</span>`;
 }
 
-function unconfirmedText(text = "未確認") {
+// 値が無い・未確認の項目。「未確認」の文字はオーナー指示（2026-10-05）で表示せず、横棒にする
+function unconfirmedText(text = "—") {
   return `<span class="unconfirmed-text">${escapeHTML(text)}</span>`;
 }
 
@@ -68,8 +69,9 @@ function thumbHTML(item) {
 }
 
 // 未所持品の参考画像（オーナーの撮影ではない画像）に付けるラベル
+// 「参考画像」ラベルはオーナー指示（2026-10-05）で表示しない（データの kind: "reference" は残す）
 function referenceLabel(img) {
-  return img && img.kind === "reference" ? `<span class="ref-label">参考画像</span>` : "";
+  return "";
 }
 
 function itemURL(id) {

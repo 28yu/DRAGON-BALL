@@ -72,7 +72,8 @@ function renderSummary(data) {
     ? `<p class="notice">所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。</p>`
     : "";
 
-  const alertItems = data.items.filter((i) => (i.alerts || []).length > 0);
+  // 「確認が必要な対象があります」のお知らせはオーナー指示（2026-10-05）で表示しない
+  const alertItems = [];
   const alertNotice = alertItems.length
     ? `<p class="notice notice-warn">確認が必要な対象があります：${alertItems
         .map((i) => `<a href="${itemURL(i.id)}">${escapeHTML(i.id)}</a>`)
@@ -101,9 +102,10 @@ function cardTitle(item) {
 
 function itemCardHTML(item, cat) {
   const release = item.release?.value
-    ? `<span>${escapeHTML(formatDate(item.release.value))}${item.release.status !== "confirmed" ? "（要確認）" : ""}</span>`
+    ? `<span>${escapeHTML(formatDate(item.release.value))}</span>`
     : "";
-  const alert = (item.alerts || []).length ? `<span class="badge badge-warn">要確認</span>` : "";
+  // 「要確認」の札はオーナー指示（2026-10-05）で表示しない
+  const alert = "";
   return `
     <li class="item-card">
       <a href="${itemURL(item.id)}">
