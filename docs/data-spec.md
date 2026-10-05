@@ -35,7 +35,7 @@
 | `market` | 相場の自動取得の検索条件 | `{ "query": "検索語", "mustInclude": ["必ず含む語（正規表現）"], "exclude": ["除外する語"] }`。任意で `allowWords`（共通の除外語のうち、この商品では除外しない語）、`mercariQuery`（メルカリの売り切れ一覧の検索語。省略時は `query`）。詳しくは下の「相場の自動取得」 |
 | `editions` | 版の違い・見分け方（2026-10-05 から、FC・SFC） | 下記「版の違い（editions）」参照。詳細ページの基本情報の下に表示 |
 | `editionsNote` | 版の違いについての補足 | 例：「調べた範囲では版違いは見つかっていない（2026-10-05）」 |
-| `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }` |
+| `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }`。`note` は所持している物のみ「入手先：○○」（「オーナー申告」などは書かない） |
 | `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null` |
 | `purchases` | 購入記録（複数可） | 下記参照 |
 | `marketPrices` | 中古相場の調査記録（複数可） | 下記参照 |
