@@ -147,7 +147,8 @@ const SOURCES = {
   yahoo: {
     label: "ヤフオク（落札済み）",
     kind: "sold",
-    searchUrl: (q) => `https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=${encodeURIComponent(q)}&va=${encodeURIComponent(q)}&b=1&n=50`,
+    // robots.txt に「Disallow: /closedsearch/*?*n=」（表示件数の指定）があるため n= は付けない（付けなくても1ページ50件まで表示される）
+    searchUrl: (q) => `https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=${encodeURIComponent(q)}&va=${encodeURIComponent(q)}&b=1`,
     async fetch(q) {
       const r = await getText(this.searchUrl(q));
       if (r.skipped) return r;
