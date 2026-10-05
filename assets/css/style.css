@@ -627,15 +627,15 @@ section[id], h2[id] { scroll-margin-top: 12px; }
   top: 50%;
   width: 0;
   height: 0;
-  margin-top: -15px;
+  margin-top: -8px;
   border-style: solid;
-  filter: drop-shadow(0 0 1px #161616) drop-shadow(2px 2px 0 #161616);
-  opacity: 0.85;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.6));
+  opacity: 0.55;
   transition: opacity 0.15s, transform 0.15s;
 }
-.slider-edge.prev::after { left: 10px; border-width: 15px 20px 15px 0; border-color: transparent #ffffff transparent transparent; }
-.slider-edge.next::after { right: 10px; border-width: 15px 0 15px 20px; border-color: transparent transparent transparent #ffffff; }
-.slider-edge:hover::after, .slider-edge:focus-visible::after { opacity: 1; transform: scale(1.15); }
+.slider-edge.prev::after { left: 8px; border-width: 8px 11px 8px 0; border-color: transparent #ffffff transparent transparent; }
+.slider-edge.next::after { right: 8px; border-width: 8px 0 8px 11px; border-color: transparent transparent transparent #ffffff; }
+.slider-edge:hover::after, .slider-edge:focus-visible::after { opacity: 0.9; transform: scale(1.15); }
 .slider-edge:focus-visible { outline: 3px solid var(--accent); outline-offset: -3px; }
 .slider-count {
   position: absolute;
