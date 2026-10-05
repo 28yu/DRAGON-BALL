@@ -222,14 +222,16 @@ function section(title, body, id = "") {
 }
 
 // ---------- 一番上の写真：左右にスクロールして全部の写真を見る ----------
-// 動作確認用：写真が1枚以下のページは、仮の画像を足して3枚にする（オーナー指示 2026-10-05。不要になったら false にする）
+// 動作確認用：写真が1枚以下のページは、仮の画像を足して3枚にする（オーナー指示 2026-10-05。全部不要になったら false にする）
 const DEMO_FILL_SLIDES = true;
 const DEMO_SLIDE_COUNT = 3;
-function photoSliderHTML(images, title) {
+// 仮の画像を出さない管理ID。オーナーの指示（購入した商品など）があったら1件ずつ足す（2026-10-05 オーナー指示）
+const DEMO_FILL_EXCLUDE = new Set([]);
+function photoSliderHTML(images, title, id) {
   const slides = (images || []).filter((img) => img && img.path).map((img, i) => `
     <div class="slide"><div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || title)}" ${i === 0 ? "" : 'loading="lazy"'}></div></div>`);
   if (slides.length === 0) slides.push(`<div class="slide"><div class="thumb"><span class="thumb-placeholder">画像未登録</span></div></div>`);
-  if (DEMO_FILL_SLIDES && slides.length <= 1) {
+  if (DEMO_FILL_SLIDES && !DEMO_FILL_EXCLUDE.has(id) && slides.length <= 1) {
     for (let n = slides.length + 1; n <= DEMO_SLIDE_COUNT; n++) {
       slides.push(`<div class="slide"><div class="thumb demo-slide"><span>仮の画像 ${n} / ${DEMO_SLIDE_COUNT}<small>動作確認用（あとで削除）</small></span></div></div>`);
     }
@@ -634,7 +636,7 @@ function renderItem(data, item) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${photoSliderHTML(item.images, item.title)}${ownershipStamp(item.ownership?.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(item.images, item.title, item.id)}${ownershipStamp(item.ownership?.status)}</div>
         ${(() => {
           const group = data.items.filter((i) => i.category === item.category);
           return pagerHTML(group, group.indexOf(item), PAGER_GROUP_LABELS[item.category] || category?.label || item.category, cardTitle);
@@ -689,7 +691,7 @@ function renderFigure(data, series, fig) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${photoSliderHTML(fig.images, name)}${ownershipStamp(o.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(fig.images, name, fig.id)}${ownershipStamp(o.status)}</div>
         ${pagerHTML(series.figures || [], (series.figures || []).indexOf(fig), series.id, figureName)}
       </div>
       <div>
