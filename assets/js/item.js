@@ -221,6 +221,51 @@ function section(title, body, id = "") {
   return `<section${id ? ` id="${escapeHTML(id)}"` : ""}><h2 class="section-title">${escapeHTML(title)}</h2>${body}</section>`;
 }
 
+// ---------- 一番上の写真：左右にスクロールして全部の写真を見る ----------
+// 動作確認用：写真が1枚以下のページは、仮の画像を足して3枚にする（オーナー指示 2026-10-05。不要になったら false にする）
+const DEMO_FILL_SLIDES = true;
+const DEMO_SLIDE_COUNT = 3;
+function photoSliderHTML(images, title) {
+  const slides = (images || []).filter((img) => img && img.path).map((img, i) => `
+    <div class="slide"><div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || title)}" ${i === 0 ? "" : 'loading="lazy"'}></div></div>`);
+  if (slides.length === 0) slides.push(`<div class="slide"><div class="thumb"><span class="thumb-placeholder">画像未登録</span></div></div>`);
+  if (DEMO_FILL_SLIDES && slides.length <= 1) {
+    for (let n = slides.length + 1; n <= DEMO_SLIDE_COUNT; n++) {
+      slides.push(`<div class="slide"><div class="thumb demo-slide"><span>仮の画像 ${n} / ${DEMO_SLIDE_COUNT}<small>動作確認用（あとで削除）</small></span></div></div>`);
+    }
+  }
+  const n = slides.length;
+  return `<div class="photo-slider" data-count="${n}">
+    <div class="slider-track" tabindex="0" aria-label="写真${n > 1 ? "（左右にスクロールで切り替え）" : ""}">${slides.join("")}</div>
+    ${n > 1 ? `<button type="button" class="slider-edge prev" aria-label="前の写真"></button>
+      <button type="button" class="slider-edge next" aria-label="次の写真"></button>
+      <span class="slider-count" aria-live="polite">1 / ${n}</span>` : ""}
+  </div>`;
+}
+// 画像の両端をタップすると前後の写真へ（端では反対の端へ戻る）。スクロールに合わせて「何枚目か」を更新
+function initPhotoSliders(root = document) {
+  root.querySelectorAll(".photo-slider").forEach((box) => {
+    const track = box.querySelector(".slider-track");
+    const n = Number(box.dataset.count) || 1;
+    const counter = box.querySelector(".slider-count");
+    if (!track || n < 2) return;
+    const current = () => Math.round(track.scrollLeft / track.clientWidth);
+    const go = (i) => track.scrollTo({ left: ((i + n) % n) * track.clientWidth, behavior: "smooth" });
+    box.querySelector(".slider-edge.prev").addEventListener("click", () => go(current() - 1));
+    box.querySelector(".slider-edge.next").addEventListener("click", () => go(current() + 1));
+    track.addEventListener("keydown", (e) => {
+      if (e.key === "ArrowLeft") { e.preventDefault(); go(current() - 1); }
+      if (e.key === "ArrowRight") { e.preventDefault(); go(current() + 1); }
+    });
+    let ticking = false;
+    track.addEventListener("scroll", () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => { counter.textContent = `${current() + 1} / ${n}`; ticking = false; });
+    });
+  });
+}
+
 // ---------- 前後の商品へ移動する矢印（四星球のボタン） ----------
 // 同じグループ（カテゴリー、またはフィギュアは同じシリーズ）の中だけを移動し、端では反対側の端に戻る
 function dragonBallSVG(key) {
@@ -248,7 +293,7 @@ function pagerHTML(list, index, groupLabel, nameOf) {
   const link = (it, dir) => `
     <a class="pager-link ${dir}" href="${itemURL(it.id)}" aria-label="${dir === "prev" ? "前へ" : "次へ"}：${escapeHTML(it.id)} ${escapeHTML(nameOf(it))}">
       ${dir === "prev" ? dragonBallSVG(dir) : ""}
-      <span class="pager-text"><span class="pager-dir">${dir === "prev" ? "前へ" : "次へ"}<span class="pager-id">${escapeHTML(it.id)}</span></span><span class="pager-name">${escapeHTML(pagerName(nameOf(it)))}</span></span>
+      <span class="pager-text"><span class="pager-dir">${dir === "prev" ? "前へ" : "次へ"}</span><span class="pager-name">${escapeHTML(pagerName(nameOf(it)))}</span></span>
       ${dir === "next" ? dragonBallSVG(dir) : ""}
     </a>`;
   return `<nav class="item-pager" aria-label="${escapeHTML(groupLabel)}の前後の商品">
@@ -471,7 +516,7 @@ function renderItem(data, item) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${thumbHTML(item)}${ownershipStamp(item.ownership?.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(item.images, item.title)}${ownershipStamp(item.ownership?.status)}</div>
         ${(() => {
           const group = data.items.filter((i) => i.category === item.category);
           return pagerHTML(group, group.indexOf(item), PAGER_GROUP_LABELS[item.category] || category?.label || item.category, cardTitle);
@@ -526,7 +571,7 @@ function renderFigure(data, series, fig) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${thumbHTML({ images: fig.images, title: name })}${ownershipStamp(o.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(fig.images, name)}${ownershipStamp(o.status)}</div>
         ${pagerHTML(series.figures || [], (series.figures || []).indexOf(fig), series.id, figureName)}
       </div>
       <div>
@@ -581,6 +626,7 @@ function findFigure(data, id) {
     const figure = item ? null : findFigure(data, id);
     if (figure) {
       renderFigure(data, figure.series, figure.fig);
+      initPhotoSliders(el);
       renderAutoMarket({ ...figure.fig, title: figureName(figure.fig) });
       return;
     }
@@ -591,6 +637,7 @@ function findFigure(data, id) {
       return;
     }
     renderItem(data, item);
+    initPhotoSliders(el);
     renderAutoMarket(item);
   } catch (err) {
     showLoadError(el, err);
