@@ -3,7 +3,7 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-05",
-      "startedAt": "2026-10-05T02:47:03.307Z",
+      "startedAt": "2026-10-05T03:39:27.969Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
@@ -50,7 +50,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-05T03:01:43.692Z"
+      "finishedAt": "2026-10-05T03:53:52.107Z"
     },
     "updatedAt": "2026-10-05"
   },
@@ -2093,10 +2093,28 @@
       "id": "BOOK-001",
       "source": "yahoo",
       "kind": "sold",
-      "count": 10,
+      "count": 7,
       "min": 5000,
-      "median": 6925,
-      "max": 28000,
+      "median": 6500,
+      "max": 12100,
+      "grades": [
+        {
+          "key": "nocard",
+          "label": "付録カードなし",
+          "count": 1,
+          "min": 5000,
+          "median": 5000,
+          "max": 5000
+        },
+        {
+          "key": "card",
+          "label": "付録カード付き",
+          "count": 5,
+          "min": 5250,
+          "median": 6850,
+          "max": 12100
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&b=1",
       "samples": [
         {
@@ -2144,10 +2162,28 @@
       "id": "BOOK-002",
       "source": "yahoo",
       "kind": "sold",
-      "count": 10,
+      "count": 8,
       "min": 4500,
       "median": 7850,
-      "max": 28000,
+      "max": 15888,
+      "grades": [
+        {
+          "key": "nocard",
+          "label": "付録カードなし",
+          "count": 3,
+          "min": 4500,
+          "median": 5000,
+          "max": 5072
+        },
+        {
+          "key": "card",
+          "label": "付録カード付き",
+          "count": 3,
+          "min": 10502,
+          "median": 11000,
+          "max": 15888
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&b=1",
       "samples": [
         {
@@ -6797,10 +6833,36 @@
       "id": "FC-001",
       "source": "yahoo",
       "kind": "sold",
-      "count": 38,
+      "count": 35,
       "min": 120,
       "median": 280,
       "max": 19250,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 6,
+          "min": 1100,
+          "median": 4875,
+          "max": 19250
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 29,
+          "min": 120,
+          "median": 250,
+          "max": 8085
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -6859,12 +6921,43 @@
       "id": "FC-002",
       "source": "yahoo",
       "kind": "sold",
-      "count": 37,
+      "count": 35,
       "min": 247,
       "median": 500,
-      "max": 23000,
+      "max": 20600,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 1,
+          "min": 20600,
+          "median": 20600,
+          "max": 20600
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 9,
+          "min": 1287,
+          "median": 2535,
+          "max": 4100
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 25,
+          "min": 247,
+          "median": 380,
+          "max": 9750
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
+        {
+          "title": "【箱説プラケース付】ファミコン ドラゴンボール 大魔王復活 カセット保護ビニール付 任天堂 FC NES Collectible",
+          "price": 2320,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/u1246641693"
+        },
         {
           "title": "ファミコンソフト ドラゴンボール 大魔王復活 BANDAI 1988年",
           "price": 500,
@@ -6874,11 +6967,6 @@
           "title": "FC ドラゴンボール 大魔王復活 ファミコンソフト 箱・説明書付 バンダイ",
           "price": 2500,
           "url": "https://auctions.yahoo.co.jp/jp/auction/w1246092814"
-        },
-        {
-          "title": "HK0144★FC ファミコン ゲームソフト ドラゴンボール 大魔王復活 ※ハガキ付き ※初期動作のみ確認済 中古現状渡し",
-          "price": 3200,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/b1246230157"
         }
       ]
     },
@@ -6891,7 +6979,7 @@
       "min": 528,
       "median": 1639,
       "max": 2750,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3",
       "samples": [
         {
           "title": "ドラゴンボール3 悟空伝",
@@ -6910,37 +6998,63 @@
       "id": "FC-003",
       "source": "rakuten",
       "kind": "listing",
-      "count": 8,
+      "count": 10,
       "min": 420,
-      "median": 2153,
-      "max": 4580,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/"
+      "median": 3317,
+      "max": 16190,
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/"
     },
     {
       "date": "2026-10-05",
       "id": "FC-003",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
-      "min": 1480,
-      "median": 5000,
-      "max": 6750,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
+      "count": 13,
+      "min": 130,
+      "median": 280,
+      "max": 3000,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 5,
+          "min": 1500,
+          "median": 1875,
+          "max": 3000
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 8,
+          "min": 130,
+          "median": 226,
+          "max": 2500
+        }
+      ],
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
-          "title": "M14481【FC】初代ファミコン FAMILY COMPUTER 動作チェックOK ドラゴンボールZ悟空伝などソフト3本付き 60サイズ ",
-          "price": 3500,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/b1222704283"
+          "title": "【箱付き】ドラゴンボール3 悟空伝 ファミコン FC",
+          "price": 1787,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/c1246638584"
         },
         {
-          "title": "ドラゴンボールZ 武勇烈伝　ソフト ドラゴンボール3 悟空伝 ファミコン ネオジオ 餓狼伝説スペシャル　説明書　箱　バンダイ　セガ　",
-          "price": 6750,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/b1244531252"
+          "title": "FC ファミコン ドラゴンボール３　悟空伝 ソフト 箱説付 起動確認済",
+          "price": 1875,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/r1245644972"
         },
         {
-          "title": "ファミコン ソフト ドラゴンボール3悟空伝 ＋ Z強襲!サイヤ人 バンダイ M26061503",
-          "price": 6500,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/s1233660900"
+          "title": "【FC】ファミコン　ドラゴンボール3　悟空伝　箱説付",
+          "price": 1500,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/t1216550984"
         }
       ]
     },
@@ -6983,12 +7097,43 @@
       "id": "FC-004",
       "source": "yahoo",
       "kind": "sold",
-      "count": 39,
+      "count": 37,
       "min": 120,
       "median": 280,
-      "max": 9185,
+      "max": 9075,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 12,
+          "min": 660,
+          "median": 1420,
+          "max": 9075
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 25,
+          "min": 120,
+          "median": 280,
+          "max": 2400
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
+        {
+          "title": "ドラゴンボールZ 強襲サイヤ人 ファミコン FC ゲームソフト カセット 箱説 元箱 説明書 中古品■兵庫県姫路市発 G4",
+          "price": 1000,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/f1245861498"
+        },
         {
           "title": "★何点でも送料２３０円★ ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン シ11レ即発送 FC ソフト 動作確認済み",
           "price": 280,
@@ -6998,11 +7143,6 @@
           "title": "FC ファミコン ドラゴンボールZ　強襲！サイヤ人 ソフト 箱説付 起動確認済",
           "price": 1875,
           "url": "https://auctions.yahoo.co.jp/jp/auction/w1245515056"
-        },
-        {
-          "title": "【FC箱あり】ドラゴンボールZ 強襲!サイヤ人 箱付き バンダイ ファミコン",
-          "price": 3599,
-          "url": null
         }
       ]
     },
@@ -7045,10 +7185,36 @@
       "id": "FC-005",
       "source": "yahoo",
       "kind": "sold",
-      "count": 27,
+      "count": 30,
       "min": 209,
-      "median": 580,
+      "median": 590,
       "max": 12556,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 1,
+          "min": 12556,
+          "median": 12556,
+          "max": 12556
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 5,
+          "min": 1000,
+          "median": 1600,
+          "max": 5250
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 24,
+          "min": 209,
+          "median": 490,
+          "max": 3520
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7107,10 +7273,36 @@
       "id": "FC-006",
       "source": "yahoo",
       "kind": "sold",
-      "count": 30,
+      "count": 31,
       "min": 150,
       "median": 380,
-      "max": 2200,
+      "max": 3600,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 5,
+          "min": 810,
+          "median": 2000,
+          "max": 3600
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 26,
+          "min": 150,
+          "median": 380,
+          "max": 2200
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7169,10 +7361,36 @@
       "id": "FC-007",
       "source": "yahoo",
       "kind": "sold",
-      "count": 44,
-      "min": 427,
-      "median": 1770,
-      "max": 23738,
+      "count": 42,
+      "min": 231,
+      "median": 1760,
+      "max": 22000,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 2,
+          "min": 4300,
+          "median": 13150,
+          "max": 22000
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 15,
+          "min": 427,
+          "median": 3628,
+          "max": 8525
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 25,
+          "min": 231,
+          "median": 880,
+          "max": 4300
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7233,8 +7451,34 @@
       "kind": "sold",
       "count": 35,
       "min": 1,
-      "median": 1000,
+      "median": 999,
       "max": 34999,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 2,
+          "min": 16000,
+          "median": 25500,
+          "max": 34999
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 7,
+          "min": 1600,
+          "median": 2100,
+          "max": 7250
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 26,
+          "min": 1,
+          "median": 725,
+          "max": 4600
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7293,10 +7537,36 @@
       "id": "SFC-002",
       "source": "yahoo",
       "kind": "sold",
-      "count": 12,
+      "count": 10,
       "min": 100,
-      "median": 940,
+      "median": 790,
       "max": 30000,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 5,
+          "min": 880,
+          "median": 1320,
+          "max": 30000
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 5,
+          "min": 100,
+          "median": 135,
+          "max": 700
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7355,10 +7625,36 @@
       "id": "SFC-003",
       "source": "yahoo",
       "kind": "sold",
-      "count": 22,
+      "count": 19,
       "min": 100,
-      "median": 1470,
+      "median": 1540,
       "max": 6600,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 0,
+          "min": null,
+          "median": null,
+          "max": null
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 9,
+          "min": 935,
+          "median": 1600,
+          "max": 2200
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 10,
+          "min": 100,
+          "median": 740,
+          "max": 6600
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7372,9 +7668,9 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/f1246347157"
         },
         {
-          "title": "SFC スーファミ スーパーファミコン ドラゴンボールZ 超武闘伝2 アンケート はがき 葉書 のみ　",
-          "price": 300,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/o1246888627"
+          "title": "「ドラゴンボールZ 超武闘伝2」 スーパーファミコン ソフト SFC",
+          "price": 1300,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/v1246139352"
         }
       ]
     },
@@ -7417,10 +7713,36 @@
       "id": "SFC-004",
       "source": "yahoo",
       "kind": "sold",
-      "count": 21,
+      "count": 20,
       "min": 120,
-      "median": 1500,
-      "max": 8965,
+      "median": 1300,
+      "max": 7500,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 2,
+          "min": 2500,
+          "median": 5000,
+          "max": 7500
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 6,
+          "min": 980,
+          "median": 1705,
+          "max": 3300
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 12,
+          "min": 120,
+          "median": 485,
+          "max": 1700
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7468,10 +7790,36 @@
       "id": "SFC-005",
       "source": "yahoo",
       "kind": "sold",
-      "count": 44,
+      "count": 43,
       "min": 110,
-      "median": 550,
+      "median": 500,
       "max": 9250,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 1,
+          "min": 9250,
+          "median": 9250,
+          "max": 9250
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 10,
+          "min": 1580,
+          "median": 2340,
+          "max": 3300
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 32,
+          "min": 110,
+          "median": 375,
+          "max": 2900
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7530,10 +7878,36 @@
       "id": "SFC-006",
       "source": "yahoo",
       "kind": "sold",
-      "count": 44,
+      "count": 43,
       "min": 500,
-      "median": 1490,
+      "median": 1480,
       "max": 18500,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 2,
+          "min": 17620,
+          "median": 18060,
+          "max": 18500
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 7,
+          "min": 5194,
+          "median": 9790,
+          "max": 12500
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 34,
+          "min": 500,
+          "median": 1205,
+          "max": 15650
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
@@ -7581,10 +7955,36 @@
       "id": "SFC-007",
       "source": "yahoo",
       "kind": "sold",
-      "count": 38,
+      "count": 40,
       "min": 1,
       "median": 1280,
       "max": 30500,
+      "grades": [
+        {
+          "key": "sealed",
+          "label": "未開封・新品",
+          "count": 1,
+          "min": 30500,
+          "median": 30500,
+          "max": 30500
+        },
+        {
+          "key": "boxed",
+          "label": "箱付き",
+          "count": 2,
+          "min": 12700,
+          "median": 13605,
+          "max": 14510
+        },
+        {
+          "key": "loose",
+          "label": "箱なし（ソフトのみ等）",
+          "count": 37,
+          "min": 1,
+          "median": 1100,
+          "max": 23700
+        }
+      ],
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
