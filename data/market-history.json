@@ -3,7 +3,7 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-05",
-      "startedAt": "2026-10-05T00:45:45.841Z",
+      "startedAt": "2026-10-05T02:47:03.307Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
@@ -15,8 +15,8 @@
         },
         "yahoo": {
           "label": "ヤフオク（落札済み）",
-          "ok": 101,
-          "empty": 12,
+          "ok": 106,
+          "empty": 7,
           "skipped": 0,
           "failed": 0,
           "messages": []
@@ -50,7 +50,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-05T01:00:27.034Z"
+      "finishedAt": "2026-10-05T03:01:43.692Z"
     },
     "updatedAt": "2026-10-05"
   },
@@ -2097,7 +2097,7 @@
       "min": 5000,
       "median": 6925,
       "max": 28000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART1&b=1",
       "samples": [
         {
           "title": "鳥山明ワールド ドラゴンボール大全集 別巻 カードダス パーフェクトファイル PART1",
@@ -2148,7 +2148,7 @@
       "min": 4500,
       "median": 7850,
       "max": 28000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E5%A4%A7%E5%85%A8%E9%9B%86%20%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%20%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%20PART2&b=1",
       "samples": [
         {
           "title": "鳥山明ワールド ドラゴンボール大全集 別巻 カードダスパーフェクトファイル PART2 【カード4枚付】初版",
@@ -2205,7 +2205,7 @@
       "min": 1360,
       "median": 3800,
       "max": 5400,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&va=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&va=%E3%82%AB%E3%83%BC%E3%83%89%E3%83%80%E3%82%B9%E5%A5%A5%E7%BE%A9%E5%A4%A7%E5%85%A8%E6%9B%B8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ&b=1",
       "samples": [
         {
           "title": "ドラゴンボールZ カードダス奥義大全書 少年ジャンプ特別編集",
@@ -2256,7 +2256,7 @@
       "min": 168000,
       "median": 168000,
       "max": 168000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%BA%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%BA%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%BA%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A1%E3%83%A2%E3%83%AA%E3%83%BC%E3%82%BA%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "中古 73317150 ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編 フルコンプ 8種セット ボーナス付 ドラカプ",
@@ -2293,26 +2293,26 @@
       "id": "DBC-001-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 27,
-      "min": 654,
-      "median": 18500,
+      "count": 14,
+      "min": 15000,
+      "median": 35450,
       "max": 70000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%AD%AB%E6%82%9F%E9%A3%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%AD%AB%E6%82%9F%E9%A3%AF&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%AD%AB%E6%82%9F%E9%A3%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%AD%AB%E6%82%9F%E9%A3%AF&b=1",
       "samples": [
-        {
-          "title": "ドラゴンボールカプセル 孫悟空 孫悟飯 フィギュア ドラカプ",
-          "price": 3100,
-          "url": null
-        },
         {
           "title": "1円～ ジャンク ドラゴンボールカプセル ドラカプ メモリーズ編 はじまりは四星球 孫悟空＆孫悟飯",
           "price": 21065,
           "url": "https://auctions.yahoo.co.jp/jp/auction/t1245637777"
         },
         {
-          "title": "ドラゴンボールカプセル　ドラカプ　ラディッシュ　孫悟空　ピッコロ　孫悟飯　ターレス",
-          "price": 21558,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/b1245532542"
+          "title": "ドラゴンボールカプセル ドラカプ はじまりは四星球 メモリーズ編 孫悟飯じっちゃん&孫悟空 中古品 1円スタート",
+          "price": 37401,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/d1244780920"
+        },
+        {
+          "title": "1円～ ジャンク 箱無 ドラゴンボールカプセル ドラカプ はじまりは四星球 メモリーズ編 孫悟飯じいちゃん&孫悟空",
+          "price": 41805,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/q1243731278"
         }
       ]
     },
@@ -2348,7 +2348,7 @@
       "min": 7049,
       "median": 10000,
       "max": 12650,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%A0%E3%83%A9%E3%82%B5%E3%82%AD%E6%9B%B9%E9%95%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%A0%E3%83%A9%E3%82%B5%E3%82%AD%E6%9B%B9%E9%95%B7&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%A0%E3%83%A9%E3%82%B5%E3%82%AD%E6%9B%B9%E9%95%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%A0%E3%83%A9%E3%82%B5%E3%82%AD%E6%9B%B9%E9%95%B7&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ムラサキ曹長 vs 孫悟空 フィギュア",
@@ -2395,17 +2395,12 @@
       "id": "DBC-001-03",
       "source": "yahoo",
       "kind": "sold",
-      "count": 13,
+      "count": 12,
       "min": 3767,
-      "median": 10450,
+      "median": 10618,
       "max": 16500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%A1%83%E7%99%BD%E7%99%BD&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%A1%83%E7%99%BD%E7%99%BD&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%A1%83%E7%99%BD%E7%99%BD&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%A1%83%E7%99%BD%E7%99%BD&b=1",
       "samples": [
-        {
-          "title": "■【現状渡し】ドラゴンボール カプセルトイ 孫悟空vs桃白白",
-          "price": 8855,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/u1245759588"
-        },
         {
           "title": "ドラゴンボールカプセル ドラカプ はじまりは四星球 ドラゴンボールメモリーズ編 孫悟空VS桃白白 中古品 1円スタート",
           "price": 12100,
@@ -2415,6 +2410,11 @@
           "title": "孫悟空VS桃白白 彩色Ver. ドラゴンボールカプセル 6 はじまりは四星球 メモリーズ編 メガハウス 箱無し",
           "price": 9845,
           "url": "https://auctions.yahoo.co.jp/jp/auction/s1239750124"
+        },
+        {
+          "title": "ドラゴンボールカプセル ドラカプ 孫悟空 桃白白",
+          "price": 9400,
+          "url": null
         }
       ]
     },
@@ -2446,11 +2446,11 @@
       "id": "DBC-001-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 12,
-      "min": 3900,
+      "count": 10,
+      "min": 5000,
       "median": 7726,
-      "max": 11000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A9%E6%B4%A5%E9%A3%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A9%E6%B4%A5%E9%A3%AF&b=1&n=50",
+      "max": 8600,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A9%E6%B4%A5%E9%A3%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A9%E6%B4%A5%E9%A3%AF&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ はじまりは四星球 メモリーズ編 孫悟空vs天津飯 フィギュアのみ 中古品 1円スタート",
@@ -2458,14 +2458,14 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/j1244775886"
         },
         {
-          "title": "【新品未開封】 ドラゴンボール 孫悟空 天津飯 ウーロン ブルマ ドラカプ ドラゴンボールカプセル フィギュア HG 魔人ブウ ",
-          "price": 11000,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/x1243424644"
-        },
-        {
           "title": "ドラゴンボールカプセル ドラカプ はじまりは四星球 メモリーズ編 孫悟空vs天津飯",
           "price": 8600,
           "url": null
+        },
+        {
+          "title": "孫悟空VS天津飯 彩色Ver. ドラゴンボールカプセル 6 はじまりは四星球 メモリーズ編 メガハウス 箱無し",
+          "price": 7975,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/w1239742611"
         }
       ]
     },
@@ -2497,11 +2497,11 @@
       "id": "DBC-001-05",
       "source": "yahoo",
       "kind": "sold",
-      "count": 23,
-      "min": 1000,
-      "median": 7049,
-      "max": 31900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&b=1&n=50",
+      "count": 9,
+      "min": 5038,
+      "median": 7766,
+      "max": 12100,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&b=1",
       "samples": [
         {
           "title": "1円～ ジャンク ドラゴンボールカプセル ドラカプ メモリーズ編 はじまりは四星球 孫悟空＆ブルマ",
@@ -2509,14 +2509,14 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/n1245638519"
         },
         {
-          "title": "ドラゴンボール イタジャガ CR 3-28 孫悟空 ブルマ カプセル341",
-          "price": 1900,
-          "url": null
+          "title": "孫悟空＆ブルマ 彩色Ver. ドラゴンボールカプセル 6 はじまりは四星球 メモリーズ編 メガハウス 箱無し",
+          "price": 7766,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/c1239747517"
         },
         {
-          "title": "ドラゴンボール カード LET'S FLY 孫悟空 ブルマ カプセルコーポレーション",
-          "price": 1000,
-          "url": null
+          "title": "[人気] ドラゴンボールカプセル6 はじまりは四星球 ドラゴンボールメモリーズ編 孫悟空&ブルマ | フィギュア J mV614a",
+          "price": 5038,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/g1239259790"
         }
       ]
     },
@@ -2552,7 +2552,7 @@
       "min": 9800,
       "median": 9980,
       "max": 17930,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%20%E3%82%A6%E3%83%BC%E3%83%AD%E3%83%B3%E5%A4%89%E5%8C%96&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%20%E3%82%A6%E3%83%BC%E3%83%AD%E3%83%B3%E5%A4%89%E5%8C%96&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%20%E3%82%A6%E3%83%BC%E3%83%AD%E3%83%B3%E5%A4%89%E5%8C%96&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%B7%A8%E5%A4%A7%E3%83%AD%E3%83%9C%20%E3%82%A6%E3%83%BC%E3%83%AD%E3%83%B3%E5%A4%89%E5%8C%96&b=1",
       "samples": [
         {
           "title": "2.11 希少品 ドラカプ ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編 ウーロン変化 孫悟空＆巨大ロボ 現状品",
@@ -2603,7 +2603,7 @@
       "min": 10100,
       "median": 11000,
       "max": 26250,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AD%E3%83%BC%E3%83%BB%E3%83%81%E3%83%A5%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ メモリーズ編 孫悟空VSジャッキー・チュン 中古品 1円スタート",
@@ -2654,7 +2654,7 @@
       "min": 99819,
       "median": 99819,
       "max": 99819,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%B7%E3%82%B9%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "中古　80317150 ドラゴンボールカプセル ぶったおせピッコロ大魔王ドラゴンボールクライシス編 フルカラー　フルコンプ 7種+ボーナスパーツ",
@@ -2691,11 +2691,11 @@
       "id": "DBC-002-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 12,
-      "min": 2100,
-      "median": 10973,
-      "max": 23000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3&b=1&n=50",
+      "count": 7,
+      "min": 9414,
+      "median": 11550,
+      "max": 16507,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 クライシス編 孫悟空&クリリン フィギュアのみ 中古品 1円スタート",
@@ -2746,7 +2746,7 @@
       "min": 3600,
       "median": 4251,
       "max": 7205,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%AD%A6%E5%A4%A9%E8%80%81%E5%B8%AB%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%AD%A6%E5%A4%A9%E8%80%81%E5%B8%AB%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%AD%A6%E5%A4%A9%E8%80%81%E5%B8%AB%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%AD%A6%E5%A4%A9%E8%80%81%E5%B8%AB%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&b=1",
       "samples": [
         {
           "title": "ドラゴンボール カプセル ドラカプ 武天老師 VS ピッコロ大魔王",
@@ -2797,7 +2797,7 @@
       "min": 1900,
       "median": 21450,
       "max": 33000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AB%E3%83%AA%E3%83%B3%E6%A7%98&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AB%E3%83%AA%E3%83%B3%E6%A7%98&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AB%E3%83%AA%E3%83%B3%E6%A7%98&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%AB%E3%83%AA%E3%83%B3%E6%A7%98&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王ドラゴンボールクライシス編 孫悟空＆カリン様 中古品 1円スタート",
@@ -2833,10 +2833,10 @@
       "id": "DBC-002-04",
       "source": "rakuten",
       "kind": "listing",
-      "count": 6,
-      "min": 5390,
-      "median": 17660,
-      "max": 35300,
+      "count": 1,
+      "min": 15420,
+      "median": 15420,
+      "max": 15420,
       "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B/"
     },
     {
@@ -2844,26 +2844,26 @@
       "id": "DBC-002-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 42,
-      "min": 1900,
-      "median": 10920,
-      "max": 33000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&b=1&n=50",
+      "count": 12,
+      "min": 3220,
+      "median": 5380,
+      "max": 20500,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%94%E3%83%83%E3%82%B3%E3%83%AD%E5%A4%A7%E9%AD%94%E7%8E%8B&b=1",
       "samples": [
         {
-          "title": "ドラゴンボールカプセル ドラカプ ボーナスパーツ 孫悟空 少年期vsピッコロ大魔王 フィギュア かっ！勝った！！",
-          "price": 19000,
-          "url": null
+          "title": "ドラゴンボール　フィギュア　ドラゴンボールカプセル ドラカプ クライシス編 孫悟空VSピッコロ大魔王 フィギュア メガハウス",
+          "price": 3801,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/1244934628"
         },
         {
-          "title": "ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王ドラゴンボールクライシス編 孫悟空＆カリン様 中古品 1円スタート",
-          "price": 18700,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/x1244766136"
+          "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 孫悟空vsピッコロ大魔王",
+          "price": 7953,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/u1238900742"
         },
         {
-          "title": "ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 クライシス編 孫悟空&クリリン フィギュアのみ 中古品 1円スタート",
-          "price": 11550,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/s1244789268"
+          "title": "[人気] ドラカプ7 ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 孫悟空&ピッコロ大魔王 | ホビー J mR655a",
+          "price": 3850,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/g1239265006"
         }
       ]
     },
@@ -2899,7 +2899,7 @@
       "min": 4400,
       "median": 5000,
       "max": 7865,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A1%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A1%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A1%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%A9%E3%83%B3%E3%83%95%E3%82%A1%E3%83%B3&b=1",
       "samples": [
         {
           "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 ランファン",
@@ -2950,7 +2950,7 @@
       "min": 2800,
       "median": 4000,
       "max": 5500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%BF%E3%83%B3%E3%83%90%E3%83%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%BF%E3%83%B3%E3%83%90%E3%83%AA%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%BF%E3%83%B3%E3%83%90%E3%83%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%BF%E3%83%B3%E3%83%90%E3%83%AA%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル 孫悟空 VS タンバリン フィギュア",
@@ -2997,11 +2997,11 @@
       "id": "DBC-002-07",
       "source": "yahoo",
       "kind": "sold",
-      "count": 20,
-      "min": 1000,
-      "median": 7863,
-      "max": 31900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&b=1&n=50",
+      "count": 6,
+      "min": 8525,
+      "median": 12771,
+      "max": 14949,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%AB%E3%83%9E&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 クライシス編 ドラゴンボール 孫悟空&ブルマ 中古品 1円スタート",
@@ -3014,9 +3014,9 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/p1244784235"
         },
         {
-          "title": "ドラゴンボール イタジャガ CR 3-28 孫悟空 ブルマ カプセル341",
-          "price": 1900,
-          "url": null
+          "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 孫悟空&ブルマ",
+          "price": 13750,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/v1238902684"
         }
       ]
     },
@@ -3052,7 +3052,7 @@
       "min": 61750,
       "median": 61750,
       "max": 61750,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "中古 92022150 ドラゴンボールカプセル　マジュニアの脅威ドラゴンボールアドベンチャー編　フルカラー　7種セット　ボーナスパーツ欠品",
@@ -3093,7 +3093,7 @@
       "min": 15500,
       "median": 19903,
       "max": 23650,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%80%AA%E9%AD%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%80%AA%E9%AD%9A&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%80%AA%E9%AD%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E6%80%AA%E9%AD%9A&b=1",
       "samples": [
         {
           "title": "【箱なし】孫悟空と怪魚 ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編",
@@ -3144,7 +3144,7 @@
       "min": 3900,
       "median": 5251,
       "max": 6853,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%81%E3%83%81%20%E6%81%90%E7%AB%9C&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%81%E3%83%81%20%E6%81%90%E7%AB%9C&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%81%E3%83%81%20%E6%81%90%E7%AB%9C&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%81%E3%83%81%20%E6%81%90%E7%AB%9C&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル チチ＆恐竜",
@@ -3195,7 +3195,7 @@
       "min": 4600,
       "median": 12501,
       "max": 14500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E4%BA%80%E4%BB%99%E4%BA%BA%20%E4%BA%BA%E9%AD%9A%E3%81%95%E3%82%93&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E4%BA%80%E4%BB%99%E4%BA%BA%20%E4%BA%BA%E9%AD%9A%E3%81%95%E3%82%93&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E4%BA%80%E4%BB%99%E4%BA%BA%20%E4%BA%BA%E9%AD%9A%E3%81%95%E3%82%93&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E4%BA%80%E4%BB%99%E4%BA%BA%20%E4%BA%BA%E9%AD%9A%E3%81%95%E3%82%93&b=1",
       "samples": [
         {
           "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボール アドベンチャー編 亀仙人 & 人魚さん",
@@ -3246,7 +3246,7 @@
       "min": 7399,
       "median": 11952,
       "max": 13948,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9D%E3%83%9D&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9D%E3%83%9D&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9D%E3%83%9D&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9F%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%9D%E3%83%9D&b=1",
       "samples": [
         {
           "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボール アドベンチャー編 孫悟空 & ミスターポポ",
@@ -3293,26 +3293,26 @@
       "id": "DBC-003-05",
       "source": "yahoo",
       "kind": "sold",
-      "count": 26,
+      "count": 9,
       "min": 2600,
-      "median": 11050,
-      "max": 23650,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1&n=50",
+      "median": 3400,
+      "max": 6050,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1",
       "samples": [
         {
-          "title": "【箱なし】孫悟空と怪魚 ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編",
-          "price": 17802,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/v1235422843"
+          "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボール アドベンチャー編 孫悟空 vs マジュニア",
+          "price": 6050,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/h1239489103"
         },
         {
-          "title": "ドラカプ 孫悟空 チチ ウェディング 結婚式 フィギュア ドラゴンボールカプセル マジュニアの脅威 アドベンチャー編 現状品 (08298米②)",
-          "price": 9800,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/u1242489921"
+          "title": "1円〜 ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボールアドベンチャー編 孫悟空 vs マジュニア",
+          "price": 3329,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/m1235087882"
         },
         {
-          "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボール アドベンチャー編 孫悟空 & ミスターポポ",
-          "price": 13948,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/f1239478446"
+          "title": "【中古品】『K6-657』③ドラカプ ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編 孫悟空VSマジュニア 色彩済み",
+          "price": 2869,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/b1234856326"
         }
       ]
     },
@@ -3348,7 +3348,7 @@
       "min": 4100,
       "median": 6300,
       "max": 10703,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1",
       "samples": [
         {
           "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ マジュニアの脅威 ドラゴンボール アドベンチャー編 クリリン & マジュニア",
@@ -3399,7 +3399,7 @@
       "min": 4400,
       "median": 5750,
       "max": 9053,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B7%E3%82%A7%E3%83%B3%20%E3%83%A4%E3%83%A0%E3%83%81%E3%83%A3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B7%E3%82%A7%E3%83%B3%20%E3%83%A4%E3%83%A0%E3%83%81%E3%83%A3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B7%E3%82%A7%E3%83%B3%20%E3%83%A4%E3%83%A0%E3%83%81%E3%83%A3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B7%E3%82%A7%E3%83%B3%20%E3%83%A4%E3%83%A0%E3%83%81%E3%83%A3&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル　マジュニアの脅威　アドベンチャー編　シェンVSヤムチャ",
@@ -3450,7 +3450,7 @@
       "min": 86000,
       "median": 87500,
       "max": 89000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル　この世はでっかい宝島　クロニクル編　ドラカプ　フルコンプ　全7種＋ブルマ戦闘機",
@@ -3496,7 +3496,7 @@
       "min": 10000,
       "median": 20425,
       "max": 32758,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%AF%E3%83%AD%E3%83%8B%E3%82%AF%E3%83%AB%E7%B7%A8%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "1円～ ジャンク メガハウス ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編 孫悟空",
@@ -3543,11 +3543,11 @@
       "id": "DBC-004-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 15,
-      "min": 1500,
-      "median": 10275,
-      "max": 31900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&b=1&n=50",
+      "count": 12,
+      "min": 8000,
+      "median": 9978,
+      "max": 23500,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&b=1",
       "samples": [
         {
           "title": "1円～ ジャンク ドラゴンボールカプセル ドラカプ この世はでっかい宝島 クロニクル編 孫悟空神龍",
@@ -3598,7 +3598,7 @@
       "min": 14850,
       "median": 16750,
       "max": 17600,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A7%E7%8C%BF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A7%E7%8C%BF&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A7%E7%8C%BF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E5%A4%A7%E7%8C%BF&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ クロニクル編 孫悟空 (大猿) 中古品 1円スタート",
@@ -3645,17 +3645,12 @@
       "id": "DBC-004-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 9,
-      "min": 2563,
+      "count": 7,
+      "min": 3100,
       "median": 3980,
-      "max": 16230,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B9%E3%83%8E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B9%E3%83%8E&b=1&n=50",
+      "max": 6875,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B9%E3%83%8E&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%82%B9%E3%83%8E&b=1",
       "samples": [
-        {
-          "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール 摩訶不思議総集編 孫悟空＆スノ",
-          "price": 2563,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/m1240105813"
-        },
         {
           "title": "ドラゴンボールカプセル　孫悟空 スノ　ドラゴンボールクロニクル編　ドラカプ",
           "price": 3894,
@@ -3665,6 +3660,11 @@
           "title": "新品 メガハウス ドラゴンボールカプセル ドラカプ この世はでっかい宝島 ドラゴンボール クロニクル編 孫悟空 & スノ",
           "price": 4323,
           "url": "https://auctions.yahoo.co.jp/jp/auction/c1239486083"
+        },
+        {
+          "title": "【未開封】バンダイ 「ドラゴンボールカプセル」（ドラカプ）シリーズ ミニチュアフィギュア 孫悟空 スノ",
+          "price": 6875,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/h1238965784"
         }
       ]
     },
@@ -3700,7 +3700,7 @@
       "min": 5250,
       "median": 8035,
       "max": 11000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E5%8F%82%E8%AC%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E5%8F%82%E8%AC%80&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E5%8F%82%E8%AC%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E5%8F%82%E8%AC%80&b=1",
       "samples": [
         {
           "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ この世はでっかい宝島 ドラゴンボール クロニクル編 孫悟空vsブラック参謀",
@@ -3751,7 +3751,7 @@
       "min": 2830,
       "median": 4061,
       "max": 5000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2&b=1",
       "samples": [
         {
           "title": "1円～ ジャンク メガハウス ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編 孫悟空VSマジュニア",
@@ -3802,7 +3802,7 @@
       "min": 1200,
       "median": 4851,
       "max": 6000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%A4%A9%E6%B4%A5%E9%A3%AF%20%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E6%A1%83%E7%99%BD%E7%99%BD&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%A4%A9%E6%B4%A5%E9%A3%AF%20%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E6%A1%83%E7%99%BD%E7%99%BD&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%A4%A9%E6%B4%A5%E9%A3%AF%20%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E6%A1%83%E7%99%BD%E7%99%BD&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%A4%A9%E6%B4%A5%E9%A3%AF%20%E3%82%B5%E3%82%A4%E3%83%9C%E3%83%BC%E3%82%B0%E6%A1%83%E7%99%BD%E7%99%BD&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル～この世はでっかい宝島 ドラゴンボールクロニクル編 ドラゴンボール 天津飯 サイボーグ桃白白 ドラカプ",
@@ -3849,12 +3849,28 @@
       "id": "DBC-005",
       "source": "yahoo",
       "kind": "sold",
-      "count": 0,
-      "min": null,
-      "median": null,
-      "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%A9%E4%B8%8B%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%A9%E4%B8%8B%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A%E7%B7%A8&b=1&n=50",
-      "samples": []
+      "count": 4,
+      "min": 17660,
+      "median": 27750,
+      "max": 32126,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%A9%E4%B8%8B%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%A9%E4%B8%8B%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A%E7%B7%A8&b=1",
+      "samples": [
+        {
+          "title": "7RJ57◆エンディングシーンパーツ欠品/メガハウス ドラゴンボールカプセル・ネオ 熱闘!天下一武道会編 7個入り/フィギュア ドラカプ 送:80",
+          "price": 17660,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/c1245309674"
+        },
+        {
+          "title": "中古　 03617150R 内袋未開封　ドラゴンボールカプセルネオ　熱闘・天下一武道会編　色彩7種　ボーナス含む",
+          "price": 32126,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/t1230210069"
+        },
+        {
+          "title": "メガハウス ドラゴンボールZ ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編 トレーディングフィギュア 7点入り",
+          "price": 28000,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/d1228860369"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -3865,7 +3881,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%A4%83%E5%AD%90%E6%92%83%E7%A0%B4",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%A4%83%E5%AD%90",
       "samples": []
     },
     {
@@ -3877,18 +3893,18 @@
       "min": 7130,
       "median": 7130,
       "max": 7130,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%A4%83%E5%AD%90%E6%92%83%E7%A0%B4/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%A4%83%E5%AD%90/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-005-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 8,
+      "count": 12,
       "min": 300,
-      "median": 3250,
+      "median": 3300,
       "max": 9000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%A4%83%E5%AD%90%E6%92%83%E7%A0%B4&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%A4%83%E5%AD%90%E6%92%83%E7%A0%B4&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%A4%83%E5%AD%90&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%A4%83%E5%AD%90&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセルネオ熱闘・天下一武道会編クリリン餃子撃破！ドラカプ 三星球",
@@ -3901,9 +3917,9 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/d1239975713"
         },
         {
-          "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール ネオ 熱闘・天下一武道会編 餃子撃破! クリリン",
-          "price": 3883,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/f1240099404"
+          "title": "【未開封】ドラゴンボールカプセル（ドラカプ）」シリーズ「熱闘・天下一武道会編」「餃子撃破！」",
+          "price": 5060,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/q1238967471"
         }
       ]
     },
@@ -3916,7 +3932,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A",
       "samples": []
     },
     {
@@ -3928,19 +3944,24 @@
       "min": 11285,
       "median": 11343,
       "max": 11400,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-005-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 3,
-      "min": 7425,
-      "median": 8503,
-      "max": 9250,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A&b=1&n=50",
+      "count": 8,
+      "min": 6876,
+      "median": 8502,
+      "max": 9350,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%84%E3%81%96%E6%AD%A6%E9%81%93%E4%BC%9A&b=1",
       "samples": [
+        {
+          "title": "ドラゴンボールカプセル ドラカプ 熱闘天下一武道会 悟空&クリリン いざ武道会 フィギュアのみ 中古品 1円スタート",
+          "price": 8250,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/g1244773031"
+        },
         {
           "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール ネオ 熱闘・天下一武道会編 いざ武道会 孫悟空&クリリン",
           "price": 8503,
@@ -3950,11 +3971,6 @@
           "title": "[人気] ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編 いざ武道会 | フィギュア J mT657a",
           "price": 7425,
           "url": "https://auctions.yahoo.co.jp/jp/auction/q1239257373"
-        },
-        {
-          "title": "箱無 メガハウス ドラゴンボールカプセルネオ 熱闘・天下一武道会編 いざ武道会 孫悟空 クリリン",
-          "price": 9250,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/s1232951064"
         }
       ]
     },
@@ -3967,7 +3983,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4",
       "samples": []
     },
     {
@@ -3979,19 +3995,24 @@
       "min": 4380,
       "median": 4380,
       "max": 4380,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-005-03",
       "source": "yahoo",
       "kind": "sold",
-      "count": 2,
+      "count": 3,
       "min": 2600,
-      "median": 2650,
-      "max": 2700,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4&b=1&n=50",
+      "median": 2700,
+      "max": 2950,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%9E%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E7%99%BB%E5%A0%B4&b=1",
       "samples": [
+        {
+          "title": "未開封 ドラゴンボールカプセル ドラカプ 熱闘・天下一武道会編 ピッコロ　マジュニア登場",
+          "price": 2950,
+          "url": null
+        },
         {
           "title": "ドラゴンボール カプセルネオ 熱闘・天下一武道会編 マジュニア登場 ピッコロ ドラカプ ミニチュア フィギュア ",
           "price": 2700,
@@ -4013,7 +4034,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A",
       "samples": []
     },
     {
@@ -4025,18 +4046,18 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-005-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 3,
+      "count": 4,
       "min": 1500,
-      "median": 1793,
+      "median": 1647,
       "max": 2300,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%82%E3%81%AE%E4%B8%96%E4%B8%80%E6%AD%A6%E9%81%93%E4%BC%9A&b=1",
       "samples": [
         {
           "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール ネオ 熱闘・天下一武道会編 あの世一武道会 パイクーハン",
@@ -4087,7 +4108,7 @@
       "min": 2500,
       "median": 4438,
       "max": 9000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B0%E3%83%AB%E3%82%B0%E3%83%AB%E3%82%AC%E3%83%A0%E3%81%A7%E6%82%9F%E7%A9%BA%E3%83%94%E3%83%B3%E3%83%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B0%E3%83%AB%E3%82%B0%E3%83%AB%E3%82%AC%E3%83%A0%E3%81%A7%E6%82%9F%E7%A9%BA%E3%83%94%E3%83%B3%E3%83%81&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B0%E3%83%AB%E3%82%B0%E3%83%AB%E3%82%AC%E3%83%A0%E3%81%A7%E6%82%9F%E7%A9%BA%E3%83%94%E3%83%B3%E3%83%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B0%E3%83%AB%E3%82%B0%E3%83%AB%E3%82%AC%E3%83%A0%E3%81%A7%E6%82%9F%E7%A9%BA%E3%83%94%E3%83%B3%E3%83%81&b=1",
       "samples": [
         {
           "title": "メガハウス　ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編　「グルグルガムで悟空ピンチ」",
@@ -4138,7 +4159,7 @@
       "min": 1298,
       "median": 1799,
       "max": 2300,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A0%B4%E5%A3%8A%E7%8E%8B%E5%AD%90%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%BE%A9%E6%B4%BB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A0%B4%E5%A3%8A%E7%8E%8B%E5%AD%90%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%BE%A9%E6%B4%BB&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A0%B4%E5%A3%8A%E7%8E%8B%E5%AD%90%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%BE%A9%E6%B4%BB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A0%B4%E5%A3%8A%E7%8E%8B%E5%AD%90%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%BE%A9%E6%B4%BB&b=1",
       "samples": [
         {
           "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール ネオ 熱闘・天下一武道会編 破壊王子ベジータ復活",
@@ -4161,7 +4182,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC%E9%A3%9B%E3%81%B6",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC",
       "samples": []
     },
     {
@@ -4173,19 +4194,24 @@
       "min": 10250,
       "median": 10250,
       "max": 10250,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC%E9%A3%9B%E3%81%B6/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-005-07",
       "source": "yahoo",
       "kind": "sold",
-      "count": 6,
-      "min": 2600,
-      "median": 3751,
+      "count": 8,
+      "min": 990,
+      "median": 3371,
       "max": 5800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC%E9%A3%9B%E3%81%B6&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC%E9%A3%9B%E3%81%B6&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%A2%E3%83%8A%E3%82%A6%E3%83%B3%E3%82%B5%E3%83%BC&b=1",
       "samples": [
+        {
+          "title": "ドラカプ熱闘・天下一武道会編アナウンサー飛ぶ！フィギュア ドラゴンボールカプセル",
+          "price": 3200,
+          "url": null
+        },
         {
           "title": "[人気] ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編 アナウンサー飛ぶ! | フィギュア R mV882a",
           "price": 2640,
@@ -4195,11 +4221,6 @@
           "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール ネオ 熱闘・天下一武道会編 アナウンサー飛ぶ!",
           "price": 3542,
           "url": "https://auctions.yahoo.co.jp/jp/auction/g1240098658"
-        },
-        {
-          "title": "【未開封】アナウンサー飛ぶ ボーナスパーツ 彩色 ドラゴンボールカプセル・ネオ フィギュア 熱闘・天下一武道会編 ドラカプ",
-          "price": 5800,
-          "url": null
         }
       ]
     },
@@ -4231,16 +4252,21 @@
       "id": "DBC-006",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
-      "min": 33500,
-      "median": 33500,
+      "count": 2,
+      "min": 26000,
+      "median": 29750,
       "max": 33500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%82%A6%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%82%A6%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%82%A6%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%82%A6%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセルネオ 帰ってきたブウ編 全種彩色セット",
           "price": 33500,
           "url": "https://auctions.yahoo.co.jp/jp/auction/q1234051675"
+        },
+        {
+          "title": "【43-0281】 メガハウス ドラゴンボールカプセル ネオ 帰ってきたブウ編 ドラゴンボール改 7個入り BOX【未組立/80】",
+          "price": 26000,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/d1233640729"
         }
       ]
     },
@@ -4253,7 +4279,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B8%AB%E5%BC%9F%E3%81%AE%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%20%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC",
       "samples": []
     },
     {
@@ -4265,19 +4291,25 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B8%AB%E5%BC%9F%E3%81%AE%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%20%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-006-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 0,
-      "min": null,
-      "median": null,
-      "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B8%AB%E5%BC%9F%E3%81%AE%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B8%AB%E5%BC%9F%E3%81%AE%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC&b=1&n=50",
-      "samples": []
+      "count": 1,
+      "min": 3200,
+      "median": 3200,
+      "max": 3200,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%20%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%20%E3%83%9F%E3%83%A9%E3%82%AF%E3%83%AB%E3%83%91%E3%83%AF%E3%83%BC&b=1",
+      "samples": [
+        {
+          "title": "ドラカプ　帰ってきたブウ編　悟飯のミラクルパワー【28099】",
+          "price": 3200,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/f1230298752"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -4288,7 +4320,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85",
       "samples": []
     },
     {
@@ -4300,18 +4332,18 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-006-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
+      "count": 6,
       "min": 3190,
-      "median": 4900,
+      "median": 5500,
       "max": 6400,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85%E3%81%AE%E3%81%9F%E3%82%81%E3%81%AB&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E6%84%9B%E3%81%99%E3%82%8B%E8%80%85&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセルネオ 帰ってきた魔人ブウ編　愛する者のために ベジータ トランクス ドラカプ ドラゴンボールカプセル",
@@ -4362,7 +4394,7 @@
       "min": 1000,
       "median": 1000,
       "max": 1000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A3%AE%E7%B5%B6%E3%83%91%E3%83%AF%E3%83%BC%20%E7%A9%B6%E6%A5%B5%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E3%83%99%E3%82%B8%E3%83%83%E3%83%88&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A3%AE%E7%B5%B6%E3%83%91%E3%83%AF%E3%83%BC%20%E7%A9%B6%E6%A5%B5%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E3%83%99%E3%82%B8%E3%83%83%E3%83%88&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A3%AE%E7%B5%B6%E3%83%91%E3%83%AF%E3%83%BC%20%E7%A9%B6%E6%A5%B5%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E3%83%99%E3%82%B8%E3%83%83%E3%83%88&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A3%AE%E7%B5%B6%E3%83%91%E3%83%AF%E3%83%BC%20%E7%A9%B6%E6%A5%B5%E3%82%92%E8%B6%85%E3%81%88%E3%82%8B%E3%83%99%E3%82%B8%E3%83%83%E3%83%88&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ ブウ編 壮絶パワー！ ベジット 魔人ブウ ドラゴンボール フィギュア",
@@ -4403,7 +4435,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%83%83%E9%A3%9B%E3%81%B9%E3%83%A4%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%83%83%E9%A3%9B%E3%81%B9%E3%83%A4%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%83%83%E9%A3%9B%E3%81%B9%E3%83%A4%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%96%E3%83%83%E9%A3%9B%E3%81%B9%E3%83%A4%E3%82%B3%E3%83%B3&b=1",
       "samples": []
     },
     {
@@ -4415,7 +4447,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA",
       "samples": []
     },
     {
@@ -4427,19 +4459,24 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-006-05",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
+      "count": 6,
       "min": 2530,
       "median": 5688,
-      "max": 10800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA&b=1&n=50",
+      "max": 13030,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%98%E3%82%83%E3%81%82%E3%81%AA%E3%81%BF%E3%82%93%E3%81%AA&b=1",
       "samples": [
+        {
+          "title": "破損あり ドラゴンボールカプセル 孫悟空&孫悟天 じゃあなみんな！！ 帰ってきたブウ編 ドラカプ 悟空 悟天",
+          "price": 4500,
+          "url": null
+        },
         {
           "title": "じゃあなみんな! 彩色 ドラゴンボールカプセル・ネオ フィギュア 帰ってきたブウ編 孫悟空 孫悟天",
           "price": 4500,
@@ -4449,11 +4486,6 @@
           "title": "ドラゴンボールカプセル・ネオ　孫悟空＆孫悟天「じゃあなみんな！！」帰ってきたブウ編　ドラカプ",
           "price": 10800,
           "url": null
-        },
-        {
-          "title": "1円～ ジャンク 箱無 メガハウス ドラゴンボールカプセル・ネオ 帰ってきたブウ編 ドラゴンボールZ じゃあなみんな!!",
-          "price": 6876,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/o1231243854"
         }
       ]
     },
@@ -4466,7 +4498,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80",
       "samples": []
     },
     {
@@ -4478,18 +4510,18 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-006-06",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
+      "count": 6,
       "min": 4700,
-      "median": 9105,
-      "max": 10500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80&b=1&n=50",
+      "median": 10200,
+      "max": 12550,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%88%E3%81%84%E5%AD%90%E5%AE%A3%E8%A8%80&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ 帰ってきたブウ編 魔人ブウ＆ミスター・サタン 魔人ブウよい子宣言",
@@ -4540,7 +4572,7 @@
       "min": 2100,
       "median": 2300,
       "max": 2400,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%83%86%E3%83%B3%E3%82%AF%E3%82%B93&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%83%86%E3%83%B3%E3%82%AF%E3%82%B93&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%83%86%E3%83%B3%E3%82%AF%E3%82%B93&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%83%86%E3%83%B3%E3%82%AF%E3%82%B93&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ 帰ってきたブウ編 超サイヤ人3ゴテンクス フィギュア",
@@ -4587,11 +4619,11 @@
       "id": "DBC-007",
       "source": "yahoo",
       "kind": "sold",
-      "count": 3,
+      "count": 5,
       "min": 29503,
       "median": 34510,
-      "max": 43700,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E9%97%98%E7%B7%8F%E9%9B%86%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E9%97%98%E7%B7%8F%E9%9B%86%E7%B7%A8&b=1&n=50",
+      "max": 48500,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E9%97%98%E7%B7%8F%E9%9B%86%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E9%97%98%E7%B7%8F%E9%9B%86%E7%B7%A8&b=1",
       "samples": [
         {
           "title": "［未使用］ドラゴンボールZ ドラゴンボールカプセル・ネオ 激闘・Z戦士総集編 全7種コンプリート メガハウス",
@@ -4599,14 +4631,14 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
         },
         {
+          "title": "ドラゴンボールカプセル・ネオ 激闘総集編　カラー7種とボーナスパーツ　(未開封）",
+          "price": 48500,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/b1241327602"
+        },
+        {
           "title": "中古　44617150R 内袋未開封　ドラゴンボールカプセル・ネオ 激闘総集編 彩色 全7種セット　ボーナス含む",
           "price": 43700,
           "url": "https://auctions.yahoo.co.jp/jp/auction/k1230212974"
-        },
-        {
-          "title": "ドラゴンボールカプセルNEO 激闘総集編 全7種コンプリート 内袋未開封 外箱ダメージあり",
-          "price": 34510,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/v1227519652"
         }
       ]
     },
@@ -4642,7 +4674,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&b=1",
       "samples": []
     },
     {
@@ -4677,7 +4709,7 @@
       "min": 691,
       "median": 691,
       "max": 691,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&b=1",
       "samples": [
         {
           "title": "ドラゴンボール カプセルネオ 帰ってきたフリーザ編 宇宙の帝王 フリーザ ドラカプ ミニチュア フィギュア",
@@ -4718,7 +4750,7 @@
       "min": 3900,
       "median": 3900,
       "max": 3900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%81%90%E3%82%8B%E3%81%B9%E3%81%97%E3%83%A9%E3%83%87%E3%82%A3%E3%83%83%E3%83%84&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%81%90%E3%82%8B%E3%81%B9%E3%81%97%E3%83%A9%E3%83%87%E3%82%A3%E3%83%83%E3%83%84&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%81%90%E3%82%8B%E3%81%B9%E3%81%97%E3%83%A9%E3%83%87%E3%82%A3%E3%83%83%E3%83%84&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%81%90%E3%82%8B%E3%81%B9%E3%81%97%E3%83%A9%E3%83%87%E3%82%A3%E3%83%83%E3%83%84&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ 激闘総集編 恐るべしラディッツ 孫悟空＆ピッコロvsラディッツ 内袋未開封 メガハウス",
@@ -4736,7 +4768,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE",
       "samples": []
     },
     {
@@ -4748,22 +4780,32 @@
       "min": 5750,
       "median": 5750,
       "max": 5750,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-007-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
-      "min": 4790,
-      "median": 4790,
+      "count": 4,
+      "min": 1947,
+      "median": 3525,
       "max": 4790,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ 帰ってきたサイヤ人編 悟空&悟飯 ミニ悟空はおぼっちゃま ボーナスパーツあり 未開封 ドラカプ ",
           "price": 4790,
+          "url": null
+        },
+        {
+          "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール 帰ってきたサイヤ人編 ミニ悟空はおぼっちゃま 孫悟空 孫悟飯",
+          "price": 1947,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/x1240094714"
+        },
+        {
+          "title": "ドラゴンボールカプセル ドラカプ ミニ悟空はおぼっちゃま！ 孫悟空 孫悟飯 フィギュア",
+          "price": 3550,
           "url": null
         }
       ]
@@ -4800,7 +4842,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&b=1",
       "samples": []
     },
     {
@@ -4835,7 +4877,7 @@
       "min": 1914,
       "median": 3290,
       "max": 3900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ 激突の2大超パワー 孫悟空 フリーザ フィギュア",
@@ -4882,11 +4924,11 @@
       "id": "DBC-007-07",
       "source": "yahoo",
       "kind": "sold",
-      "count": 9,
+      "count": 7,
       "min": 830,
-      "median": 3193,
-      "max": 6325,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&b=1&n=50",
+      "median": 2400,
+      "max": 4600,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&b=1",
       "samples": [
         {
           "title": "ドラゴンボール 孫悟空 フリーザ 怒り爆発！ 悟空覚醒 カプセルネオ",
@@ -4899,9 +4941,9 @@
           "url": null
         },
         {
-          "title": "フィギュア 怒り爆発!悟空覚醒 彩色版 ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 ドラカプ ガチャ HG",
-          "price": 3500,
-          "url": null
+          "title": "中古品　ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 　怒り爆発!悟空覚醒 超サイヤ人　R431",
+          "price": 1201,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/r1234121364"
         }
       ]
     },
@@ -4933,12 +4975,18 @@
       "id": "DBC-008",
       "source": "yahoo",
       "kind": "sold",
-      "count": 0,
-      "min": null,
-      "median": null,
-      "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20MOVIE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20MOVIE&b=1&n=50",
-      "samples": []
+      "count": 1,
+      "min": 29150,
+      "median": 29150,
+      "max": 29150,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20MOVIE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20MOVIE&b=1",
+      "samples": [
+        {
+          "title": "メガハウス ドラゴンボール改 ドラゴンボールカプセル・ネオ EDITION of THE MOVIE トレーディングフィギュア 7点入り",
+          "price": 29150,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/m1227729504"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -4949,7 +4997,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%82%9F%E9%A3%AF%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3",
       "samples": []
     },
     {
@@ -4961,23 +5009,28 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%82%9F%E9%A3%AF%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-008-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
+      "count": 2,
       "min": 7925,
-      "median": 7925,
-      "max": 7925,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%82%9F%E9%A3%AF%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%82%9F%E9%A3%AF%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3&b=1&n=50",
+      "median": 8213,
+      "max": 8500,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8F%E3%82%A4%E3%83%A4%E3%83%BC%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3&b=1",
       "samples": [
         {
           "title": "中古 11612150 ドラゴンボール カプセル・ネオ EDITION of THE MOVIE 悟飯＆ハイヤードラゴン　ドラカプ メガハウスDRAGONBAL",
           "price": 7925,
           "url": "https://auctions.yahoo.co.jp/jp/auction/j1229655867"
+        },
+        {
+          "title": "ドラゴンボールカプセル ドラカプ EDITION of THE MOVIE 悟飯&ハイヤードラゴン",
+          "price": 8500,
+          "url": null
         }
       ]
     },
@@ -4990,7 +5043,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC2",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC",
       "samples": []
     },
     {
@@ -5002,32 +5055,32 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC2/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-008-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
-      "min": 400,
-      "median": 2039,
+      "count": 5,
+      "min": 2550,
+      "median": 3300,
       "max": 4700,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC&b=1",
       "samples": [
         {
-          "title": "ＨＧガシャ・ドラゴンボールカプセル　超サイヤ人ブロリー＆ＳＳ孫悟空　中古美品　いずれも欠品　現状品",
-          "price": 400,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/p1240900828"
-        },
-        {
-          "title": "超サイヤ人ブロリー ドラゴンボール フィギュア ドラゴンボールカプセル・ネオ EDITION of THE MOVIE ドラカプ",
-          "price": 3300,
+          "title": "ドラゴンボールカプセル フィギュア ブロリー EDITION of THE MOVIE ドラカプ フィギュア",
+          "price": 3400,
           "url": null
         },
         {
-          "title": "ドラゴンボール 超戦士カプセルフィギュア03 超サイヤ人ブロリー",
-          "price": 777,
+          "title": "ドラゴンボールカプセルネオ EDITION of THE MOVIE ブロリー",
+          "price": 3100,
+          "url": null
+        },
+        {
+          "title": "劇場版 ドラゴンボール ブロリー 超サイヤ人 カプセルネオ EDITION of THE MOVIE トレーディング フィギュア",
+          "price": 4700,
           "url": null
         }
       ]
@@ -5064,7 +5117,7 @@
       "min": 6000,
       "median": 6000,
       "max": 6000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9C%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9C%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9C%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9C%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%83%E3%82%AF&b=1",
       "samples": [
         {
           "title": "ドラゴンボール改 ドラゴンボールカプセル・ネオ EDITION of THE MOVIE ボージャック カラー 新品",
@@ -5082,7 +5135,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3",
       "samples": []
     },
     {
@@ -5094,23 +5147,28 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-008-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
+      "count": 2,
       "min": 2200,
-      "median": 2200,
-      "max": 2200,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3&b=1&n=50",
+      "median": 2950,
+      "max": 3700,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BF%E3%83%94%E3%82%AA%E3%83%B3&b=1",
       "samples": [
         {
           "title": "メガハウス ドラゴンボール ドラゴンボールカプセル・ネオ EDITION of THE MOVIE タピオン",
           "price": 2200,
           "url": "https://auctions.yahoo.co.jp/jp/auction/u1239079366"
+        },
+        {
+          "title": "ドラゴンボールカプセル ドラカプ Movie編 タピオン",
+          "price": 3700,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/s1237707552"
         }
       ]
     },
@@ -5123,7 +5181,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF",
       "samples": []
     },
     {
@@ -5135,19 +5193,29 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-008-05",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
-      "min": 3600,
+      "count": 3,
+      "min": 2600,
       "median": 3600,
-      "max": 3600,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF&b=1&n=50",
+      "max": 5500,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%B4%E3%82%B8%E3%83%BC%E3%82%BF&b=1",
       "samples": [
+        {
+          "title": "ドラゴンボールカプセル・ネオ ドラカプ EDITION of THE MOVIE ゴジータ ",
+          "price": 2600,
+          "url": null
+        },
+        {
+          "title": "ドラゴンボールカプセル・ネオ EDITION of THE MOVIE ゴジータ　ドラカプ",
+          "price": 5500,
+          "url": null
+        },
         {
           "title": "ドラゴンボールカプセルネオ EDITION of THE MOVIE 超ゴジータ ミニブック付き メガハウス ドラカプ",
           "price": 3600,
@@ -5164,7 +5232,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B9%BB%E3%81%AE%E5%85%83%E6%B0%97%E7%8E%89",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%85%83%E6%B0%97%E7%8E%89",
       "samples": []
     },
     {
@@ -5176,7 +5244,7 @@
       "min": 6130,
       "median": 6130,
       "max": 6130,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B9%BB%E3%81%AE%E5%85%83%E6%B0%97%E7%8E%89/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%85%83%E6%B0%97%E7%8E%89/"
     },
     {
       "date": "2026-10-05",
@@ -5187,7 +5255,7 @@
       "min": 2210,
       "median": 2210,
       "max": 2210,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B9%BB%E3%81%AE%E5%85%83%E6%B0%97%E7%8E%89&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%B9%BB%E3%81%AE%E5%85%83%E6%B0%97%E7%8E%89&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%85%83%E6%B0%97%E7%8E%89&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%85%83%E6%B0%97%E7%8E%89&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ EDITION of THE MOVIE 幻の元気玉 ドラカプ フィギュア メガハウス 孫悟空",
@@ -5205,7 +5273,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC1",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC",
       "samples": []
     },
     {
@@ -5217,19 +5285,35 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC1/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-008-07",
       "source": "yahoo",
       "kind": "sold",
-      "count": 0,
-      "min": null,
-      "median": null,
-      "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC1&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC1&b=1&n=50",
-      "samples": []
+      "count": 5,
+      "min": 2550,
+      "median": 3300,
+      "max": 4700,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%96%E3%83%AD%E3%83%AA%E3%83%BC&b=1",
+      "samples": [
+        {
+          "title": "ドラゴンボールカプセル フィギュア ブロリー EDITION of THE MOVIE ドラカプ フィギュア",
+          "price": 3400,
+          "url": null
+        },
+        {
+          "title": "ドラゴンボールカプセルネオ EDITION of THE MOVIE ブロリー",
+          "price": 3100,
+          "url": null
+        },
+        {
+          "title": "劇場版 ドラゴンボール ブロリー 超サイヤ人 カプセルネオ EDITION of THE MOVIE トレーディング フィギュア",
+          "price": 4700,
+          "url": null
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -5263,7 +5347,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9&b=1",
       "samples": []
     },
     {
@@ -5298,7 +5382,7 @@
       "min": 15423,
       "median": 19800,
       "max": 25800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%2018%E5%8F%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%2018%E5%8F%B7&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%2018%E5%8F%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%AF%E3%83%AA%E3%83%AA%E3%83%B3%2018%E5%8F%B7&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセルネオ　セル編改　クリリン&18号　ドラカプ",
@@ -5349,7 +5433,7 @@
       "min": 5000,
       "median": 8056,
       "max": 11111,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%B6%85%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%20%E3%82%BB%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%B6%85%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%20%E3%82%BB%E3%83%AB&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%B6%85%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%20%E3%82%BB%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%B6%85%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%20%E3%82%BB%E3%83%AB&b=1",
       "samples": [
         {
           "title": "【内袋未開封 未組】ドラゴンボールカプセル ネオ セル編改 超ベジータ VS セル◆未使用 現状品 フィギュア ジオラマ ドラカプ メガハウス",
@@ -5395,7 +5479,7 @@
       "min": 3850,
       "median": 4600,
       "max": 5350,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%A6%AA%E5%AD%90%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%A6%AA%E5%AD%90%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%A6%AA%E5%AD%90%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E8%A6%AA%E5%AD%90%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&b=1",
       "samples": [
         {
           "title": "孫悟飯 孫悟空 フィギュア ドラゴンボールカプセル・ネオ セル編改 親子かめはめ波 ドラカプ ",
@@ -5441,7 +5525,7 @@
       "min": 11551,
       "median": 15785,
       "max": 20351,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&b=1",
       "samples": [
         {
           "title": "【新品未開封】ドラゴンボールカプセルネオ セル編改 瞬間移動！　孫悟空　ベジータ　フィギュア　ドラカプ　フィギュア　",
@@ -5492,7 +5576,7 @@
       "min": 6750,
       "median": 12100,
       "max": 17800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%BB%E3%83%AB%E5%87%BA%E7%8F%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%BB%E3%83%AB%E5%87%BA%E7%8F%BE&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%BB%E3%83%AB%E5%87%BA%E7%8F%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%82%BB%E3%83%AB%E5%87%BA%E7%8F%BE&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ　セル編改　セル出現（羽欠品）",
@@ -5543,7 +5627,7 @@
       "min": 15500,
       "median": 16500,
       "max": 17401,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E3%81%8B%E3%82%81%E3%81%AF%E3%82%81%E6%B3%A2&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル　 孫悟空　　　ドラカプ　かめはめ波 セル編改",
@@ -5594,7 +5678,7 @@
       "min": 7234,
       "median": 9000,
       "max": 9500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E6%82%9F%E7%A9%BA%2019%E5%8F%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E6%82%9F%E7%A9%BA%2019%E5%8F%B7&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E6%82%9F%E7%A9%BA%2019%E5%8F%B7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E6%82%9F%E7%A9%BA%2019%E5%8F%B7&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ドラカプ セル編改 悟空vs19号",
@@ -5645,7 +5729,7 @@
       "min": 10289,
       "median": 18895,
       "max": 27500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&b=1",
       "samples": [
         {
           "title": "ドラカプメモリアル　孫悟空 3種セット　新品未開封",
@@ -5691,7 +5775,7 @@
       "min": 3184,
       "median": 3184,
       "max": 3184,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "未使用　20110160 ドラゴンボール dragonball ドラカプメモリアル ドラカプ 孫悟空 孫 悟空 フィギュア 完成品",
@@ -5732,7 +5816,7 @@
       "min": 2831,
       "median": 2831,
       "max": 2831,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "未使用　50110160 メガハウス ドラカプメモリアル 02 ドラゴンボール超 超サイヤ人 孫悟空 完成品フィギュア",
@@ -5773,7 +5857,7 @@
       "min": 3800,
       "median": 3800,
       "max": 3800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "希少　ドラゴンボールカプセル ドラカプメモリアル ドラゴンボールZ 03 超サイヤ人3 孫悟空",
@@ -5814,7 +5898,7 @@
       "min": 10289,
       "median": 18895,
       "max": 27500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB&b=1",
       "samples": [
         {
           "title": "ドラカプメモリアル　孫悟空 3種セット　新品未開封",
@@ -5860,7 +5944,7 @@
       "min": 3184,
       "median": 3184,
       "max": 3184,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "未使用　20110160 ドラゴンボール dragonball ドラカプメモリアル ドラカプ 孫悟空 孫 悟空 フィギュア 完成品",
@@ -5901,7 +5985,7 @@
       "min": 2831,
       "median": 2831,
       "max": 2831,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "未使用　50110160 メガハウス ドラカプメモリアル 02 ドラゴンボール超 超サイヤ人 孫悟空 完成品フィギュア",
@@ -5942,7 +6026,7 @@
       "min": 3800,
       "median": 3800,
       "max": 3800,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&va=%E3%83%89%E3%83%A9%E3%82%AB%E3%83%97%E3%83%A1%E3%83%A2%E3%83%AA%E3%82%A2%E3%83%AB%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA3%20%E5%AD%AB%E6%82%9F%E7%A9%BA&b=1",
       "samples": [
         {
           "title": "希少　ドラゴンボールカプセル ドラカプメモリアル ドラゴンボールZ 03 超サイヤ人3 孫悟空",
@@ -5979,12 +6063,28 @@
       "id": "DBC-012",
       "source": "yahoo",
       "kind": "sold",
-      "count": 0,
-      "min": null,
-      "median": null,
-      "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8&b=1&n=50",
-      "samples": []
+      "count": 3,
+      "min": 26400,
+      "median": 27903,
+      "max": 28051,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8&b=1",
+      "samples": [
+        {
+          "title": "メガハウス ドラゴンボールZ ドラゴンボールカプセルネオ 帰ってきたサイヤ人編 ドラカプ 7個入り 新品未開封BOX",
+          "price": 27903,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/1219034912"
+        },
+        {
+          "title": "メガハウス ドラゴンボールZ ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編 トレーディングフィギュア 7点入り",
+          "price": 28051,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/d1227719448"
+        },
+        {
+          "title": "◆★状態要確認★ドラゴンボールカプセルネオ 帰ってきたサイヤ人編 彩色　カラー7種＋BPセット ドラカプ　フィギュア",
+          "price": 26400,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/e1225428733"
+        }
+      ]
     },
     {
       "date": "2026-10-05",
@@ -6014,11 +6114,11 @@
       "id": "DBC-012-01",
       "source": "yahoo",
       "kind": "sold",
-      "count": 4,
+      "count": 3,
       "min": 3250,
-      "median": 6775,
-      "max": 15950,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%A4%A7%E5%A4%89%E8%BA%AB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%A4%A7%E5%A4%89%E8%BA%AB&b=1&n=50",
+      "median": 6250,
+      "max": 7300,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%A4%A7%E5%A4%89%E8%BA%AB&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%99%E3%82%B8%E3%83%BC%E3%82%BF%E5%A4%A7%E5%A4%89%E8%BA%AB&b=1",
       "samples": [
         {
           "title": "ドラゴンボール カプセルネオ 帰ってきたサイヤ人編 ベジータ大変身 ドラカプ ミニチュア フィギュア メガハウス",
@@ -6046,7 +6146,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F%E7%86%B1%E3%81%84%E6%88%A6%E3%81%84",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F",
       "samples": []
     },
     {
@@ -6058,23 +6158,28 @@
       "min": 10130,
       "median": 10130,
       "max": 10130,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F%E7%86%B1%E3%81%84%E6%88%A6%E3%81%84/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-012-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 2,
+      "count": 3,
       "min": 3333,
-      "median": 3772,
-      "max": 4210,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F%E7%86%B1%E3%81%84%E6%88%A6%E3%81%84&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F%E7%86%B1%E3%81%84%E6%88%A6%E3%81%84&b=1&n=50",
+      "median": 4210,
+      "max": 4300,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%99%90%E7%95%8C%E3%82%92%E8%B6%85%E3%81%88%E3%81%9F&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ 帰ってきたサイヤ人編 限界を超えた熱い戦い！ ボーナスパーツ付き ベジータ",
           "price": 4210,
           "url": "https://auctions.yahoo.co.jp/jp/auction/q1239025693"
+        },
+        {
+          "title": "ドラゴンボールカプセル　限界を超えた熱い戦い！　内袋未開封",
+          "price": 4300,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/e1231244381"
         },
         {
           "title": "ドラカプ　ドラゴンボールカプセルネオ　帰ってきたサイヤ人編限界を超えた熱い戦い! 大猿変身前　ベジータ フィギュア",
@@ -6115,7 +6220,7 @@
       "min": 2900,
       "median": 2900,
       "max": 2900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%BF%85%E6%AE%BA%E6%8A%80%E3%83%BB%E7%95%8C%E7%8E%8B%E6%8B%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%BF%85%E6%AE%BA%E6%8A%80%E3%83%BB%E7%95%8C%E7%8E%8B%E6%8B%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%BF%85%E6%AE%BA%E6%8A%80%E3%83%BB%E7%95%8C%E7%8E%8B%E6%8B%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%A9%B6%E6%A5%B5%E3%81%AE%E5%BF%85%E6%AE%BA%E6%8A%80%E3%83%BB%E7%95%8C%E7%8E%8B%E6%8B%B3&b=1",
       "samples": [
         {
           "title": "ドラゴンボール カプセルネオ 帰ってきたサイヤ人編 究極の必殺技 界王拳 孫悟空 VS ナッパ ドラカプ ミニチュア フィギュア",
@@ -6156,7 +6261,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%AE%E7%8C%9B%E5%A8%81&b=1",
       "samples": []
     },
     {
@@ -6168,7 +6273,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%87%8D%E5%8A%9B%E3%81%A8%E3%81%AE%E6%88%A6%E3%81%84",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%87%8D%E5%8A%9B",
       "samples": []
     },
     {
@@ -6180,18 +6285,18 @@
       "min": 8130,
       "median": 8130,
       "max": 8130,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%87%8D%E5%8A%9B%E3%81%A8%E3%81%AE%E6%88%A6%E3%81%84/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%87%8D%E5%8A%9B/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-012-05",
       "source": "yahoo",
       "kind": "sold",
-      "count": 3,
-      "min": 3780,
-      "median": 4587,
-      "max": 15950,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%87%8D%E5%8A%9B%E3%81%A8%E3%81%AE%E6%88%A6%E3%81%84&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E9%87%8D%E5%8A%9B%E3%81%A8%E3%81%AE%E6%88%A6%E3%81%84&b=1&n=50",
+      "count": 4,
+      "min": 3300,
+      "median": 4184,
+      "max": 4800,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%87%8D%E5%8A%9B&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E9%87%8D%E5%8A%9B&b=1",
       "samples": [
         {
           "title": "中古品 メガハウス ドラゴンボールカプセル ネオ ドラカプ ドラゴンボールZ 帰ってきたサイヤ人編 重力との戦い 孫悟空＆バブルスくん",
@@ -6204,9 +6309,9 @@
           "url": "https://auctions.yahoo.co.jp/jp/auction/n1235770661"
         },
         {
-          "title": "1円〜 メガハウス ドラゴンボール カプセル ネオ ベジータ大変身 重力との戦い! 他",
-          "price": 15950,
-          "url": "https://auctions.yahoo.co.jp/jp/auction/l1226593509"
+          "title": "ドラゴンボール ドラカプ ドラゴンボールカプセル 悟空 バブルス君 重力との戦い フィギュア 当時物 メガハウス",
+          "price": 4800,
+          "url": null
         }
       ]
     },
@@ -6219,7 +6324,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE",
       "samples": []
     },
     {
@@ -6231,22 +6336,32 @@
       "min": 5750,
       "median": 5750,
       "max": 5750,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-012-06",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
-      "min": 4790,
-      "median": 4790,
+      "count": 4,
+      "min": 1947,
+      "median": 3525,
       "max": 4790,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%9F%E3%83%8B%E6%82%9F%E7%A9%BA%E3%81%AF%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%81%8A%E3%81%BC%E3%81%A3%E3%81%A1%E3%82%83%E3%81%BE&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ 帰ってきたサイヤ人編 悟空&悟飯 ミニ悟空はおぼっちゃま ボーナスパーツあり 未開封 ドラカプ ",
           "price": 4790,
+          "url": null
+        },
+        {
+          "title": "中古品 メガハウス ドラゴンボールカプセル ドラカプ ドラゴンボール 帰ってきたサイヤ人編 ミニ悟空はおぼっちゃま 孫悟空 孫悟飯",
+          "price": 1947,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/x1240094714"
+        },
+        {
+          "title": "ドラゴンボールカプセル ドラカプ ミニ悟空はおぼっちゃま！ 孫悟空 孫悟飯 フィギュア",
+          "price": 3550,
           "url": null
         }
       ]
@@ -6283,7 +6398,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E3%81%A4%E3%81%84%E3%81%AB%E5%9C%B0%E7%90%83%E5%88%B0%E7%9D%80&b=1",
       "samples": []
     },
     {
@@ -6318,7 +6433,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E7%B7%A8&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E7%B7%A8&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E7%B7%A8&b=1",
       "samples": []
     },
     {
@@ -6353,7 +6468,7 @@
       "min": 2861,
       "median": 4300,
       "max": 5300,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%B3%E6%92%83%E7%A0%B4&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%B3%E6%92%83%E7%A0%B4&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%B3%E6%92%83%E7%A0%B4&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E3%82%B6%E3%83%BC%E3%83%9C%E3%83%B3%E6%92%83%E7%A0%B4&b=1",
       "samples": [
         {
           "title": "② ドラゴンボールカプセル ネオ覚醒 怒れる超戦士 フリーザ編 ザーボン撃破",
@@ -6404,7 +6519,7 @@
       "min": 1914,
       "median": 3290,
       "max": 3900,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%BF%80%E7%AA%81%E3%81%AE2%E5%A4%A7%E8%B6%85%E3%83%91%E3%83%AF%E3%83%BC&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル・ネオ 激突の2大超パワー 孫悟空 フリーザ フィギュア",
@@ -6432,7 +6547,7 @@
       "min": null,
       "median": null,
       "max": null,
-      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%8C%9B%E6%94%BB%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0",
+      "searchUrl": "https://shopping.bookoff.co.jp/search/keyword/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0",
       "samples": []
     },
     {
@@ -6444,23 +6559,28 @@
       "min": 5000,
       "median": 5000,
       "max": 5000,
-      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%8C%9B%E6%94%BB%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0/"
+      "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0/"
     },
     {
       "date": "2026-10-05",
       "id": "DBC-013-03",
       "source": "yahoo",
       "kind": "sold",
-      "count": 1,
-      "min": 3500,
-      "median": 3500,
+      "count": 2,
+      "min": 3350,
+      "median": 3425,
       "max": 3500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%8C%9B%E6%94%BB%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E7%8C%9B%E6%94%BB%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%AA%E3%82%AF%E3%83%BC%E3%83%A0&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ 帰ってきたフリーザ編　猛攻リクーム",
           "price": 3500,
           "url": null
+        },
+        {
+          "title": "【送込】【フィギュア】ドラゴンボールカプセル 帰ってきたフリーザ編　猛攻リクーム！　ドラカプ【新品未開封】【送料無料】",
+          "price": 3350,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/s1229294319"
         }
       ]
     },
@@ -6496,7 +6616,7 @@
       "min": 3200,
       "median": 3200,
       "max": 3200,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A5%B4%E3%81%AF%E3%82%AA%E3%83%A9%E3%81%98%E3%82%83%E3%83%8D%E3%82%A7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A5%B4%E3%81%AF%E3%82%AA%E3%83%A9%E3%81%98%E3%82%83%E3%83%8D%E3%82%A7&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A5%B4%E3%81%AF%E3%82%AA%E3%83%A9%E3%81%98%E3%82%83%E3%83%8D%E3%82%A7&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A5%B4%E3%81%AF%E3%82%AA%E3%83%A9%E3%81%98%E3%82%83%E3%83%8D%E3%82%A7&b=1",
       "samples": [
         {
           "title": "ドラゴンボールカプセル ネオ 帰ってきたフリーザ編　奴はオラじゃネェ ドラゴンボールカプセル",
@@ -6537,7 +6657,7 @@
       "min": 691,
       "median": 691,
       "max": 691,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%AE%87%E5%AE%99%E3%81%AE%E5%B8%9D%E7%8E%8B%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6&b=1",
       "samples": [
         {
           "title": "ドラゴンボール カプセルネオ 帰ってきたフリーザ編 宇宙の帝王 フリーザ ドラカプ ミニチュア フィギュア",
@@ -6574,11 +6694,11 @@
       "id": "DBC-013-06",
       "source": "yahoo",
       "kind": "sold",
-      "count": 9,
+      "count": 7,
       "min": 830,
-      "median": 3193,
-      "max": 6325,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&b=1&n=50",
+      "median": 2400,
+      "max": 4600,
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E6%80%92%E3%82%8A%E7%88%86%E7%99%BA&b=1",
       "samples": [
         {
           "title": "ドラゴンボール 孫悟空 フリーザ 怒り爆発！ 悟空覚醒 カプセルネオ",
@@ -6591,9 +6711,9 @@
           "url": null
         },
         {
-          "title": "フィギュア 怒り爆発!悟空覚醒 彩色版 ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 ドラカプ ガチャ HG",
-          "price": 3500,
-          "url": null
+          "title": "中古品　ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 　怒り爆発!悟空覚醒 超サイヤ人　R431",
+          "price": 1201,
+          "url": "https://auctions.yahoo.co.jp/jp/auction/r1234121364"
         }
       ]
     },
@@ -6629,7 +6749,7 @@
       "min": 2480,
       "median": 2480,
       "max": 2480,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%89%E8%BA%AB%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E3%81%AE%E6%81%90%E6%80%96&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%89%E8%BA%AB%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E3%81%AE%E6%81%90%E6%80%96&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%89%E8%BA%AB%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E3%81%AE%E6%81%90%E6%80%96&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%83%8D%E3%82%AA%20%E5%A4%89%E8%BA%AB%20%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%E3%81%AE%E6%81%90%E6%80%96&b=1",
       "samples": [
         {
           "title": "メガハウス●ドラゴンボールカプセル ネオ●帰ってきたフリーザ編●変身！フリーザの恐怖●ボーナスパーツあり●未開封",
@@ -6681,7 +6801,7 @@
       "min": 120,
       "median": 280,
       "max": 19250,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "★何点でも送料２３０円★ ドラゴンボール 神龍の謎 DRAGON BALL ファミコン テ5レ即発送 FC ソフト 動作確認済み",
@@ -6743,7 +6863,7 @@
       "min": 247,
       "median": 500,
       "max": 23000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%20%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ファミコンソフト ドラゴンボール 大魔王復活 BANDAI 1988年",
@@ -6805,7 +6925,7 @@
       "min": 1480,
       "median": 5000,
       "max": 6750,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB3%20%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "M14481【FC】初代ファミコン FAMILY COMPUTER 動作チェックOK ドラゴンボールZ悟空伝などソフト3本付き 60サイズ ",
@@ -6867,7 +6987,7 @@
       "min": 120,
       "median": 280,
       "max": 9185,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E5%BC%B7%E8%A5%B2%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "★何点でも送料２３０円★ ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン シ11レ即発送 FC ソフト 動作確認済み",
@@ -6929,7 +7049,7 @@
       "min": 209,
       "median": 580,
       "max": 12556,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ2%20%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ga19)中古ソフト FC ファミリーコンピューター ファミコン ドラゴンボールZ2 激神フリーザ!! 箱説付き ",
@@ -6991,7 +7111,7 @@
       "min": 150,
       "median": 380,
       "max": 2200,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ3%20%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "即決ファミコンソフト ドラゴンボールZ3烈戦人造人間 ドラゴンボールZⅢ 烈戦人造人間",
@@ -7053,7 +7173,7 @@
       "min": 427,
       "median": 1770,
       "max": 23738,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB%20%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ファミコン ドラゴンボールZ外伝 サイヤ人絶滅計画 箱説ハガキ付 BANDAI",
@@ -7115,7 +7235,7 @@
       "min": 1,
       "median": 1000,
       "max": 34999,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E3%82%B5%E3%82%A4%E3%83%A4%E4%BC%9D%E8%AA%AC%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "HA445/動作品 スーパーファミコン ソフト ドラゴンボールZ 超サイヤ伝説 取説 箱付 バンダイ SFC ゲーム 任天堂 ニンテンドー 保管品",
@@ -7177,7 +7297,7 @@
       "min": 100,
       "median": 940,
       "max": 30000,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "[SFC スーパーファミコン 動作確認 ソフトのみ] ドラゴンボールZ 超武闘伝 SHVC-Z2",
@@ -7239,7 +7359,7 @@
       "min": 100,
       "median": 1470,
       "max": 6600,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "【箱付き】ドラゴンボールZ 超武闘伝2 スーパーファミコン SFC スーファミ",
@@ -7301,7 +7421,7 @@
       "min": 120,
       "median": 1500,
       "max": 8965,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D3%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "【箱あり】スーパーファミコン ドラゴンボールZ 超武闘伝3 バンダイ SFC",
@@ -7352,7 +7472,7 @@
       "min": 110,
       "median": 550,
       "max": 9250,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E7%AA%81%E6%BF%80%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
@@ -7414,7 +7534,7 @@
       "min": 500,
       "median": 1490,
       "max": 18500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%82%9F%E7%A9%BA%E4%BC%9D%20%E8%A6%9A%E9%86%92%E7%B7%A8%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "【ソフトのみ】スーパーファミコン用ソフト　ドラゴンボールZ 超悟空伝 覚醒編　動作確認済　DRAGON BALL Z",
@@ -7465,7 +7585,7 @@
       "min": 1,
       "median": 1280,
       "max": 30500,
-      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1&n=50",
+      "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20HYPER%20DIMENSION%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3&b=1",
       "samples": [
         {
           "title": "ドラゴンボールZハイパーディメンション スーパーファミコン SFC スーファミ",
