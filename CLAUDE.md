@@ -50,6 +50,7 @@
 2. 変更した商品の `history` に1行追加し、`meta.updatedAt` を更新する。
 3. `node tools/validate.mjs` でデータをチェックする（エラー0件を確認）。
 4. `python3 -m http.server 8000` で表示を確認する（必要に応じて Playwright で PC 幅・スマホ幅の表示を確認）。
+   - `assets/js/` や `assets/css/` を変えたら、`index.html` と `item.html` の読み込みの版番号（`?v=日付-連番`）を上げる。上げないと、スマホに残った古いファイルが使われて変更が効かないことがある（2026-10-05）。
 5. 調査をした場合は `docs/research-log.md` に経緯を追記する。
 6. 作業ブランチにコミット・プッシュし、プルリクエストを作る。`main` への取り込みはオーナーの承認を得てから。
 

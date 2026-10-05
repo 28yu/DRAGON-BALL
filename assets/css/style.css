@@ -603,6 +603,8 @@ section[id], h2[id] { scroll-margin-top: 12px; }
 .detail-head .photo-slider .thumb { border: 0; box-shadow: none; }
 /* 一番上の写真は枠の横幅いっぱいに表示（はみ出す上下は切れる。全体は拡大表示で見られる） */
 .detail-photo .slider-track { cursor: zoom-in; }
+/* スマホでダブルタップ拡大の判定を待たず、1回のタップにすぐ反応させる */
+.slider-track, .slider-edge, .gallery a, .lightbox-close { touch-action: manipulation; }
 .detail-photo .slider-track .thumb img { object-fit: cover; }
 /* 両端のタップ領域（幅の約4分の1）。写真の上に白い三角を重ねて、押せることを示す */
 .slider-edge {

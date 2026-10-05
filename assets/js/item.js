@@ -250,7 +250,10 @@ function initPhotoSliders(root = document) {
     const counter = box.querySelector(".slider-count");
     if (!track || n < 2) return;
     const current = () => Math.round(track.scrollLeft / track.clientWidth);
-    const go = (i) => track.scrollTo({ left: ((i + n) % n) * track.clientWidth, behavior: "smooth" });
+    const go = (i) => {
+      const left = ((i + n) % n) * track.clientWidth;
+      try { track.scrollTo({ left, behavior: "smooth" }); } catch { track.scrollLeft = left; }
+    };
     box.querySelector(".slider-edge.prev").addEventListener("click", () => go(current() - 1));
     box.querySelector(".slider-edge.next").addEventListener("click", () => go(current() + 1));
     track.addEventListener("keydown", (e) => {
@@ -297,7 +300,8 @@ function initLightbox(root = document) {
     opener = from || null;
     box.hidden = false;
     document.documentElement.classList.add("lightbox-open");
-    track.scrollTo({ left: index * track.clientWidth, behavior: "instant" });
+    // 開いた瞬間に目的の写真の位置へ（Safari の一部の版は behavior: "instant" を受け付けないため、scrollLeft を直接変える）
+    track.scrollLeft = index * track.clientWidth;
     if (counter) counter.textContent = `${index + 1} / ${n}`;
     box.querySelector(".lightbox-close").focus();
   };
