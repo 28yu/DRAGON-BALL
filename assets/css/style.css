@@ -664,6 +664,24 @@ html.lightbox-open { overflow: hidden; }
 .lightbox .slide { height: 100%; }
 .lightbox .thumb { aspect-ratio: auto; width: 100%; height: 100%; background: transparent; border: 0; box-shadow: none; }
 .lightbox .thumb img { object-fit: contain; }
+/* 拡大表示の写真のズーム（2026-10-06）：写真は自分の枠の中だけで大きくし、拡大中は横スクロールと両端の切り替えを止める */
+.lightbox .slide { overflow: hidden; }
+.lightbox .thumb { transform-origin: 0 0; }
+.lightbox.is-zoomed .slider-track { overflow: hidden; touch-action: none; cursor: grab; }
+.lightbox.is-zoomed .slider-track:active { cursor: grabbing; }
+.lightbox.is-zoomed .slider-edge,
+.lightbox.is-zoomed .lightbox-hint { display: none !important; }
+.lightbox-hint-pc {
+  position: absolute;
+  left: 16px;
+  bottom: 14px;
+  z-index: 5;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.75rem;
+  font-weight: 700;
+  pointer-events: none;
+}
 .lightbox .slider-count { right: 50%; transform: translateX(50%); bottom: 16px; }
 .lightbox-close {
   position: absolute;
@@ -689,6 +707,7 @@ html.lightbox-open { overflow: hidden; }
 /* スマホ（指で操作する端末）：×ボタンは出さず、下へのスライドで閉じる。案内を上に小さく出す */
 @media (hover: none) and (pointer: coarse) {
   .lightbox-close { display: none; }
+  .lightbox-hint-pc { display: none; }
   .lightbox-hint {
     display: block;
     position: absolute;

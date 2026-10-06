@@ -286,7 +286,8 @@ function initLightbox(root = document) {
   box.setAttribute("aria-label", "写真の拡大表示");
   box.innerHTML = `
     <button type="button" class="lightbox-close" aria-label="閉じる">×</button>
-    <p class="lightbox-hint" aria-hidden="true">下にスライドで閉じる</p>
+    <p class="lightbox-hint" aria-hidden="true">下にスライドで閉じる／2本指で拡大</p>
+    <p class="lightbox-hint-pc" aria-hidden="true">ホイールで拡大・ドラッグで移動・ダブルクリックで元に戻す</p>
     <div class="photo-slider lightbox-slider" data-count="${n}">
       <div class="slider-track" tabindex="-1">${topTrack.innerHTML}</div>
       ${n > 1 ? `<button type="button" class="slider-edge prev" aria-label="前の写真"></button>
@@ -302,6 +303,7 @@ function initLightbox(root = document) {
   const open = (index, from) => {
     opener = from || null;
     resetDrag(false);
+    resetZoom();
     box.hidden = false;
     document.documentElement.classList.add("lightbox-open");
     // 開いた瞬間に目的の写真の位置へ（Safari の一部の版は behavior: "instant" を受け付けないため、scrollLeft を直接変える）
@@ -310,15 +312,84 @@ function initLightbox(root = document) {
     box.querySelector(".lightbox-close").focus();
   };
   const close = () => {
+    resetZoom();
     box.hidden = true;
     document.documentElement.classList.remove("lightbox-open");
     if (opener) opener.focus();
   };
   box.querySelector(".lightbox-close").addEventListener("click", close);
 
+  // ---------- 拡大中の写真のズーム（2026-10-06 オーナー指示） ----------
+  // スマホは指2本で広げる・縮める、PCはマウスホイール。拡大中は指1本／ドラッグで写真を動かす。ダブルタップ・ダブルクリックで 2.5 倍と元の大きさを切り替え
+  // 拡大中は横スクロール（写真の切り替え）と、下へのスライドで閉じる操作を止める
+  const MAX_ZOOM = 5;
+  let zoom = 1, tx = 0, ty = 0, zoomEl = null, zoomBox = null;
+  const currentSlide = () => track.children[Math.round(track.scrollLeft / track.clientWidth)] || track.children[0];
+  const applyZoom = () => {
+    if (!zoomEl) return;
+    // 写真が枠の外へ離れすぎないように、移動できる範囲を枠の大きさの中に収める
+    tx = Math.min(0, Math.max(zoomBox.width * (1 - zoom), tx));
+    ty = Math.min(0, Math.max(zoomBox.height * (1 - zoom), ty));
+    zoomEl.style.transform = zoom > 1 ? `translate(${tx}px, ${ty}px) scale(${zoom})` : "";
+    box.classList.toggle("is-zoomed", zoom > 1);
+  };
+  function resetZoom() {
+    if (zoomEl) zoomEl.style.transform = "";
+    zoom = 1; tx = 0; ty = 0; zoomEl = null;
+    box.classList.remove("is-zoomed");
+  }
+  // 画面上の点（clientX, clientY）を中心に、倍率を next に変える
+  const zoomAt = (next, clientX, clientY) => {
+    const slide = currentSlide();
+    if (!slide) return;
+    if (!zoomEl) { zoomEl = slide.querySelector(".thumb"); zoomBox = slide.getBoundingClientRect(); }
+    if (!zoomEl) return;
+    next = Math.min(MAX_ZOOM, Math.max(1, next));
+    const fx = clientX - zoomBox.left, fy = clientY - zoomBox.top;
+    tx = fx - ((fx - tx) / zoom) * next;
+    ty = fy - ((fy - ty) / zoom) * next;
+    zoom = next;
+    if (zoom <= 1.02) { resetZoom(); return; }
+    applyZoom();
+  };
+  const toggleZoomAt = (x, y) => (zoom > 1 ? resetZoom() : zoomAt(2.5, x, y));
+  // 写真を切り替えるときは元の大きさに戻す
+  box.querySelectorAll(".slider-edge").forEach((b) => b.addEventListener("click", resetZoom, true));
+  // PC：マウスホイールで拡大・縮小（横向きのスクロールは写真の切り替えのまま）
+  box.addEventListener("wheel", (e) => {
+    if (Math.abs(e.deltaX) > Math.abs(e.deltaY) && !e.ctrlKey) return;
+    e.preventDefault();
+    zoomAt(zoom * Math.exp(-e.deltaY * (e.ctrlKey ? 0.01 : 0.0015)), e.clientX, e.clientY);
+  }, { passive: false });
+  track.addEventListener("dblclick", (e) => { e.preventDefault(); toggleZoomAt(e.clientX, e.clientY); });
+  // iPhone の Safari：指2本の動きでページ全体が拡大されないようにする（写真のズームだけを動かす）
+  box.addEventListener("gesturestart", (e) => e.preventDefault());
+  // PC：拡大中はマウスでドラッグして写真を動かす
+  let mouseDrag = null, suppressClick = false;
+  track.addEventListener("mousedown", (e) => {
+    if (zoom <= 1 || e.button !== 0) return;
+    e.preventDefault();
+    mouseDrag = { x: e.clientX, y: e.clientY, tx, ty, moved: false };
+  });
+  window.addEventListener("mousemove", (e) => {
+    if (!mouseDrag) return;
+    const mx = e.clientX - mouseDrag.x, my = e.clientY - mouseDrag.y;
+    if (Math.abs(mx) + Math.abs(my) > 3) mouseDrag.moved = true;
+    tx = mouseDrag.tx + mx; ty = mouseDrag.ty + my;
+    applyZoom();
+  });
+  window.addEventListener("mouseup", () => {
+    if (mouseDrag?.moved) suppressClick = true;
+    mouseDrag = null;
+  });
+
   // スマホ：画面を押したまま下へ大きく動かすと閉じる（横の動きは写真の切り替え）。少しだけなら元に戻る
   const panel = box.querySelector(".lightbox-slider");
-  let startX = 0, startY = 0, dy = 0, mode = null; // mode: null（未判定）/ "down"（下へ）/ "side"（横へ）
+  let startX = 0, startY = 0, dy = 0, mode = null; // mode: null（未判定）/ "down"（下へ）/ "side"（横へ）/ "pinch"（指2本）/ "pan"（拡大中の移動）
+  let pinch = null, pan = null, lastTap = null;
+  const dist = (t) => Math.hypot(t[0].clientX - t[1].clientX, t[0].clientY - t[1].clientY);
+  const mid = (t) => ({ x: (t[0].clientX + t[1].clientX) / 2, y: (t[0].clientY + t[1].clientY) / 2 });
+  const startPan = (t) => { mode = "pan"; pan = { x: t.clientX, y: t.clientY, tx, ty, moved: false }; };
   function resetDrag(animate) {
     panel.style.transition = animate ? "transform 0.2s ease" : "";
     box.style.transition = animate ? "background-color 0.2s ease" : "";
@@ -326,12 +397,38 @@ function initLightbox(root = document) {
     box.style.backgroundColor = "";
   }
   box.addEventListener("touchstart", (e) => {
+    if (e.touches.length === 2) {
+      // 指2本：ズームの開始（下へのスライドの途中なら元に戻す）
+      if (mode === "down") resetDrag(false);
+      mode = "pinch";
+      const m = mid(e.touches);
+      pinch = { d: dist(e.touches), zoom, x: m.x, y: m.y };
+      return;
+    }
     if (e.touches.length !== 1) { mode = "side"; return; }
+    if (zoom > 1) { startPan(e.touches[0]); return; }
     startX = e.touches[0].clientX; startY = e.touches[0].clientY; dy = 0; mode = null;
     panel.style.transition = ""; box.style.transition = "";
   }, { passive: true });
   box.addEventListener("touchmove", (e) => {
-    if (mode === "side" || e.touches.length !== 1) return;
+    if (mode === "pinch" && e.touches.length === 2) {
+      e.preventDefault();
+      const m = mid(e.touches);
+      // 指の真ん中を中心に倍率を変え、指の真ん中が動いた分だけ写真も動かす
+      zoomAt(pinch.zoom * (dist(e.touches) / pinch.d), pinch.x, pinch.y);
+      if (zoom > 1) { tx += m.x - pinch.x; ty += m.y - pinch.y; applyZoom(); }
+      pinch.x = m.x; pinch.y = m.y; pinch.zoom = zoom; pinch.d = dist(e.touches);
+      return;
+    }
+    if (mode === "pan" && e.touches.length === 1) {
+      e.preventDefault();
+      const mx = e.touches[0].clientX - pan.x, my = e.touches[0].clientY - pan.y;
+      if (Math.abs(mx) + Math.abs(my) > 6) pan.moved = true;
+      tx = pan.tx + mx; ty = pan.ty + my;
+      applyZoom();
+      return;
+    }
+    if (mode === "side" || mode === "pinch" || mode === "pan" || e.touches.length !== 1) return;
     const mx = e.touches[0].clientX - startX, my = e.touches[0].clientY - startY;
     if (mode === null) {
       if (Math.abs(mx) < 8 && Math.abs(my) < 8) return;
@@ -343,7 +440,20 @@ function initLightbox(root = document) {
     panel.style.transform = `translateY(${dy}px) scale(${1 - Math.min(dy / 2000, 0.1)})`;
     box.style.backgroundColor = `rgba(12, 12, 12, ${1 - Math.min(dy / 400, 0.75)})`;
   }, { passive: false });
-  const endDrag = () => {
+  const endDrag = (e) => {
+    const remaining = e?.touches?.length || 0;
+    if (mode === "pinch" || mode === "pan") {
+      if (mode === "pan" && pan.moved) suppressClick = true;
+      // 指2本のうち1本だけ離したときは、残りの指で写真を動かせるようにする
+      if (remaining === 1 && zoom > 1) { startPan(e.touches[0]); pan.moved = true; return; }
+      if (remaining === 0) {
+        const tapped = mode === "pan" && !pan.moved;
+        mode = null; pinch = null;
+        if (tapped) checkDoubleTap(e); else lastTap = null;
+      }
+      return;
+    }
+    if (mode === null && remaining === 0) checkDoubleTap(e);
     if (mode !== "down") { mode = null; return; }
     mode = null;
     if (dy > Math.min(140, window.innerHeight * 0.18)) {
@@ -357,6 +467,20 @@ function initLightbox(root = document) {
       resetDrag(true); // 少しだけ：元の位置へ戻す
     }
   };
+  // スマホ：ダブルタップで 2.5 倍と元の大きさを切り替え（指を動かさずに素早く2回タップしたとき）
+  function checkDoubleTap(e) {
+    const t = e?.changedTouches?.[0];
+    if (!t) return;
+    const now = Date.now();
+    if (lastTap && now - lastTap.time < 300 && Math.hypot(t.clientX - lastTap.x, t.clientY - lastTap.y) < 30) {
+      lastTap = null;
+      toggleZoomAt(t.clientX, t.clientY);
+      suppressClick = true;
+      if (e.cancelable) e.preventDefault();
+    } else {
+      lastTap = { time: now, x: t.clientX, y: t.clientY };
+    }
+  }
   box.addEventListener("touchend", endDrag);
   box.addEventListener("touchcancel", endDrag);
   // 写真の外側（暗い部分）をタップすると閉じる。写真は枠いっぱいの入れ物に縦横比を保って描かれるので、実際に描かれた範囲で判定する
@@ -370,10 +494,15 @@ function initLightbox(root = document) {
     const left = r.left + (r.width - w) / 2, top = r.top + (r.height - h) / 2;
     return e.clientX >= left && e.clientX <= left + w && e.clientY >= top && e.clientY <= top + h;
   };
-  track.addEventListener("click", (e) => { if (!onPicture(e)) close(); });
+  track.addEventListener("click", (e) => {
+    if (suppressClick) { suppressClick = false; return; }
+    if (zoom > 1) return; // 拡大中のタップでは閉じない
+    if (!onPicture(e)) close();
+  });
   document.addEventListener("keydown", (e) => {
     if (box.hidden) return;
     if (e.key === "Escape") close();
+    if (e.key === "0") resetZoom();
     if (e.key === "ArrowLeft") box.querySelector(".slider-edge.prev")?.click();
     if (e.key === "ArrowRight") box.querySelector(".slider-edge.next")?.click();
   });
