@@ -44,6 +44,36 @@ function categoryCardHTML(cat, items) {
     </a>`;
 }
 
+// 集計外のカテゴリー（ドラゴンボールカプセル）のカード。収集を始めるときのための準備（2026-10-06 オーナー指示）
+// 上の数字は「全種そろったシリーズの数」。その下にシリーズごとのフィギュアの所持数のメーターを並べる
+function meterHTML(owned, total) {
+  return `<div class="progress" role="img" aria-label="${owned} / ${total}">${owned && total ? `<span class="p-owned" style="width:${(owned / total) * 100}%"></span>` : ""}</div>`;
+}
+function seriesCardHTML(cat, seriesList) {
+  let complete = 0;
+  const rows = seriesList.map((s) => {
+    const figs = s.figures || [];
+    const owned = figs.filter((f) => f.ownership?.status === "owned").length;
+    const done = figs.length > 0 && owned === figs.length;
+    if (done) complete++;
+    return `
+      <li${done ? ' class="sm-done"' : ""}><a href="${itemURL(s.id)}">
+        <span class="sm-name">${escapeHTML(cardTitle(s))}</span>
+        <span class="sm-count">${owned}<small> / ${figs.length}体</small></span>
+        ${meterHTML(owned, figs.length)}
+      </a></li>`;
+  }).join("");
+  return `
+    <div class="cat-card series-card">
+      <a class="series-card-head" href="#cat-${escapeHTML(cat.id)}">
+        <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(cat.label)} <span class="badge badge-info">集計外</span></span>
+        <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">シリーズ</span></span>
+      </a>
+      ${meterHTML(complete, seriesList.length)}
+      <ul class="series-meters">${rows}</ul>
+    </div>`;
+}
+
 // コレクション概要の集計に含めるカテゴリーか（"inSummary": false のカテゴリーは情報のみ掲載で、集計しない）
 function inSummary(cat) {
   return cat?.inSummary !== false;
@@ -71,6 +101,9 @@ function renderSummary(data) {
 
   const cats = summaryCats
     .map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id)))
+    .join("") + data.categories
+    .filter((cat) => !inSummary(cat))
+    .map((cat) => seriesCardHTML(cat, data.items.filter((i) => i.category === cat.id)))
     .join("");
 
   // 所持状況が未確認の対象があるときだけ注意書きを出す（所持率は上の丸い表示で示す）
