@@ -70,8 +70,22 @@ function seriesCardHTML(cat, seriesList) {
         <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">シリーズ</span></span>
       </a>
       ${meterHTML(complete, seriesList.length)}
-      <ul class="series-meters">${rows}</ul>
+      <details class="series-details" id="series-details-${escapeHTML(cat.id)}"${seriesOpen() ? " open" : ""}>
+        <summary>シリーズごとの内訳（${seriesList.length}シリーズ）</summary>
+        <ul class="series-meters">${rows}</ul>
+      </details>
     </div>`;
+}
+// シリーズごとの内訳は折りたためる。初期表示は閉じた状態で、開け閉めを覚える（2026-10-06 オーナー指示）
+function seriesOpen() {
+  try { return localStorage.getItem("db-series-open") === "1"; } catch (e) { return false; }
+}
+function setupSeriesToggle() {
+  document.querySelectorAll(".series-details").forEach((d) => {
+    d.addEventListener("toggle", () => {
+      try { localStorage.setItem("db-series-open", d.open ? "1" : "0"); } catch (e) {}
+    });
+  });
 }
 
 // コレクション概要の集計に含めるカテゴリーか（"inSummary": false のカテゴリーは情報のみ掲載で、集計しない）
@@ -121,6 +135,7 @@ function renderSummary(data) {
 
   el.innerHTML = `${hero}<div class="cat-grid">${cats}</div>${notice}${alertNotice}`;
   setupRateToggle();
+  setupSeriesToggle();
 }
 
 // 所持率の丸：初期表示はドラゴンレーダー風。タップで今までの黄色い丸と切り替え、選んだ方を覚える（2026-10-05 オーナー指示）
