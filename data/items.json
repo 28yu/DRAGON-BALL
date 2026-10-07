@@ -4638,6 +4638,38 @@
         {
           "date": "2026-10-05",
           "change": "シリーズとフィギュアの所持状況を「未所持」に変更"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-01（孫悟空＆クリリン）に参考画像9枚を登録。出典：オーナー指定のメルカリShopsの商品ページ https://jp.mercari.com/shops/product/2JVGx2bcPfCV2da5VGgNvX の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-02（武天老師 VS ピッコロ大魔王）に参考画像6枚を登録。出典：オーナー指定のYahoo!フリマの出品ページ https://paypayfleamarket.yahoo.co.jp/item/z693573908 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-03（孫悟空＆カリン様）に参考画像10枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m34235589184 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-04（孫悟空 VS ピッコロ大魔王）に参考画像8枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m74896313280 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-05（ランファン）に参考画像6枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m36274131894 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-06（孫悟空 VS タンバリン）に参考画像10枚を登録。出典：オーナー指定のメルカリShopsの商品ページ https://jp.mercari.com/shops/product/2JVGx2fDNz86MuzCkpLQKU の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-002-07（孫悟空＆ブルマ）に参考画像9枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m79677653032 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "ボーナスパーツ DBC-002-08「孫悟空 VS ピッコロ大魔王」のページを追加し、参考画像7枚を登録（オーナー指示。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m93653988005 の写真。権利の点はオーナーが承知のうえで公開）。7体すべての相場の条件に「ボーナス」の除外を追加"
         }
       ],
       "figures": [
@@ -4688,11 +4720,58 @@
               "[\\s　]他([\\s　|]|$)",
               "[\\s　]等[\\s　]",
               "武道会",
-              "餃子"
+              "餃子",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-5.jpg",
+              "caption": "孫悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-6.jpg",
+              "caption": "クリリンのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-7.jpg",
+              "caption": "下から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig01-extra-8.jpg",
+              "caption": "孫悟空の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -4739,11 +4818,43 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig02-front.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig02-extra-1.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig02-extra-2.jpg",
+              "caption": "電子ジャーのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig02-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig02-extra-4.jpg",
+              "caption": "武天老師のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig02-extra-5.jpg",
+              "caption": "台座の裏の刻印（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -4789,11 +4900,63 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-1.jpg",
+              "caption": "孫悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-2.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-3.jpg",
+              "caption": "カリン様のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-4.jpg",
+              "caption": "台座のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-5.jpg",
+              "caption": "分解した状態（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-6.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-7.jpg",
+              "caption": "分解した状態・別の角度（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-8.jpg",
+              "caption": "孫悟空とカリン様（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig03-extra-9.jpg",
+              "caption": "孫悟空とカリン様を後ろから（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -4851,7 +5014,48 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-4.jpg",
+              "caption": "反対側の後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-5.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-6.jpg",
+              "caption": "ピッコロ大魔王のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig04-extra-7.jpg",
+              "caption": "孫悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -4897,11 +5101,43 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig05-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig05-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig05-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig05-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig05-extra-5.jpg",
+              "caption": "分解した状態（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -4947,11 +5183,63 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-5.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-6.jpg",
+              "caption": "孫悟空の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-7.jpg",
+              "caption": "孫悟空とタンバリンのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-8.jpg",
+              "caption": "足元のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig06-extra-9.jpg",
+              "caption": "細部のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -5001,12 +5289,150 @@
               "四星球",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-1.jpg",
+              "caption": "定規と並べた大きさの目安（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-3.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-4.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-5.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-6.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-7.jpg",
+              "caption": "ブルマのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig07-extra-8.jpg",
+              "caption": "孫悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
+        },
+        {
+          "id": "DBC-002-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "孫悟空 VS ピッコロ大魔王",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "メルカリの出品ページ（オーナー提供。商品名「ドラゴンボールカプセル ボーナスパーツ 孫悟空VSピッコロ大魔王 クライシス編」）",
+                "url": "https://jp.mercari.com/item/m93653988005"
+              }
+            ],
+            "note": "このシリーズのボーナスパーツ（2026-10-07 オーナー指示で追加）。7体の DBC-002-04 と同じ名前のため、画面では頭に「ボーナスパーツ：」を付けて表示する。"
+          },
+          "ownership": {
+            "status": "not_owned",
+            "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ボーナスパーツ ピッコロ大魔王",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ボーナス",
+              "ピッコロ大魔王|クライシス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全s*[0-9０-９]*s*種",
+              "フルセット",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "イマジネイション",
+              "ブロンズ",
+              "超戦士の肖像",
+              "結集",
+              "伝説の超戦士",
+              "ネオ",
+              "NEO",
+              "HG|ＨＧ|ガシャ",
+              "[s　]他([s　|]|$)",
+              "[s　]等[s　]",
+              "まとめ",
+              "亀仙人＆ブルマ|亀仙人&ブルマ|メモリーズ|四星球",
+              "神龍|シェンロン"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-002/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-2.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-4.jpg",
+              "caption": "分解した状態（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-5.jpg",
+              "caption": "付属の台紙（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-002/fig08-extra-6.jpg",
+              "caption": "付属の説明書（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。"
         }
       ],
       "market": {

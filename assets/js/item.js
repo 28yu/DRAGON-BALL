@@ -170,7 +170,9 @@ function officialPageURL(item) {
 
 // シリーズに含まれるフィギュアの一覧（1体ずつのページへのリンク）
 function figureName(fig) {
-  return fig.name?.value || `No.${fig.no}（名称未確認）`;
+  const name = fig.name?.value || `No.${fig.no}（名称未確認）`;
+  // ボーナスパーツは7体の1体と同じ名前のことがある（例：DBC-002 の「孫悟空 VS ピッコロ大魔王」）ため、頭に付けて見分ける
+  return fig.bonus ? `ボーナスパーツ：${name}` : name;
 }
 
 function figuresHTML(item) {
@@ -183,7 +185,7 @@ function figuresHTML(item) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(fig.id)}</span>
           <h3 class="item-title">${escapeHTML(figureName(fig))}</h3>
-          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${fig.bonus ? '<span class="tag">ボーナスパーツ</span>' : ""}${statusTag(fig.name?.status)}</div>
+          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${statusTag(fig.name?.status)}</div>
         </div>
       </a>
     </li>`).join("");
