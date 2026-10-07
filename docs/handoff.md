@@ -135,6 +135,7 @@
   4. スマホの操作は `pw.devices["iPhone 13"]` で再現できる（タップは `page.touchscreen.tap`、指の動きは CDP の `Input.dispatchTouchEvent`）。ただし、ブラウザ自身の横スクロールは再現できないので、横スライドは `scrollTo` で代わりに確かめる。WebKit（Safari）はこの環境に入っていない（`playwright install` はしない）。
   5. 公開サイトは、確認用ブラウザからは証明書の都合で直接開けない（証明書の確認は外さない）。公開中のファイルを確かめたいときは、curl で取り寄せて手元で開く。
   6. 全ページの確認は、`data/items.json` から管理ID（フィギュア含め113件）を作って順に開き、エラー・横のはみ出しがないかを数える。
+- 送信と `main` への反映は、毎回の承認を待たずに Claude がすべて行う（2026-10-07 オーナー指示）。オーナーに GitHub Desktop の操作を頼まない。
 - `main` への送信手順：
   1. 作業ブランチでコミットする。
   2. `git pull --no-rebase origin main` で最新を取り込む。
