@@ -3701,6 +3701,22 @@
         {
           "date": "2026-10-07",
           "change": "DBC-001-02（孫悟空 VS ムラサキ曹長）に参考画像4枚を登録。出典：オーナー指定の Yahoo!フリマの出品ページ https://paypayfleamarket.yahoo.co.jp/item/z424133854 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-03（孫悟空 VS 桃白白）に参考画像5枚を登録。出典：オーナー指定のYahoo!フリマの出品ページ https://paypayfleamarket.yahoo.co.jp/item/z424134002 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-04（孫悟空 VS 天津飯）に参考画像9枚を登録。出典：オーナー指定のヤフオクの出品ページ https://auctions.yahoo.co.jp/jp/auction/g1239597764 の写真。写真に入っていた出品者の説明文字（「分解して発送します」「変色あります」「細かい汚れがあります」）をオーナー指示で消した。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-06（孫悟空＆巨大ロボ（ウーロン変化））に参考画像6枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m40274170184 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-07（孫悟空 VS ジャッキー・チュン）に参考画像7枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m99137998234 の写真。権利の点はオーナーが承知のうえで公開"
         }
       ],
       "figures": [
@@ -3933,7 +3949,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig03-extra-1.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig03-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig03-extra-4.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -3985,7 +4027,53 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-4.jpg",
+              "caption": "天津飯の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-5.jpg",
+              "caption": "足元のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-6.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-7.jpg",
+              "caption": "透明な支柱・変色あり（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig04-extra-8.jpg",
+              "caption": "分解した状態（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -4089,7 +4177,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig06-extra-1.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig06-extra-3.jpg",
+              "caption": "反対側の斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig06-extra-4.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig06-extra-5.jpg",
+              "caption": "定規と並べた大きさの目安（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -4139,7 +4258,43 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig07-front.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-1.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-4.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-5.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig07-extra-6.jpg",
+              "caption": "分解した状態（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         }
       ],
