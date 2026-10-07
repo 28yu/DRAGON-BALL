@@ -3697,6 +3697,10 @@
         {
           "date": "2026-10-07",
           "change": "DBC-001-01（孫悟空＆孫悟飯）に参考画像10枚を登録。出典：オーナー指定のお宝創庫（楽天市場）の商品ページ https://item.rakuten.co.jp/otakarasouko/1-240024573394/ の画像。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-02（孫悟空 VS ムラサキ曹長）に参考画像4枚を登録。出典：オーナー指定の Yahoo!フリマの出品ページ https://paypayfleamarket.yahoo.co.jp/item/z424133854 の写真。権利の点はオーナーが承知のうえで公開"
         }
       ],
       "figures": [
@@ -3855,7 +3859,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig02-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig02-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig02-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
