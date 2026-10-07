@@ -51,15 +51,23 @@ function meterHTML(owned, total) {
 }
 function seriesCardHTML(cat, seriesList) {
   let complete = 0;
+  // ボーナスパーツの数（2026-10-07 オーナー指示で追加）。「★コンプ」は今まで通り7体だけで判定する
+  let bonusOwned = 0;
+  let bonusTotal = 0;
+  const isOwned = (f) => f.ownership?.status === "owned";
   const rows = seriesList.map((s) => {
     const figs = regularFigures(s);
-    const owned = figs.filter((f) => f.ownership?.status === "owned").length;
+    const owned = figs.filter(isOwned).length;
     const done = figs.length > 0 && owned === figs.length;
     if (done) complete++;
+    const bonus = (s.figures || []).filter((f) => f.bonus);
+    const bOwned = bonus.filter(isOwned).length;
+    bonusOwned += bOwned;
+    bonusTotal += bonus.length;
     return `
       <li${done ? ' class="sm-done"' : ""}><a href="${itemURL(s.id)}">
         <span class="sm-name">${escapeHTML(cardTitle(s))}</span>
-        <span class="sm-count">${owned}<small> / ${figs.length}体</small></span>
+        <span class="sm-count">${owned}<small> / ${figs.length}体</small>${bonus.length ? `<small class="sm-bonus">＋ボーナス ${bOwned} / ${bonus.length}</small>` : ""}</span>
         ${meterHTML(owned, figs.length)}
       </a></li>`;
   }).join("");
@@ -70,6 +78,7 @@ function seriesCardHTML(cat, seriesList) {
         <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">シリーズ</span></span>
       </a>
       ${meterHTML(complete, seriesList.length)}
+      ${bonusTotal ? `<p class="series-bonus-total">ボーナスパーツ <strong>${bonusOwned}</strong><small> / ${bonusTotal}</small></p>` : ""}
       <details class="series-details" id="series-details-${escapeHTML(cat.id)}"${seriesOpen() ? " open" : ""}>
         <summary>シリーズごとの内訳（${seriesList.length}シリーズ）</summary>
         <ul class="series-meters">${rows}</ul>
