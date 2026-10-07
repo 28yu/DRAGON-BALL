@@ -52,7 +52,7 @@ function meterHTML(owned, total) {
 function seriesCardHTML(cat, seriesList) {
   let complete = 0;
   const rows = seriesList.map((s) => {
-    const figs = s.figures || [];
+    const figs = regularFigures(s);
     const owned = figs.filter((f) => f.ownership?.status === "owned").length;
     const done = figs.length > 0 && owned === figs.length;
     if (done) complete++;

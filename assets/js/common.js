@@ -127,6 +127,12 @@ function cardTitle(item) {
   return short || item.title;
 }
 
+// シリーズのフィギュアのうち、ボーナスパーツ（"bonus": true）を除いたもの。
+// 「0 / 7体」「★コンプ」「全7種セット」の数はこちらで数える（2026-10-07 オーナー指示でボーナスパーツのページを追加）
+function regularFigures(series) {
+  return (series.figures || []).filter((f) => !f.bonus);
+}
+
 // ドラゴンボールの絵（星の数 1〜7）。前後移動ボタン（四星球）と、トップページのカテゴリーの目印（2026-10-05 オーナー指示）で使う
 const DB_STAR_POSITIONS = {
   1: [[32, 32]],

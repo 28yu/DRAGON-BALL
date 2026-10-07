@@ -183,11 +183,12 @@ function figuresHTML(item) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(fig.id)}</span>
           <h3 class="item-title">${escapeHTML(figureName(fig))}</h3>
-          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${statusTag(fig.name?.status)}</div>
+          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${fig.bonus ? '<span class="tag">ボーナスパーツ</span>' : ""}${statusTag(fig.name?.status)}</div>
         </div>
       </a>
     </li>`).join("");
-  return section(`このシリーズのフィギュア（${figs.length}体）`, `<ul class="item-grid">${cards}</ul>`, "figures");
+  const bonus = figs.length - regularFigures(item).length;
+  return section(`このシリーズのフィギュア（${regularFigures(item).length}体${bonus ? `＋ボーナスパーツ` : ""}）`, `<ul class="item-grid">${cards}</ul>`, "figures");
 }
 
 // 写真の説明文から「（参考画像・…）」の部分を除く（オーナー指示 2026-10-05。データの説明文は残す）
@@ -658,7 +659,7 @@ async function renderAutoMarket(item) {
     : "";
   const mine = (hist.records || []).filter((r) => r.id === item.id);
   const setNote = isCapsuleSeries(item)
-    ? `<p class="notice">このシリーズの相場は、<strong>全${item.figures.length}種そろったセット</strong>（「全${item.figures.length}種」「コンプ」「${item.figures.length}個セット」など）の出品だけを集計しています。1体ずつの相場は、上の「このシリーズのフィギュア」から各フィギュアのページで見られます。</p>`
+    ? `<p class="notice">このシリーズの相場は、<strong>全${regularFigures(item).length}種そろったセット</strong>（「全${regularFigures(item).length}種」「コンプ」「${regularFigures(item).length}個セット」など）の出品だけを集計しています。1体ずつの相場は、上の「このシリーズのフィギュア」から各フィギュアのページで見られます。</p>`
     : "";
   // 版ごとの相場（記録の variant。例：完全復刻版）がある商品は、通常版と版ごとに表を分ける
   const variants = [...new Map(mine.filter((r) => r.variant).map((r) => [r.variant, r.variantLabel || r.variant])).entries()];
@@ -821,6 +822,7 @@ function renderFigure(data, series, fig) {
         <div class="detail-badges">
           ${ownershipBadge(o.status)}
           <span class="tag">${escapeHTML(category?.label || series.category)}</span>
+          ${fig.bonus ? '<span class="tag">ボーナスパーツ</span>' : ""}
         </div>
         <p class="series-link">シリーズ：<a href="${itemURL(series.id)}">${escapeHTML(series.title)}</a></p>
         ${summaryHTML({ ownership: o }, { marketLabel: "1体の相場" })}
@@ -830,7 +832,7 @@ function renderFigure(data, series, fig) {
     ${section("フィギュアの情報", `<table class="info-table">
       ${row("管理ID", `<span class="item-id">${escapeHTML(fig.id)}</span>`)}
       ${row("名称", factHTML(fig.name))}
-      ${row("シリーズ内の番号", `${fig.no} / ${(series.figures || []).length}`)}
+      ${row("シリーズ内の番号", fig.bonus ? "ボーナスパーツ" : `${fig.no} / ${regularFigures(series).length}`)}
       ${row("シリーズ", `<a href="${itemURL(series.id)}">${escapeHTML(series.id)} ${escapeHTML(series.title)}</a>`)}
       ${row("発売日・発売年", factHTML(series.release, formatDate))}
       ${row("メーカー希望小売価格", factHTML(series.listPrice, formatYen))}

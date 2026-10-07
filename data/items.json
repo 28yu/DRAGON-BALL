@@ -3717,6 +3717,14 @@
         {
           "date": "2026-10-07",
           "change": "DBC-001-07（孫悟空 VS ジャッキー・チュン）に参考画像7枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m99137998234 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-05（孫悟空＆ブルマ）に参考画像12枚を登録。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m59270184576 の写真。権利の点はオーナーが承知のうえで公開"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "ボーナスパーツ DBC-001-08「亀仙人＆ブルマ（ウーロン変化）」のページを追加し、参考画像9枚を登録（オーナー指示。出典：オーナー指定のメルカリの出品ページ https://jp.mercari.com/item/m36501700731 の写真。権利の点はオーナーが承知のうえで公開）。7体の相場の条件に「ボーナス」「亀仙人」の除外を追加"
         }
       ],
       "figures": [
@@ -3769,7 +3777,9 @@
               "親子",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -3871,7 +3881,9 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -3945,7 +3957,9 @@
               "天津飯",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -4023,7 +4037,9 @@
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
               "[\\s　]等[\\s　]",
-              "サイボーグ"
+              "サイボーグ",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -4123,11 +4139,74 @@
               "ピッコロ",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-1.jpg",
+              "caption": "正面・台座つき（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-4.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-5.jpg",
+              "caption": "孫悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-6.jpg",
+              "caption": "ブルマのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-7.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-8.jpg",
+              "caption": "台座のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-9.jpg",
+              "caption": "ブルマの顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-10.jpg",
+              "caption": "孫悟空の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig05-extra-11.jpg",
+              "caption": "孫悟空を横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -4173,7 +4252,9 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -4254,7 +4335,9 @@
               "NEO",
               "HG|ＨＧ|ガシャ",
               "[\\s　]他([\\s　|]|$)",
-              "[\\s　]等[\\s　]"
+              "[\\s　]等[\\s　]",
+              "ボーナス",
+              "亀仙人"
             ]
           },
           "marketPrices": [],
@@ -4296,6 +4379,104 @@
             }
           ],
           "notes": ""
+        },
+        {
+          "id": "DBC-001-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "亀仙人＆ブルマ（ウーロン変化）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "メルカリの出品ページ（オーナー提供。説明文の商品内容に「亀仙人＆ブルマ(ウーロン変化)」、商品名に「ボーナスパーツ」）",
+                "url": "https://jp.mercari.com/item/m36501700731"
+              }
+            ],
+            "note": "このシリーズのボーナスパーツ（2026-10-07 オーナー指示で追加）。DBC-001-05 の名称の注記のとおり、公式の商品内容とも一致。"
+          },
+          "ownership": {
+            "status": "not_owned",
+            "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 亀仙人 ブルマ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "亀仙人",
+              "ブルマ|ウーロン|ボーナス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全s*[0-9０-９]*s*種",
+              "フルセット",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "イマジネイション",
+              "ブロンズ",
+              "超戦士の肖像",
+              "結集",
+              "伝説の超戦士",
+              "ネオ",
+              "NEO",
+              "HG|ＨＧ|ガシャ",
+              "[s　]他([s　|]|$)",
+              "[s　]等[s　]"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-1.jpg",
+              "caption": "正面のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-4.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-5.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-6.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-7.jpg",
+              "caption": "リーフレットと並べたところ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig08-extra-8.jpg",
+              "caption": "分解した状態とリーフレット（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。"
         }
       ],
       "market": {
