@@ -3693,6 +3693,10 @@
         {
           "date": "2026-10-05",
           "change": "シリーズとフィギュアの所持状況を「未所持」に変更"
+        },
+        {
+          "date": "2026-10-07",
+          "change": "DBC-001-01（孫悟空＆孫悟飯）に参考画像10枚を登録。出典：オーナー指定のお宝創庫（楽天市場）の商品ページ https://item.rakuten.co.jp/otakarasouko/1-240024573394/ の画像。権利の点はオーナーが承知のうえで公開"
         }
       ],
       "figures": [
@@ -3749,7 +3753,58 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-001/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-1.jpg",
+              "caption": "左斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-3.jpg",
+              "caption": "後ろ・別の角度（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-4.jpg",
+              "caption": "孫悟空の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-5.jpg",
+              "caption": "正面の上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-6.jpg",
+              "caption": "台座の建物のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-7.jpg",
+              "caption": "台座の武舞台のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-8.jpg",
+              "caption": "台座の観客のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-001/fig01-extra-9.jpg",
+              "caption": "じっちゃんの服と足のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
