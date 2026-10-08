@@ -1218,7 +1218,6 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
 .dash-settings { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .dash-setting .sub-title { margin-top: 0; }
 .dash-section .sub-title:first-of-type { margin-top: 0; }
-.dash-login-sub { margin-top: 18px; }
 .dash-optout .sub-title { margin-top: 0; }
 .dash-optout-status { margin: 0 0 8px; font-size: 0.9rem; }
 .dash-optout-status strong { padding: 0 6px; background: var(--brand-yellow); color: #161616; }

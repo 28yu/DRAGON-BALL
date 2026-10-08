@@ -175,14 +175,14 @@ async function fetchData() {
   });
 }
 
-// ---------- この端末を記録しない設定（パスワードなしで切り替えられる。端末のブラウザに保存するだけ） ----------
+// ---------- この端末を記録しない設定（パスワードを入れた後の「設定」だけに表示。2026-10-08 オーナー指示） ----------
 function optoutHTML() {
   const off = window.DBAnalytics.isOptedOut();
   return `<div class="dash-optout" id="dash-optout-box">
     <h3 class="sub-title">この端末のアクセス</h3>
     <p class="dash-optout-status ${off ? "is-off" : ""}" aria-live="polite">いまの設定：<strong>${off ? "記録しない" : "記録する"}</strong></p>
     <button type="button" class="dash-btn ${off ? "" : "dash-btn-primary"}" id="dash-optout">${off ? "記録する設定に戻す" : "記録しない設定にする"}</button>
-    <p class="dash-note">ボタンを押すとすぐに切り替わります（パスワードの入力や保存は不要）。自分のアクセスを数えないための設定で、スマホ・PCなど端末ごとに1回ずつ押してください。</p>
+    <p class="dash-note">ボタンを押すとすぐに切り替わります。自分のアクセスを数えないための設定で、スマホ・PCなど端末ごとに1回ずつ押してください。</p>
   </div>`;
 }
 function bindOptout() {
@@ -209,9 +209,7 @@ function renderLogin(message = "") {
       <button type="submit" class="dash-btn dash-btn-primary">入る</button>
       ${message ? `<p class="notice notice-warn" role="alert">${message}</p>` : ""}
       <p class="dash-login-demo"><a href="dashboard.html?demo=1">見本データで画面を見る</a>（数字はでたらめです）</p>
-    </form>
-    <div class="dash-login dash-login-sub">${optoutHTML()}</div>`;
-  bindOptout();
+    </form>`;
   const form = document.getElementById("dash-login");
   const input = document.getElementById("dash-password");
   form.addEventListener("submit", async (e) => {
@@ -339,7 +337,7 @@ function render() {
 
     ${dashSection("settings", "設定", `
       <div class="dash-settings">
-        <div class="dash-setting">${optoutHTML()}</div>
+        <div class="dash-setting">${dash.demo ? `<h3 class="sub-title">この端末のアクセス</h3><p class="dash-note">見本データの表示中は設定できません。パスワードを入れてから設定してください。</p>` : optoutHTML()}</div>
         <div class="dash-setting">
           <h3 class="sub-title">パスワード</h3>
           <details class="dash-pass-box">
