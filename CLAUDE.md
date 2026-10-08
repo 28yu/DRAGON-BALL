@@ -51,7 +51,7 @@
 2. 変更した商品の `history` に1行追加し、`meta.updatedAt` を更新する。
 3. `node tools/validate.mjs` でデータをチェックする（エラー0件を確認）。
 4. `python3 -m http.server 8000` で表示を確認する（必要に応じて Playwright で PC 幅・スマホ幅の表示を確認）。
-   - `assets/js/` や `assets/css/` を変えたら、`index.html` と `item.html` の読み込みの版番号（`?v=日付-連番`）を上げる。上げないと、スマホに残った古いファイルが使われて変更が効かないことがある（2026-10-05）。
+   - `assets/js/` や `assets/css/` を変えたら、`index.html`・`item.html`・`dashboard.html` の読み込みの版番号（`?v=日付-連番`）を上げる。上げないと、スマホに残った古いファイルが使われて変更が効かないことがある（2026-10-05）。
 5. 調査をした場合は `docs/research-log.md` に経緯を追記する。
 6. 作業ブランチにコミット・プッシュし、`main` に反映する。送信も `main` への反映も Claude が行い、オーナーに GitHub Desktop などの操作を頼まない（2026-10-07 オーナー指示）。手順は `docs/handoff.md` の「5」。
 
@@ -69,6 +69,7 @@
 - `docs/research-log.md`：調査履歴
 - `docs/handoff.md`：引き継ぎメモ（セッションを切り替えるときに更新する）
 - `tools/validate.mjs`：データ整合性チェック
+- `dashboard.html` / `assets/js/dashboard.js` / `assets/js/analytics.js` / `supabase/migrations/`：アクセス解析（記録先は Supabase、パスワード付きのダッシュボード。詳しくは `docs/analytics.md`）
 
 ## 未対応・今後の候補
 

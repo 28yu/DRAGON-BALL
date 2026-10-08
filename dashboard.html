@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>商品詳細 | DRAGON BALL COLLECTION</title>
+  <meta name="robots" content="noindex, nofollow">
+  <title>アクセス解析 | DRAGON BALL COLLECTION</title>
   <script>
     // 保存された配色（暗い表示）を、画面を描く前に反映する。初期値は明るい配色。
     try { if (localStorage.getItem("db-theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
@@ -22,18 +23,21 @@
   </header>
 
   <main class="container">
-    <div id="detail"><p class="notice">読み込み中…</p></div>
+    <nav class="breadcrumb" aria-label="現在地"><a href="index.html">トップ</a> › アクセス解析</nav>
+    <h1 class="section-title dash-title">アクセス解析</h1>
+    <div id="dashboard"><p class="notice">読み込み中…</p></div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>本サイトは個人の収集記録であり、権利者・公式とは関係のない非公式サイトです。作品名・商品名は各権利者に帰属します。</p>
-      <p class="analytics-note">サイト改善のため、個人を特定しない形でアクセス状況（見られたページ・おおよその国・時間帯など）を記録しています。</p>
+      <p>このページは管理用です。集計はパスワードを入れた人だけが見られます。</p>
     </div>
   </footer>
 
+  <div class="dash-tooltip" id="dash-tooltip" role="status" hidden></div>
+
   <script src="assets/js/common.js?v=20261008-1"></script>
-  <script src="assets/js/item.js?v=20261008-1"></script>
   <script src="assets/js/analytics.js?v=20261008-1"></script>
+  <script src="assets/js/dashboard.js?v=20261008-1"></script>
 </body>
 </html>

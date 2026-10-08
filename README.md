@@ -12,6 +12,7 @@ DRAGON-BALL/
 ├── CLAUDE.md             Claude Code 向けの作業メモ（作業ルール・手順）
 ├── index.html            トップページ（概要・カテゴリー別一覧）
 ├── item.html             商品詳細ページ（item.html?id=FC-001 の形式で表示）
+├── dashboard.html        アクセス解析のダッシュボード（パスワード付き。docs/analytics.md）
 ├── data/
 │   └── items.json        商品データの原本（ここだけを編集する）
 ├── assets/
@@ -19,12 +20,16 @@ DRAGON-BALL/
 │   ├── js/common.js      共通処理（データ読み込み・表示の部品）
 │   ├── js/index.js       トップページの表示処理
 │   ├── js/item.js        詳細ページの表示処理
+│   ├── js/analytics.js   アクセスの記録
+│   ├── js/dashboard.js   ダッシュボードの表示処理
 │   └── images/items/     商品画像（管理IDごとのフォルダ。例：FC-001/front.jpg）
 ├── docs/
 │   ├── data-spec.md      データ項目の仕様（どの項目に何を書くか）
 │   ├── operation.md      運用ルール（更新手順・調査方針・相場/画像のルール）
 │   ├── research-log.md   調査履歴（いつ何を調べたか）
+│   ├── analytics.md      アクセス解析の仕組み・記録する内容
 │   └── handoff.md        引き継ぎメモ（現在の状況・連絡待ち・次の目標）
+├── supabase/migrations/  アクセス解析のデータベース（Supabase）の設定の記録
 ├── .github/workflows/
 │   └── market.yml        中古相場の自動取得（毎朝6時ごろ）
 └── tools/
