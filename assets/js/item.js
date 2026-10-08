@@ -723,6 +723,7 @@ async function renderAutoMarket(item) {
       <tbody>${body}</tbody></table></div>
     <p class="sub-note">${t("ヤフオクは落札済み、ブックオフ・楽天は出品中の価格です。", "Yahoo! Auctions shows sold prices; BOOKOFF and Rakuten show current listing prices. ")}${hasGrades ? t("小さい行は、出品名から機械的に分けた状態ごとの目安です。", "Smaller rows are a rough guide by condition, sorted automatically from listing titles. ") : ""}${variants.length ? t("出品名に版が書かれていない出品は通常版として数えています。", "Listings that do not name an edition are counted as standard. ") : ""}${run ? t(`最終取得：${escapeHTML(formatDate(run.date))}（毎朝6時ごろ更新）`, `Last collected: ${escapeHTML(formatDate(run.date))} (updated daily around 6 a.m. JST)`) : ""}</p>`;
   el.innerHTML = `
+    <p class="market-listings-link"><a href="listings.html?item=${encodeURIComponent(item.id)}&owned=all">${t("🛒 この商品のいま出品中の物を見る", "🛒 See current listings for this item")}</a></p>
     ${setNote}
     ${mine.length ? latestTable : `${latestTable}<p class="empty-box">${t("この商品の自動取得の記録はまだありません。", "No automatically collected records for this item yet.")}</p>`}
     <details class="more-box"><summary>${t("過去の記録を見る", "Show past records")}</summary>

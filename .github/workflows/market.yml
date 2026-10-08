@@ -1,6 +1,6 @@
 # 中古相場の自動取得（1日1回）
-# 毎朝 6:17（日本時間）に tools/market/collect.mjs を実行し、
-# data/market-history.json に変化があれば main に記録する。
+# 毎朝 6:17（日本時間）に tools/market/collect.mjs（相場）と tools/market/listings.mjs（出品中の一覧）を実行し、
+# data/market-history.json・data/listings.json に変化があれば main に記録する。
 # GitHub の「Actions」タブから手動で実行することもできる（Run workflow）。
 # 取得プログラム（tools/market/）を更新して main に送ったときにも自動で実行される。
 name: 中古相場の自動取得
@@ -41,6 +41,11 @@ jobs:
           RAKUTEN_ACCESS_KEY: ${{ secrets.RAKUTEN_ACCESS_KEY }}
         run: node tools/market/collect.mjs
 
+      # 出品中の一覧（2026-10-08 追加）。失敗しても相場の記録は保存する
+      - name: 出品中の一覧を取得
+        continue-on-error: true
+        run: node tools/market/listings.mjs
+
       - name: データチェック
         run: node tools/validate.mjs
 
@@ -48,7 +53,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/market-history.json
+          git add data/market-history.json data/listings.json
           if git diff --cached --quiet; then
             echo "変更なし"
           else

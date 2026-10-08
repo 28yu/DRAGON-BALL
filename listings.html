@@ -3,9 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DRAGON BALL COLLECTION</title>
-  <meta name="title-en" content="DRAGON BALL COLLECTION">
-  <meta name="description" content="ドラゴンボールのカードダス関連資料、ファミコン・スーパーファミコンソフトの個人用コレクション管理サイト（非公式）">
+  <title>出品中の一覧 | DRAGON BALL COLLECTION</title>
+  <meta name="title-en" content="Items for sale now | DRAGON BALL COLLECTION">
+  <meta name="description" content="収集対象のドラゴンボール関連商品のうち、ヤフオク・ブックオフでいま出品中の物の一覧（1日1回更新）">
   <script>
     // 保存された配色（暗い表示）を、画面を描く前に反映する。初期値は明るい配色。
     try { if (localStorage.getItem("db-theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
@@ -19,7 +19,7 @@
 <body>
   <header class="site-header">
     <div class="container">
-      <h1 class="site-title"><a href="index.html">DRAGON BALL <span class="mark">COLLECTION</span></a></h1>
+      <p class="site-title"><a href="index.html">DRAGON BALL <span class="mark">COLLECTION</span></a></p>
       <div class="header-buttons">
         <button type="button" class="theme-toggle lang-toggle" id="lang-toggle">English</button>
         <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">暗い表示</button>
@@ -27,29 +27,21 @@
     </div>
   </header>
 
-  <nav class="cat-nav" aria-label="カテゴリー" data-en="Categories" data-en-attr="aria-label">
-    <div class="container"><ul id="cat-nav"><li><a href="#summary-title" data-en="Overview">概要</a></li></ul></div>
-  </nav>
-
   <main class="container">
-    <section aria-labelledby="summary-title">
-      <h2 class="section-title" id="summary-title" data-en="Collection overview">コレクション概要</h2>
-      <div id="summary"><p class="notice" data-en="Loading…">読み込み中…</p></div>
-    </section>
-
-    <div id="categories"></div>
+    <nav class="breadcrumb" aria-label="パンくずリスト" data-en="Breadcrumb" data-en-attr="aria-label"><a href="index.html" data-en="Home">トップ</a> › <span data-en="Items for sale now">出品中の一覧</span></nav>
+    <h1 class="section-title lst-title" data-en="Items for sale now">出品中の一覧</h1>
+    <div id="listings"><p class="notice" data-en="Loading…">読み込み中…</p></div>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p><span data-en="Data updated: ">データ更新日：</span><span id="data-updated">—</span></p>
       <p data-en="This is a personal collection record and an unofficial site, not affiliated with any rights holder. Titles and product names belong to their respective owners.">本サイトは個人の収集記録であり、権利者・公式とは関係のない非公式サイトです。作品名・商品名は各権利者に帰属します。</p>
-      <p class="analytics-note"><span data-en="To improve this site, visits are recorded anonymously (pages viewed, approximate country, time of day, etc.).">サイト改善のため、個人を特定しない形でアクセス状況（見られたページ・おおよその国・時間帯など）を記録しています。</span> <a class="quiet-link" href="dashboard.html" data-en="Admin">管理</a></p>
+      <p class="analytics-note" data-en="To improve this site, visits are recorded anonymously (pages viewed, approximate country, time of day, etc.).">サイト改善のため、個人を特定しない形でアクセス状況（見られたページ・おおよその国・時間帯など）を記録しています。</p>
     </div>
   </footer>
 
   <script src="assets/js/common.js?v=20261008-5"></script>
-  <script src="assets/js/index.js?v=20261008-5"></script>
+  <script src="assets/js/listings.js?v=20261008-5"></script>
   <script src="assets/js/analytics.js?v=20261008-5"></script>
 </body>
 </html>

@@ -141,6 +141,7 @@ const siteName = (host) => SITE_NAMES[host] ? `${SITE_NAMES[host]}${host.startsW
 
 function pageName(p) {
   if (p.page_type === "top") return { name: "トップページ", href: "index.html" };
+  if (p.page_type === "listings") return { name: "出品中の一覧", href: "listings.html" };
   if (p.page_type === "item" && p.item_id) {
     const title = dash.names?.items.get(p.item_id);
     return { name: `${p.item_id} ${title || ""}`.trim(), href: itemURL(p.item_id) };

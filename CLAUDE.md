@@ -52,7 +52,7 @@
 2. 変更した商品の `history` に1行追加し、`meta.updatedAt` を更新する。
 3. `node tools/validate.mjs` でデータをチェックする（エラー0件を確認）。
 4. `python3 -m http.server 8000` で表示を確認する（必要に応じて Playwright で PC 幅・スマホ幅の表示を確認）。
-   - `assets/js/` や `assets/css/` を変えたら、`index.html`・`item.html`・`dashboard.html` の読み込みの版番号（`?v=日付-連番`）を上げる。上げないと、スマホに残った古いファイルが使われて変更が効かないことがある（2026-10-05）。
+   - `assets/js/` や `assets/css/` を変えたら、`index.html`・`item.html`・`listings.html`・`dashboard.html` の読み込みの版番号（`?v=日付-連番`）を上げる。上げないと、スマホに残った古いファイルが使われて変更が効かないことがある（2026-10-05）。
 5. 調査をした場合は `docs/research-log.md` に経緯を追記する。
 6. 作業ブランチにコミット・プッシュし、`main` に反映する。送信も `main` への反映も Claude が行い、オーナーに GitHub Desktop などの操作を頼まない（2026-10-07 オーナー指示）。手順は `docs/handoff.md` の「5」。
 
@@ -64,7 +64,8 @@
 - `assets/css/style.css`：デザイン（色は `:root` の変数で管理）
 - `assets/images/items/管理ID/`：オーナーが撮影・作成した画像（`front.jpg` など。命名ルールは同フォルダの README.md）
 - `data/market-history.json`：相場の自動取得の記録（手で編集しない）
-- `tools/market/collect.mjs` / `.github/workflows/market.yml`：相場の自動取得（1日1回、robots.txt を確認、メルカリは対象外）
+- `tools/market/collect.mjs` / `.github/workflows/market.yml`：相場の自動取得（1日1回、robots.txt を確認、メルカリは対象外）。共通部品は `tools/market/lib.mjs`
+- `listings.html` / `assets/js/listings.js` / `tools/market/listings.mjs` / `data/listings.json`：出品中の一覧（ヤフオク・ブックオフ。毎朝更新。`docs/listings.md`）
 - `docs/data-spec.md`：データ項目の仕様
 - `docs/operation.md`：運用ルール
 - `docs/research-log.md`：調査履歴

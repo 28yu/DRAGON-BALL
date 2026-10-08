@@ -12,6 +12,7 @@ DRAGON-BALL/
 ├── CLAUDE.md             Claude Code 向けの作業メモ（作業ルール・手順）
 ├── index.html            トップページ（概要・カテゴリー別一覧）
 ├── item.html             商品詳細ページ（item.html?id=FC-001 の形式で表示）
+├── listings.html         出品中の一覧（ヤフオク・ブックオフ。毎朝更新。docs/listings.md）
 ├── dashboard.html        アクセス解析のダッシュボード（パスワード付き。docs/analytics.md）
 ├── data/
 │   ├── items.json        商品データの原本（ここだけを編集する）
@@ -37,7 +38,8 @@ DRAGON-BALL/
 │   └── market.yml        中古相場の自動取得（毎朝6時ごろ）
 └── tools/
     ├── validate.mjs      データのチェックスクリプト
-    └── market/collect.mjs 中古相場の自動取得プログラム
+    ├── market/collect.mjs 中古相場の自動取得プログラム
+    └── market/listings.mjs 出品中の一覧の自動取得プログラム
 ```
 
 **ポイント：商品情報は `data/items.json` の1ファイルにまとめています。** 画面（HTML）は表示だけを担当し、データを変えれば画面も自動で変わります。購入記録・相場情報・画像の場所も、すべて商品ごとに `items.json` の中に記録します。

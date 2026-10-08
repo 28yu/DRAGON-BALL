@@ -73,7 +73,7 @@
   const itemId = /item\.html$/.test(path) ? (params.get("id") || "").slice(0, 40) : "";
   const CATEGORY_BY_PREFIX = { BOOK: "book", FC: "famicom", SFC: "sfc", DBC: "capsule" };
   const category = itemId ? CATEGORY_BY_PREFIX[itemId.split("-")[0]] || null : null;
-  const pageType = itemId ? "item" : /(\/|index\.html)$/.test(path) ? "top" : "other";
+  const pageType = itemId ? "item" : /listings\.html$/.test(path) ? "listings" : /(\/|index\.html)$/.test(path) ? "top" : "other";
 
   // 端末ごとの番号（初めての端末なら新しく作る）
   let visitorId = storageGet("db-vid");

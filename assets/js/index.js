@@ -174,7 +174,7 @@ function renderCategoryNav(data) {
   if (!el) return;
   el.innerHTML = `<li><a href="#summary-title">${t("概要", "Overview")}</a></li>${data.categories
     .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${categoryBall(cat, 18)}${escapeHTML(tx(cat.label))}</a></li>`)
-    .join("")}`;
+    .join("")}<li class="nav-listings"><a href="listings.html">${t("🛒 出品中の一覧", "🛒 For sale now")}</a></li>`;
 }
 
 function itemCardHTML(item, cat) {
