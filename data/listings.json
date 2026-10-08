@@ -1,7 +1,7 @@
 {
  "meta": {
   "description": "いま出品中の物の一覧（tools/market/listings.mjs が1日1回上書きする）。手で編集しない。",
-  "updatedAt": "2026-10-08T05:57:29.372Z",
+  "updatedAt": "2026-10-08T06:29:48.982Z",
   "sources": {
    "yahoo": {
     "label": "ヤフオク（出品中）",
@@ -330,6 +330,28 @@
    "matches": [
     {
      "id": "SFC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:l1247544004",
+   "site": "yahoo",
+   "title": "ドラゴンボール カプセル この世はでかっかい宝島 クロニクル編 孫悟空 vs ブラック参謀 ドラカプ フィギュア 激安1円スタート",
+   "price": 1,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791893633,
+   "shipping": 900,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/l1247544004",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-004-05"
     }
    ]
   },
@@ -7966,28 +7988,6 @@
    "matches": [
     {
      "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:o1142134176",
-   "site": "yahoo",
-   "title": "ニンテンドー Nintendo スーパーファミコン用 ソフト バンダイ BANDAI ドラゴンボールZ DRAGON BALL Z 超武闘伝3 SHVC-AZ4J SHVC-006",
-   "price": 1000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791640722,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1142134176",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
     }
    ]
   },

@@ -3,7 +3,7 @@
     "description": "中古相場の自動取得履歴（tools/market/collect.mjs が1日1回更新）。手で編集しない。",
     "lastRun": {
       "date": "2026-10-08",
-      "startedAt": "2026-10-08T01:03:07.261Z",
+      "startedAt": "2026-10-08T05:59:37.284Z",
       "sources": {
         "rakuten": {
           "label": "楽天市場（出品中）",
@@ -50,7 +50,7 @@
           ]
         }
       },
-      "finishedAt": "2026-10-08T01:19:44.279Z"
+      "finishedAt": "2026-10-08T06:15:45.119Z"
     },
     "updatedAt": "2026-10-08"
   },
@@ -21891,9 +21891,9 @@
       "id": "DBC-004-02",
       "source": "yahoo",
       "kind": "sold",
-      "count": 12,
+      "count": 11,
       "min": 8000,
-      "median": 9978,
+      "median": 10275,
       "max": 23500,
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E5%AD%AB%E6%82%9F%E7%A9%BA%20%E7%A5%9E%E9%BE%8D&b=1",
       "samples": [
@@ -24076,12 +24076,17 @@
       "id": "DBC-009-04",
       "source": "yahoo",
       "kind": "sold",
-      "count": 10,
+      "count": 11,
       "min": 11551,
-      "median": 15785,
+      "median": 15070,
       "max": 20351,
       "searchUrl": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&va=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20%E3%82%BB%E3%83%AB%E7%B7%A8%E6%94%B9%20%E7%9E%AC%E9%96%93%E7%A7%BB%E5%8B%95&b=1",
       "samples": [
+        {
+          "title": "ドラゴンボール ドラゴンボールカプセル ドラカプ セル編改 瞬間移動 孫悟空 ベジータ",
+          "price": 13800,
+          "url": null
+        },
         {
           "title": "【新品未開封】ドラゴンボールカプセルネオ セル編改 瞬間移動！　孫悟空　ベジータ　フィギュア　ドラカプ　フィギュア　",
           "price": 19000,
@@ -24091,11 +24096,6 @@
           "title": "ドラゴンボールカプセル ドラカプ セル編改 瞬間移動 ヤードラット服 孫悟空 ベジータ フィギュアのみ 中古品 1円スタート",
           "price": 20351,
           "url": "https://auctions.yahoo.co.jp/jp/auction/k1244782625"
-        },
-        {
-          "title": "ドラゴンボール ドラゴンボールカプセル ドラカプ セル編改 瞬間移動 孫悟空 ベジータ",
-          "price": 14000,
-          "url": null
         }
       ]
     },
@@ -26369,9 +26369,9 @@
       "id": "SFC-003",
       "source": "rakuten",
       "kind": "listing",
-      "count": 21,
+      "count": 23,
       "min": 352,
-      "median": 5322,
+      "median": 4961,
       "max": 10500,
       "searchUrl": "https://search.rakuten.co.jp/search/mall/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%20%E8%B6%85%E6%AD%A6%E9%97%98%E4%BC%9D2%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%95%E3%82%A1%E3%83%9F%E3%82%B3%E3%83%B3/"
     },
