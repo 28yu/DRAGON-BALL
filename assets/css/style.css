@@ -1015,8 +1015,11 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
 /* ---------- アクセス解析のダッシュボード（dashboard.html） ---------- */
 .dash-title { font-size: 1.35rem; margin-bottom: 18px; }
 .dash-login {
+  width: 100%;
   max-width: 420px;
+  min-width: 0;
   display: grid;
+  grid-template-columns: minmax(0, 1fr);
   gap: 12px;
   background: var(--surface);
   border: 3px solid var(--ink);
@@ -1026,8 +1029,15 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
 .dash-login-lead { margin: 0; font-weight: 700; }
 .dash-login-demo { margin: 0; font-size: 0.8rem; color: var(--text-muted); }
 .dash-login .notice { margin: 0; }
-.dash-field { display: grid; gap: 4px; font-size: 0.85rem; font-weight: 700; }
+.dash-field { display: grid; grid-template-columns: minmax(0, 1fr); gap: 4px; min-width: 0; font-size: 0.85rem; font-weight: 700; }
+/* iPhone の Safari では入力欄が自分の幅を優先して枠からはみ出すことがあるため、幅を枠いっぱいに固定する（2026-10-08） */
 .dash-field input {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  -webkit-appearance: none;
+  appearance: none;
   font: inherit;
   font-size: 1rem;
   min-height: 44px;
@@ -1208,8 +1218,17 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
 .dash-settings { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px; }
 .dash-setting .sub-title { margin-top: 0; }
 .dash-section .sub-title:first-of-type { margin-top: 0; }
-.dash-check { display: flex; align-items: center; gap: 8px; margin-top: 8px; font-weight: 700; min-height: 44px; cursor: pointer; }
-.dash-check input { width: 22px; height: 22px; accent-color: var(--accent); }
+.dash-login-sub { margin-top: 18px; }
+.dash-optout .sub-title { margin-top: 0; }
+.dash-optout-status { margin: 0 0 8px; font-size: 0.9rem; }
+.dash-optout-status strong { padding: 0 6px; background: var(--brand-yellow); color: #161616; }
+.dash-optout-status.is-off strong { background: var(--ink); color: var(--ink-text); }
+.dash-optout .dash-btn { width: 100%; margin-top: 0; }
+.dash-pass-box > summary { cursor: pointer; font-weight: 700; font-size: 0.88rem; min-height: 44px; display: flex; align-items: center; color: var(--accent); }
+.dash-pass-box > summary::-webkit-details-marker { display: none; }
+.dash-pass-box > summary::before { content: "▶"; font-size: 0.7rem; margin-right: 6px; transition: transform 0.15s ease; }
+.dash-pass-box[open] > summary::before { transform: rotate(90deg); }
+.dash-pass-box[open] > summary { margin-bottom: 6px; }
 .dash-passform { display: grid; gap: 8px; }
 .dash-setting .dash-btn { margin-top: 8px; }
 

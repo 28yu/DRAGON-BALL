@@ -175,6 +175,28 @@ async function fetchData() {
   });
 }
 
+// ---------- この端末を記録しない設定（パスワードなしで切り替えられる。端末のブラウザに保存するだけ） ----------
+function optoutHTML() {
+  const off = window.DBAnalytics.isOptedOut();
+  return `<div class="dash-optout" id="dash-optout-box">
+    <h3 class="sub-title">この端末のアクセス</h3>
+    <p class="dash-optout-status ${off ? "is-off" : ""}" aria-live="polite">いまの設定：<strong>${off ? "記録しない" : "記録する"}</strong></p>
+    <button type="button" class="dash-btn ${off ? "" : "dash-btn-primary"}" id="dash-optout">${off ? "記録する設定に戻す" : "記録しない設定にする"}</button>
+    <p class="dash-note">ボタンを押すとすぐに切り替わります（パスワードの入力や保存は不要）。自分のアクセスを数えないための設定で、スマホ・PCなど端末ごとに1回ずつ押してください。</p>
+  </div>`;
+}
+function bindOptout() {
+  const btn = document.getElementById("dash-optout");
+  if (!btn) return;
+  btn.addEventListener("click", () => {
+    window.DBAnalytics.setOptOut(!window.DBAnalytics.isOptedOut());
+    const box = document.getElementById("dash-optout-box");
+    box.outerHTML = optoutHTML();
+    bindOptout();
+    document.getElementById("dash-optout").focus();
+  });
+}
+
 // ---------- ログイン画面 ----------
 function renderLogin(message = "") {
   dash.el.innerHTML = `
@@ -187,10 +209,11 @@ function renderLogin(message = "") {
       <button type="submit" class="dash-btn dash-btn-primary">入る</button>
       ${message ? `<p class="notice notice-warn" role="alert">${message}</p>` : ""}
       <p class="dash-login-demo"><a href="dashboard.html?demo=1">見本データで画面を見る</a>（数字はでたらめです）</p>
-    </form>`;
+    </form>
+    <div class="dash-login dash-login-sub">${optoutHTML()}</div>`;
+  bindOptout();
   const form = document.getElementById("dash-login");
   const input = document.getElementById("dash-password");
-  input.focus();
   form.addEventListener("submit", async (e) => {
     e.preventDefault();
     const btn = form.querySelector("button");
@@ -316,20 +339,18 @@ function render() {
 
     ${dashSection("settings", "設定", `
       <div class="dash-settings">
+        <div class="dash-setting">${optoutHTML()}</div>
         <div class="dash-setting">
-          <h3 class="sub-title">この端末のアクセス</h3>
-          <p class="dash-note">自分のアクセスを数えないようにできます。スマホ・PCなど、端末ごとに設定してください。</p>
-          <label class="dash-check"><input type="checkbox" id="dash-optout" ${window.DBAnalytics.isOptedOut() ? "checked" : ""}> この端末のアクセスを記録しない</label>
-          <p class="dash-note" id="dash-optout-msg" aria-live="polite"></p>
-        </div>
-        <div class="dash-setting">
-          <h3 class="sub-title">パスワードの変更</h3>
-          <form id="dash-passform" class="dash-passform">
-            <label class="dash-field"><span>新しいパスワード（4文字以上）</span><input type="password" id="dash-new1" autocomplete="new-password" minlength="4" required></label>
-            <label class="dash-field"><span>もう一度</span><input type="password" id="dash-new2" autocomplete="new-password" minlength="4" required></label>
-            <button type="submit" class="dash-btn">変更する</button>
-            <p class="dash-note" id="dash-pass-msg" aria-live="polite"></p>
-          </form>
+          <h3 class="sub-title">パスワード</h3>
+          <details class="dash-pass-box">
+            <summary>パスワードを変更する（必要なときだけ）</summary>
+            <form id="dash-passform" class="dash-passform">
+              <label class="dash-field"><span>新しいパスワード（4文字以上）</span><input type="password" id="dash-new1" autocomplete="new-password" minlength="4" required></label>
+              <label class="dash-field"><span>もう一度</span><input type="password" id="dash-new2" autocomplete="new-password" minlength="4" required></label>
+              <button type="submit" class="dash-btn">パスワードを変更する</button>
+              <p class="dash-note" id="dash-pass-msg" aria-live="polite"></p>
+            </form>
+          </details>
         </div>
         <div class="dash-setting">
           <h3 class="sub-title">記録について</h3>
@@ -392,13 +413,7 @@ function bindControls() {
   document.getElementById("dash-prev").addEventListener("click", () => { dash.offset++; reload(); });
   document.getElementById("dash-next").addEventListener("click", () => { if (dash.offset > 0) { dash.offset--; reload(); } });
 
-  const optout = document.getElementById("dash-optout");
-  optout.addEventListener("change", () => {
-    window.DBAnalytics.setOptOut(optout.checked);
-    document.getElementById("dash-optout-msg").textContent = optout.checked
-      ? "この端末のアクセスは、これから記録しません。"
-      : "この端末のアクセスも、これから記録します。";
-  });
+  bindOptout();
 
   document.getElementById("dash-passform").addEventListener("submit", async (e) => {
     e.preventDefault();
