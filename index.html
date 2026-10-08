@@ -4,32 +4,37 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DRAGON BALL COLLECTION</title>
+  <meta name="title-en" content="DRAGON BALL COLLECTION">
   <meta name="description" content="ドラゴンボールのカードダス関連資料、ファミコン・スーパーファミコンソフトの個人用コレクション管理サイト（非公式）">
   <script>
     // 保存された配色（暗い表示）を、画面を描く前に反映する。初期値は明るい配色。
     try { if (localStorage.getItem("db-theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
   </script>
+  <script src="assets/js/i18n.js?v=20261008-4"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Zen+Kaku+Gothic+New:wght@400;700;900&display=swap">
-  <link rel="stylesheet" href="assets/css/style.css?v=20261008-3">
+  <link rel="stylesheet" href="assets/css/style.css?v=20261008-4">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
       <h1 class="site-title"><a href="index.html">DRAGON BALL <span class="mark">COLLECTION</span></a></h1>
-      <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">暗い表示</button>
+      <div class="header-buttons">
+        <button type="button" class="theme-toggle lang-toggle" id="lang-toggle">English</button>
+        <button type="button" class="theme-toggle" id="theme-toggle" aria-pressed="false">暗い表示</button>
+      </div>
     </div>
   </header>
 
-  <nav class="cat-nav" aria-label="カテゴリー">
-    <div class="container"><ul id="cat-nav"><li><a href="#summary-title">概要</a></li></ul></div>
+  <nav class="cat-nav" aria-label="カテゴリー" data-en="Categories" data-en-attr="aria-label">
+    <div class="container"><ul id="cat-nav"><li><a href="#summary-title" data-en="Overview">概要</a></li></ul></div>
   </nav>
 
   <main class="container">
     <section aria-labelledby="summary-title">
-      <h2 class="section-title" id="summary-title">コレクション概要</h2>
-      <div id="summary"><p class="notice">読み込み中…</p></div>
+      <h2 class="section-title" id="summary-title" data-en="Collection overview">コレクション概要</h2>
+      <div id="summary"><p class="notice" data-en="Loading…">読み込み中…</p></div>
     </section>
 
     <div id="categories"></div>
@@ -37,14 +42,14 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>データ更新日：<span id="data-updated">—</span></p>
-      <p>本サイトは個人の収集記録であり、権利者・公式とは関係のない非公式サイトです。作品名・商品名は各権利者に帰属します。</p>
-      <p class="analytics-note">サイト改善のため、個人を特定しない形でアクセス状況（見られたページ・おおよその国・時間帯など）を記録しています。 <a class="quiet-link" href="dashboard.html">管理</a></p>
+      <p><span data-en="Data updated: ">データ更新日：</span><span id="data-updated">—</span></p>
+      <p data-en="This is a personal collection record and an unofficial site, not affiliated with any rights holder. Titles and product names belong to their respective owners.">本サイトは個人の収集記録であり、権利者・公式とは関係のない非公式サイトです。作品名・商品名は各権利者に帰属します。</p>
+      <p class="analytics-note"><span data-en="To improve this site, visits are recorded anonymously (pages viewed, approximate country, time of day, etc.).">サイト改善のため、個人を特定しない形でアクセス状況（見られたページ・おおよその国・時間帯など）を記録しています。</span> <a class="quiet-link" href="dashboard.html" data-en="Admin">管理</a></p>
     </div>
   </footer>
 
-  <script src="assets/js/common.js?v=20261008-3"></script>
-  <script src="assets/js/index.js?v=20261008-3"></script>
-  <script src="assets/js/analytics.js?v=20261008-3"></script>
+  <script src="assets/js/common.js?v=20261008-4"></script>
+  <script src="assets/js/index.js?v=20261008-4"></script>
+  <script src="assets/js/analytics.js?v=20261008-4"></script>
 </body>
 </html>

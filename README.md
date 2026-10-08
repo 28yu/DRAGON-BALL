@@ -14,13 +14,15 @@ DRAGON-BALL/
 ├── item.html             商品詳細ページ（item.html?id=FC-001 の形式で表示）
 ├── dashboard.html        アクセス解析のダッシュボード（パスワード付き。docs/analytics.md）
 ├── data/
-│   └── items.json        商品データの原本（ここだけを編集する）
+│   ├── items.json        商品データの原本（ここだけを編集する）
+│   └── translations/en.json 英語表示用の対応表（日本語の文 → 英訳。docs/i18n.md）
 ├── assets/
 │   ├── css/style.css     デザイン
 │   ├── js/common.js      共通処理（データ読み込み・表示の部品）
 │   ├── js/index.js       トップページの表示処理
 │   ├── js/item.js        詳細ページの表示処理
 │   ├── js/analytics.js   アクセスの記録
+│   ├── js/i18n.js        日本語／英語の切り替え
 │   ├── js/dashboard.js   ダッシュボードの表示処理
 │   └── images/items/     商品画像（管理IDごとのフォルダ。例：FC-001/front.jpg）
 ├── docs/
@@ -28,6 +30,7 @@ DRAGON-BALL/
 │   ├── operation.md      運用ルール（更新手順・調査方針・相場/画像のルール）
 │   ├── research-log.md   調査履歴（いつ何を調べたか）
 │   ├── analytics.md      アクセス解析の仕組み・記録する内容
+│   ├── i18n.md           日本語／英語の切り替えの仕組み
 │   └── handoff.md        引き継ぎメモ（現在の状況・連絡待ち・次の目標）
 ├── supabase/migrations/  アクセス解析のデータベース（Supabase）の設定の記録
 ├── .github/workflows/

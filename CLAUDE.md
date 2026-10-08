@@ -35,6 +35,7 @@
 - 相場情報は必ず調査日と出典（または根拠）をセットで記録し、古い記録は消さない。
 - 管理IDは一度付けたら変更・再利用しない。
 - 画像は原則オーナーが撮影・作成したもののみ。例外として、未所持の商品に限りオーナーが提供した参考画像を置いてよい（`"kind": "reference"` を付ける。画面の「参考画像」表示は 2026-10-05 オーナー指示で非表示。購入後に差し替える）。自分からネットの画像を探して保存しない。オーナーがURLを示して登録を頼んだ画像は、確認の質問をせずにその出品の写真をすべて登録する（2026-10-07 オーナー指示。権利の点はオーナー承知。出典URLは `history` に書き、画像の説明文には入れない）。
+- **英語表示（2026-10-08 オーナー指示で「すべて英訳」）**：画面に出る日本語の文を `data/items.json` に足したり変えたりしたら、`data/translations/en.json`（日本語の文 → 英訳の対応表）にも英訳を足す。`node tools/validate.mjs` が英訳のない文を警告する（`node tools/i18n.mjs --missing` で一覧）。画面の決まった文言は JS の中で `t("日本語", "English")` と並べて書く。詳しくは `docs/i18n.md`。
 - メールアドレスなどの個人情報・秘密情報をリポジトリに含めない。コミットの作成者メールは GitHub の noreply アドレスを使う。
 - リポジトリの公開設定や GitHub Pages の設定は勝手に変更しない。
 
@@ -69,6 +70,7 @@
 - `docs/research-log.md`：調査履歴
 - `docs/handoff.md`：引き継ぎメモ（セッションを切り替えるときに更新する）
 - `tools/validate.mjs`：データ整合性チェック
+- `assets/js/i18n.js` / `data/translations/en.json` / `tools/i18n.mjs`：日本語／英語の切り替え（`docs/i18n.md`）
 - `dashboard.html` / `assets/js/dashboard.js` / `assets/js/analytics.js` / `supabase/migrations/`：アクセス解析（記録先は Supabase、パスワード付きのダッシュボード。詳しくは `docs/analytics.md`）
 
 ## 未対応・今後の候補

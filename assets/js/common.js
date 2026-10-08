@@ -5,22 +5,22 @@ const DATA_URL = "data/items.json";
 
 // 所持状況の表示名（items.json の ownership.status の値と対応）
 const OWNERSHIP_LABELS = {
-  unconfirmed: "未確認",
-  not_owned: "未所持",
-  ordered: "購入手続き中",
-  owned: "所持",
+  unconfirmed: t("未確認", "Unconfirmed"),
+  not_owned: t("未所持", "Not owned"),
+  ordered: t("購入手続き中", "Ordered"),
+  owned: t("所持", "Owned"),
 };
 
 // 情報の確度（各情報項目の status の値と対応）
 const FACT_STATUS_LABELS = {
-  unconfirmed: "未確認",
-  reference: "参考情報・要確認",
-  confirmed: "確認済み",
+  unconfirmed: t("未確認", "Unconfirmed"),
+  reference: t("参考情報・要確認", "Reference (to be verified)"),
+  confirmed: t("確認済み", "Verified"),
 };
 
 async function loadCollection() {
-  const res = await fetch(DATA_URL, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`データの読み込みに失敗しました（HTTP ${res.status}）`);
+  const [res] = await Promise.all([fetch(DATA_URL, { cache: "no-cache" }), loadTranslations()]);
+  if (!res.ok) throw new Error(t(`データの読み込みに失敗しました（HTTP ${res.status}）`, `Failed to load the data (HTTP ${res.status})`));
   return res.json();
 }
 
@@ -35,9 +35,16 @@ function escapeHTML(value) {
 }
 
 // "1996-02-01" → "1996年2月1日"、"1991-04" → "1991年4月"、"1991" → "1991年"
+// 英語表示では "Feb 1, 1996"、"Apr 1991"、"1991"
+const EN_MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
 function formatDate(value) {
   if (!value) return "";
   const [y, m, d] = String(value).split("-");
+  if (LANG === "en") {
+    if (!m) return String(Number(y));
+    const mon = EN_MONTHS[Number(m) - 1] || m;
+    return d ? `${mon} ${Number(d)}, ${Number(y)}` : `${mon} ${Number(y)}`;
+  }
   let out = `${Number(y)}年`;
   if (m) out += `${Number(m)}月`;
   if (d) out += `${Number(d)}日`;
@@ -46,7 +53,7 @@ function formatDate(value) {
 
 function formatYen(value) {
   if (value === null || value === undefined || value === "") return "";
-  return `${Number(value).toLocaleString("ja-JP")}円`;
+  return LANG === "en" ? `¥${Number(value).toLocaleString("en-US")}` : `${Number(value).toLocaleString("ja-JP")}円`;
 }
 
 function ownershipBadge(status) {
@@ -63,9 +70,9 @@ function unconfirmedText(text = "—") {
 function thumbHTML(item) {
   const img = (item.images || [])[0];
   if (img && img.path) {
-    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(img.caption || item.title)}" loading="lazy">${referenceLabel(img)}</div>`;
+    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(tx(img.caption) || tx(item.title))}" loading="lazy">${referenceLabel(img)}</div>`;
   }
-  return `<div class="thumb"><span class="thumb-placeholder">画像未登録</span></div>`;
+  return `<div class="thumb"><span class="thumb-placeholder">${t("画像未登録", "No image yet")}</span></div>`;
 }
 
 // 未所持品の参考画像（オーナーの撮影ではない画像）に付けるラベル
@@ -82,11 +89,11 @@ function showLoadError(container, err) {
   const isFile = location.protocol === "file:";
   container.innerHTML = `
     <div class="notice notice-warn">
-      <strong>商品データを読み込めませんでした。</strong><br>
+      <strong>${t("商品データを読み込めませんでした。", "Could not load the collection data.")}</strong><br>
       ${escapeHTML(err.message)}<br>
       ${isFile
-        ? "index.html をファイルとして直接開くと、ブラウザの制限でデータを読み込めません。README の「ローカルでの確認方法」に従って簡易サーバーを起動してください。"
-        : "data/items.json の書式（カンマや括弧の対応）に誤りがないか確認してください。"}
+        ? t("index.html をファイルとして直接開くと、ブラウザの制限でデータを読み込めません。README の「ローカルでの確認方法」に従って簡易サーバーを起動してください。", "Opening index.html directly as a file blocks loading the data. Start a local server as described in the README.")
+        : t("data/items.json の書式（カンマや括弧の対応）に誤りがないか確認してください。", "Please check data/items.json for formatting errors.")}
     </div>`;
 }
 
@@ -104,7 +111,7 @@ function setupThemeToggle() {
   const root = document.documentElement;
   const render = () => {
     const dark = root.dataset.theme === "dark";
-    btn.innerHTML = `${dark ? THEME_ICONS.light : THEME_ICONS.dark}<span class="theme-toggle-text">${dark ? "明るい表示" : "暗い表示"}</span>`;
+    btn.innerHTML = `${dark ? THEME_ICONS.light : THEME_ICONS.dark}<span class="theme-toggle-text">${dark ? t("明るい表示", "Light") : t("暗い表示", "Dark")}</span>`;
     btn.setAttribute("aria-pressed", String(dark));
   };
   btn.addEventListener("click", () => {
@@ -122,7 +129,12 @@ setupThemeToggle();
 // 一覧カードに出す名前。ドラゴンボールカプセルはセクション名で分かるので、先頭のシリーズ名を省いてシリーズ名だけにする
 // （正式名称 title は変えず、詳細ページではそのまま表示する）
 function cardTitle(item) {
-  if (item.category !== "capsule") return item.title;
+  if (item.category !== "capsule") return tx(item.title);
+  if (LANG === "en") {
+    const title = tx(item.title);
+    const short = title.replace(/^Dragon Ball Capsule\s*[:\-–・]?\s*/i, "").replace(/^Neo\s*[:\-–]\s*/i, "Neo: ").trim();
+    return short || title;
+  }
   const short = item.title.replace(/^ドラゴンボールカプセル・?/, "").replace(/^ネオ\s*/, "ネオ ").trim();
   return short || item.title;
 }

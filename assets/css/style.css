@@ -112,6 +112,10 @@ a:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
 .theme-toggle:hover { transform: translate(-1px, -1px); box-shadow: 4px 4px 0 var(--shadow-color); }
 .theme-toggle:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; }
 .theme-toggle svg { width: 18px; height: 18px; }
+/* 言語の切り替えボタン（明るさ調整ボタンの上。2026-10-08 オーナー指示） */
+.header-buttons { flex: none; display: flex; flex-direction: column; align-items: stretch; gap: 10px; }
+.header-buttons .theme-toggle { justify-content: center; }
+.lang-short { display: none; }
 .site-title {
   margin: 0;
   font-weight: 400;
@@ -882,6 +886,10 @@ html.lightbox-open { overflow: hidden; }
   .site-header { padding: 20px 0 18px; }
   /* スマホではボタンをマークだけにして、ロゴを1行に収める（文字は読み上げ用に残す） */
   .theme-toggle { width: 44px; padding: 0; justify-content: center; }
+  /* 言語ボタンはスマホでは地球のマークをやめ、短い文字（EN／日本）だけにする */
+  .lang-toggle svg, .lang-toggle .lang-toggle-text { display: none; }
+  .lang-toggle .lang-short { display: inline; font-size: 0.8rem; font-weight: 900; letter-spacing: 0.02em; }
+  .header-buttons { gap: 8px; }
   .theme-toggle-text {
     position: absolute;
     width: 1px; height: 1px;

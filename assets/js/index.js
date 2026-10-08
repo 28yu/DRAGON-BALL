@@ -15,15 +15,15 @@ function progressHTML(items, withBreakdown = true) {
   const notOwned = c.not_owned + c.ordered;
   const pct = (n) => (total ? (n / total) * 100 : 0);
   return `
-    <div class="progress" role="img" aria-label="所持 ${c.owned}点、未所持 ${notOwned}点、未確認 ${c.unconfirmed}点">
+    <div class="progress" role="img" aria-label="${t(`所持 ${c.owned}点、未所持 ${notOwned}点、未確認 ${c.unconfirmed}点`, `Owned ${c.owned}, not owned ${notOwned}, unconfirmed ${c.unconfirmed}`)}">
       ${c.owned ? `<span class="p-owned" style="width:${pct(c.owned)}%"></span>` : ""}
       ${notOwned ? `<span class="p-notowned" style="width:${pct(notOwned)}%"></span>` : ""}
       ${c.unconfirmed ? `<span class="p-unconfirmed" style="width:${pct(c.unconfirmed)}%"></span>` : ""}
     </div>
     ${withBreakdown ? `<ul class="breakdown">
-      <li class="b-owned">所持 ${c.owned}点</li>
-      <li class="b-notowned">未所持 ${notOwned}点</li>
-      <li class="b-unconfirmed">未確認 ${c.unconfirmed}点</li>
+      <li class="b-owned">${t(`所持 ${c.owned}点`, `Owned ${c.owned}`)}</li>
+      <li class="b-notowned">${t(`未所持 ${notOwned}点`, `Not owned ${notOwned}`)}</li>
+      <li class="b-unconfirmed">${t(`未確認 ${c.unconfirmed}点`, `Unconfirmed ${c.unconfirmed}`)}</li>
     </ul>` : ""}`;
 }
 
@@ -38,7 +38,7 @@ function categoryCardHTML(cat, items) {
   const owned = countByOwnership(items).owned;
   return `
     <a class="cat-card" href="#cat-${escapeHTML(cat.id)}">
-      <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(cat.label)}</span>
+      <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(tx(cat.label))}</span>
       <span class="cat-card-count">${owned}<small> / ${items.length}</small></span>
       ${progressHTML(items, false)}
     </a>`;
@@ -72,23 +72,23 @@ function seriesCardHTML(cat, seriesList) {
     return `
       <li${done ? ' class="sm-done"' : ""}><a href="${itemURL(s.id)}">
         <span class="sm-name">${escapeHTML(cardTitle(s))}</span>
-        <span class="sm-count">${owned}<small> / ${figs.length}体</small>${bonus.length ? `<small class="sm-bonus">＋ボーナス ${bOwned} / ${bonus.length}</small>` : ""}</span>
+        <span class="sm-count">${owned}<small> / ${figs.length}${t("体", "")}</small>${bonus.length ? `<small class="sm-bonus">${t("＋ボーナス", "+ Bonus")} ${bOwned} / ${bonus.length}</small>` : ""}</span>
         ${meterHTML(owned, figs.length)}
       </a></li>`;
   }).join("");
   return `
     <div class="cat-card series-card">
       <a class="series-card-head" href="#cat-${escapeHTML(cat.id)}">
-        <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(cat.label)} <span class="badge badge-info">集計外</span></span>
-        <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">シリーズ</span></span>
+        <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(tx(cat.label))} <span class="badge badge-info">${t("集計外", "Not counted")}</span></span>
+        <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">${t("シリーズ", "series")}</span></span>
       </a>
       ${meterHTML(complete, seriesList.length)}
       <p class="series-bonus-total">
-        <span>フィギュア <strong>${figOwned}</strong><small> / ${figTotal}体</small></span>
-        ${bonusTotal ? `<span>ボーナスパーツ <strong>${bonusOwned}</strong><small> / ${bonusTotal}</small></span>` : ""}
+        <span>${t("フィギュア", "Figures")} <strong>${figOwned}</strong><small> / ${figTotal}${t("体", "")}</small></span>
+        ${bonusTotal ? `<span>${t("ボーナスパーツ", "Bonus parts")} <strong>${bonusOwned}</strong><small> / ${bonusTotal}</small></span>` : ""}
       </p>
       <details class="series-details" id="series-details-${escapeHTML(cat.id)}"${seriesOpen() ? " open" : ""}>
-        <summary>シリーズごとの内訳（${seriesList.length}シリーズ）</summary>
+        <summary>${t(`シリーズごとの内訳（${seriesList.length}シリーズ）`, `Breakdown by series (${seriesList.length} series)`)}</summary>
         <ul class="series-meters">${rows}</ul>
       </details>
     </div>`;
@@ -119,13 +119,13 @@ function renderSummary(data) {
 
   const hero = `
     <div class="hero-card">
-      <button type="button" class="rate-circle${rateStyle() === "plain" ? "" : " radar"}" id="rate-circle" aria-label="所持率の表示を切り替える">
+      <button type="button" class="rate-circle${rateStyle() === "plain" ? "" : " radar"}" id="rate-circle" aria-label="${t("所持率の表示を切り替える", "Switch the ownership rate display")}">
         <span class="rate-num">${rate}<small>%</small></span>
-        <span class="rate-label">${c.unconfirmed > 0 ? "所持率（暫定）" : "所持率"}</span>
+        <span class="rate-label">${c.unconfirmed > 0 ? t("所持率（暫定）", "Owned (provisional)") : t("所持率", "Owned")}</span>
       </button>
       <div class="hero-body">
-        <p class="hero-label">所持 / 収集対象</p>
-        <p class="hero-count">${c.owned}<small> / ${all.length}点</small></p>
+        <p class="hero-label">${t("所持 / 収集対象", "Owned / Target items")}</p>
+        <p class="hero-count">${c.owned}<small> / ${all.length}${t("点", "")}</small></p>
       </div>
       <div class="hero-progress">${progressHTML(all)}</div>
     </div>`;
@@ -139,13 +139,13 @@ function renderSummary(data) {
 
   // 所持状況が未確認の対象があるときだけ注意書きを出す（所持率は上の丸い表示で示す）
   const notice = c.unconfirmed > 0
-    ? `<p class="notice">所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。</p>`
+    ? `<p class="notice">${t(`所持状況が未確認の対象が ${c.unconfirmed}点あります。収集進捗（所持率）は、全点の所持状況を確認した後に正しい値になります。`, `${c.unconfirmed} item(s) have an unconfirmed ownership status. The ownership rate becomes accurate once every item has been checked.`)}</p>`
     : "";
 
   // 「確認が必要な対象があります」のお知らせはオーナー指示（2026-10-05）で表示しない
   const alertItems = [];
   const alertNotice = alertItems.length
-    ? `<p class="notice notice-warn">確認が必要な対象があります：${alertItems
+    ? `<p class="notice notice-warn">${t("確認が必要な対象があります：", "Items to check: ")}${alertItems
         .map((i) => `<a href="${itemURL(i.id)}">${escapeHTML(i.id)}</a>`)
         .join("、")}</p>`
     : "";
@@ -172,8 +172,8 @@ function setupRateToggle() {
 function renderCategoryNav(data) {
   const el = document.getElementById("cat-nav");
   if (!el) return;
-  el.innerHTML = `<li><a href="#summary-title">概要</a></li>${data.categories
-    .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${categoryBall(cat, 18)}${escapeHTML(cat.label)}</a></li>`)
+  el.innerHTML = `<li><a href="#summary-title">${t("概要", "Overview")}</a></li>${data.categories
+    .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${categoryBall(cat, 18)}${escapeHTML(tx(cat.label))}</a></li>`)
     .join("")}`;
 }
 
@@ -190,7 +190,7 @@ function itemCardHTML(item, cat) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(item.id)}</span>
           <h3 class="item-title">${escapeHTML(cardTitle(item))}</h3>
-          <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">情報のみ</span>`}${alert}${release}</div>
+          <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">${t("情報のみ", "Info only")}</span>`}${alert}${release}</div>
         </div>
       </a>
     </li>`;
@@ -203,9 +203,9 @@ function renderCategories(data) {
       const items = data.items.filter((i) => i.category === cat.id);
       return `
         <section id="cat-${escapeHTML(cat.id)}" aria-labelledby="cat-${escapeHTML(cat.id)}-title">
-          <div class="ball-title">${categoryBall(cat, 34)}<h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(cat.label)}（${items.length}点）</h2></div>
-          ${inSummary(cat) ? "" : `<p class="info-only-note"><span class="badge badge-info">情報のみ</span> 収集予定のシリーズです。コレクション概要の集計には含めていません。</p>`}
-          <p class="section-desc">${escapeHTML(cat.description || "")}</p>
+          <div class="ball-title">${categoryBall(cat, 34)}<h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(tx(cat.label))}${t(`（${items.length}点）`, ` (${items.length})`)}</h2></div>
+          ${inSummary(cat) ? "" : `<p class="info-only-note"><span class="badge badge-info">${t("情報のみ", "Info only")}</span> ${t("収集予定のシリーズです。コレクション概要の集計には含めていません。", "Series I plan to collect. Not counted in the collection overview.")}</p>`}
+          <p class="section-desc">${escapeHTML(tx(cat.description || ""))}</p>
           <ul class="item-grid">${items.map((item) => itemCardHTML(item, cat)).join("")}</ul>
         </section>`;
     })

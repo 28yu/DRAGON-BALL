@@ -3,6 +3,7 @@
 import { readFileSync, existsSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
+import { collectStrings, loadDict } from "./i18n.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const errors = [];
@@ -143,6 +144,16 @@ for (const item of data.items || []) {
 }
 
 const total = (data.items || []).length;
+// 英語表示用の対応表（data/translations/en.json）に英訳がない文。英語表示では日本語のまま出る（2026-10-08 追加）
+{
+  let dict = {};
+  try { dict = loadDict(); } catch (e) { errors.push(`data/translations/en.json を読み込めません: ${e.message}`); }
+  const missing = [...collectStrings().keys()].filter((t) => !dict[t]);
+  if (missing.length) {
+    warnings.push(`英訳がない文が ${missing.length}件あります（英語表示では日本語のまま出ます）。node tools/i18n.mjs --missing で一覧を作り、data/translations/en.json に英訳を足してください。例：「${missing[0].slice(0, 40)}」`);
+  }
+}
+
 console.log(`商品数: ${total}`);
 for (const [id, c] of categories) {
   console.log(`  ${c.label}: ${(data.items || []).filter((i) => i.category === id).length}`);

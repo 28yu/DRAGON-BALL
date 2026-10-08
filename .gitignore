@@ -1,2 +1,3 @@
 # オーナーのPCで写真を受け渡すためのフォルダ（元の写真は大きく、撮影情報も含むため GitHub に送らない）
 _inbox/
+data/translations/missing.json
