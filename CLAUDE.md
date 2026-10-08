@@ -65,7 +65,7 @@
 - `assets/images/items/管理ID/`：オーナーが撮影・作成した画像（`front.jpg` など。命名ルールは同フォルダの README.md）
 - `data/market-history.json`：相場の自動取得の記録（手で編集しない）
 - `tools/market/collect.mjs` / `.github/workflows/market.yml`：相場の自動取得（1日1回、robots.txt を確認、メルカリは対象外）。共通部品は `tools/market/lib.mjs`
-- `listings.html` / `assets/js/listings.js` / `tools/market/listings.mjs` / `data/listings.json`：出品中の一覧（ヤフオク・ブックオフ。毎朝更新。`docs/listings.md`）
+- `listings.html` / `assets/js/listings.js` / `tools/market/listings.mjs` / `data/listings.json`：出品中の一覧（ヤフオク・ブックオフは毎朝自動、メルカリはオーナーがブックマークレットで半自動の取り込み。`assets/js/market-match.js`。`docs/listings.md`）
 - `docs/data-spec.md`：データ項目の仕様
 - `docs/operation.md`：運用ルール
 - `docs/research-log.md`：調査履歴

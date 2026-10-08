@@ -1329,3 +1329,14 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
   .lst-list { grid-template-columns: minmax(0, 1fr); }
   .lst-filter-grid { grid-template-columns: minmax(0, 1fr); }
 }
+
+/* メルカリの取り込み（dashboard.html。2026-10-08） */
+.dash-mercari-import { border-color: var(--accent); }
+.dash-mercari-preview { max-height: 420px; overflow: auto; margin: 10px 0; }
+.dash-mercari-preview td:first-child { white-space: normal !important; min-width: 16em; }
+.dash-mercari-preview td:last-child { white-space: normal !important; text-align: left !important; }
+.dash-mercari-preview tr.is-unmatched td { color: var(--text-muted); }
+.dash-mercari-actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.dash-steps { margin: 6px 0 10px; padding-left: 1.4em; display: grid; gap: 4px; font-size: 0.9rem; }
+.dash-bookmarklet { display: inline-flex; align-items: center; text-decoration: none; background: var(--brand-yellow); color: #161616; cursor: grab; }
+.lst-site-mercari { background: var(--owned); color: var(--owned-text); }

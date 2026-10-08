@@ -155,6 +155,7 @@ async function loadNames() {
   const categories = new Map();
   try {
     const data = await loadCollection();
+    dash.collection = data;
     for (const c of data.categories || []) categories.set(c.id, c.label);
     for (const it of data.items || []) {
       items.set(it.id, cardTitle(it));
@@ -209,6 +210,7 @@ function renderLogin(message = "") {
       </label>
       <button type="submit" class="dash-btn dash-btn-primary">入る</button>
       ${message ? `<p class="notice notice-warn" role="alert">${message}</p>` : ""}
+      ${mercariPending() ? `<p class="notice">メルカリの出品 ${mercariPending().r.length}件を取り込むには、パスワードを入れてください。</p>` : ""}
       <p class="dash-login-demo"><a href="dashboard.html?demo=1">見本データで画面を見る</a>（数字はでたらめです）</p>
     </form>`;
   const form = document.getElementById("dash-login");
@@ -271,6 +273,7 @@ function render() {
 
   dash.el.innerHTML = `
     ${dash.demo ? `<p class="notice dash-demo-note"><strong>見本データを表示中です。</strong>数字はでたらめです。本当の集計は<a href="dashboard.html">パスワードを入れて</a>見られます。</p>` : ""}
+    ${dash.demo ? "" : mercariImportHTML()}
 
     <div class="dash-controls" role="group" aria-label="集計の期間">
       <div class="dash-tabs" role="tablist" aria-label="グラフの単位">
@@ -359,9 +362,11 @@ function render() {
         </div>
       </div>
     `)}
+    ${dash.demo ? "" : dashSection("mercari", "メルカリの出品の取り込み", mercariHelpHTML())}
   `;
 
   bindControls();
+  bindMercari();
   drawCharts();
 }
 
@@ -659,6 +664,168 @@ function demoData(range, bucket) {
     events: [{ name: "outbound", target: "auctions.yahoo.co.jp", count: Math.round(total * 0.05) }, { name: "photo_open", target: null, count: Math.round(total * 0.08) },
       { name: "outbound", target: "jp.mercari.com", count: Math.round(total * 0.03) }, { name: "outbound", target: "shopping.bookoff.co.jp", count: Math.round(total * 0.01) }],
   };
+}
+
+// ---------- メルカリの出品の取り込み（2026-10-08 オーナー指示） ----------
+// メルカリは自動で集めない（公開ページに価格がなく、規約でも自動収集が禁止のため）。
+// オーナーが自分のブラウザでメルカリの「販売中」の検索結果を開き、ブックマークレットを押すと、画面に出ている出品
+// （商品名・価格・商品ID）を読み取り、このページを #mercari=… 付きで開く。ここで中身を確かめて保存する。
+const MERCARI_KEY = "db-mercari-pending";
+const SITE_BASE = "https://28yu.github.io/DRAGON-BALL/";
+
+// メルカリの画面で動く処理（ブックマークレットの中身）。
+// URL の中に入れると改行が消えるため、「//」の注釈は使わず、文の終わりには必ず「;」を付ける。
+function mercariCapture() {
+  var BASE = "https://28yu.github.io/DRAGON-BALL/dashboard.html";
+  if (!/(^|\.)mercari\.com$/.test(location.hostname)) { alert("メルカリの検索結果のページで押してください。"); return; }
+  var kw = new URLSearchParams(location.search).get("keyword") || "";
+  var seen = {};
+  var rows = [];
+  var links = document.querySelectorAll('a[href*="/item/m"], a[href*="/shops/product/"]');
+  for (var i = 0; i < links.length; i++) {
+    var a = links[i];
+    var m = (a.getAttribute("href") || "").match(/\/(?:item\/(m\d+)|shops\/product\/([A-Za-z0-9]+))/);
+    if (!m) continue;
+    var id = m[1] || "shops_" + m[2];
+    if (seen[id]) continue;
+    var box = a.closest("li") || a;
+    var text = (box.innerText || "").replace(/\u00a0/g, " ");
+    if (/SOLD|売り切れ/i.test(text)) continue;
+    var pm = text.match(/[¥￥]\s*([\d,]+)/);
+    var price = pm ? Number(pm[1].replace(/,/g, "")) : 0;
+    var title = "";
+    var nameEl = box.querySelector('[data-testid="thumbnail-item-name"], [class*="itemName"], [class*="item-name"]');
+    if (nameEl) title = (nameEl.innerText || "").trim();
+    var img = box.querySelector("img[alt]");
+    if (!title && img) title = (img.getAttribute("alt") || "").replace(/の?サムネイル(画像)?$/, "").trim();
+    if (!title) {
+      var lines = text.split("\n").map(function (x) { return x.trim(); }).filter(function (x) { return x && !/[¥￥]|^[\d,]+$/.test(x); });
+      lines.sort(function (x, y) { return y.length - x.length; });
+      title = lines[0] || "";
+    }
+    if (!title || !price) continue;
+    seen[id] = 1;
+    rows.push([id, title.slice(0, 150), price]);
+  }
+  if (!rows.length) { alert("出品が見つかりませんでした。検索結果が表示されてから押してください。"); return; }
+  var json = JSON.stringify({ k: kw, r: rows, t: Date.now() });
+  var b64 = btoa(unescape(encodeURIComponent(json))).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
+  if (confirm(rows.length + "件の出品を読み取りました。DRAGON BALL COLLECTION の管理ページで取り込みます。")) location.href = BASE + "#mercari=" + b64;
+}
+function mercariBookmarklet() {
+  return "javascript:" + encodeURIComponent(`(${mercariCapture.toString().replace(/\n\s*/g, " ")})();`);
+}
+
+// #mercari=… で開かれたら、内容をこの画面を閉じるまで覚えておく（ログインの前でも消えないように）
+(function takeMercariHash() {
+  const m = location.hash.match(/^#mercari=([A-Za-z0-9_-]+)$/);
+  if (!m) return;
+  try {
+    const b64 = m[1].replace(/-/g, "+").replace(/_/g, "/");
+    const json = decodeURIComponent(escape(atob(b64 + "===".slice((b64.length + 3) % 4))));
+    const data = JSON.parse(json);
+    if (Array.isArray(data.r) && data.r.length) sessionSet(MERCARI_KEY, JSON.stringify(data));
+  } catch (e) {}
+  history.replaceState(null, "", location.pathname + location.search);
+})();
+function mercariPending() {
+  try { return JSON.parse(sessionGet(MERCARI_KEY) || "null"); } catch (e) { return null; }
+}
+
+function mercariImportHTML() {
+  const p = mercariPending();
+  if (!p) return "";
+  const targets = marketTargets(dash.collection || { items: [] });
+  const rows = p.r.map(([id, title, price]) => ({ id, title, price, matches: matchListing(title, p.k, targets) }));
+  const hit = rows.filter((r) => r.matches.length).length;
+  const name = (mt) => `${mt.id} ${dash.names?.items.get(mt.id) || ""}${mt.variantLabel ? `（${mt.variantLabel}）` : ""}`;
+  return `
+    <section class="dash-section dash-mercari-import" id="dash-mercari-import">
+      <h2 class="dash-section-title">メルカリの出品を取り込む</h2>
+      <p>検索語「<strong>${escapeHTML(p.k || "（なし）")}</strong>」の画面から <strong>${rows.length}件</strong> 読み取りました。
+        そのうち <strong>${hit}件</strong> が集めている商品に当てはまります（当てはまらない出品は一覧に出ません）。</p>
+      <p class="dash-note">保存すると、出品中の一覧に「メルカリ」として載ります。同じ検索語で前に取り込んだ出品のうち、今回の画面に無かった物は「売れた・終わった」とみなして一覧から外します。</p>
+      <div class="table-scroll dash-mercari-preview"><table class="info-table history-table dash-table">
+        <thead><tr><th>出品名</th><th>価格</th><th>当てはまる商品</th></tr></thead>
+        <tbody>${rows.map((r) => `<tr class="${r.matches.length ? "" : "is-unmatched"}"><td>${escapeHTML(r.title)}</td><td>${escapeHTML(formatYen(r.price))}</td><td>${r.matches.length ? r.matches.map((mt) => escapeHTML(name(mt))).join("<br>") : "—（一覧に出ません）"}</td></tr>`).join("")}</tbody>
+      </table></div>
+      <div class="dash-mercari-actions">
+        <button type="button" class="dash-btn dash-btn-primary" id="dash-mercari-save">${rows.length}件を保存する</button>
+        <button type="button" class="dash-btn" id="dash-mercari-cancel">取り込まない</button>
+      </div>
+      <p class="dash-note" id="dash-mercari-msg" aria-live="polite"></p>
+    </section>`;
+}
+
+function mercariHelpHTML() {
+  return `
+    <p>メルカリは自動では集められないため、<strong>メルカリの画面を見ながら、ボタン1つで取り込みます</strong>。取り込んだ出品は「<a href="listings.html?site=mercari">出品中の一覧</a>」に載ります（最後の取り込みから30日で表示が消えます）。</p>
+    <h3 class="sub-title">使い方</h3>
+    <ol class="dash-steps">
+      <li>「出品中の一覧」の一番下の「メルカリで探す」から、商品の<strong>販売中</strong>の検索結果を開く（自分で検索した画面でもよい）。</li>
+      <li>画面を一番下まで動かして、出品を全部表示させる（メルカリは下に動かすと続きが出てくる）。</li>
+      <li>ブックマークの「<strong>DB取り込み</strong>」を押す。</li>
+      <li>このページが開くので、パスワードを入れ、中身を確かめて「保存する」を押す。</li>
+    </ol>
+    <h3 class="sub-title">ブックマークレットの登録（最初に1回だけ）</h3>
+    <p><strong>パソコン：</strong>下の「DB取り込み」ボタンを、ブラウザのブックマークバーへドラッグする。</p>
+    <p><a class="dash-btn dash-bookmarklet" id="dash-bookmarklet" href="#">DB取り込み</a></p>
+    <p><strong>iPhone（Safari）：</strong></p>
+    <ol class="dash-steps">
+      <li>下の「中身をコピー」を押す。</li>
+      <li>このページを開いたまま、画面下の共有ボタン（□に↑）→「ブックマークを追加」→ 名前を「DB取り込み」にして保存。</li>
+      <li>ブックマーク一覧で「編集」→ いま作った「DB取り込み」を押し、アドレス欄の中身を全部消して、コピーした中身を貼り付けて「完了」。</li>
+      <li>メルカリの画面で、アドレス欄に「DB取り込み」と打つと候補に出るので、それを押すと動く（またはブックマーク一覧から押す）。</li>
+    </ol>
+    <p><button type="button" class="dash-btn" id="dash-bookmarklet-copy">中身をコピー</button> <span class="dash-note" id="dash-bookmarklet-msg" aria-live="polite"></span></p>
+    <p class="dash-note">メルカリの画面の作りが変わると、読み取れなくなることがあります。そのときは Claude に知らせてください。</p>`;
+}
+
+function bindMercari() {
+  const link = document.getElementById("dash-bookmarklet");
+  if (link) {
+    link.href = mercariBookmarklet();
+    link.addEventListener("click", (e) => { e.preventDefault(); alert("このボタンはブックマークバーへドラッグして登録します（ここで押しても動きません）。"); });
+  }
+  const copy = document.getElementById("dash-bookmarklet-copy");
+  if (copy) copy.addEventListener("click", async () => {
+    const msg = document.getElementById("dash-bookmarklet-msg");
+    try {
+      await navigator.clipboard.writeText(mercariBookmarklet());
+      msg.textContent = "コピーしました。";
+    } catch (e) {
+      window.prompt("下の中身を全部選んでコピーしてください。", mercariBookmarklet());
+    }
+  });
+  const save = document.getElementById("dash-mercari-save");
+  if (save) save.addEventListener("click", async () => {
+    const p = mercariPending();
+    const msg = document.getElementById("dash-mercari-msg");
+    save.disabled = true;
+    msg.textContent = "保存中…";
+    try {
+      const res = await window.DBAnalytics.rpc("mercari_import", {
+        p_token: dash.token, p_keyword: p.k || "", p_rows: p.r.map(([id, title, price]) => ({ id, title, price })),
+      });
+      if (res && res.ok) {
+        sessionRemove(MERCARI_KEY);
+        document.getElementById("dash-mercari-import").innerHTML = `<h2 class="dash-section-title">メルカリの出品を取り込みました</h2>
+          <p>${res.saved}件を保存しました${res.inactivated ? `（前回あって今回無かった ${res.inactivated}件は一覧から外しました）` : ""}。
+          <a href="listings.html?site=mercari">出品中の一覧で見る</a></p>`;
+      } else {
+        save.disabled = false;
+        msg.textContent = res?.error === "unauthorized" ? "ログインの有効期限が切れました。ページを開き直してパスワードを入れてください。" : "保存できませんでした。";
+      }
+    } catch (err) {
+      save.disabled = false;
+      msg.textContent = `保存できませんでした（${err.message}）。`;
+    }
+  });
+  const cancel = document.getElementById("dash-mercari-cancel");
+  if (cancel) cancel.addEventListener("click", () => {
+    sessionRemove(MERCARI_KEY);
+    document.getElementById("dash-mercari-import").remove();
+  });
 }
 
 // ---------- 開始 ----------

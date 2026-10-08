@@ -8,6 +8,7 @@ const SITE_LABELS = {
   yahoo: t("ヤフオク", "Yahoo! Auctions"),
   yahoo_flea: t("Yahoo!フリマ", "Yahoo! Flea Market"),
   bookoff: t("ブックオフ", "BOOKOFF"),
+  mercari: t("メルカリ", "Mercari"),
 };
 const FORMAT_LABELS = {
   auction: t("オークション", "Auction"),
@@ -136,6 +137,32 @@ function filtered() {
   return list.sort(sorters[state.sort]);
 }
 
+// ---------- メルカリ（オーナーが管理ページから取り込んだ分。Supabase に保存。docs/listings.md） ----------
+let MERCARI_INFO = null; // { count, latest } または { error }
+async function addMercari() {
+  try {
+    if (!window.DBAnalytics) throw new Error("no rpc");
+    const res = await window.DBAnalytics.rpc("mercari_listings", { p_site: window.DBAnalytics.config.site });
+    const targets = marketTargets(DATA);
+    let latest = null;
+    let count = 0;
+    for (const m of res?.listings || []) {
+      const matches = matchListing(m.title, m.keyword, targets);
+      if (!matches.length) continue;
+      count++;
+      if (!latest || m.capturedAt > latest) latest = m.capturedAt;
+      const grade = gradeOfTitle(m.title, gradesFor(DATA, matches[0]));
+      LIST.listings.push({ id: `mercari:${m.id}`, site: "mercari", title: m.title, price: m.price, format: "fixed", url: m.url, grade, matches, capturedAt: m.capturedAt });
+    }
+    MERCARI_INFO = { count, latest };
+  } catch (e) {
+    MERCARI_INFO = { error: true };
+  }
+}
+function capturedText(iso) {
+  return new Date(iso).toLocaleString(LANG === "en" ? "en-US" : "ja-JP", { timeZone: "Asia/Tokyo", month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit" });
+}
+
 // ---------- 表示 ----------
 function remaining(endTime) {
   if (!endTime) return "";
@@ -216,6 +243,7 @@ function cardHTML(l) {
       </div>
       <div class="lst-meta">
         ${l.format !== "fixed" ? `<span>${t("入札", "Bids")} ${l.bids || 0}</span>` : ""}
+        ${l.capturedAt ? `<span>${t("取り込み：", "Captured: ")}${escapeHTML(capturedText(l.capturedAt))}<small>${t("（その時点の情報）", " (as of then)")}</small></span>` : ""}
         ${rem ? `<span class="${ended ? "lst-ended" : ""}">${escapeHTML(rem)}${l.endTime ? `<small>${t(`（${escapeHTML(endDate(l.endTime))}終了）`, ` (ends ${escapeHTML(endDate(l.endTime))})`)}</small>` : ""}</span>` : ""}
       </div>
       <div class="lst-matches">${l.matches.map((m) => {
@@ -239,8 +267,8 @@ function mercariHTML() {
   const url = (it) => `https://jp.mercari.com/search?${new URLSearchParams({ keyword: it.market.mercariQuery || it.market.query, status: "on_sale" })}`;
   return `
     <details class="more-box lst-mercari">
-      <summary>${t(`メルカリで探す（${ids.length}件の商品。自動取得の対象外）`, `Search on Mercari (${ids.length} items; not collected automatically)`)}</summary>
-      <p class="sub-note">${t("メルカリは公開ページに価格が含まれず、規約上も自動で集めないため、この一覧には入っていません。下のリンクから、メルカリの「販売中」の検索結果を開けます。", "Mercari is not included in this list: its pages do not expose prices and automated collection is not allowed. The links below open Mercari's \"on sale\" search results.")}</p>
+      <summary>${t(`メルカリで探す（${ids.length}件の商品）`, `Search on Mercari (${ids.length} items)`)}</summary>
+      <p class="sub-note">${t("メルカリは自動では集めず、オーナーがメルカリの画面から取り込んだ分だけを一覧に載せています（取り込んだ時点の情報）。下のリンクから、メルカリの「販売中」の最新の検索結果を開けます。", "Mercari listings are not collected automatically; only those captured by the owner from Mercari's pages are shown (as of the time captured). The links below open Mercari's latest \"on sale\" search results.")}</p>
       <ul class="lst-mercari-list">${ids.map((it) => `<li><a href="${escapeHTML(url(it))}" target="_blank" rel="noopener noreferrer">${escapeHTML(it.id)} ${escapeHTML(cardTitle(it))}</a></li>`).join("")}</ul>
     </details>`;
 }
@@ -293,9 +321,10 @@ function render() {
   const srcLines = Object.entries(m.sources || {}).map(([k, s]) => `${escapeHTML(SITE_LABELS[k] || k)}${s.failed || s.skipped ? t("：一部取得できず", ": partly unavailable") : ""}`).join(t(" ／ ", " / "));
   document.getElementById("listings").innerHTML = `
     <p class="notice lst-about">${t(
-      `収集対象の商品のうち、ヤフオク（Yahoo!フリマを含む）とブックオフでいま出品中の物です。<strong>1日1回（朝6時ごろ）更新</strong>なので、すでに売れたり終了したりしている出品もあります。状態は出品名の言葉から機械的に分けた目安です。`,
-      `Listings currently for sale on Yahoo! Auctions (incl. Yahoo! Flea Market) and BOOKOFF for the items I collect. <strong>Updated once a day (around 6 a.m. JST)</strong>, so some may already be sold or ended. Conditions are a rough guide sorted automatically from listing titles. Listing titles are shown in Japanese as posted.`)}
-      <br><small>${t("最終更新：", "Last updated: ")}${escapeHTML(updated)}${srcLines ? t(`（${srcLines}）`, ` (${srcLines})`) : ""}</small></p>
+      `収集対象の商品のうち、ヤフオク（Yahoo!フリマを含む）・ブックオフ・メルカリでいま出品中の物です。ヤフオク・ブックオフは<strong>1日1回（朝6時ごろ）自動で更新</strong>、メルカリはオーナーが取り込んだときに更新されるので、すでに売れたり終了したりしている出品もあります。状態は出品名の言葉から機械的に分けた目安です。`,
+      `Listings currently for sale on Yahoo! Auctions (incl. Yahoo! Flea Market), BOOKOFF and Mercari for the items I collect. Yahoo! Auctions and BOOKOFF are <strong>updated automatically once a day (around 6 a.m. JST)</strong>; Mercari is updated when the owner captures it. Some may already be sold or ended. Conditions are a rough guide sorted automatically from listing titles. Listing titles are shown in Japanese as posted.`)}
+      <br><small>${t("最終更新：", "Last updated: ")}${escapeHTML(updated)}${srcLines ? t(`（${srcLines}）`, ` (${srcLines})`) : ""}
+      ／ ${t("メルカリ：", "Mercari: ")}${MERCARI_INFO?.error ? t("読み込めませんでした", "could not load") : MERCARI_INFO?.latest ? t(`${MERCARI_INFO.count}件（最後の取り込み ${escapeHTML(capturedText(MERCARI_INFO.latest))}）`, `${MERCARI_INFO.count} (last captured ${escapeHTML(capturedText(MERCARI_INFO.latest))})`) : t("まだ取り込みなし", "none captured yet")}</small></p>
     ${filtersHTML()}
     <div id="lst-results"></div>`;
   bindFilters();
@@ -312,6 +341,7 @@ function render() {
       return;
     }
     LIST = await res.json();
+    await addMercari();
     buildProducts();
     readURL();
     render();
