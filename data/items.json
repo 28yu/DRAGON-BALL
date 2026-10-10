@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-10-07",
+    "updatedAt": "2026-10-10",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -1392,25 +1392,33 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-03",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-10",
+        "note": "入手先：ヤフオク"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり（出品時の説明では箱ミミの欠損なし）",
+        "manual": "あり（説明書）",
         "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "extras": "未使用シール",
+        "overall": "出品時の説明では「経年を考えますと良好な状態」。出品タイトルに「美品」とあり。",
+        "note": "出品時の説明と写真にもとづく。オーナー自身による状態確認は未実施。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-10-09",
+          "price": 5980,
+          "shipping": null,
+          "shop": "ヤフオク",
+          "note": "落札価格5,980円（入札1件）。送料は落札者負担（おてがる配送、金額は未確認）。出品タイトル「ドラゴンボールZ 強襲！サイヤ人 箱説明書付き 未使用シール付き 美品 FC ファミコン レトロゲーム ファミリーコンピュータ」。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/FC-004/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
+          "caption": "箱の表（参考画像・ヤフオクの出品写真に差し替え予定）",
           "kind": "reference"
         }
       ],
@@ -1444,6 +1452,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-10-10",
+          "change": "ヤフオクで購入（2026-10-09 落札、5,980円）。所持状況を「所持」に変更し、購入記録と商品の状態（出品時の説明にもとづく）を登録。出品ページ https://auctions.yahoo.co.jp/jp/auction/k1240517545"
         }
       ],
       "market": {
