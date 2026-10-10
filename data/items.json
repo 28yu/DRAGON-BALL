@@ -1400,17 +1400,17 @@
         "box": "あり（出品時の説明では箱ミミの欠損なし）",
         "manual": "あり（説明書）",
         "obi": null,
-        "extras": "未使用シール",
+        "extras": "内トレイ（透明）、未使用シール（出品写真で確認）",
         "overall": "出品時の説明では「経年を考えますと良好な状態」。出品タイトルに「美品」とあり。",
-        "note": "出品時の説明と写真にもとづく。オーナー自身による状態確認は未実施。"
+        "note": "出品時の説明と写真にもとづく。オーナー自身による状態確認は未実施。写真は出品時のもの。"
       },
       "purchases": [
         {
           "date": "2026-10-09",
           "price": 5980,
-          "shipping": null,
+          "shipping": 230,
           "shop": "ヤフオク",
-          "note": "落札価格5,980円（入札1件）。送料は落札者負担（おてがる配送、金額は未確認）。出品タイトル「ドラゴンボールZ 強襲！サイヤ人 箱説明書付き 未使用シール付き 美品 FC ファミコン レトロゲーム ファミリーコンピュータ」。"
+          "note": "落札価格5,980円（入札1件）。送料230円（落札者負担）。出品タイトル「ドラゴンボールZ 強襲！サイヤ人 箱説明書付き 未使用シール付き 美品 FC ファミコン レトロゲーム ファミリーコンピュータ」。"
         }
       ],
       "marketPrices": [],
@@ -1418,8 +1418,43 @@
       "images": [
         {
           "path": "assets/images/items/FC-004/front.jpg",
-          "caption": "箱の表（参考画像・ヤフオクの出品写真に差し替え予定）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-004/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-004/set.jpg",
+          "caption": "セット一式（箱・カセット・内トレイ・説明書・未使用シール）"
+        },
+        {
+          "path": "assets/images/items/FC-004/cartridge.jpg",
+          "caption": "カセットの表と説明書の表紙"
+        },
+        {
+          "path": "assets/images/items/FC-004/cartridge-back.jpg",
+          "caption": "カセットの裏と説明書の裏表紙"
+        },
+        {
+          "path": "assets/images/items/FC-004/cartridge-top-1.jpg",
+          "caption": "カセットの上部と未使用シール"
+        },
+        {
+          "path": "assets/images/items/FC-004/flap-1.jpg",
+          "caption": "箱のフタを開けた状態（表側）"
+        },
+        {
+          "path": "assets/images/items/FC-004/flap-2.jpg",
+          "caption": "箱のフタを開けた状態（裏側）"
+        },
+        {
+          "path": "assets/images/items/FC-004/spine-1.jpg",
+          "caption": "箱を斜めから（表側）"
+        },
+        {
+          "path": "assets/images/items/FC-004/spine-2.jpg",
+          "caption": "箱を斜めから（裏側）"
         }
       ],
       "alerts": [],
@@ -1456,6 +1491,10 @@
         {
           "date": "2026-10-10",
           "change": "ヤフオクで購入（2026-10-09 落札、5,980円）。所持状況を「所持」に変更し、購入記録と商品の状態（出品時の説明にもとづく）を登録。出品ページ https://auctions.yahoo.co.jp/jp/auction/k1240517545"
+        },
+        {
+          "date": "2026-10-10",
+          "change": "参考画像を、ヤフオクの出品写真10枚（購入した現物）に差し替え。送料230円を登録。出品ページ https://auctions.yahoo.co.jp/jp/auction/k1240517545"
         }
       ],
       "market": {
