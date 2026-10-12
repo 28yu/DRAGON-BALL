@@ -1,12 +1,12 @@
 {
  "meta": {
   "description": "いま出品中の物の一覧（tools/market/listings.mjs が1日1回上書きする）。手で編集しない。",
-  "updatedAt": "2026-10-11T00:45:56.241Z",
+  "updatedAt": "2026-10-12T01:06:51.727Z",
   "sources": {
    "yahoo": {
     "label": "ヤフオク（出品中）",
-    "ok": 83,
-    "empty": 43,
+    "ok": 70,
+    "empty": 56,
     "skipped": 0,
     "failed": 0,
     "messages": []
@@ -22,6 +22,28 @@
   }
  },
  "listings": [
+  {
+   "id": "yahoo:1223196910",
+   "site": "yahoo",
+   "title": "G783 DRAGONBALL Z 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845446,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/1223196910",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
   {
    "id": "yahoo:c1203661989",
    "site": "yahoo",
@@ -67,6 +89,94 @@
    ]
   },
   {
+   "id": "yahoo:d1223525509",
+   "site": "yahoo",
+   "title": "G1053 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845188,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1223525509",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:e1224088426",
+   "site": "yahoo",
+   "title": "G1432 DRAGONBALL ドラゴンボール 神龍の謎",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845870,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1224088426",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:e1247956598",
+   "site": "yahoo",
+   "title": "[1円スタート] Nintendo Super Famicom スーパーファミコン ソフト ドラゴンボールZ 超武闘伝3 (コンデンサ交換済) [S4411]",
+   "price": 1,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792329934,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1247956598",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:e1247964256",
+   "site": "yahoo",
+   "title": "[1円スタート] Nintendo Super Famicom スーパーファミコン ソフト ドラゴンボールZ 超武闘伝2 (コンデンサ交換済) [S4410]",
+   "price": 1,
+   "buyNow": null,
+   "bids": 1,
+   "format": "auction",
+   "endTime": 1792329935,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1247964256",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-003"
+    }
+   ]
+  },
+  {
    "id": "yahoo:f1197391378",
    "site": "yahoo",
    "title": "G140 ドラゴンボール DRAGON BALL 神龍の謎",
@@ -74,7 +184,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791759128,
+   "endTime": 1791845528,
    "shipping": 1350,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1197391378",
@@ -89,24 +199,112 @@
    ]
   },
   {
-   "id": "yahoo:j1244537978",
+   "id": "yahoo:f1223517544",
    "site": "yahoo",
-   "title": "【1円】SFC スーパーファミコン ドラゴンボールZ 超武闘伝 未検品 1A0509-028tt/F8",
+   "title": "G1216 DRAGONBALL ドラゴンボール 神龍の謎",
    "price": 1,
-   "buyNow": null,
+   "buyNow": 500,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791720418,
-   "shipping": 370,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1244537978",
+   "format": "auction_buynow",
+   "endTime": 1791847772,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1223517544",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1223522060",
+   "site": "yahoo",
+   "title": "G821 DRAGONBALL ドラゴンボール 神龍の謎",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845300,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1223522060",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1224186283",
+   "site": "yahoo",
+   "title": "G1524 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791846621,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1224186283",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1223515134",
+   "site": "yahoo",
+   "title": "G1339 DRAGONBALL ドラゴンボール 神龍の謎",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791847924,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1223515134",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1224251429",
+   "site": "yahoo",
+   "title": "G1626 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791846826,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1224251429",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -140,7 +338,7 @@
    "buyNow": 500,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791761513,
+   "endTime": 1791847914,
    "shipping": 1350,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/m1223520792",
@@ -155,6 +353,50 @@
    ]
   },
   {
+   "id": "yahoo:m1237199204",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 最安販売！ １円スタート 商品説明必読！！",
+   "price": 1,
+   "buyNow": 198,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791980707,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1237199204",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:n1224191863",
+   "site": "yahoo",
+   "title": "G1526 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791846638,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/n1224191863",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1247098404",
    "site": "yahoo",
    "title": "【1円】SFC スーパーファミコン ドラゴンボールZ 超武闘伝2 未検品 1A0521-031tt/F8",
@@ -162,7 +404,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721248,
+   "endTime": 1791894048,
    "shipping": 370,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1247098404",
@@ -177,24 +419,90 @@
    ]
   },
   {
-   "id": "yahoo:r1247066416",
+   "id": "yahoo:o1223517091",
    "site": "yahoo",
-   "title": "SFC ドラゴンボールZ 超武闘伝3 スーパーファミコン ソフト バンダイ SHVC-AZ4J-JPN レトロゲーム 現状品",
+   "title": "G828 DRAGONBALLZ 強襲！サイヤ人",
    "price": 1,
-   "buyNow": null,
+   "buyNow": 500,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791721118,
-   "shipping": 230,
+   "format": "auction_buynow",
+   "endTime": 1791846877,
+   "shipping": 1350,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/r1247066416",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/o1223517091",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-004"
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1221196764",
+   "site": "yahoo",
+   "title": "G211 ドラゴンボール 神龍の謎 DRAGONVBALL",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791846140,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1221196764",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1223513845",
+   "site": "yahoo",
+   "title": "G810 DRAGONBALL ドラゴンボール 神龍の謎",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845303,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1223513845",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1237195934",
+   "site": "yahoo",
+   "title": "ドラゴンボールZⅡ激神フリーザ！！ 最安販売！ １円スタート 商品説明必読！！",
+   "price": 1,
+   "buyNow": 298,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791980706,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1237195934",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
     }
    ]
   },
@@ -221,6 +529,116 @@
    ]
   },
   {
+   "id": "yahoo:t1223520533",
+   "site": "yahoo",
+   "title": "G1375 DRAGONBALLZⅡ 激神フリーザ",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845535,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1223520533",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1229967946",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 商品説明必読！！",
+   "price": 1,
+   "buyNow": 198,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791808697,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1229967946",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1247905706",
+   "site": "yahoo",
+   "title": "1円スタート! 新品未使用未開封 FC ドラゴンボールZ3 烈戦人造人間 ファミコン 送料230円～",
+   "price": 1,
+   "buyNow": null,
+   "bids": 1,
+   "format": "auction",
+   "endTime": 1792325793,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1247905706",
+   "grade": {
+    "key": "sealed",
+    "label": "未開封・新品"
+   },
+   "matches": [
+    {
+     "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1247949248",
+   "site": "yahoo",
+   "title": "[1円スタート] Nintendo Super Famicom スーパーファミコン ソフト ドラゴンボールZ 超武闘伝 (コンデンサ交換済) [S4409]",
+   "price": 1,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792329936,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1247949248",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-002"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1224206118",
+   "site": "yahoo",
+   "title": "G1590 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791848251,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1224206118",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:v1245855112",
    "site": "yahoo",
    "title": "ドラゴンボール 神龍の謎 商品説明必読！！",
@@ -243,6 +661,50 @@
    ]
   },
   {
+   "id": "yahoo:w1223515831",
+   "site": "yahoo",
+   "title": "G1088 DRAGONBALLZⅡ 激神フリーザ",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791847688,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1223515831",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:x1223511688",
+   "site": "yahoo",
+   "title": "G1066 DRAGONBALLZ 強襲！サイヤ人",
+   "price": 1,
+   "buyNow": 500,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791845220,
+   "shipping": 1350,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1223511688",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:x1244655567",
    "site": "yahoo",
    "title": "【1円】FC ファミコン ドラゴンボール3 悟空伝 未検品 1A0512-012tt/F8",
@@ -250,7 +712,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721856,
+   "endTime": 1791894657,
    "shipping": 370,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1244655567",
@@ -265,68 +727,68 @@
    ]
   },
   {
-   "id": "yahoo:g1247459613",
+   "id": "yahoo:v1243036715",
    "site": "yahoo",
-   "title": "ドラゴンボールＺ 超武闘伝 ♪動作確認済♪５本まで同梱可♪ SFC スーパーファミコン",
-   "price": 98,
-   "buyNow": null,
-   "bids": 1,
-   "format": "auction",
-   "endTime": 1791724585,
-   "shipping": 240,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/g1247459613",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:d1244542864",
-   "site": "yahoo",
-   "title": "DRAGON BALL Z 超武闘伝 SHVC-Z2 動作未確認 SFC スーファミ スーパーファミコン ソフト ドラゴンボール ♯3885",
-   "price": 100,
+   "title": "ドラゴンボール 神龍の謎 ファミコンソフト FC",
+   "price": 3,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791810184,
+   "endTime": 1792232860,
    "shipping": 180,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1244542864",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/v1243036715",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
+     "id": "FC-001"
     }
    ]
   },
   {
-   "id": "yahoo:j1228859535",
+   "id": "yahoo:s1247913059",
    "site": "yahoo",
-   "title": "ＳＦＣ「ドラゴンボールＺ 超武闘伝」（格闘アクションゲーム",
-   "price": 100,
-   "buyNow": 100,
+   "title": "ファミコンソフト ドラゴンボールZ 強襲!サイヤ人 ☆8本まで（ゆうパケット）同梱発送可!!!",
+   "price": 80,
+   "buyNow": null,
    "bids": 0,
-   "format": "fixed",
-   "endTime": 1791702752,
-   "shipping": 190,
+   "format": "auction",
+   "endTime": 1792241411,
+   "shipping": 180,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1228859535",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1247913059",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1247896271",
+   "site": "yahoo",
+   "title": "ファミコンソフト ドラゴンボール大魔王復活 ☆8本まで（ゆうパケット）同梱発送可!!!",
+   "price": 100,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792241373,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1247896271",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-002"
     }
    ]
   },
@@ -360,7 +822,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791700213,
+   "endTime": 1791787963,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1246794350",
@@ -464,50 +926,6 @@
    ]
   },
   {
-   "id": "yahoo:o1244658894",
-   "site": "yahoo",
-   "title": "[同梱可]ドラゴンボールZ 超武闘伝SFC スーパーファミコン 動作確認済・端子清掃済[SFC6320_2307075]",
-   "price": 110,
-   "buyNow": 110,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791874681,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1244658894",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:l1247002635",
-   "site": "yahoo",
-   "title": "[国内版SFC]ドラゴンボールZ 超武闘伝[カセットのみ](中古)",
-   "price": 120,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791894310,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1247002635",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
    "id": "yahoo:q1246664568",
    "site": "yahoo",
    "title": "ドラゴンボール 神龍の謎【動作確認済】８本まで同梱可 簡易清掃済 FC ファミコン",
@@ -515,32 +933,10 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724215,
+   "endTime": 1791984537,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1246664568",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:u1197745575",
-   "site": "yahoo",
-   "title": "ドラゴンボール 神龍の謎 ファミコン ソフトのみ",
-   "price": 124,
-   "buyNow": 124,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791741898,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u1197745575",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -574,28 +970,6 @@
    ]
   },
   {
-   "id": "yahoo:s1239378925",
-   "site": "yahoo",
-   "title": "【SFC・スーパーファミコン】 ドラゴンボールZ 超武闘伝 取説あり",
-   "price": 138,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1792143353,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/s1239378925",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
    "id": "yahoo:1246725451",
    "site": "yahoo",
    "title": "【SFC】 ドラゴンボールZ 超武闘伝2 ソフトのみ",
@@ -603,7 +977,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791726306,
+   "endTime": 1791985507,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1246725451",
@@ -647,7 +1021,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791726414,
+   "endTime": 1791985615,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1246737706",
@@ -669,7 +1043,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724179,
+   "endTime": 1791984533,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1247457602",
@@ -680,6 +1054,28 @@
    "matches": [
     {
      "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:g1247458073",
+   "site": "yahoo",
+   "title": "ドラゴンボールＺ 強襲サイヤ人【動作確認済】８本まで同梱可 簡易清掃済 FC ファミコン ②",
+   "price": 150,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791984534,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1247458073",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -706,28 +1102,6 @@
    ]
   },
   {
-   "id": "yahoo:j660333798",
-   "site": "yahoo",
-   "title": "7m4 aku 即決 FC ドラゴンボール 神龍の謎",
-   "price": 150,
-   "buyNow": 150,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791715215,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j660333798",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-001"
-    }
-   ]
-  },
-  {
    "id": "yahoo:w1160569255",
    "site": "yahoo",
    "title": "3988【起動確認済み】 ドラゴンボール 神龍の謎 FC 端子メンテナンス済み 簡易清掃済み",
@@ -735,7 +1109,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725477,
+   "endTime": 1791810275,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1160569255",
@@ -750,14 +1124,36 @@
    ]
   },
   {
-   "id": "yahoo:k1244367056",
+   "id": "yahoo:w1247455240",
    "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝 Nintendo 任天堂 SUPER FAMICOM スーパーファミコン SFC ソフト カセット カートリッジ 端子清掃済",
-   "price": 163,
+   "title": "ドラゴンボールＺ 強襲サイヤ人【動作確認済】８本まで同梱可 簡易清掃済 FC ファミコン",
+   "price": 150,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722092,
+   "endTime": 1791984498,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1247455240",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:k1244367056",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝 Nintendo 任天堂 SUPER FAMICOM スーパーファミコン SFC ソフト カセット カートリッジ 端子清掃済",
+   "price": 154,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791808492,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1244367056",
@@ -768,6 +1164,28 @@
    "matches": [
     {
      "id": "SFC-002"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:g1226238423",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZ 強襲 サイヤ人",
+   "price": 160,
+   "buyNow": 160,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791884545,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1226238423",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -860,6 +1278,28 @@
    ]
   },
   {
+   "id": "yahoo:x1233873146",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
+   "price": 188,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791893150,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1233873146",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:p1190648701",
    "site": "yahoo",
    "title": "■バンダイ◇SFC/スーパーファミコンソフト☆ドラゴンボールZ 超武闘伝2【端子清掃/動作確認済み】■8",
@@ -904,24 +1344,24 @@
    ]
   },
   {
-   "id": "yahoo:d1241555734",
+   "id": "yahoo:j1240537263",
    "site": "yahoo",
-   "title": "SFC スーパーファミコン ドラゴンボールZ 超武闘伝 ソフトのみ 起動確認済",
-   "price": 193,
+   "title": "FC ファミコンソフト ドラゴンボールZ 強襲！サイヤ人 ソフトのみ 起動確認済",
+   "price": 192,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791813496,
+   "endTime": 1791807875,
    "shipping": 360,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1241555734",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1240537263",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
+     "id": "FC-004"
     }
    ]
   },
@@ -948,6 +1388,28 @@
    ]
   },
   {
+   "id": "yahoo:b1189582130",
+   "site": "yahoo",
+   "title": "【FC】 ドラゴンボールZ 強襲!サイヤ人 同梱可能★即売★多数出品中",
+   "price": 195,
+   "buyNow": 198,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792202460,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1189582130",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:d1213137227",
    "site": "yahoo",
    "title": "4876【起動確認済み】 FC ドラゴンボール 神龍の謎",
@@ -955,7 +1417,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725483,
+   "endTime": 1791810271,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/d1213137227",
@@ -1014,6 +1476,28 @@
    ]
   },
   {
+   "id": "yahoo:b1144682097",
+   "site": "yahoo",
+   "title": "FC / ファミリーコンピュータ ファミコン ドラゴンボールZ 強襲！ サイヤ人 ソフトのみ 中古品",
+   "price": 200,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792069506,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1144682097",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:c1241226337",
    "site": "yahoo",
    "title": "【☆SFC】ドラゴンボールZ 超武闘伝 スーパーファミコン ソフト",
@@ -1021,7 +1505,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791721291,
+   "endTime": 1791807691,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1241226337",
@@ -1036,24 +1520,24 @@
    ]
   },
   {
-   "id": "yahoo:d155790182",
+   "id": "yahoo:g1238407006",
    "site": "yahoo",
-   "title": "任天堂 FC ファミコンカセット ドラゴンボール 神龍の謎",
+   "title": "FCソフト【ドラゴンボーZ 強襲サイヤ人】8本まで送料240円",
    "price": 200,
-   "buyNow": 250,
+   "buyNow": 200,
    "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791713471,
-   "shipping": 185,
+   "format": "fixed",
+   "endTime": 1792162501,
+   "shipping": 240,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d155790182",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1238407006",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-001"
+     "id": "FC-004"
     }
    ]
   },
@@ -1065,7 +1549,7 @@
    "buyNow": 300,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791725860,
+   "endTime": 1791812260,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g438169893",
@@ -1080,28 +1564,6 @@
    ]
   },
   {
-   "id": "yahoo:h1226626284",
-   "site": "yahoo",
-   "title": "[FC ファミコン 動作確認 ソフトのみ] ドラゴンボール3 悟空伝",
-   "price": 200,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791728149,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/h1226626284",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-003"
-    }
-   ]
-  },
-  {
    "id": "yahoo:l1242297526",
    "site": "yahoo",
    "title": "【☆SFC】ドラゴンボールZ 超武闘伝2 スーパーファミコン ソフト",
@@ -1109,7 +1571,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791721285,
+   "endTime": 1791807685,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1242297526",
@@ -1153,7 +1615,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791696878,
+   "endTime": 1792301678,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1197744163",
@@ -1197,7 +1659,7 @@
    "buyNow": 200,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791716726,
+   "endTime": 1792321526,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1243530886",
@@ -1234,6 +1696,28 @@
    ]
   },
   {
+   "id": "yahoo:r1200638908",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 C-3",
+   "price": 200,
+   "buyNow": 200,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792129615,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1200638908",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:r377677962",
    "site": "yahoo",
    "title": "ＦＨ ドラゴンボール 神龍の謎 （中古商品） 同梱可能です。",
@@ -1241,7 +1725,7 @@
    "buyNow": 300,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791725518,
+   "endTime": 1791813350,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r377677962",
@@ -1256,6 +1740,28 @@
    ]
   },
   {
+   "id": "yahoo:s1137847965",
+   "site": "yahoo",
+   "title": "【FC】ファミコン ドラゴンボールZⅡ激神フリーザ！！",
+   "price": 200,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792152328,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1137847965",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:s1211530006",
    "site": "yahoo",
    "title": "バンダイ ドラゴンボール 神龍の謎 ②",
@@ -1263,7 +1769,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727985,
+   "endTime": 1792332785,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1211530006",
@@ -1285,7 +1791,7 @@
    "buyNow": 300,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791725929,
+   "endTime": 1791812937,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1238676963",
@@ -1344,6 +1850,28 @@
    ]
   },
   {
+   "id": "yahoo:w1188543967",
+   "site": "yahoo",
+   "title": "【FC】ファミコン ドラゴンボールZ 強襲！サイヤ人",
+   "price": 200,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792152833,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1188543967",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:w1236806689",
    "site": "yahoo",
    "title": "■☆彡■ ドラゴンボール 神龍の謎 （中古商品） 同梱可能です。",
@@ -1351,7 +1879,7 @@
    "buyNow": 300,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791725434,
+   "endTime": 1791811835,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1236806689",
@@ -1384,6 +1912,50 @@
    "matches": [
     {
      "id": "SFC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:m1043341321",
+   "site": "yahoo",
+   "title": "JN86 SFC/スーパーファミコン/スーファミ ソフト 「ドラゴンボールZ 超武闘伝 3」 カセット ゲーム テレビゲーム コレクション",
+   "price": 220,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791807187,
+   "shipping": 1040,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1043341321",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1197738675",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 a-2",
+   "price": 220,
+   "buyNow": 220,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792301681,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1197738675",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -1432,6 +2004,116 @@
    ]
   },
   {
+   "id": "yahoo:b1193865935",
+   "site": "yahoo",
+   "title": "中古 FC ドラゴンボールZ 強襲!サイヤ人",
+   "price": 228,
+   "buyNow": 248,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792329386,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1193865935",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1237029213",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
+   "price": 229,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791894298,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1237029213",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1203303558",
+   "site": "yahoo",
+   "title": "■バンダイ◇SFC/スーパーファミコンソフト☆ドラゴンボールZ 超武闘伝3【端子清掃/動作確認済み】■2",
+   "price": 230,
+   "buyNow": 230,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792244525,
+   "shipping": 270,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1203303558",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:v1235441851",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
+   "price": 235,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791893350,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/v1235441851",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1245652207",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝3 Nintendo 任天堂 SUPER FAMICOM スーパーファミコン SFC ソフト カセット カートリッジ 端子清掃済",
+   "price": 238,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791808853,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1245652207",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:b1206158225",
    "site": "yahoo",
    "title": "FC中央左② ドラゴンボール 神龍の謎 ソフト ファミコン",
@@ -1454,24 +2136,68 @@
    ]
   },
   {
-   "id": "yahoo:j1203303558",
+   "id": "yahoo:g1189587712",
    "site": "yahoo",
-   "title": "■バンダイ◇SFC/スーパーファミコンソフト☆ドラゴンボールZ 超武闘伝3【端子清掃/動作確認済み】■2",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 ★同梱可能★即売★多数出品中",
    "price": 240,
    "buyNow": 240,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791726955,
-   "shipping": 270,
+   "endTime": 1792202454,
+   "shipping": null,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1203303558",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1189587712",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-004"
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1189578915",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 同梱可能★即売★多数出品中★",
+   "price": 240,
+   "buyNow": 240,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792202455,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1189578915",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:k1189880161",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 同梱可能★即売★多数出品中",
+   "price": 240,
+   "buyNow": 240,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792117771,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1189880161",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -1498,24 +2224,24 @@
    ]
   },
   {
-   "id": "yahoo:v1235441851",
+   "id": "yahoo:x1189577411",
    "site": "yahoo",
-   "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 ★同梱可能★即売★多数出品中★",
    "price": 240,
-   "buyNow": null,
+   "buyNow": 240,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791720549,
-   "shipping": 360,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1235441851",
+   "format": "fixed",
+   "endTime": 1792202457,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1189577411",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-005"
+     "id": "FC-004"
     }
    ]
   },
@@ -1538,6 +2264,50 @@
    "matches": [
     {
      "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:c1247346706",
+   "site": "yahoo",
+   "title": "即決ファミコンソフト ドラゴンボールZ 強襲！サイヤ人",
+   "price": 250,
+   "buyNow": 250,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791883398,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1247346706",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:p1169534591",
+   "site": "yahoo",
+   "title": "FC ドラゴンボールZ 強襲!サイヤ人 ファミコン",
+   "price": 250,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791975898,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/p1169534591",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -1582,28 +2352,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:t1245652207",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝3 Nintendo 任天堂 SUPER FAMICOM スーパーファミコン SFC ソフト カセット カートリッジ 端子清掃済",
-   "price": 251,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791722452,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/t1245652207",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
     }
    ]
   },
@@ -1659,7 +2407,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720334,
+   "endTime": 1791806735,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1154507615",
@@ -1674,24 +2422,24 @@
    ]
   },
   {
-   "id": "yahoo:b1235310728",
+   "id": "yahoo:1206688726",
    "site": "yahoo",
-   "title": "SFC スーパーファミコン ドラゴンボールZ 超武闘伝",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 霜1レ 動作確認済み",
    "price": 280,
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725179,
-   "shipping": 0,
+   "endTime": 1791806699,
+   "shipping": 230,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/b1235310728",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/1206688726",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
+     "id": "FC-004"
     }
    ]
   },
@@ -1718,28 +2466,6 @@
    ]
   },
   {
-   "id": "yahoo:c1244400517",
-   "site": "yahoo",
-   "title": "[同梱可]ドラゴンボール3 悟空伝 ファミコン 動作確認済・端子清掃済[S2964_430]",
-   "price": 280,
-   "buyNow": 280,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791732169,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1244400517",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-003"
-    }
-   ]
-  },
-  {
    "id": "yahoo:e1200496527",
    "site": "yahoo",
    "title": "SFC スーパーファミコン ドラゴンボールZ 超武闘伝3",
@@ -1747,7 +2473,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791723862,
+   "endTime": 1792331102,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1200496527",
@@ -1784,6 +2510,50 @@
    ]
   },
   {
+   "id": "yahoo:f1152151467",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト り24ハ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806856,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1152151467",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1179144275",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】 ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト ぬ3ナ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806845,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1179144275",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:g1160689826",
    "site": "yahoo",
    "title": "【何本でも送料230円！出品多数】ドラゴンボール3 悟空伝 DRAGON BALL 3 ファミコン FC ソフト り35ハ 動作確認済み",
@@ -1791,7 +2561,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720309,
+   "endTime": 1791806709,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1160689826",
@@ -1806,6 +2576,72 @@
    ]
   },
   {
+   "id": "yahoo:g1201157199",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 長3レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806792,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1201157199",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1204315976",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 神4レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806858,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1204315976",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:j1240743414",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン A62レ FC ソフト 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806648,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1240743414",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:l1164617955",
    "site": "yahoo",
    "title": "【何本でも送料230円！出品多数】ドラゴンボール3 悟空伝 DRAGON BALL 3 ファミコン FC ソフト を1レ 動作確認済み",
@@ -1813,7 +2649,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720296,
+   "endTime": 1791806696,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1164617955",
@@ -1835,7 +2671,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720210,
+   "endTime": 1791806610,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1152238932",
@@ -1857,7 +2693,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725221,
+   "endTime": 1792330022,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1227677287",
@@ -1868,6 +2704,28 @@
    "matches": [
     {
      "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:o1152297693",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト り27ハ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806845,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/o1152297693",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -1901,7 +2759,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720266,
+   "endTime": 1791806666,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1208183090",
@@ -1923,7 +2781,7 @@
    "buyNow": 280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720324,
+   "endTime": 1791806724,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1153061344",
@@ -1960,6 +2818,94 @@
    ]
   },
   {
+   "id": "yahoo:t1197865310",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 葉3レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806691,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1197865310",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1199614201",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 長1レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806634,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1199614201",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1245897066",
+   "site": "yahoo",
+   "title": "★何点でも送料２３０円★ ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン タ44レ即発送 FC ソフト 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791810243,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1245897066",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1166197186",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト を5レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806661,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1166197186",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:u455329061",
    "site": "yahoo",
    "title": "ファミコン カセット◆ドラゴンボールZ3 烈戦人造人間",
@@ -1967,7 +2913,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791731031,
+   "endTime": 1792335831,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u455329061",
@@ -1982,6 +2928,28 @@
    ]
   },
   {
+   "id": "yahoo:x1192343177",
+   "site": "yahoo",
+   "title": "【何本でも送料230円！出品多数】ドラゴンボールZ 強襲！サイヤ人 DRAGON BALL Z ファミコン FC ソフト 文3レ 動作確認済み",
+   "price": 280,
+   "buyNow": 280,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791806684,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1192343177",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:w1162579250",
    "site": "yahoo",
    "title": "ドラゴンボール 大魔王復活 DRAGON BALL ファミコン FC ソフト 中古品",
@@ -1989,7 +2957,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721471,
+   "endTime": 1791894271,
    "shipping": 830,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1162579250",
@@ -2011,7 +2979,7 @@
    "buyNow": 580,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791722241,
+   "endTime": 1792065833,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1129372114",
@@ -2070,7 +3038,7 @@
    "buyNow": 298,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791718668,
+   "endTime": 1791805069,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1229085855",
@@ -2092,7 +3060,7 @@
    "buyNow": 298,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791717327,
+   "endTime": 1791803727,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1219255659",
@@ -2114,7 +3082,7 @@
    "buyNow": 298,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791718095,
+   "endTime": 1791804495,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1229072796",
@@ -2136,7 +3104,7 @@
    "buyNow": 298,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791718158,
+   "endTime": 1791804558,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r1219261650",
@@ -2151,6 +3119,28 @@
    ]
   },
   {
+   "id": "yahoo:f1229078603",
+   "site": "yahoo",
+   "title": "【限定即決】ドラゴンボールZ 強襲！サイヤ人 BANDAI バンダイ FC.76 ファミコン レア レトロ",
+   "price": 299,
+   "buyNow": 299,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791805155,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1229078603",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:c1245474573",
    "site": "yahoo",
    "title": "■Ω■ ドラゴンボール３ 悟空伝 （中古商品） 同梱可能です。",
@@ -2158,7 +3148,7 @@
    "buyNow": 400,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791726171,
+   "endTime": 1791812704,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1245474573",
@@ -2224,7 +3214,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791717286,
+   "endTime": 1791977511,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1225368265",
@@ -2239,6 +3229,72 @@
    ]
   },
   {
+   "id": "yahoo:j1221769060",
+   "site": "yahoo",
+   "title": "起動確認済 FC ファミコン ファミコンソフト ファミリーコンピュータ ソフトのみ ドラゴンボールZ 強襲！ サイヤ人",
+   "price": 300,
+   "buyNow": 300,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791872316,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1221769060",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:k1123413064",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボール 神龍の謎",
+   "price": 300,
+   "buyNow": 300,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792071760,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1123413064",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:m1171981404",
+   "site": "yahoo",
+   "title": "スーパーファミコン～ドラゴンボールＺ 超サイヤ伝説～BANDAI",
+   "price": 300,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792325763,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1171981404",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-001"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1189916970",
    "site": "yahoo",
    "title": "[ゲ A:99*] ドラゴンボール 神龍の謎 ソフトのみ バンダイ ファミコン FC",
@@ -2246,7 +3302,7 @@
    "buyNow": 500,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791714249,
+   "endTime": 1791973449,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1189916970",
@@ -2312,7 +3368,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791716693,
+   "endTime": 1791975893,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1169541638",
@@ -2323,6 +3379,28 @@
    "matches": [
     {
      "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1010720650",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ超武闘伝3 スーパーファミコン SFC",
+   "price": 300,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792364323,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1010720650",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
     }
    ]
   },
@@ -2400,7 +3478,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791720046,
+   "endTime": 1792324846,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1125368265",
@@ -2411,6 +3489,28 @@
    "matches": [
     {
      "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:w1129534048",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZ〜強襲！サイヤ人〜",
+   "price": 300,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792240160,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1129534048",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -2437,28 +3537,6 @@
    ]
   },
   {
-   "id": "yahoo:w1235426924",
-   "site": "yahoo",
-   "title": "ソフトのみ ドラゴンボールZ 超武闘伝3 初期動作確認済",
-   "price": 300,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791717276,
-   "shipping": 185,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/w1235426924",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
    "id": "yahoo:x1224495932",
    "site": "yahoo",
    "title": "【同梱可能】 ドラゴンボールZ 超武闘伝3 SFC スーパーファミコン タケマルリスト A30",
@@ -2466,7 +3544,7 @@
    "buyNow": 300,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720115,
+   "endTime": 1791979315,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1224495932",
@@ -2499,6 +3577,28 @@
    "matches": [
     {
      "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1204922795",
+   "site": "yahoo",
+   "title": "■ドラゴンボールZ 強襲！サイヤ人 ファミコン ソフト FC カセット",
+   "price": 320,
+   "buyNow": 990,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791807832,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1204922795",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -2547,28 +3647,6 @@
    ]
   },
   {
-   "id": "yahoo:e1209134759",
-   "site": "yahoo",
-   "title": "【SFC】ドラゴンボールZ 超武闘伝2 スーパーファミコン バンダイ",
-   "price": 333,
-   "buyNow": 333,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791722296,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/e1209134759",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-003"
-    }
-   ]
-  },
-  {
    "id": "yahoo:o1137130052",
    "site": "yahoo",
    "title": "SFC スーパーファミコンソフト バンダイ ドラゴンボールZ超武闘伝3",
@@ -2598,7 +3676,7 @@
    "buyNow": 590,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791721768,
+   "endTime": 1791894568,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1150072381",
@@ -2664,7 +3742,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791720906,
+   "endTime": 1791807306,
    "shipping": 290,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1214213289",
@@ -2675,28 +3753,6 @@
    "matches": [
     {
      "id": "SFC-003"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:g1226631297",
-   "site": "yahoo",
-   "title": "[SFC スーパーファミコン 動作確認 ソフトのみ] ドラゴンボールZ 超悟空伝 突激編 SHVC-P-AZ5J",
-   "price": 350,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791728766,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/g1226631297",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-005"
     }
    ]
   },
@@ -2745,28 +3801,6 @@
    ]
   },
   {
-   "id": "yahoo:g1247453590",
-   "site": "yahoo",
-   "title": "ドラゴンボールＺ 超サイヤ伝説 ♪動作確認済♪５本まで同梱可♪ SFC スーパーファミコン",
-   "price": 380,
-   "buyNow": null,
-   "bids": 1,
-   "format": "auction",
-   "endTime": 1791724581,
-   "shipping": 240,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/g1247453590",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-001"
-    }
-   ]
-  },
-  {
    "id": "yahoo:q1246127541",
    "site": "yahoo",
    "title": "★何点でも送料２３０円★ ドラゴンボール 大魔王復活 DRAGON BALL ファミコン ツ49レ即発送 FC ソフト 動作確認済み",
@@ -2774,7 +3808,7 @@
    "buyNow": 380,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725803,
+   "endTime": 1791812204,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1246127541",
@@ -2785,6 +3819,50 @@
    "matches": [
     {
      "id": "FC-002"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r110286574",
+   "site": "yahoo",
+   "title": "ファミコン カセット◆ドラゴンボールZ2 激神フリーザ!!",
+   "price": 380,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792338420,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r110286574",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:d1223916660",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲！サイヤ人 FC ファミリーコンピュータ ファミコン",
+   "price": 383,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792239730,
+   "shipping": 180,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1223916660",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -2807,6 +3885,28 @@
    "matches": [
     {
      "id": "SFC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:e1243437300",
+   "site": "yahoo",
+   "title": "■ ドラゴンボールZ 超武闘伝3 スーパーファミコン ソフト SFC カセット",
+   "price": 390,
+   "buyNow": 1000,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1791896379,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1243437300",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
     }
    ]
   },
@@ -2928,7 +4028,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791684017,
+   "endTime": 1791807615,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1242807572",
@@ -3082,7 +4182,7 @@
    "buyNow": 364,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791704302,
+   "endTime": 1792309102,
    "shipping": 250,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1191241295",
@@ -3141,6 +4241,28 @@
    ]
   },
   {
+   "id": "yahoo:d1246784899",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 起動確認済",
+   "price": 415,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791896820,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1246784899",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:h1237552875",
    "site": "yahoo",
    "title": "SFC スーパーファミコン ドラゴンボールZ 超悟空伝 突激編 ソフトのみ 中古品",
@@ -3148,7 +4270,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722562,
+   "endTime": 1791809402,
    "shipping": 830,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1237552875",
@@ -3207,7 +4329,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791720085,
+   "endTime": 1792324886,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1139847324",
@@ -3266,6 +4388,226 @@
    ]
   },
   {
+   "id": "yahoo:f1166185882",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ〜激神フリーザ!!〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792064650,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1166185882",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1166676288",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ 激神フリーザ!!",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791977868,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1166676288",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:h1166428507",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ〜激神フリーザ!!〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792240133,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/h1166428507",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:k1110194904",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボール3〜悟空伝〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791805311,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1110194904",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:p1169165614",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ 激神フリーザ！！",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791892385,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/p1169165614",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1133020525",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZ〜強襲！サイヤ人〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791805523,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1133020525",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:w1165481251",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ〜激神フリーザ!!〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792064637,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1165481251",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:x1152816250",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZ 強襲！サイヤ人",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792240037,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1152816250",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:x1165249073",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ〜激神フリーザ!!〜",
+   "price": 440,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792236630,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1165249073",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1212913302",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 ファミコン",
+   "price": 459,
+   "buyNow": 459,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791874131,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1212913302",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:l1202387308",
    "site": "yahoo",
    "title": "SFC ドラゴンボールZ 超悟空伝 突激編 動作確認済み スーパーファミコン DRAGON BALL",
@@ -3273,7 +4615,7 @@
    "buyNow": 680,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791723174,
+   "endTime": 1791809574,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1202387308",
@@ -3295,10 +4637,32 @@
    "buyNow": 480,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725859,
+   "endTime": 1791812490,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1247431893",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:m1110170332",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボールZⅡ〜激神フリーザ！！〜",
+   "price": 480,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792240021,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1110170332",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -3339,7 +4703,7 @@
    "buyNow": 480,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791723630,
+   "endTime": 1791810030,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1246261195",
@@ -3354,17 +4718,17 @@
    ]
   },
   {
-   "id": "yahoo:w1156621821",
+   "id": "yahoo:x1144898937",
    "site": "yahoo",
-   "title": "SFC ドラゴンボールZ超サイヤ伝説 起動確認済み",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 スーパーサイヤ伝説",
    "price": 480,
-   "buyNow": null,
+   "buyNow": 500,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791726716,
-   "shipping": null,
+   "format": "auction_buynow",
+   "endTime": 1792248148,
+   "shipping": 230,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/w1156621821",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1144898937",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -3376,24 +4740,24 @@
    ]
   },
   {
-   "id": "yahoo:x1144898937",
+   "id": "yahoo:b1177984500",
    "site": "yahoo",
-   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 スーパーサイヤ伝説",
-   "price": 480,
-   "buyNow": 500,
+   "title": "ファミコンソフト ドラゴンボールZ 強襲 サイヤ人",
+   "price": 500,
+   "buyNow": null,
    "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791729748,
-   "shipping": 230,
+   "format": "auction",
+   "endTime": 1791973820,
+   "shipping": 0,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/x1144898937",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1177984500",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-001"
+     "id": "FC-004"
     }
    ]
   },
@@ -3420,46 +4784,24 @@
    ]
   },
   {
-   "id": "yahoo:c1091824449",
+   "id": "yahoo:c1215574334",
    "site": "yahoo",
-   "title": "★☆スーパーファミコン ドラゴンボールZ 超武闘伝 中古カセット☆",
-   "price": 500,
-   "buyNow": 500,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792156354,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1091824449",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:c1199010013",
-   "site": "yahoo",
-   "title": "DRAGONBALL ドラゴンボール 超サイヤ伝説 ソフトのみ 動作確認済み 5本まで同梱可 SFC スーパーファミコン 管理番号236",
+   "title": "ドラゴンボールZ 強襲サイヤ人 FC ファミコンソフト カセット ファミリーコンピュータ レトロゲーム ソフト [kxq",
    "price": 500,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721354,
+   "endTime": 1791809483,
    "shipping": 230,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1199010013",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1215574334",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-001"
+     "id": "FC-004"
     }
    ]
   },
@@ -3508,6 +4850,28 @@
    ]
   },
   {
+   "id": "yahoo:d1247467530",
+   "site": "yahoo",
+   "title": "ファミコン ドラゴンボール Z 強襲!サイヤ人 Famicom Dragon Ball Z 1",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791986424,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1247467530",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:e1246084917",
    "site": "yahoo",
    "title": "ドラゴンボール 神龍の謎 ファミコン 動作確認済・端子清掃済[S2824_2355]",
@@ -3515,7 +4879,7 @@
    "buyNow": 500,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791687106,
+   "endTime": 1792291906,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1246084917",
@@ -3537,7 +4901,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721534,
+   "endTime": 1791807934,
    "shipping": 740,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1214430595",
@@ -3581,7 +4945,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727133,
+   "endTime": 1791986333,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1247137517",
@@ -3706,6 +5070,28 @@
    ]
   },
   {
+   "id": "yahoo:m1197941288",
+   "site": "yahoo",
+   "title": "DRAGONBALL Z 超武闘伝3 ドラゴンボール ソフトのみ 動作確認済み 5本まで同梱可 SFC スーパーファミコン 管理番号013",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792327411,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1197941288",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1219254176",
    "site": "yahoo",
    "title": "【限定即決】ドラゴンボール 大魔王復活 株式会社バンダイ FC.48 ファミコン 起動画面あり レア レトロ",
@@ -3713,7 +5099,7 @@
    "buyNow": 500,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791717200,
+   "endTime": 1791803601,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1219254176",
@@ -3750,6 +5136,50 @@
    ]
   },
   {
+   "id": "yahoo:q1171873398",
+   "site": "yahoo",
+   "title": "ファミリーコンピューター バンダイ ドラゴンボール３ 悟空伝",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791970892,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1171873398",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:q1241327319",
+   "site": "yahoo",
+   "title": "スーパーファミコン ドラゴンボールZ スーパーファミコンソフト 超武闘伝2 Nintendo64 任天堂 マリオテニス どうぶつの森 など",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792234615,
+   "shipping": 1000,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1241327319",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-003"
+    }
+   ]
+  },
+  {
    "id": "yahoo:q1246231555",
    "site": "yahoo",
    "title": "ドラゴンボール 神龍の謎 ファミコン 動作確認済・端子清掃済[S2824_345]",
@@ -3772,6 +5202,50 @@
    ]
   },
   {
+   "id": "yahoo:s1247811587",
+   "site": "yahoo",
+   "title": "【蔵出し】★レトロ ゲーム『バンダイ ドラゴンボールZ 強襲！サイヤ人』1990年 ファミコン用★(検:初だし/当時物)80925H",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792239004,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1247811587",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1247942594",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 ソフトのみ 起動確認済",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897325,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1247942594",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-001"
+    }
+   ]
+  },
+  {
    "id": "yahoo:t1247593753",
    "site": "yahoo",
    "title": "即決ファミコンソフト ドラゴンボールZ2 激神フリーザ!! ドラゴンボールZ 激神フリーザ",
@@ -3783,6 +5257,28 @@
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/t1247593753",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1064257658",
+   "site": "yahoo",
+   "title": "ジャンク ソフトのみ ドラゴンボールZ2 激神フリーザ!!",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791898767,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1064257658",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -3823,7 +5319,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724725,
+   "endTime": 1791897526,
    "shipping": 360,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1247419736",
@@ -3838,46 +5334,24 @@
    ]
   },
   {
-   "id": "yahoo:v1199062113",
+   "id": "yahoo:v1247943484",
    "site": "yahoo",
-   "title": "【DRAGONN BALL ドラゴンボール 神龍の謎】 ソフトのみ 動作確認済み 5本まで同梱可 FC ファミリーコンピューター ファミコン 管理番号168",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 ソフトのみ 起動確認済",
    "price": 500,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721308,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1199062113",
+   "endTime": 1791898851,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/v1247943484",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:v1245852301",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝SFC スーパーファミコン 動作確認済・端子清掃済[SFC6320_2307075]",
-   "price": 500,
-   "buyNow": 500,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792119399,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1245852301",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
+     "id": "SFC-001"
     }
    ]
   },
@@ -3904,6 +5378,28 @@
    ]
   },
   {
+   "id": "yahoo:w1222551511",
+   "site": "yahoo",
+   "title": "【※箱説なし※】ドラゴンボールZ 強襲!サイヤ人",
+   "price": 500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897996,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1222551511",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:w1226170120",
    "site": "yahoo",
    "title": "No1045 FC ファミコンソフト ドラゴンボール 大魔王復活 林寺でクリリンが殺害されるところから物語が始まります。",
@@ -3926,46 +5422,46 @@
    ]
   },
   {
-   "id": "yahoo:1247297322",
+   "id": "yahoo:x1225081840",
    "site": "yahoo",
-   "title": "MegaHouse ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編 グルグルガムで悟空ピンチ 彩色ver. フィギュア メガハウス 261011Y30",
-   "price": 510,
+   "title": "ファミリーコンピューター ソフト バンダイ ドラゴンボール 3 悟空伝 ファミコン 箱なし 取説なし 動作未確認 当時物 昭和レトロ",
+   "price": 500,
    "buyNow": null,
-   "bids": 4,
+   "bids": 0,
    "format": "auction",
-   "endTime": 1791727236,
+   "endTime": 1792148986,
    "shipping": null,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1247297322",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-005-05"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:u1240280591",
-   "site": "yahoo",
-   "title": "FC ファミコン ドラゴンボールZ3 烈戦人造人間",
-   "price": 520,
-   "buyNow": 520,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791727786,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u1240280591",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1225081840",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-006"
+     "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:x1237924402",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人 ファミコンソフト",
+   "price": 501,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791808090,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1237924402",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -4000,28 +5496,6 @@
    ]
   },
   {
-   "id": "yahoo:1247173881",
-   "site": "yahoo",
-   "title": "★ファミコン★カセットのみ【ドラゴンボール 神龍の謎】A★",
-   "price": 550,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791727106,
-   "shipping": 450,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1247173881",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-001"
-    }
-   ]
-  },
-  {
    "id": "yahoo:b1246527388",
    "site": "yahoo",
    "title": "ドラゴンボールZ 超武闘伝2 スーパーファミコン バンダイ",
@@ -4040,6 +5514,28 @@
    "matches": [
     {
      "id": "SFC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:h1191870821",
+   "site": "yahoo",
+   "title": "ファミコン ソフト ドラゴンボールZ 強襲！サイヤ人【カセットのみ】",
+   "price": 550,
+   "buyNow": 550,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791963565,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/h1191870821",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -4073,7 +5569,7 @@
    "buyNow": 700,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791723985,
+   "endTime": 1791813038,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1237468787",
@@ -4106,28 +5602,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:r1222985601",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコンソフト BANDAI",
-   "price": 550,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1792249239,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/r1222985601",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -4227,7 +5701,7 @@
    "buyNow": 790,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791723184,
+   "endTime": 1791809585,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1202377708",
@@ -4271,7 +5745,7 @@
    "buyNow": 528,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791727478,
+   "endTime": 1791900278,
    "shipping": 390,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1247700486",
@@ -4484,28 +5958,6 @@
    ]
   },
   {
-   "id": "yahoo:u1229437945",
-   "site": "yahoo",
-   "title": "即決 動作確認済 FC ドラゴンボールZ外伝 サイヤ人絶滅計画 バンダイ 1993 ファミコン レトロゲーム◎順次多数出品中 g6",
-   "price": 599,
-   "buyNow": 599,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791730205,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u1229437945",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:p1201850938",
    "site": "yahoo",
    "title": "ファミコン カセット ソフト DRAGON BALL ドラゴンボール 大魔王復活 FC （1）",
@@ -4572,6 +6024,28 @@
    ]
   },
   {
+   "id": "yahoo:e1236740944",
+   "site": "yahoo",
+   "title": "スーパーファミコンソフト ドラゴンボールZ 超サイヤ伝説",
+   "price": 640,
+   "buyNow": 860,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792240937,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1236740944",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-001"
+    }
+   ]
+  },
+  {
    "id": "yahoo:1214357561",
    "site": "yahoo",
    "title": "ドラゴンボールZⅡ 激神フリーザ ファミコン ドラゴンボール",
@@ -4579,7 +6053,7 @@
    "buyNow": 670,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791714842,
+   "endTime": 1791979163,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1214357561",
@@ -4682,6 +6156,28 @@
    ]
   },
   {
+   "id": "yahoo:u1125377213",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲 サイヤ人 FC ファミコン",
+   "price": 700,
+   "buyNow": 700,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792277609,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1125377213",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:x1229411874",
    "site": "yahoo",
    "title": "ファミコン カセット ソフト ドラゴンボールZ３ 烈戦人造人間 FC （4）",
@@ -4689,7 +6185,7 @@
    "buyNow": 637,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791686524,
+   "endTime": 1792291324,
    "shipping": 250,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1229411874",
@@ -4733,7 +6229,7 @@
    "buyNow": 730,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791760366,
+   "endTime": 1792365166,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1246153866",
@@ -4744,6 +6240,28 @@
    "matches": [
     {
      "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1246234592",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 ファミコン 動作確認済・端子清掃済[S3673_428]",
+   "price": 730,
+   "buyNow": 730,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791819130,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1246234592",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -4777,7 +6295,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725241,
+   "endTime": 1791898041,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1247179691",
@@ -4799,7 +6317,7 @@
    "buyNow": 1050,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791718956,
+   "endTime": 1792323756,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1189634890",
@@ -4843,7 +6361,7 @@
    "buyNow": 1200,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791723898,
+   "endTime": 1792331312,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/m1195529410",
@@ -4902,6 +6420,28 @@
    ]
   },
   {
+   "id": "yahoo:b1186942176",
+   "site": "yahoo",
+   "title": "ファミコン カセット ソフト ドラゴンボールZ2 激神フリーザ FC",
+   "price": 800,
+   "buyNow": 728,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792142157,
+   "shipping": 250,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1186942176",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:b1232220634",
    "site": "yahoo",
    "title": "ファミコン カセット ソフト ドラゴンボールZ2 激神フリーザ FC （5）",
@@ -4946,24 +6486,24 @@
    ]
   },
   {
-   "id": "yahoo:c1207086713",
+   "id": "yahoo:c1191242864",
    "site": "yahoo",
-   "title": "【FC】ファミコン ドラゴンボールZ外伝 サイヤ人絶滅計画",
+   "title": "ファミコン カセット ソフト ドラゴンボールZ2 激神フリーザ FC （3）",
    "price": 800,
-   "buyNow": null,
+   "buyNow": 728,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1792152036,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1207086713",
+   "format": "auction_buynow",
+   "endTime": 1792038145,
+   "shipping": 250,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1191242864",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "FC-005"
     }
    ]
   },
@@ -4975,7 +6515,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726052,
+   "endTime": 1792244452,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1246322109",
@@ -5078,6 +6618,28 @@
    ]
   },
   {
+   "id": "yahoo:j1184017947",
+   "site": "yahoo",
+   "title": "[管00]【送料無料】ゲームソフト FC ドラゴンボールZ 強襲! サイヤ人 (箱説なし) ファミコン ファミリーコンピューター 任天堂 鳥山明",
+   "price": 810,
+   "buyNow": 810,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791869020,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1184017947",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:j1184022426",
    "site": "yahoo",
    "title": "[管00]【送料無料】ゲームソフト FC ドラゴンボールZ 2 激神フリーザ!! (箱説なし) ファミコン ファミリーコンピューター 任天堂 鳥山明",
@@ -5173,7 +6735,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724806,
+   "endTime": 1791897607,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1068467608",
@@ -5210,6 +6772,28 @@
    ]
   },
   {
+   "id": "yahoo:t1247183711",
+   "site": "yahoo",
+   "title": "★ファミコン★カセットのみ【ドラゴンボールZ 強襲サイヤ人】A★",
+   "price": 858,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897799,
+   "shipping": 450,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1247183711",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:o1204319748",
    "site": "yahoo",
    "title": "中古C★R7-6 ドラゴンボールZ3 烈戦人造人間★ファミコンソフト",
@@ -5232,24 +6816,24 @@
    ]
   },
   {
-   "id": "yahoo:c1247596565",
+   "id": "yahoo:u1243955962",
    "site": "yahoo",
-   "title": "★何点でも送料２３０円★ ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコン ト14レ即発送 FC ソフト 動作確認済み",
-   "price": 880,
-   "buyNow": 880,
+   "title": "■ ドラゴンボールZ 超サイヤ伝説 スーパーファミコン ソフト SFC カセット",
+   "price": 890,
+   "buyNow": null,
    "bids": 0,
-   "format": "fixed",
-   "endTime": 1791725767,
-   "shipping": 230,
+   "format": "auction",
+   "endTime": 1791892921,
+   "shipping": 180,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1247596565",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1243955962",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "SFC-001"
     }
    ]
   },
@@ -5276,36 +6860,14 @@
    ]
   },
   {
-   "id": "yahoo:j1140763247",
+   "id": "yahoo:e1223099784",
    "site": "yahoo",
-   "title": "☆即決 FC ドラゴンボールZ外伝 サイヤ人絶滅計画 レターパックライトFC8本までGB30本までGBA30本以上同梱可☆",
+   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 管02",
    "price": 900,
    "buyNow": 900,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791900585,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1140763247",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:e1223099784",
-   "site": "yahoo",
-   "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 管02",
-   "price": 920,
-   "buyNow": 920,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791729192,
+   "endTime": 1792335089,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1223099784",
@@ -5323,11 +6885,11 @@
    "id": "yahoo:g1223101373",
    "site": "yahoo",
    "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説",
-   "price": 920,
-   "buyNow": 920,
+   "price": 900,
+   "buyNow": 900,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791729193,
+   "endTime": 1792335088,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1223101373",
@@ -5364,6 +6926,28 @@
    ]
   },
   {
+   "id": "yahoo:f1191433082",
+   "site": "yahoo",
+   "title": "【ブリスター(プラケース)欠品】送料無料 即買 FC ドラゴンボールZ強襲!サイヤ人 箱付 メンテ済",
+   "price": 950,
+   "buyNow": 950,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792250660,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1191433082",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:o1239518284",
    "site": "yahoo",
    "title": "【中古】〈FCソフト〉ドラゴンボール DRAGON BALL 神龍の謎 任天堂/Nintendo/ニンテンドー ファミコン @P★E2509-0527",
@@ -5371,7 +6955,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727074,
+   "endTime": 1791813475,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1239518284",
@@ -5426,28 +7010,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:u456433203",
-   "site": "yahoo",
-   "title": "ファミコン カセット◆ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 980,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791734132,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u456433203",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -5526,7 +7088,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723837,
+   "endTime": 1791896638,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1224411033",
@@ -5541,28 +7103,6 @@
    ]
   },
   {
-   "id": "yahoo:n1236928430",
-   "site": "yahoo",
-   "title": "▽559611 【動作確認済】BANDAI スーパーファミコン SFC ドラゴンボールZ 超武闘伝2",
-   "price": 990,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725997,
-   "shipping": 390,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/n1236928430",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-003"
-    }
-   ]
-  },
-  {
    "id": "yahoo:q1244950513",
    "site": "yahoo",
    "title": "【※箱説なし※】ドラゴンボール 神龍の謎",
@@ -5570,7 +7110,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724275,
+   "endTime": 1791898809,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1244950513",
@@ -5603,6 +7143,28 @@
    "matches": [
     {
      "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:b1242469767",
+   "site": "yahoo",
+   "title": "◯SFC サンサーラナーガ2 ドラゴンボールZ 超悟空伝 突激編 半熟英雄 レターパックライト 数十冊同梱可◯",
+   "price": 1000,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792074777,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1242469767",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-005"
     }
    ]
   },
@@ -5658,7 +7220,7 @@
    "buyNow": 1000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791712469,
+   "endTime": 1791977508,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1221356160",
@@ -5720,46 +7282,24 @@
    ]
   },
   {
-   "id": "yahoo:k1197556584",
+   "id": "yahoo:l1226458480",
    "site": "yahoo",
-   "title": "☆即決 SFC 機動戦士Zガンダム ドラゴンボールＺ 超武闘伝 レターパックライト SFC 5本まで N64 6本まで同梱可☆",
+   "title": "[美品] Nintendo Super Famicom スーパーファミコン ソフト ドラゴンボールZ 超武闘伝2 (コンデンサ交換済み) [S2961]",
    "price": 1000,
    "buyNow": 1000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791816364,
-   "shipping": null,
+   "endTime": 1791811212,
+   "shipping": 180,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1197556584",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/l1226458480",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:l1227774365",
-   "site": "yahoo",
-   "title": "520【動作OK】 ドラゴンボールZ外伝 サイヤ人絶滅計画 BANDAI DRAGONBALLZ ファミコン FC カセット ゲーム 箱説ナシ 裸ソフト",
-   "price": 1000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791727679,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1227774365",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
+     "id": "SFC-003"
     }
    ]
   },
@@ -5782,50 +7322,6 @@
    "matches": [
     {
      "id": "DBC-013-08"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1226383018",
-   "site": "yahoo",
-   "title": "SFC スーパーファミコンカセット ドラゴンボールZ 超武闘伝 ソフトのみ",
-   "price": 1000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791812464,
-   "shipping": 180,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1226383018",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:n1243161090",
-   "site": "yahoo",
-   "title": "「AE41_2N」ファミコン FCソフト ドラゴンボールZ サイヤ人絶滅計画 箱説無 外傷あり （260903）",
-   "price": 1000,
-   "buyNow": 1000,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792165853,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/n1243161090",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -5870,28 +7366,6 @@
    "matches": [
     {
      "id": "FC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:q1195103920",
-   "site": "yahoo",
-   "title": "起動確認済 ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコン FC",
-   "price": 1000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791723532,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1195103920",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -5962,28 +7436,6 @@
    ]
   },
   {
-   "id": "yahoo:w1234711523",
-   "site": "yahoo",
-   "title": "◆○FC DRAGONBALL ドラゴンボールZ外伝 サイヤ人絶滅計画 ソフトのみ 動作確認済",
-   "price": 1000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791726877,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/w1234711523",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:x1246287098",
    "site": "yahoo",
    "title": "ファミコン ドラゴンボール 神龍の謎 （K3-2-2）",
@@ -6013,7 +7465,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724705,
+   "endTime": 1791898269,
    "shipping": 360,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1241455865",
@@ -6035,7 +7487,7 @@
    "buyNow": 1030,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791679332,
+   "endTime": 1792284132,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1246058716",
@@ -6094,28 +7546,6 @@
    ]
   },
   {
-   "id": "yahoo:b1242469767",
-   "site": "yahoo",
-   "title": "◯SFC サンサーラナーガ2 ドラゴンボールZ 超悟空伝 突激編 半熟英雄 レターパックライト 数十冊同梱可◯",
-   "price": 1100,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791729177,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/b1242469767",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-005"
-    }
-   ]
-  },
-  {
    "id": "yahoo:m1246753889",
    "site": "yahoo",
    "title": "【☆セーブ電池交換済み】 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン SFC ソフト",
@@ -6123,7 +7553,7 @@
    "buyNow": 1100,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791721293,
+   "endTime": 1791807693,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/m1246753889",
@@ -6134,50 +7564,6 @@
    "matches": [
     {
      "id": "SFC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1247299107",
-   "site": "yahoo",
-   "title": "● コレクター必見 当時物 ファミリーコンピュータ ドラゴンボールZ 外伝 サイヤ人絶滅計画 ファミコン コレクション Bp213",
-   "price": 1100,
-   "buyNow": null,
-   "bids": 2,
-   "format": "auction",
-   "endTime": 1791813351,
-   "shipping": 440,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1247299107",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:q1247567935",
-   "site": "yahoo",
-   "title": "☆ FC ファミコン ドラゴンボールZ外伝 サイヤ人絶滅計画 極美品 ☆",
-   "price": 1100,
-   "buyNow": null,
-   "bids": 2,
-   "format": "auction",
-   "endTime": 1792070262,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1247567935",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -6226,24 +7612,24 @@
    ]
   },
   {
-   "id": "yahoo:t1237242923",
+   "id": "yahoo:s1238926397",
    "site": "yahoo",
-   "title": "☆即決 FC ダウンタウン熱血行進曲 ドラゴンボールZ外伝 サイヤ人絶滅計画 レターパックライト FC8本まで GB GBA 数十本同梱可☆",
+   "title": "ドラゴンボールZ 強襲！サイヤ人 ファミコン用ソフト 中古品",
    "price": 1100,
    "buyNow": 1100,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791815153,
+   "endTime": 1792143045,
    "shipping": null,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/t1237242923",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1238926397",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "FC-004"
     }
    ]
   },
@@ -6270,6 +7656,28 @@
    ]
   },
   {
+   "id": "yahoo:1246226377",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 ファミコン 動作確認済・端子清掃済[S3673_371]",
+   "price": 1130,
+   "buyNow": 1130,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791818978,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/1246226377",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:f1246221545",
    "site": "yahoo",
    "title": "ドラゴンボールZ3 烈戦人造人間 ファミコン 動作確認済・端子清掃済[S3052_443]",
@@ -6292,28 +7700,6 @@
    ]
   },
   {
-   "id": "yahoo:h1222632093",
-   "site": "yahoo",
-   "title": "送料無料 即買 FC ドラゴンボールZ外伝 サイヤ人絶滅計画 メンテ済",
-   "price": 1150,
-   "buyNow": 1150,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792253680,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/h1222632093",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:r1246933624",
    "site": "yahoo",
    "title": "セーブ電池ホルダー化！ ワケあり ドラゴンボールZ 超悟空伝 覚醒編 端子メンテ済み！ 一発起動！",
@@ -6321,7 +7707,7 @@
    "buyNow": 1280,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791722498,
+   "endTime": 1791810116,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r1246933624",
@@ -6343,7 +7729,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724583,
+   "endTime": 1791983187,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1247449544",
@@ -6358,28 +7744,6 @@
    ]
   },
   {
-   "id": "yahoo:l1247544004",
-   "site": "yahoo",
-   "title": "ドラゴンボール カプセル この世はでかっかい宝島 クロニクル編 孫悟空 vs ブラック参謀 ドラカプ フィギュア 激安1円スタート",
-   "price": 1200,
-   "buyNow": null,
-   "bids": 2,
-   "format": "auction",
-   "endTime": 1791893633,
-   "shipping": 900,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1247544004",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-05"
-    }
-   ]
-  },
-  {
    "id": "yahoo:n1246128658",
    "site": "yahoo",
    "title": "SFC スーパーファミコン ドラゴンボールZ 超サイヤ伝説 ☆箱説あり",
@@ -6387,7 +7751,7 @@
    "buyNow": 1200,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791713045,
+   "endTime": 1792317845,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1246128658",
@@ -6398,6 +7762,28 @@
    "matches": [
     {
      "id": "SFC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1219891382",
+   "site": "yahoo",
+   "title": "☆即決 FC グーニーズ2 ドラゴンボールZ 強襲!サイヤ人 等4本！ レターパックライト FC8本まで GB GBA 数十本同梱可☆",
+   "price": 1200,
+   "buyNow": 1200,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792072904,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1219891382",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -6446,7 +7832,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724539,
+   "endTime": 1791897339,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/d1241427218",
@@ -6490,7 +7876,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724020,
+   "endTime": 1791896820,
    "shipping": 250,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1240314387",
@@ -6527,28 +7913,6 @@
    ]
   },
   {
-   "id": "yahoo:m1247565820",
-   "site": "yahoo",
-   "title": "【箱付き】ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコン FC",
-   "price": 1221,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725832,
-   "shipping": 330,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1247565820",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:d1246240554",
    "site": "yahoo",
    "title": "ドラゴンボール 大魔王復活 ファミコン 動作確認済・端子清掃済[S2611_425]",
@@ -6567,50 +7931,6 @@
    "matches": [
     {
      "id": "FC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:v1231153736",
-   "site": "yahoo",
-   "title": "送料無料 即買 SFC ドラゴンボールZ 超武闘伝 メンテ済 箱付",
-   "price": 1250,
-   "buyNow": 1250,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791993174,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1231153736",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:h1157731097",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル ボーナスパーツ BP クロニクル編 ブルマ＆戦闘機 右羽パーツ",
-   "price": 1280,
-   "buyNow": 1280,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791813097,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/h1157731097",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-08"
     }
    ]
   },
@@ -6659,28 +7979,6 @@
    ]
   },
   {
-   "id": "yahoo:b1225553623",
-   "site": "yahoo",
-   "title": "▽534543 【動作確認済】SFC スーパーファミコン ドラゴンボールZ 超武闘伝3",
-   "price": 1320,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724343,
-   "shipping": 450,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/b1225553623",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
    "id": "yahoo:p1245845308",
    "site": "yahoo",
    "title": "ドラゴンボールZ超武闘伝2SFC スーパーファミコン 動作確認済・端子清掃済[SFC5362_2307219]",
@@ -6725,28 +8023,6 @@
    ]
   },
   {
-   "id": "yahoo:d1242270649",
-   "site": "yahoo",
-   "title": "*ファミコン(FC)「ドラゴンボール２ 大魔王復活」(はがき 付/)",
-   "price": 1340,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791720630,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1242270649",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-002"
-    }
-   ]
-  },
-  {
    "id": "yahoo:m1239396663",
    "site": "yahoo",
    "title": "【中古】〈SFCソフト〉ドラゴンボールZ 超悟空伝 覚醒編 任天堂/Nintendo/ニンテンドー スーパーファミコン @P★E2509-0457",
@@ -6754,7 +8030,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725382,
+   "endTime": 1791811782,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/m1239396663",
@@ -6765,6 +8041,28 @@
    "matches": [
     {
      "id": "SFC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:g1245145058",
+   "site": "yahoo",
+   "title": "FC ファミコン ドラゴンボールZ 強襲！サイヤ人 ソフト 箱説付 内箱欠品 起動確認済",
+   "price": 1353,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791892969,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1245145058",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -6813,6 +8111,28 @@
    ]
   },
   {
+   "id": "yahoo:l1247544004",
+   "site": "yahoo",
+   "title": "ドラゴンボール カプセル この世はでかっかい宝島 クロニクル編 孫悟空 vs ブラック参謀 ドラカプ フィギュア 激安1円スタート",
+   "price": 1400,
+   "buyNow": null,
+   "bids": 3,
+   "format": "auction",
+   "endTime": 1791893633,
+   "shipping": 900,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/l1247544004",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-004-05"
+    }
+   ]
+  },
+  {
    "id": "yahoo:p1218555258",
    "site": "yahoo",
    "title": "スーパーファミコン ソフトのみ ドラゴンボールZ ハイパーディメンション SFC カセット ゲームソフト",
@@ -6835,6 +8155,50 @@
    ]
   },
   {
+   "id": "yahoo:t1247182067",
+   "site": "yahoo",
+   "title": "★ファミコン★カセットのみ【ドラゴンボールZ 強襲サイヤ人】★",
+   "price": 1408,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791898106,
+   "shipping": 450,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1247182067",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:b1204323660",
+   "site": "yahoo",
+   "title": "中古C★R7-5 ドラゴンボールZ2激神フリーザ★ファミコンソフト",
+   "price": 1419,
+   "buyNow": 1290,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792170977,
+   "shipping": 0,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1204323660",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:k1230452730",
    "site": "yahoo",
    "title": "5128【動作OK】 ドラゴンボールZ ハイパーディメンション DRAGONBALLZ 鳥山明 スーパーファミコン SFC カセット ゲーム 箱説ナシ 裸ソフト",
@@ -6842,7 +8206,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727299,
+   "endTime": 1791814670,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1230452730",
@@ -6857,6 +8221,50 @@
    ]
   },
   {
+   "id": "yahoo:f1236079971",
+   "site": "yahoo",
+   "title": "Nintendo Super Famicom スーパーファミコン ソフト ドラゴンボールZ 超サイヤ伝説 (バッテリー・コンデンサ交換済み) [S3801]",
+   "price": 1500,
+   "buyNow": 1500,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791811221,
+   "shipping": 180,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1236079971",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:f1240896729",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝2 スーパーファミコン スーファミ カセット ゲームソフト SFC 箱 説明書付き",
+   "price": 1500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792329054,
+   "shipping": 440,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1240896729",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "SFC-003"
+    }
+   ]
+  },
+  {
    "id": "yahoo:k1196383350",
    "site": "yahoo",
    "title": "【SFC】 ドラゴンボールZ HYPER DIMENSION",
@@ -6864,7 +8272,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791729881,
+   "endTime": 1791814342,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1196383350",
@@ -6886,7 +8294,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721764,
+   "endTime": 1792326564,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1245996480",
@@ -6919,28 +8327,6 @@
    "matches": [
     {
      "id": "FC-005"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:q1157717178",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル ボーナスパーツ BP ブルマ＆戦闘機 足パーツ",
-   "price": 1500,
-   "buyNow": 1500,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792243972,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1157717178",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-08"
     }
    ]
   },
@@ -6996,7 +8382,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724777,
+   "endTime": 1791983277,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/j1246138701",
@@ -7011,28 +8397,6 @@
    ]
   },
   {
-   "id": "yahoo:c1183028696",
-   "site": "yahoo",
-   "title": "【FC】ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 1600,
-   "buyNow": 2200,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792027661,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1183028696",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:e1247183046",
    "site": "yahoo",
    "title": "★スーパーファミコン★カセットのみ★ドラゴンボールZ 超サイヤ伝説★ACT★",
@@ -7040,7 +8404,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726158,
+   "endTime": 1791898959,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1247183046",
@@ -7092,7 +8456,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724592,
+   "endTime": 1791897392,
    "shipping": 550,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1247361725",
@@ -7107,24 +8471,24 @@
    ]
   },
   {
-   "id": "yahoo:e1240002176",
+   "id": "yahoo:c1245193167",
    "site": "yahoo",
-   "title": "♪ファミコン ソフト ドラゴンボールZ外伝 サイヤ人絶滅計画 箱・説明書付き 現状お渡し♪経年ジャンク品",
+   "title": "FC（ファミコン）ドラゴンボールZ 強襲！サイヤ人 / 箱・説明書付き /メール便可 / R06663 ▽",
    "price": 1650,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791985703,
-   "shipping": 1080,
+   "endTime": 1791984520,
+   "shipping": 340,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/e1240002176",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1245193167",
    "grade": {
     "key": "boxed",
     "label": "箱付き"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "FC-004"
     }
    ]
   },
@@ -7158,7 +8522,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726493,
+   "endTime": 1791899293,
    "shipping": 310,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1236597631",
@@ -7169,6 +8533,28 @@
    "matches": [
     {
      "id": "SFC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:x1240088597",
+   "site": "yahoo",
+   "title": "♪ドラゴンボール 3 悟空伝 バンダイ BANDAI DRAGONBALL ファミコン カセット ソフト 現状品 ♪ジャンク品",
+   "price": 1650,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791986067,
+   "shipping": 1080,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/x1240088597",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-003"
     }
    ]
   },
@@ -7191,6 +8577,28 @@
    "matches": [
     {
      "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:1246778466",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ドラゴンボールZ ハイパーディメンション ソフトのみ 起動確認済",
+   "price": 1714,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791896368,
+   "shipping": 360,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/1246778466",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-007"
     }
    ]
   },
@@ -7224,7 +8632,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725014,
+   "endTime": 1791897815,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1247178224",
@@ -7235,6 +8643,50 @@
    "matches": [
     {
      "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:q1211626879",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ2 激神フリーザ!!",
+   "price": 1749,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791899974,
+   "shipping": 310,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1211626879",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:d1228000712",
+   "site": "yahoo",
+   "title": "コ451 ゲームソフト ファミコン マイティボンジャックハイパーオリンピックドラゴンボールZ 強襲!サイヤ人 機動戦士Zガンダム 動作未確認",
+   "price": 1757,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791806578,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1228000712",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -7254,28 +8706,6 @@
    ]
   },
   {
-   "id": "yahoo:o1228150471",
-   "site": "yahoo",
-   "title": "ソフトのみ ファミコン ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 1760,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724709,
-   "shipping": 220,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1228150471",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:x1239337662",
    "site": "yahoo",
    "title": "現状品 動作確認済（ソフトシールに一部シミあり） 【※箱説なし※】ドラゴンボールZ ハイパーディメンション",
@@ -7283,7 +8713,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725352,
+   "endTime": 1791896894,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1239337662",
@@ -7298,24 +8728,68 @@
    ]
   },
   {
-   "id": "yahoo:q1211626879",
+   "id": "yahoo:f1193108231",
    "site": "yahoo",
-   "title": "ドラゴンボールZ2 激神フリーザ!!",
-   "price": 1767,
+   "title": "FC ドラゴンボールZ 強襲!サイヤ人",
+   "price": 1771,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727174,
+   "endTime": 1791899774,
    "shipping": 310,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1211626879",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1193108231",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "FC-005"
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1193740695",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人",
+   "price": 1771,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791810620,
+   "shipping": 110,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1193740695",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s1199655012",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人",
+   "price": 1771,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791813297,
+   "shipping": 460,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1199655012",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -7327,7 +8801,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727350,
+   "endTime": 1791814813,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1234321578",
@@ -7364,6 +8838,28 @@
    ]
   },
   {
+   "id": "yahoo:1197855549",
+   "site": "yahoo",
+   "title": "【中古品】FCドラゴンボールZ 強襲！サイヤ人 箱・説明書・ソフトあり 箱に難あり",
+   "price": 1800,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791776427,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/1197855549",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:1215572817",
    "site": "yahoo",
    "title": "DRAGON BALL Z ドラゴンボールZ 超サイヤ伝説 スーパーファミコンソフト ジャンク品",
@@ -7386,28 +8882,6 @@
    ]
   },
   {
-   "id": "yahoo:1247178037",
-   "site": "yahoo",
-   "title": "美品 SFC ドラゴンボールZ 超悟空伝 突激編 スーパーファミコン",
-   "price": 1800,
-   "buyNow": null,
-   "bids": 8,
-   "format": "auction",
-   "endTime": 1791722356,
-   "shipping": 580,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1247178037",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-005"
-    }
-   ]
-  },
-  {
    "id": "yahoo:u1247740014",
    "site": "yahoo",
    "title": "スーパーファミコン ドラゴンボールZ 超武闘伝3 ソフト 箱付き スーファミ",
@@ -7426,6 +8900,28 @@
    "matches": [
     {
      "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1228225753",
+   "site": "yahoo",
+   "title": "【ブリスター(プラケース)欠品】送料無料 即買 FC ドラゴンボールZ強襲!サイヤ人 箱説付 メンテ済",
+   "price": 1850,
+   "buyNow": 1850,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792249788,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1228225753",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -7503,7 +8999,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726027,
+   "endTime": 1791898828,
    "shipping": 330,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1110300718",
@@ -7547,7 +9043,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725830,
+   "endTime": 1791898630,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1184673216",
@@ -7558,6 +9054,28 @@
    "matches": [
     {
      "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1230481397",
+   "site": "yahoo",
+   "title": "FC中央左① ドラゴンボールZ 強襲サイヤ人 ファミコン 箱説付",
+   "price": 1940,
+   "buyNow": 1940,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792328341,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1230481397",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -7628,24 +9146,24 @@
    ]
   },
   {
-   "id": "yahoo:f1240896729",
+   "id": "yahoo:d1240102239",
    "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝2 スーパーファミコン スーファミ カセット ゲームソフト SFC 箱 説明書付き",
+   "title": "♪ドラゴンボールZ 3 烈戦人造人間 バンダイ BANDAI DRAGONBALL ファミコン カセット ソフト 現状品 ♪ジャンク品",
    "price": 2000,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724108,
-   "shipping": 440,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/f1240896729",
+   "endTime": 1791984125,
+   "shipping": 1080,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1240102239",
    "grade": {
-    "key": "boxed",
-    "label": "箱付き"
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-003"
+     "id": "FC-006"
     }
    ]
   },
@@ -7657,7 +9175,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725992,
+   "endTime": 1791898779,
    "shipping": 360,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1230572213",
@@ -7738,31 +9256,6 @@
    ]
   },
   {
-   "id": "yahoo:v1099475561",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル ネオ 帰ってきたフリーザ編 怒り爆発!! 超サイヤ人 孫悟空 フィギュア 正規品 同梱歓迎",
-   "price": 2000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791805250,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1099475561",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
    "id": "yahoo:v640138229",
    "site": "yahoo",
    "title": "■FC「ドラゴンボール 大魔王復活」■",
@@ -7770,7 +9263,7 @@
    "buyNow": 2000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791703014,
+   "endTime": 1791789414,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/v640138229",
@@ -7785,42 +9278,39 @@
    ]
   },
   {
-   "id": "yahoo:c1247414918",
+   "id": "yahoo:f1197388723",
    "site": "yahoo",
-   "title": "【1円～】【未開封】ドラゴンボールカプセル ドラカプメモリアル ドラゴンボールZ 01 孫悟空",
-   "price": 2013,
+   "title": "FC ドラゴンボール3 悟空伝 バンダイ 1989 ファミコンソフト",
+   "price": 2024,
    "buyNow": null,
-   "bids": 6,
+   "bids": 0,
    "format": "auction",
-   "endTime": 1791726434,
-   "shipping": 880,
+   "endTime": 1791897104,
+   "shipping": 600,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1247414918",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1197388723",
    "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "DBC-010-01"
-    },
-    {
-     "id": "DBC-011-01"
+     "id": "FC-003"
     }
    ]
   },
   {
-   "id": "yahoo:m1202108822",
+   "id": "yahoo:o1197292673",
    "site": "yahoo",
-   "title": "【動作未確認】 ドラゴンボールZ 超武闘伝3",
+   "title": "ドラゴンボールZ 超武闘伝3",
    "price": 2079,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724633,
-   "shipping": 460,
+   "endTime": 1791898150,
+   "shipping": 790,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1202108822",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/o1197292673",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -7876,6 +9366,28 @@
    ]
   },
   {
+   "id": "yahoo:w1170488848",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝3",
+   "price": 2079,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897763,
+   "shipping": 1110,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/w1170488848",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:w1224472083",
    "site": "yahoo",
    "title": "●FC ドラゴンボール 神龍の謎 箱付き 何本でも同梱可能●",
@@ -7894,28 +9406,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:p1236500012",
-   "site": "yahoo",
-   "title": "【レトロゲーム】【SFC】ドラゴンボールZ 超武闘伝 Super Famicom ソフト 0703",
-   "price": 2181,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791904561,
-   "shipping": 650,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/p1236500012",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
     }
    ]
   },
@@ -7964,7 +9454,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725676,
+   "endTime": 1791898476,
    "shipping": 360,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1110603253",
@@ -7986,7 +9476,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725410,
+   "endTime": 1791898211,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/d1191297792",
@@ -8008,7 +9498,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791718802,
+   "endTime": 1791978002,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1247618619",
@@ -8030,7 +9520,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724362,
+   "endTime": 1791897162,
    "shipping": 310,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1215683178",
@@ -8096,7 +9586,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726458,
+   "endTime": 1791899258,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r1153501721",
@@ -8107,31 +9597,6 @@
    "matches": [
     {
      "id": "FC-005"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:f1244289816",
-   "site": "yahoo",
-   "title": "中古トレーディングフィギュア 悟空/怒り爆発(カラーver.) 「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編」",
-   "price": 2210,
-   "buyNow": 2010,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792226621,
-   "shipping": 330,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/f1244289816",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
     }
    ]
   },
@@ -8176,28 +9641,6 @@
    "matches": [
     {
      "id": "SFC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:p1204924355",
-   "site": "yahoo",
-   "title": "箱付き スーファミ スーパーファミコン ドラゴンボールZ 超武闘伝 SFC ソフト 当時物 昭和 レトロ 現状",
-   "price": 2300,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725382,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/p1204924355",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "SFC-002"
     }
    ]
   },
@@ -8275,7 +9718,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726706,
+   "endTime": 1791899501,
    "shipping": 460,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/d1206130431",
@@ -8297,32 +9740,10 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725113,
+   "endTime": 1791897914,
    "shipping": 630,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1220072560",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-003"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:f1197388723",
-   "site": "yahoo",
-   "title": "FC ドラゴンボール3 悟空伝 バンダイ 1989 ファミコンソフト",
-   "price": 2330,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791726744,
-   "shipping": 600,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/f1197388723",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -8341,7 +9762,7 @@
    "buyNow": 2330,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791732726,
+   "endTime": 1792337526,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1246105221",
@@ -8385,7 +9806,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726618,
+   "endTime": 1791899383,
    "shipping": 250,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1228769937",
@@ -8396,31 +9817,6 @@
    "matches": [
     {
      "id": "FC-003"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:o1247428601",
-   "site": "yahoo",
-   "title": "【1円～】【未開封】ドラゴンボールカプセル ドラカプメモリアル ドラゴンボールZ 03 超サイヤ人3 孫悟空",
-   "price": 2332,
-   "buyNow": null,
-   "bids": 7,
-   "format": "auction",
-   "endTime": 1791723602,
-   "shipping": 880,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1247428601",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-010-03"
-    },
-    {
-     "id": "DBC-011-03"
     }
    ]
   },
@@ -8469,6 +9865,50 @@
    ]
   },
   {
+   "id": "yahoo:f1207696812",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝3",
+   "price": 2376,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897258,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/f1207696812",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:k1206331993",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 超武闘伝3",
+   "price": 2376,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791898684,
+   "shipping": 790,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1206331993",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1212588204",
    "site": "yahoo",
    "title": "【半額値引き】ドラゴンボールZ 超武闘伝3 スーパーファミコン",
@@ -8498,7 +9938,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791716484,
+   "endTime": 1791802884,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/t1244147321",
@@ -8601,6 +10041,28 @@
    ]
   },
   {
+   "id": "yahoo:u1143860515",
+   "site": "yahoo",
+   "title": "レトロ、当時物、バンダイ、ドラゴンボールZ、ファミコン、ソフト、(強襲、サイヤ人)、説明書、箱付、作動確認済",
+   "price": 2500,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791981655,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1143860515",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:v1067342965",
    "site": "yahoo",
    "title": "【整備済】送料込 ドラゴンボールZ3 烈戦人造人間 箱説明書つき 即決 ファミコン ドラゴンボールＺⅢ",
@@ -8652,7 +10114,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791728257,
+   "endTime": 1791813661,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1228825810",
@@ -8711,7 +10173,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724459,
+   "endTime": 1791897260,
    "shipping": 310,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1212128944",
@@ -8733,7 +10195,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724030,
+   "endTime": 1791896830,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1213562083",
@@ -8748,6 +10210,50 @@
    ]
   },
   {
+   "id": "yahoo:l1233736850",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人",
+   "price": 2530,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791810492,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/l1233736850",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:q1241666876",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲!サイヤ人",
+   "price": 2530,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791898068,
+   "shipping": 110,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1241666876",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:s1238183404",
    "site": "yahoo",
    "title": "ドラゴンボール3 悟空伝",
@@ -8755,7 +10261,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726200,
+   "endTime": 1791898738,
    "shipping": 310,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1238183404",
@@ -8799,7 +10305,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725436,
+   "endTime": 1791898236,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1205038377",
@@ -8843,7 +10349,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725926,
+   "endTime": 1791898726,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1232084470",
@@ -8909,7 +10415,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726542,
+   "endTime": 1791899342,
    "shipping": 790,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1121985258",
@@ -8979,6 +10485,28 @@
    "matches": [
     {
      "id": "FC-003"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:b1161974870",
+   "site": "yahoo",
+   "title": "ジャンク ファミコン 箱説明書なし ドラゴンボールZ2 激神フリーザ!!",
+   "price": 2750,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791898991,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1161974870",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
     }
    ]
   },
@@ -9056,7 +10584,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724295,
+   "endTime": 1791897096,
    "shipping": 360,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1238646464",
@@ -9085,6 +10613,50 @@
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:n1109088768",
+   "site": "yahoo",
+   "title": "※箱 説なし ドラゴンボールZ2 激神フリーザ!!",
+   "price": 2750,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791896859,
+   "shipping": 220,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/n1109088768",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1074593197",
+   "site": "yahoo",
+   "title": "箱書き込み有り ドラゴンボールZ2 激神フリーザ!!",
+   "price": 2750,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791810331,
+   "shipping": 310,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1074593197",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
    },
    "matches": [
     {
@@ -9166,7 +10738,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727003,
+   "endTime": 1791899803,
    "shipping": 330,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1192605307",
@@ -9188,7 +10760,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724917,
+   "endTime": 1791897717,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1232677528",
@@ -9247,31 +10819,6 @@
    ]
   },
   {
-   "id": "yahoo:1238501416",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル 超サイヤ人３孫悟空 ドラカプ",
-   "price": 2780,
-   "buyNow": 3580,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791890857,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1238501416",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-010-03"
-    },
-    {
-     "id": "DBC-011-03"
-    }
-   ]
-  },
-  {
    "id": "yahoo:e1244204440",
    "site": "yahoo",
    "title": "【レトロゲーム】【SFC】ドラゴンボールZ 超武闘伝3 箱説付 ニンテンドー 任天堂 Nintendo ソフト 0811",
@@ -9279,7 +10826,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791732033,
+   "endTime": 1791991233,
    "shipping": 650,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1244204440",
@@ -9360,24 +10907,49 @@
    ]
   },
   {
-   "id": "yahoo:k1247182735",
+   "id": "yahoo:d1160549432",
    "site": "yahoo",
-   "title": "★ファミコン★カセットのみ【ドラゴンボールZ外伝 サイヤ人絶滅計画】★",
-   "price": 2838,
-   "buyNow": null,
+   "title": "鳥山明 DBZ ドラゴンボールZ ドラゴンボールカプセル アドベンチャー編 ボーナスパーツ チチ フィギュア ドラカプ",
+   "price": 2800,
+   "buyNow": 3000,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791725133,
-   "shipping": 450,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1247182735",
+   "format": "auction_buynow",
+   "endTime": 1792324313,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1160549432",
    "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
+    "key": "other",
+    "label": "中古・記載なし"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "DBC-003-08"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:s746295055",
+   "site": "yahoo",
+   "title": "孫悟空ＶＳブロリー ドラゴンボール カプセル EDITION of THE MOVIE フィギュア",
+   "price": 2800,
+   "buyNow": 3000,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792245275,
+   "shipping": 290,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s746295055",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-008-02"
+    },
+    {
+     "id": "DBC-008-07"
     }
    ]
   },
@@ -9389,10 +10961,32 @@
    "buyNow": 2591,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791758831,
+   "endTime": 1792363631,
    "shipping": 330,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1237015980",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:b1247966704",
+   "site": "yahoo",
+   "title": "【中古】SFC）ドラゴンボールZ 超悟空伝[覚醒編][240011203482]",
+   "price": 2948,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792335287,
+   "shipping": 800,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/b1247966704",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -9426,24 +11020,24 @@
    ]
   },
   {
-   "id": "yahoo:j1247050489",
+   "id": "yahoo:t1242264737",
    "site": "yahoo",
-   "title": "【中古】SFC）ドラゴンボールZ 超悟空伝[覚醒編][240011203482]",
+   "title": "バンダイ ファミコンソフト ファミコン ドラゴンボールZ 強襲！サイヤ人【中古】",
    "price": 2948,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791730729,
-   "shipping": 800,
+   "endTime": 1791894042,
+   "shipping": 720,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1247050489",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1242264737",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
    },
    "matches": [
     {
-     "id": "SFC-006"
+     "id": "FC-004"
     }
    ]
   },
@@ -9455,7 +11049,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725231,
+   "endTime": 1791898032,
    "shipping": 220,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1063756169",
@@ -9499,7 +11093,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725456,
+   "endTime": 1791897936,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1230574663",
@@ -9558,28 +11152,6 @@
    ]
   },
   {
-   "id": "yahoo:f1207696812",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝3",
-   "price": 2970,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724364,
-   "shipping": 220,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/f1207696812",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
    "id": "yahoo:f1236929511",
    "site": "yahoo",
    "title": "ドラゴンボールZ 超武闘伝3",
@@ -9587,7 +11159,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725408,
+   "endTime": 1791898208,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1236929511",
@@ -9631,32 +11203,10 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724250,
+   "endTime": 1791897050,
    "shipping": 600,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/j1141477096",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:k1206331993",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝3",
-   "price": 2970,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791726050,
-   "shipping": 790,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1206331993",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -9675,7 +11225,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724518,
+   "endTime": 1791897319,
    "shipping": 600,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1229182513",
@@ -9697,32 +11247,10 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724409,
+   "endTime": 1791897210,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1220649290",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:o1197292673",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝3",
-   "price": 2970,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724459,
-   "shipping": 790,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1197292673",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -9741,7 +11269,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726607,
+   "endTime": 1791899408,
    "shipping": 790,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1194556435",
@@ -9763,7 +11291,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725440,
+   "endTime": 1791898240,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1206803998",
@@ -9800,28 +11328,6 @@
    ]
   },
   {
-   "id": "yahoo:w1170488848",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ 超武闘伝3",
-   "price": 2970,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724486,
-   "shipping": 1110,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/w1170488848",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-004"
-    }
-   ]
-  },
-  {
    "id": "yahoo:w1220654751",
    "site": "yahoo",
    "title": "動作確認済 SFC ドラゴンボールZ 超サイヤ伝説",
@@ -9829,7 +11335,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723847,
+   "endTime": 1791896648,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1220654751",
@@ -9840,28 +11346,6 @@
    "matches": [
     {
      "id": "SFC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:b1191481032",
-   "site": "yahoo",
-   "title": "【FC】 ドラゴンボールZ外伝 サイヤ人絶滅計画 箱付き 同梱可能★即売★多数出品中",
-   "price": 2980,
-   "buyNow": 3000,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791685556,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/b1191481032",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -9884,6 +11368,50 @@
    "matches": [
     {
      "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:t1085523759",
+   "site": "yahoo",
+   "title": "ドラゴンボール★カプセルネオ～熱闘・天下一武道会編～破壊王子ベジータ復活",
+   "price": 2980,
+   "buyNow": 2980,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791895732,
+   "shipping": 290,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/t1085523759",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-005-06"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:q1152113179",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲サイヤ人 ファミコン",
+   "price": 2999,
+   "buyNow": 2999,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792305150,
+   "shipping": 0,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1152113179",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -9932,6 +11460,50 @@
    ]
   },
   {
+   "id": "yahoo:l1175593382",
+   "site": "yahoo",
+   "title": "ドラゴンボール３ 大魔王復活 ファミコン FC 箱 説明書付き DRAGONBALL",
+   "price": 3000,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791806265,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/l1175593382",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-002"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:p1175586498",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ 強襲！サイヤ人 ファミコン FC 箱 説明書付き DRAGONBALL Z",
+   "price": 3000,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791806260,
+   "shipping": 230,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/p1175586498",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:t1232458255",
    "site": "yahoo",
    "title": "ドラゴンボールZ 超武闘伝2 説明書 プラケース 箱有り 未確認品",
@@ -9961,7 +11533,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727016,
+   "endTime": 1792331816,
    "shipping": 180,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1094971708",
@@ -10030,7 +11602,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723875,
+   "endTime": 1791896676,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1247184267",
@@ -10041,6 +11613,50 @@
    "matches": [
     {
      "id": "FC-005"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:e1239157635",
+   "site": "yahoo",
+   "title": "【レトロゲーム】【FC】ファミコン ドラゴンボールZ3 烈戦人造人間 箱説明書付き Nintendo 任天堂 ニンテンドー 0709",
+   "price": 3081,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791990062,
+   "shipping": 650,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/e1239157635",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-006"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:r1239158383",
+   "site": "yahoo",
+   "title": "【レトロゲーム】【読み込み確認済み】【FC】ファミコン ドラゴンボールZ強襲サイヤ人 箱説明書付き Nintendo 任天堂 ニンテンドー 0709",
+   "price": 3081,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791993494,
+   "shipping": 650,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1239158383",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
     }
    ]
   },
@@ -10075,28 +11691,6 @@
    ]
   },
   {
-   "id": "yahoo:e1239157635",
-   "site": "yahoo",
-   "title": "【レトロゲーム】【FC】ファミコン ドラゴンボールZ3 烈戦人造人間 箱説明書付き Nintendo 任天堂 ニンテンドー 0709",
-   "price": 3230,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791731150,
-   "shipping": 650,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/e1239157635",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "FC-006"
-    }
-   ]
-  },
-  {
    "id": "yahoo:f1247171692",
    "site": "yahoo",
    "title": "★ファミコン★カセットのみ【ドラゴンボールZ3 烈戦人造人間】★",
@@ -10104,7 +11698,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791725808,
+   "endTime": 1791898609,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1247171692",
@@ -10119,20 +11713,42 @@
    ]
   },
   {
-   "id": "yahoo:1231163938",
+   "id": "yahoo:j1219315842",
    "site": "yahoo",
-   "title": "スーパーファミコンソフト ドラゴンボールZ 超悟空伝 突激編 管理C43 (280)",
-   "price": 3347,
-   "buyNow": null,
+   "title": "中古AB★ドラゴンボールZ 強襲!サイヤ人★ファミコンソフト",
+   "price": 3289,
+   "buyNow": 2990,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791724590,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1231163938",
+   "format": "auction_buynow",
+   "endTime": 1792047870,
+   "shipping": 0,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/j1219315842",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:m1246223795",
+   "site": "yahoo",
+   "title": "SFC スーパーファミコン ソフト ドラゴンボールZ 超悟空伝 突激編 箱説付 起動確認済",
+   "price": 3360,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791894502,
+   "shipping": 600,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1246223795",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
    },
    "matches": [
     {
@@ -10148,7 +11764,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791734070,
+   "endTime": 1792338870,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1003652145",
@@ -10159,28 +11775,6 @@
    "matches": [
     {
      "id": "SFC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1246223795",
-   "site": "yahoo",
-   "title": "SFC スーパーファミコン ソフト ドラゴンボールZ 超悟空伝 突激編 箱説付 起動確認済",
-   "price": 3429,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791721702,
-   "shipping": 600,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1246223795",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "SFC-005"
     }
    ]
   },
@@ -10244,6 +11838,28 @@
    ]
   },
   {
+   "id": "yahoo:s1202374355",
+   "site": "yahoo",
+   "title": "中古ファミコンソフト ドラゴンボールZ2 激神フリーザ!!",
+   "price": 3610,
+   "buyNow": 3282,
+   "bids": 0,
+   "format": "auction_buynow",
+   "endTime": 1792180139,
+   "shipping": 330,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/s1202374355",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
+    }
+   ]
+  },
+  {
    "id": "yahoo:l1239638770",
    "site": "yahoo",
    "title": "ドラゴンボール 大魔王復活",
@@ -10251,7 +11867,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724960,
+   "endTime": 1791898270,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1239638770",
@@ -10273,7 +11889,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723691,
+   "endTime": 1791896492,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1232064448",
@@ -10284,28 +11900,6 @@
    "matches": [
     {
      "id": "FC-002"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:c1214326147",
-   "site": "yahoo",
-   "title": "ランファン 彩色版「ドラゴンボールカプセルフ〜ぶったおせピッコロ大魔王ドラゴンボールクライシス編～」ジャンク品",
-   "price": 3800,
-   "buyNow": 3800,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791982666,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1214326147",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-002-05"
     }
    ]
   },
@@ -10420,28 +12014,6 @@
    ]
   },
   {
-   "id": "yahoo:l1197126108",
-   "site": "yahoo",
-   "title": "中古スーパーファミコンソフト ドラゴンボールZ超武闘伝2",
-   "price": 3900,
-   "buyNow": 3546,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792228682,
-   "shipping": 330,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1197126108",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-003"
-    }
-   ]
-  },
-  {
    "id": "yahoo:k1237275955",
    "site": "yahoo",
    "title": "中古トレーディングフィギュア 超ゴテンクス3(彩色バージョン) 「ドラゴンボールカプセル・ネオ 帰ってきたブウ編」",
@@ -10482,50 +12054,6 @@
    "matches": [
     {
      "id": "DBC-013-01"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:k1217057087",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコンソフト 箱 説明書",
-   "price": 4000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791803323,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1217057087",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:k1245811764",
-   "site": "yahoo",
-   "title": "メガハウス ドラゴンボールカプセル ドラカプ 孫悟空 VS タンバリン フィギュア 台座なし",
-   "price": 4000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724051,
-   "shipping": 520,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1245811764",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-002-06"
     }
    ]
   },
@@ -10646,50 +12174,6 @@
    ]
   },
   {
-   "id": "yahoo:u1243948757",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 4090,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724297,
-   "shipping": 970,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u1243948757",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:j1247367774",
-   "site": "yahoo",
-   "title": "希少 未開封 ドラゴンボールカプセル 7種 悟空 悟飯 ハイヤードラゴン ウーブ セル 自爆 カメハメ波 ドラカプネオ サイヤ人編 人造人間",
-   "price": 4100,
-   "buyNow": null,
-   "bids": 7,
-   "format": "auction",
-   "endTime": 1791983241,
-   "shipping": 600,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1247367774",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-008-01"
-    }
-   ]
-  },
-  {
    "id": "yahoo:u1245770295",
    "site": "yahoo",
    "title": "★何点でも送料２３０円★ ドラゴンボール 神龍の謎【完全復刻版 1991 玩具第2事業部】ファミコン エ1レ即発送 FC ソフト 動作確認済み",
@@ -10697,7 +12181,7 @@
    "buyNow": 4280,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791727151,
+   "endTime": 1791813551,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1245770295",
@@ -10759,119 +12243,6 @@
    ]
   },
   {
-   "id": "yahoo:l1230808441",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 4290,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791723637,
-   "shipping": 330,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1230808441",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1226894371",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 4290,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791811832,
-   "shipping": 970,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1226894371",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:r1218837207",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画",
-   "price": 4290,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724871,
-   "shipping": 310,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/r1218837207",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:x1197966592",
-   "site": "yahoo",
-   "title": "説明書なし ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコンソフト",
-   "price": 4290,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725058,
-   "shipping": 360,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/x1197966592",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:l1031349069",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編 怒り爆発！！ カラー 新品",
-   "price": 4300,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791806665,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1031349069",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
    "id": "yahoo:e1238977249",
    "site": "yahoo",
    "title": "「ドラゴンボールカプセル」（ドラカプ） 「孫悟空VSマジュニア」フィギュア「この世はでっかい宝島編」",
@@ -10923,7 +12294,7 @@
    "buyNow": 3990,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791751712,
+   "endTime": 1792356512,
    "shipping": 0,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/j1220613909",
@@ -10989,7 +12360,7 @@
    "buyNow": 4480,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725015,
+   "endTime": 1791811416,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/v1246048967",
@@ -11013,7 +12384,7 @@
    "buyNow": 4091,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791710265,
+   "endTime": 1792315065,
    "shipping": 330,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r1233730130",
@@ -11050,7 +12421,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724172,
+   "endTime": 1791896973,
    "shipping": 310,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1231237110",
@@ -11116,7 +12487,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724015,
+   "endTime": 1791896816,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1238415233",
@@ -11204,7 +12575,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791709048,
+   "endTime": 1791968248,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1242588731",
@@ -11241,28 +12612,6 @@
    ]
   },
   {
-   "id": "yahoo:g1239245754",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画/ファミコン",
-   "price": 4719,
-   "buyNow": 4290,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792035400,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/g1239245754",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:b1242592845",
    "site": "yahoo",
    "title": "ドラゴンボールZ 超武闘伝2 SFC スーパーファミコン",
@@ -11270,7 +12619,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723886,
+   "endTime": 1791896687,
    "shipping": 790,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1242592845",
@@ -11292,7 +12641,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724618,
+   "endTime": 1791897418,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/c1239127484",
@@ -11314,7 +12663,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724669,
+   "endTime": 1791897470,
    "shipping": 790,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/m1235334759",
@@ -11336,7 +12685,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726410,
+   "endTime": 1791899210,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1243639261",
@@ -11358,7 +12707,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724076,
+   "endTime": 1791896877,
    "shipping": 1110,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/v1209897862",
@@ -11380,7 +12729,7 @@
    "buyNow": 4800,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791730429,
+   "endTime": 1791989630,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/u1188218543",
@@ -11424,7 +12773,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724122,
+   "endTime": 1791896923,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1247192055",
@@ -11461,24 +12810,24 @@
    ]
   },
   {
-   "id": "yahoo:m1221293964",
+   "id": "yahoo:n1247176397",
    "site": "yahoo",
-   "title": "【中古】FC）ドラゴンボールZ外伝サイヤ人絶滅計画[240092130037]",
+   "title": "★ファミコン★箱説付【ドラゴンボールZ 強襲サイヤ人】★",
    "price": 4928,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791729147,
-   "shipping": 800,
+   "endTime": 1791898336,
+   "shipping": 450,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1221293964",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/n1247176397",
    "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
+    "key": "boxed",
+    "label": "箱付き"
    },
    "matches": [
     {
-     "id": "FC-007"
+     "id": "FC-004"
     }
    ]
   },
@@ -11571,28 +12920,6 @@
    ]
   },
   {
-   "id": "yahoo:s1247835154",
-   "site": "yahoo",
-   "title": "希少 ドラカプ スノ 孫悟空 ドラゴンボールカプセル フィギュア メガハウス 鳥山明 少年期",
-   "price": 4980,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791806464,
-   "shipping": 520,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/s1247835154",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-04"
-    }
-   ]
-  },
-  {
    "id": "yahoo:f1197183535",
    "site": "yahoo",
    "title": "ジャンク パーツ欠品 ドラゴンボールカプセル ドラカプ はじまりは四星球 ドラゴンボールメモリーズ編 孫 悟空VS巨大ロボ ウーロン変化",
@@ -11644,7 +12971,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726716,
+   "endTime": 1791896863,
    "shipping": 460,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/q1199672216",
@@ -11655,28 +12982,6 @@
    "matches": [
     {
      "id": "DBC-013-01"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:w1051303220",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編 あの世一武道会 彩色バージョン 新品",
-   "price": 5000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791723505,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/w1051303220",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-005-04"
     }
    ]
   },
@@ -11732,7 +13037,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791724441,
+   "endTime": 1791897242,
    "shipping": 450,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/d1247186687",
@@ -11769,6 +13074,28 @@
    ]
   },
   {
+   "id": "yahoo:d1238878756",
+   "site": "yahoo",
+   "title": "ジャンク 動作未確認 スーパーファミコン ドラゴンボールZ 超悟空伝覚醒編",
+   "price": 5527,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897598,
+   "shipping": 600,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/d1238878756",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-006"
+    }
+   ]
+  },
+  {
    "id": "yahoo:c1212908769",
    "site": "yahoo",
    "title": "ドラゴンボールZ2 激神フリーザ ファミコン",
@@ -11787,50 +13114,6 @@
    "matches": [
     {
      "id": "FC-005"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:d1238878756",
-   "site": "yahoo",
-   "title": "ジャンク 動作未確認 スーパーファミコン ドラゴンボールZ 超悟空伝覚醒編",
-   "price": 5583,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724798,
-   "shipping": 600,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1238878756",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-006"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:e1247293893",
-   "site": "yahoo",
-   "title": "MegaHouse ドラゴンボール カプセル・ネオ 熱闘・天下一武道会編 いざ武道会 孫悟空＆クリリン フィギュア メガハウス ドラカプ 261011Y25",
-   "price": 5600,
-   "buyNow": null,
-   "bids": 14,
-   "format": "auction",
-   "endTime": 1791729008,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/e1247293893",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-005-02"
     }
    ]
   },
@@ -11857,52 +13140,24 @@
    ]
   },
   {
-   "id": "yahoo:s1221241325",
+   "id": "yahoo:r1240738297",
    "site": "yahoo",
-   "title": "中古トレーディングフィギュア 怒り爆発!悟空覚醒 彩色版 「ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリー",
-   "price": 5750,
-   "buyNow": 5228,
+   "title": "ドラゴンボール カプセル ドラカプ フィギュア この世はでっかい宝島 天津飯 桃白白 天津飯VSサイボーグ桃白白 DRAGON BALL",
+   "price": 5800,
+   "buyNow": null,
    "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791706927,
-   "shipping": null,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/s1221241325",
+   "format": "auction",
+   "endTime": 1792072001,
+   "shipping": 290,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1240738297",
    "grade": {
     "key": "other",
     "label": "中古・記載なし"
    },
    "matches": [
     {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:b1244272648",
-   "site": "yahoo",
-   "title": "中古トレーディングフィギュア 怒り爆発!悟空覚醒 彩色版 「ドラゴンボールカプセル・ネオ 激闘・Z戦士総集編」",
-   "price": 5920,
-   "buyNow": 5382,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792215478,
-   "shipping": null,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/b1244272648",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
+     "id": "DBC-004-07"
     }
    ]
   },
@@ -11954,53 +13209,6 @@
    ]
   },
   {
-   "id": "yahoo:d1117125353",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編 怒り爆発!! カラー 新品",
-   "price": 6000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791893557,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1117125353",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:e1214552820",
-   "site": "yahoo",
-   "title": "中古美品 ドラゴンボールカプセル クライシス編 ランファン ドラカプ フィギュア 天下一武道会",
-   "price": 6000,
-   "buyNow": 7000,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791799847,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/e1214552820",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-002-05"
-    }
-   ]
-  },
-  {
    "id": "yahoo:h1240736865",
    "site": "yahoo",
    "title": "ドラゴンボール ドラゴンボールカプセル ドラカプ クライシス編 孫悟空VSタンバリン フィギュア DRAGON BALL 悟空 タンバリン",
@@ -12023,31 +13231,6 @@
    ]
   },
   {
-   "id": "yahoo:j1117117878",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 怒り爆発!悟空覚醒 カラー 新品",
-   "price": 6000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791806974,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1117117878",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
    "id": "yahoo:j1117122903",
    "site": "yahoo",
    "title": "ドラゴンボールZ ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編 奴はオラじゃネェ カラー 新品",
@@ -12055,7 +13238,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723488,
+   "endTime": 1792069088,
    "shipping": 290,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/j1117122903",
@@ -12066,28 +13249,6 @@
    "matches": [
     {
      "id": "DBC-013-04"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:t1177242573",
-   "site": "yahoo",
-   "title": "BANDAI ファミリーコンピュータ ドラゴンボールZ外伝 サイヤ人絶滅計画 中古 a1",
-   "price": 6000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1792245047,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/t1177242573",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -12124,7 +13285,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723502,
+   "endTime": 1791982647,
    "shipping": 290,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/x1117056728",
@@ -12227,6 +13388,50 @@
    ]
   },
   {
+   "id": "yahoo:r1110934530",
+   "site": "yahoo",
+   "title": "ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 ボーナスパーツ（BP）「孫悟空vsピッコロ大魔王」の一部",
+   "price": 6250,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791980114,
+   "shipping": 290,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/r1110934530",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-002-08"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:c1223401441",
+   "site": "yahoo",
+   "title": "強襲！サイヤ人 ドラゴンボールZ 箱・説明書 FC ファミコン ファミリーコンピュータ",
+   "price": 6402,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1792240951,
+   "shipping": 320,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1223401441",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-004"
+    }
+   ]
+  },
+  {
    "id": "yahoo:o1201009726",
    "site": "yahoo",
    "title": "ドラゴンボールカプセル 熱闘・天下一武道会編 アナウンサー飛ぶ！",
@@ -12271,50 +13476,6 @@
    ]
   },
   {
-   "id": "yahoo:q1243765499",
-   "site": "yahoo",
-   "title": "SFC ドラゴンボールZ 超サイヤ伝説 箱説付 BANDAI スーパーファミコン レトロゲーム",
-   "price": 6666,
-   "buyNow": 8888,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791733778,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1243765499",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "SFC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:r1110934530",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル ぶったおせピッコロ大魔王 ドラゴンボールクライシス編 ボーナスパーツ（BP）「孫悟空vsピッコロ大魔王」の一部",
-   "price": 6700,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791720935,
-   "shipping": 290,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/r1110934530",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-002-08"
-    }
-   ]
-  },
-  {
    "id": "yahoo:s1238661669",
    "site": "yahoo",
    "title": "【レトロゲーム】【読み込み確認済み】【FC】ファミコン ドラゴンボール 神龍の謎 箱説明書付き Nintendo 任天堂 ニンテンドー 0709",
@@ -12322,7 +13483,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791733785,
+   "endTime": 1791992985,
    "shipping": 650,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1238661669",
@@ -12333,6 +13494,28 @@
    "matches": [
     {
      "id": "FC-001"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:q1161252755",
+   "site": "yahoo",
+   "title": "【クリーニング・動作確認済み】FC ドラゴンボールZⅡ 激神フリーザ!! 箱・説あり",
+   "price": 6800,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791899872,
+   "shipping": 240,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/q1161252755",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "FC-005"
     }
    ]
   },
@@ -12359,27 +13542,24 @@
    ]
   },
   {
-   "id": "yahoo:1214705096",
+   "id": "yahoo:c1242498494",
    "site": "yahoo",
-   "title": "未開封 ドラゴンボール カプセル ネオ ミニ悟空はおぼっちゃま 悟飯 フィギュア",
+   "title": "新品同様 ファミコン FC ドラゴンボールＺ 強襲サイヤ人",
    "price": 7000,
-   "buyNow": null,
+   "buyNow": 7000,
    "bids": 0,
-   "format": "auction",
-   "endTime": 1791785384,
-   "shipping": 230,
+   "format": "fixed",
+   "endTime": 1792070734,
+   "shipping": 0,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1214705096",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/c1242498494",
    "grade": {
     "key": "sealed",
     "label": "未開封・新品"
    },
    "matches": [
     {
-     "id": "DBC-007-04"
-    },
-    {
-     "id": "DBC-012-06"
+     "id": "FC-004"
     }
    ]
   },
@@ -12409,28 +13589,6 @@
    ]
   },
   {
-   "id": "yahoo:q1178340552",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画 ファミコン ファミリーコンピューター ソフト カセット",
-   "price": 7000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791817704,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1178340552",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:v1228980276",
    "site": "yahoo",
    "title": "DE06t【ゲーム】ドラゴンボール 神龍の謎 DB ファミコン FC ゲームソフト 箱・取説付 バンダイ BANDAI レトロ",
@@ -12438,7 +13596,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722603,
+   "endTime": 1791807073,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/v1228980276",
@@ -12449,28 +13607,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1247723852",
-   "site": "yahoo",
-   "title": "【スーパーファミコン/SFC】DRAGON BALL Z HYPER DIMENSION/ドラゴンボールZ ハイパーディメンション箱 説明書あり 動作未確認",
-   "price": 7250,
-   "buyNow": null,
-   "bids": 2,
-   "format": "auction",
-   "endTime": 1791807706,
-   "shipping": 440,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1247723852",
-   "grade": {
-    "key": "boxed",
-    "label": "箱付き"
-   },
-   "matches": [
-    {
-     "id": "SFC-007"
     }
    ]
   },
@@ -12497,94 +13633,6 @@
    ]
   },
   {
-   "id": "yahoo:n1168371428",
-   "site": "yahoo",
-   "title": "中古AB★R7-7 ドラゴンボールZ外伝 サイヤ人絶滅計画★ファミコンソフト",
-   "price": 7689,
-   "buyNow": 6990,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791872081,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/n1168371428",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:o1155933553",
-   "site": "yahoo",
-   "title": "中古AB★ドラゴンボールZ外伝 サイヤ人絶滅計画★ファミコンソフト",
-   "price": 7689,
-   "buyNow": 6990,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791744658,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/o1155933553",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:t1242852603",
-   "site": "yahoo",
-   "title": "中古AB★R7-7 ドラゴンボールZ外伝 サイヤ人絶滅計画★ファミコンソフト",
-   "price": 7689,
-   "buyNow": 6990,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791874609,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/t1242852603",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:v1220638767",
-   "site": "yahoo",
-   "title": "中古AB★ドラゴンボールZ外伝 サイヤ人絶滅計画★ファミコンソフト",
-   "price": 7689,
-   "buyNow": 6990,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791767615,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/v1220638767",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
-    }
-   ]
-  },
-  {
    "id": "yahoo:1115733527",
    "site": "yahoo",
    "title": "ドラゴンボール改 ドラゴンボールカプセル・ネオ EDITION of THE MOVIE 超サイヤ人ブロリー2 カラー 新品",
@@ -12592,7 +13640,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791720769,
+   "endTime": 1791979246,
    "shipping": 290,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1115733527",
@@ -12676,31 +13724,6 @@
    ]
   },
   {
-   "id": "yahoo:j1091199463",
-   "site": "yahoo",
-   "title": "内袋 未開封品 DRAGON BALL Z ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編 怒り爆発 悟空覚醒",
-   "price": 8500,
-   "buyNow": 8500,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792162801,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1091199463",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-07"
-    },
-    {
-     "id": "DBC-013-06"
-    }
-   ]
-  },
-  {
    "id": "yahoo:l1239693313",
    "site": "yahoo",
    "title": "■FC■ ドラゴンボール 大魔王復活 /FC058",
@@ -12708,7 +13731,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791727327,
+   "endTime": 1791813727,
    "shipping": 200,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1239693313",
@@ -12750,12 +13773,34 @@
    "title": "ドラゴンボールZ ハイパーディメンション",
    "price": 8855,
    "buyNow": null,
-   "bids": 0,
+   "bids": 1,
    "format": "auction",
    "endTime": 1791811063,
    "shipping": 790,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1205433336",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-007"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:u1207100033",
+   "site": "yahoo",
+   "title": "ドラゴンボールZ ハイパーディメンション",
+   "price": 8855,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791897086,
+   "shipping": 1110,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/u1207100033",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -12789,7 +13834,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791715740,
+   "endTime": 1791888540,
    "shipping": 970,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1247714058",
@@ -12800,30 +13845,6 @@
    "matches": [
     {
      "id": "SFC-006"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:t1247041579",
-   "site": "yahoo",
-   "title": "【復刻版】【美品】 FC ドラゴンボール 大魔王復活 ファミコンソフト 箱付 バンダイ ファミコン",
-   "price": 8950,
-   "buyNow": 20000,
-   "bids": 7,
-   "format": "auction_buynow",
-   "endTime": 1791720974,
-   "shipping": 230,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/t1247041579",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "FC-002",
-     "variant": "reprint",
-     "variantLabel": "完全復刻版（1991年）"
     }
    ]
   },
@@ -12857,7 +13878,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723538,
+   "endTime": 1791807076,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1229170853",
@@ -12923,7 +13944,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722796,
+   "endTime": 1791895597,
    "shipping": 600,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1239597764",
@@ -12984,18 +14005,18 @@
   {
    "id": "yahoo:h1247686744",
    "site": "yahoo",
-   "title": "BANDAI ドラゴンボール 神龍の謎 ファミコンソフト",
+   "title": "BANDAI ドラゴンボール 神龍の謎 ファミコンソフト 箱説明書付き",
    "price": 9800,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726987,
+   "endTime": 1791811725,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/h1247686744",
    "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
+    "key": "boxed",
+    "label": "箱付き"
    },
    "matches": [
     {
@@ -13077,7 +14098,7 @@
    "buyNow": 15000,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791720253,
+   "endTime": 1791806521,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1106827434",
@@ -13121,7 +14142,7 @@
    "buyNow": 9890,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791715857,
+   "endTime": 1792234257,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1170280978",
@@ -13158,6 +14179,28 @@
    ]
   },
   {
+   "id": "yahoo:g1129125420",
+   "site": "yahoo",
+   "title": "天津飯VSサイボーグ桃白白 彩色バージョン 「ドラゴンボールカプセル～この世はでっかい宝島 ドラゴンボールクロニクル編～」〈K3",
+   "price": 9999,
+   "buyNow": 9999,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1791813155,
+   "shipping": 810,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/g1129125420",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-004-07"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1129772761",
    "site": "yahoo",
    "title": "武天老師vsピッコロ大魔王 彩色版 「ドラゴンボールカプセル7～ぶったおせピッコロ大魔王 ドラゴンボールクライシス編～」フィギュア〈K6",
@@ -13187,7 +14230,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722889,
+   "endTime": 1791809289,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/l1217216669",
@@ -13202,6 +14245,50 @@
    ]
   },
   {
+   "id": "yahoo:m1247723852",
+   "site": "yahoo",
+   "title": "【スーパーファミコン/SFC】DRAGON BALL Z HYPER DIMENSION/ドラゴンボールZ ハイパーディメンション箱 説明書あり 動作未確認",
+   "price": 10000,
+   "buyNow": null,
+   "bids": 11,
+   "format": "auction",
+   "endTime": 1791807706,
+   "shipping": 440,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1247723852",
+   "grade": {
+    "key": "boxed",
+    "label": "箱付き"
+   },
+   "matches": [
+    {
+     "id": "SFC-007"
+    }
+   ]
+  },
+  {
+   "id": "yahoo:m1165382925",
+   "site": "yahoo",
+   "title": "【動作確認済み】 ドラゴンボールZ ハイパーディメンション",
+   "price": 10120,
+   "buyNow": null,
+   "bids": 0,
+   "format": "auction",
+   "endTime": 1791896936,
+   "shipping": 970,
+   "store": true,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/m1165382925",
+   "grade": {
+    "key": "loose",
+    "label": "箱なし（ソフトのみ等）"
+   },
+   "matches": [
+    {
+     "id": "SFC-007"
+    }
+   ]
+  },
+  {
    "id": "yahoo:w1239052933",
    "site": "yahoo",
    "title": "中古トレーディングフィギュア アナウンサー飛ぶ(彩色ver.) 「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」",
@@ -13209,7 +14296,7 @@
    "buyNow": 9200,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791681641,
+   "endTime": 1792286441,
    "shipping": 0,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/w1239052933",
@@ -13224,71 +14311,24 @@
    ]
   },
   {
-   "id": "yahoo:1242404795",
+   "id": "yahoo:k1235211686",
    "site": "yahoo",
-   "title": "超サイヤ人3 孫悟空 ドラカプメモリアル 03 フィギュア",
-   "price": 10230,
-   "buyNow": 9300,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792175922,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/1242404795",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-010-03"
-    },
-    {
-     "id": "DBC-011-03"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:h1239276021",
-   "site": "yahoo",
-   "title": "【中古】メガハウス いざ武道会 彩色ver. ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編[240015273468]",
-   "price": 10285,
+   "title": "孫悟空＆ミスターポポ 『ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編 』",
+   "price": 10720,
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791815601,
-   "shipping": 800,
+   "endTime": 1791897954,
+   "shipping": 790,
    "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/h1239276021",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/k1235211686",
    "grade": {
     "key": "other",
     "label": "中古・記載なし"
    },
    "matches": [
     {
-     "id": "DBC-005-02"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:x1215318796",
-   "site": "yahoo",
-   "title": "中古トレーディングフィギュア いざ武道会(彩色ver.) 「ドラゴンボールカプセル・ネオ 熱闘・天下一武道会編」",
-   "price": 10580,
-   "buyNow": 9619,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792191158,
-   "shipping": 0,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/x1215318796",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-005-02"
+     "id": "DBC-003-04"
     }
    ]
   },
@@ -13311,53 +14351,6 @@
    "matches": [
     {
      "id": "DBC-013-01"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:k1235211686",
-   "site": "yahoo",
-   "title": "孫悟空＆ミスターポポ 『ドラゴンボールカプセル マジュニアの脅威 ドラゴンボールアドベンチャー編 』",
-   "price": 10829,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725153,
-   "shipping": 790,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/k1235211686",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-003-04"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:c1172866925",
-   "site": "yahoo",
-   "title": "新品未開封品 フリーザ＆悟空/激突の2大超パワー(カラーver.) 「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編」ドラカプ 睨み合い",
-   "price": 10900,
-   "buyNow": 10900,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791753705,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/c1172866925",
-   "grade": {
-    "key": "sealed",
-    "label": "未開封・新品"
-   },
-   "matches": [
-    {
-     "id": "DBC-007-06"
-    },
-    {
-     "id": "DBC-013-02"
     }
    ]
   },
@@ -13450,28 +14443,6 @@
    ]
   },
   {
-   "id": "yahoo:m1242062951",
-   "site": "yahoo",
-   "title": "フィギュア ドラゴンボールカプセル アドベンチャー編 孫悟空＆ミスターポポ 神様 彩色版",
-   "price": 12000,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791727527,
-   "shipping": 300,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1242062951",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-003-04"
-    }
-   ]
-  },
-  {
    "id": "yahoo:r1081257349",
    "site": "yahoo",
    "title": "SFC ドラゴンボールZ 超武闘伝3 ★新品未使用★レア★デッドストック品",
@@ -13523,7 +14494,7 @@
    "buyNow": 12350,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791721065,
+   "endTime": 1791807465,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/f1104476802",
@@ -13534,28 +14505,6 @@
    "matches": [
     {
      "id": "DBC-003-02"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:m1165382925",
-   "site": "yahoo",
-   "title": "【動作確認済み】 ドラゴンボールZ ハイパーディメンション",
-   "price": 12450,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791725353,
-   "shipping": 970,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/m1165382925",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-007"
     }
    ]
   },
@@ -13571,28 +14520,6 @@
    "shipping": 1400,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/r1232783670",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "SFC-007"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:u1207100033",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ ハイパーディメンション",
-   "price": 12450,
-   "buyNow": null,
-   "bids": 0,
-   "format": "auction",
-   "endTime": 1791724541,
-   "shipping": 1110,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/u1207100033",
    "grade": {
     "key": "loose",
     "label": "箱なし（ソフトのみ等）"
@@ -13699,7 +14626,7 @@
    "buyNow": 13000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725029,
+   "endTime": 1792329830,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1094348091",
@@ -13714,6 +14641,28 @@
    ]
   },
   {
+   "id": "yahoo:n1171712790",
+   "site": "yahoo",
+   "title": "べジータ大変身 「ドラゴンボールカプセル・ネオ 帰ってきたサイヤ人編」ドラカプ 孫悟空vsベジータ大猿",
+   "price": 13900,
+   "buyNow": 13900,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792311751,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/n1171712790",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-012-01"
+    }
+   ]
+  },
+  {
    "id": "yahoo:n1229880637",
    "site": "yahoo",
    "title": "f-424 未開封 希少 コレクター品 SFC スーパーファミコン ドラゴンボールZ 超武闘伝3 任天堂 NINTENDO",
@@ -13721,7 +14670,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723458,
+   "endTime": 1792327012,
    "shipping": 230,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/n1229880637",
@@ -13743,7 +14692,7 @@
    "buyNow": 14250,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791720163,
+   "endTime": 1791806563,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/p1104477493",
@@ -13853,7 +14802,7 @@
    "buyNow": 16000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791734993,
+   "endTime": 1792339793,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/g1208989490",
@@ -13872,7 +14821,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722946,
+   "endTime": 1791807077,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1229219019",
@@ -13927,28 +14876,6 @@
    "matches": [
     {
      "id": "DBC-003-03"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:d1139691234",
-   "site": "yahoo",
-   "title": "ドラゴンボールZ外伝 サイヤ人絶滅計画 BANDAI FC用",
-   "price": 18000,
-   "buyNow": 18000,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792035771,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/d1139691234",
-   "grade": {
-    "key": "loose",
-    "label": "箱なし（ソフトのみ等）"
-   },
-   "matches": [
-    {
-     "id": "FC-007"
     }
    ]
   },
@@ -14026,7 +14953,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791722732,
+   "endTime": 1791807181,
    "shipping": 240,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1234993854",
@@ -14067,7 +14994,7 @@
    "buyNow": 20000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791726012,
+   "endTime": 1792330812,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1094338187",
@@ -14104,28 +15031,6 @@
    ]
   },
   {
-   "id": "yahoo:h1104486290",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル 神龍 クロニクル編 孫悟空 開封品（1102）（6月5日）",
-   "price": 20000,
-   "buyNow": 20000,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791721502,
-   "shipping": 0,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/h1104486290",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-02"
-    }
-   ]
-  },
-  {
    "id": "yahoo:o1238518014",
    "site": "yahoo",
    "title": "【未使用】SFC ドラゴンボールZ 超悟空伝 突激編 スーパーファミコン 任天堂 バンダイ BANDAI レトロゲーム 当時物 国内正規品",
@@ -14133,7 +15038,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791723332,
+   "endTime": 1792328133,
    "shipping": 1000,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o1238518014",
@@ -14309,7 +15214,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791721190,
+   "endTime": 1791893991,
    "shipping": 600,
    "store": true,
    "url": "https://auctions.yahoo.co.jp/jp/auction/b1239549165",
@@ -14478,28 +15383,6 @@
    ]
   },
   {
-   "id": "yahoo:j1204768900",
-   "site": "yahoo",
-   "title": "孫悟空＆神龍 彩色バージョン 「ドラゴンボールカプセル～この世はでっかい宝島 ドラゴンボールクロニクル編～」フィギュア★サイズ約９cm",
-   "price": 29700,
-   "buyNow": 27000,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1791837874,
-   "shipping": 850,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/j1204768900",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-02"
-    }
-   ]
-  },
-  {
    "id": "yahoo:k1209557638",
    "site": "yahoo",
    "title": "【ボーナスパーツ完成品】亀仙人＆ブルマ(ウーロン変化) 「ドラゴンボールカプセル 6 ～はじまりは四星球 ドラゴンボールメモリーズ編～」",
@@ -14518,28 +15401,6 @@
    "matches": [
     {
      "id": "DBC-001-08"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:l1204169163",
-   "site": "yahoo",
-   "title": "ランファン 彩色版 「ドラゴンボールカプセル7～ぶったおせピッコロ大魔王 ドラゴンボールクライシス編～」フィギュア★サイズ約8.5cm",
-   "price": 29700,
-   "buyNow": 27000,
-   "bids": 0,
-   "format": "auction_buynow",
-   "endTime": 1792080673,
-   "shipping": 850,
-   "store": true,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/l1204169163",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-002-05"
     }
    ]
   },
@@ -14595,7 +15456,7 @@
    "buyNow": 29800,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1791725337,
+   "endTime": 1792070938,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/k1242404725",
@@ -14606,28 +15467,6 @@
    "matches": [
     {
      "id": "FC-001"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:p1095156627",
-   "site": "yahoo",
-   "title": "ドラゴンボール カプセル ネオ セル編改 孫悟空 かめはめ波",
-   "price": 30000,
-   "buyNow": 30000,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1791726941,
-   "shipping": 1210,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/p1095156627",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-009-06"
     }
    ]
   },
@@ -14661,7 +15500,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791728073,
+   "endTime": 1791987273,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/1165361728",
@@ -14825,9 +15664,6 @@
    },
    "matches": [
     {
-     "id": "DBC-002-05"
-    },
-    {
      "id": "DBC-002-07"
     }
    ]
@@ -14840,7 +15676,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791717303,
+   "endTime": 1791803703,
    "shipping": 0,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/e1228883124",
@@ -14864,7 +15700,7 @@
    "buyNow": null,
    "bids": 0,
    "format": "auction",
-   "endTime": 1791726152,
+   "endTime": 1791812552,
    "shipping": null,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/s1229938376",
@@ -14875,28 +15711,6 @@
    "matches": [
     {
      "id": "SFC-004"
-    }
-   ]
-  },
-  {
-   "id": "yahoo:g1174794503",
-   "site": "yahoo",
-   "title": "ドラゴンボールカプセル この世はでっかい宝島 ドラゴンボールクロニクル編 ブルマ＆戦闘機 ボーナスパーツ完成品 ドラカプ",
-   "price": 59000,
-   "buyNow": 59000,
-   "bids": 0,
-   "format": "fixed",
-   "endTime": 1792049659,
-   "shipping": null,
-   "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/g1174794503",
-   "grade": {
-    "key": "other",
-    "label": "中古・記載なし"
-   },
-   "matches": [
-    {
-     "id": "DBC-004-08"
     }
    ]
   },
@@ -14923,24 +15737,24 @@
    ]
   },
   {
-   "id": "yahoo:q1223945171",
+   "id": "yahoo:v1223947466",
    "site": "yahoo",
-   "title": "【ボーナスパーツ完成品】ブルマ＆戦闘機 「ドラゴンボールカプセル～この世はでっかい宝島 ドラゴンボールクロニクル編～」ドラカプ",
+   "title": "ボーナスパーツ 孫悟空VSピッコロ大魔王(決着シーン) ドラゴンボールカプセル 7 ～ぶったおせピッコロ大魔王 ドラゴンボールクライシス編～",
    "price": 69000,
    "buyNow": 69000,
    "bids": 0,
    "format": "fixed",
-   "endTime": 1792050999,
+   "endTime": 1792310169,
    "shipping": null,
    "store": false,
-   "url": "https://auctions.yahoo.co.jp/jp/auction/q1223945171",
+   "url": "https://auctions.yahoo.co.jp/jp/auction/v1223947466",
    "grade": {
     "key": "other",
     "label": "中古・記載なし"
    },
    "matches": [
     {
-     "id": "DBC-004-08"
+     "id": "DBC-002-08"
     }
    ]
   },
@@ -14989,6 +15803,28 @@
    ]
   },
   {
+   "id": "yahoo:v1106953536",
+   "site": "yahoo",
+   "title": "【ボーナスパーツ完成品】孫悟空＆チチ 「ドラゴンボールカプセル8～マジュニアの脅威 ドラゴンボールアドベンチャー編～」ドラカプ",
+   "price": 88000,
+   "buyNow": 88000,
+   "bids": 0,
+   "format": "fixed",
+   "endTime": 1792311021,
+   "shipping": null,
+   "store": false,
+   "url": "https://auctions.yahoo.co.jp/jp/auction/v1106953536",
+   "grade": {
+    "key": "other",
+    "label": "中古・記載なし"
+   },
+   "matches": [
+    {
+     "id": "DBC-003-08"
+    }
+   ]
+  },
+  {
    "id": "yahoo:t806670507",
    "site": "yahoo",
    "title": "ドラゴンボールカプセル ぶったおせピッコロ大魔王 DBクライシス編 全５種+ボーナスパーツ付き 新品未開封 ドラカプフィギュア",
@@ -15018,7 +15854,7 @@
    "buyNow": 130000,
    "bids": 0,
    "format": "auction_buynow",
-   "endTime": 1791727031,
+   "endTime": 1792330227,
    "shipping": 2120,
    "store": false,
    "url": "https://auctions.yahoo.co.jp/jp/auction/o462962604",
