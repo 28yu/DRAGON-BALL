@@ -1652,12 +1652,12 @@
         "note": "入手先：メルカリ"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり（出品写真で確認）",
+        "manual": "あり（説明書。出品写真で確認）",
         "obi": null,
-        "extras": null,
+        "extras": "未使用シール（出品タイトル・出品写真で確認）",
         "overall": null,
-        "note": ""
+        "note": "出品タイトルと出品写真にもとづく（出品ページの説明文・商品の状態の欄は未確認）。オーナー自身による状態確認は未実施。写真は出品時のもの。"
       },
       "purchases": [
         {
@@ -1665,7 +1665,7 @@
           "price": 6800,
           "shipping": 0,
           "shop": "メルカリ",
-          "note": "送料込み6,800円。"
+          "note": "送料込み6,800円。出品タイトル「【希少☆レア】ドラゴンボール 激神フリーザー ファミコンソフト シール未使用」。"
         }
       ],
       "marketPrices": [],
@@ -1673,8 +1673,63 @@
       "images": [
         {
           "path": "assets/images/items/FC-005/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-005/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-005/set.jpg",
+          "caption": "セット一式（箱・カセット・説明書・未使用シール）"
+        },
+        {
+          "path": "assets/images/items/FC-005/cartridge.jpg",
+          "caption": "カセット（表）"
+        },
+        {
+          "path": "assets/images/items/FC-005/cartridge-back.jpg",
+          "caption": "カセット（裏）"
+        },
+        {
+          "path": "assets/images/items/FC-005/terminal-1.jpg",
+          "caption": "カセットの端子部分"
+        },
+        {
+          "path": "assets/images/items/FC-005/manual.jpg",
+          "caption": "説明書の表紙"
+        },
+        {
+          "path": "assets/images/items/FC-005/manual-back.jpg",
+          "caption": "説明書の裏表紙"
+        },
+        {
+          "path": "assets/images/items/FC-005/inserts.jpg",
+          "caption": "未使用シール"
+        },
+        {
+          "path": "assets/images/items/FC-005/spine-1.jpg",
+          "caption": "箱の側面1"
+        },
+        {
+          "path": "assets/images/items/FC-005/spine-2.jpg",
+          "caption": "箱の側面2"
+        },
+        {
+          "path": "assets/images/items/FC-005/spine-3.jpg",
+          "caption": "箱の側面3"
+        },
+        {
+          "path": "assets/images/items/FC-005/spine-4.jpg",
+          "caption": "箱の側面4"
+        },
+        {
+          "path": "assets/images/items/FC-005/flap-1.jpg",
+          "caption": "箱のフタを開けた状態（表側）"
+        },
+        {
+          "path": "assets/images/items/FC-005/flap-2.jpg",
+          "caption": "箱のフタを開けた状態（裏側）"
         }
       ],
       "alerts": [],
@@ -1719,6 +1774,10 @@
         {
           "date": "2026-10-13",
           "change": "購入記録を登録（2026-10-12、送料込み6,800円）"
+        },
+        {
+          "date": "2026-10-13",
+          "change": "参考画像を、メルカリの出品写真15枚（購入した現物）に差し替え。商品の状態を出品タイトルと写真にもとづいて登録。出品ページ https://jp.mercari.com/item/m93363864088"
         }
       ],
       "market": {
