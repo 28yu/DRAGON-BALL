@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-10-13",
+    "updatedAt": "2026-10-14",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -2800,25 +2800,33 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-04",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-14",
+        "note": "入手先：スーパーポテト 池袋ゲーム横丁（店頭）"
       },
       "condition": {
         "box": null,
-        "manual": null,
+        "manual": "あり",
         "obi": null,
         "extras": null,
         "overall": null,
-        "note": ""
+        "note": "説明書付き。その他の状態は写真の受け取り後に登録予定。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-10-11",
+          "price": 6000,
+          "shipping": 0,
+          "shop": "スーパーポテト 池袋ゲーム横丁（店頭）",
+          "note": "6,000円。説明書付き。店頭購入のため送料なし。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/SFC-003/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
+          "caption": "箱の表（参考画像・自分の写真に差し替え予定）",
           "kind": "reference"
         }
       ],
@@ -2852,6 +2860,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-10-14",
+          "change": "スーパーポテト 池袋ゲーム横丁（店頭）で購入（2026-10-11、6,000円、説明書付き）。所持状況を「所持」に変更し、購入記録を登録。写真は後日差し替え予定"
         }
       ],
       "market": {
