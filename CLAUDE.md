@@ -60,7 +60,8 @@
 
 - `index.html` / `item.html`：トップページ / 商品詳細（`item.html?id=FC-001`）
 - `assets/js/common.js`：データ読み込みと表示の共通処理
-- `assets/js/index.js` / `assets/js/item.js`：各ページの表示処理
+- `assets/js/index.js` / `assets/js/item.js`：各ページの表示処理（トップの検索・絞り込みは `index.js` の `renderSearch`）
+- `assets/js/market-chart.js`：詳細ページの相場の推移グラフ
 - `assets/css/style.css`：デザイン（色は `:root` の変数で管理）
 - `assets/images/items/管理ID/`：オーナーが撮影・作成した画像（`front.jpg` など。命名ルールは同フォルダの README.md）
 - `data/market-history.json`：相場の自動取得の記録（手で編集しない）
@@ -77,4 +78,4 @@
 ## 未対応・今後の候補
 
 - 型番・正式表記・発売時価格の税込/税抜の確認（現物で確認予定）
-- 検索・絞り込み、相場推移グラフ（写真の切り替え・拡大表示は 2026-10-05 に対応済み）
+- 情報の少ない欄（記録なしの購入記録など）を出さない（検索・絞り込み、相場推移グラフ、版の違いの折りたたみは 2026-10-14 に対応済み）

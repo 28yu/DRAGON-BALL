@@ -172,7 +172,7 @@ function setupRateToggle() {
 function renderCategoryNav(data) {
   const el = document.getElementById("cat-nav");
   if (!el) return;
-  el.innerHTML = `<li><a href="#summary-title">${t("概要", "Overview")}</a></li>${data.categories
+  el.innerHTML = `<li><a href="#summary-title">${t("概要", "Overview")}</a></li><li><a href="#search-title">${t("🔍 さがす", "🔍 Search")}</a></li>${data.categories
     .map((cat) => `<li><a href="#cat-${escapeHTML(cat.id)}">${categoryBall(cat, 18)}${escapeHTML(tx(cat.label))}</a></li>`)
     .join("")}<li class="nav-listings"><a href="listings.html">${t("🛒 出品中の一覧", "🛒 For sale now")}</a></li>`;
 }
@@ -184,7 +184,7 @@ function itemCardHTML(item, cat) {
   // 「要確認」の札はオーナー指示（2026-10-05）で表示しない
   const alert = "";
   return `
-    <li class="item-card">
+    <li class="item-card" data-id="${escapeHTML(item.id)}">
       <a href="${itemURL(item.id)}">
         ${thumbHTML(item)}
         <div class="item-body">
@@ -193,6 +193,7 @@ function itemCardHTML(item, cat) {
           <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">${t("情報のみ", "Info only")}</span>`}${alert}${release}</div>
         </div>
       </a>
+      <p class="fig-hits" hidden></p>
     </li>`;
 }
 
@@ -212,6 +213,152 @@ function renderCategories(data) {
     .join("");
 }
 
+// ---------- 検索・絞り込み（2026-10-14 オーナー指示で追加） ----------
+// 下のカテゴリー別一覧のカードを、条件に合うものだけ残して表示する。
+// 条件は URL（?q=…&own=…&cat=…）に残すので、商品ページから戻っても同じ条件のまま。
+
+// 比べやすい形にそろえる（全角・半角、大文字・小文字、カタカナ・ひらがな、空白と「・」の違いを無くす）
+function normalizeSearch(text) {
+  return String(text ?? "")
+    .normalize("NFKC")
+    .toLowerCase()
+    .replace(/[ァ-ヶ]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0x60))
+    .replace(/[\s・･]/g, "");
+}
+
+const OWN_FILTERS = [
+  ["all", t("すべて", "All")],
+  ["owned", t("所持", "Owned")],
+  ["not_owned", t("未所持", "Not owned")],
+  ["unconfirmed", t("未確認", "Unconfirmed")],
+];
+// 所持状況の絞り込み。「未所持」には購入手続き中も含める（概要の「未所持」と同じ数え方）
+function matchOwn(status, own) {
+  if (own === "all") return true;
+  if (own === "not_owned") return status === "not_owned" || status === "ordered";
+  if (own === "unconfirmed") return !OWNERSHIP_LABELS[status] || status === "unconfirmed";
+  return status === own;
+}
+
+function searchChips(name, list, current) {
+  return list
+    .map(([value, label]) => `<label class="lst-chip"><input type="radio" name="${name}" value="${escapeHTML(value)}"${value === current ? " checked" : ""}><span>${label}</span></label>`)
+    .join("");
+}
+
+function renderSearch(data) {
+  const el = document.getElementById("search");
+  if (!el) return;
+  const params = new URLSearchParams(location.search);
+  const state = {
+    q: params.get("q") || "",
+    own: OWN_FILTERS.some(([v]) => v === params.get("own")) ? params.get("own") : "all",
+    cat: data.categories.some((c) => c.id === params.get("cat")) ? params.get("cat") : "all",
+  };
+  // 商品ごとに、探す対象の文字（管理ID・名前・英語名・フィギュアの名前）をまとめておく
+  const index = data.items.map((item) => ({
+    item,
+    text: normalizeSearch([item.id, item.title, tx(item.title), cardTitle(item)].join(" ")),
+    figures: (item.figures || []).map((f) => ({
+      fig: f,
+      text: normalizeSearch([f.id, f.name?.value, tx(f.name?.value)].join(" ")),
+    })),
+  }));
+
+  el.innerHTML = `
+    <div class="search-box">
+      <label class="dash-field search-field">
+        <span>${t("名前・管理ID・フィギュアの名前で探す", "Search by name, ID or figure name")}</span>
+        <input type="search" id="search-q" value="${escapeHTML(state.q)}" placeholder="${t("例：フリーザ、FC-005、ピッコロ", "e.g. Freeza, FC-005, Piccolo")}" autocomplete="off" enterkeyhint="search">
+      </label>
+      <fieldset class="lst-group">
+        <legend>${t("所持状況", "Ownership")}</legend>
+        ${searchChips("own", OWN_FILTERS, state.own)}
+      </fieldset>
+      <fieldset class="lst-group">
+        <legend>${t("カテゴリー", "Category")}</legend>
+        ${searchChips("cat", [["all", t("すべて", "All")], ...data.categories.map((c) => [c.id, escapeHTML(tx(c.label))])], state.cat)}
+      </fieldset>
+      <p class="search-result" aria-live="polite"><span id="search-count"></span> <button type="button" class="text-button" id="search-reset" hidden>${t("条件を元に戻す", "Clear")}</button></p>
+    </div>`;
+
+  const input = el.querySelector("#search-q");
+  const count = el.querySelector("#search-count");
+  const reset = el.querySelector("#search-reset");
+  const empty = document.createElement("p");
+  empty.className = "empty-box search-empty";
+  empty.textContent = t("条件に合う商品はありません。", "No items match.");
+  empty.hidden = true;
+  document.getElementById("categories").prepend(empty);
+
+  const apply = () => {
+    const words = state.q.split(/[\s　]+/).map(normalizeSearch).filter(Boolean);
+    const active = words.length > 0 || state.own !== "all" || state.cat !== "all";
+    let shown = 0;
+    for (const { item, text, figures } of index) {
+      const card = document.querySelector(`.item-card[data-id="${CSS.escape(item.id)}"]`);
+      if (!card) continue;
+      // 言葉は全部含むものだけ（スペースで区切ると「かつ」）。商品名で合わなくても、フィギュアの名前で合えば残す
+      const hitFigs = words.length && !words.every((w) => text.includes(w))
+        ? figures.filter((f) => words.every((w) => text.includes(w) || f.text.includes(w)))
+        : [];
+      const textOK = !words.length || words.every((w) => text.includes(w)) || hitFigs.length > 0;
+      const ok = textOK && matchOwn(item.ownership?.status, state.own) && (state.cat === "all" || item.category === state.cat);
+      card.hidden = !ok;
+      if (ok) shown++;
+      const hits = card.querySelector(".fig-hits");
+      if (ok && hitFigs.length) {
+        hits.innerHTML = `${t("一致したフィギュア：", "Matching figures: ")}${hitFigs
+          .map(({ fig }) => `<a href="${itemURL(fig.id)}">${escapeHTML(tx(fig.name?.value) || fig.id)}</a>`)
+          .join(t("、", ", "))}`;
+        hits.hidden = false;
+      } else {
+        hits.hidden = true;
+      }
+    }
+    // 1件も残らないカテゴリーは見出しごと隠す
+    document.querySelectorAll("#categories > section").forEach((sec) => {
+      sec.hidden = active && !sec.querySelector(".item-card:not([hidden])");
+    });
+    empty.hidden = shown > 0;
+    count.innerHTML = active
+      ? t(`<strong>${shown}</strong>点が見つかりました`, `<strong>${shown}</strong> found`)
+      : t(`全<strong>${shown}</strong>点`, `<strong>${shown}</strong> items`);
+    reset.hidden = !active;
+    // 条件を URL に残す（履歴は増やさない）
+    const p = new URLSearchParams(location.search);
+    for (const [k, v, def] of [["q", state.q.trim(), ""], ["own", state.own, "all"], ["cat", state.cat, "all"]]) {
+      if (v && v !== def) p.set(k, v); else p.delete(k);
+    }
+    const qs = p.toString();
+    history.replaceState(null, "", `${location.pathname}${qs ? `?${qs}` : ""}${location.hash}`);
+  };
+
+  input.addEventListener("input", () => { state.q = input.value; apply(); });
+  // 検索ボタン（スマホのキーボードの「検索」）を押したら、結果の一覧へ移る
+  input.addEventListener("keydown", (e) => {
+    if (e.key !== "Enter" || e.isComposing) return;
+    e.preventDefault();
+    input.blur();
+    const first = document.querySelector("#categories > section:not([hidden])") || empty;
+    first.scrollIntoView({ block: "start" });
+  });
+  el.addEventListener("change", (e) => {
+    if (e.target.name === "own") state.own = e.target.value;
+    if (e.target.name === "cat") state.cat = e.target.value;
+    apply();
+  });
+  reset.addEventListener("click", () => {
+    state.q = "";
+    state.own = "all";
+    state.cat = "all";
+    input.value = "";
+    el.querySelectorAll('input[type="radio"]').forEach((r) => { r.checked = r.value === "all"; });
+    apply();
+  });
+  apply();
+}
+
 (async () => {
   try {
     const data = await loadCollection();
@@ -219,6 +366,7 @@ function renderCategories(data) {
     renderCategoryNav(data);
     renderSummary(data);
     renderCategories(data);
+    renderSearch(data);
     const updated = document.getElementById("data-updated");
     if (updated && data.meta?.updatedAt) updated.textContent = formatDate(data.meta.updatedAt);
   } catch (err) {

@@ -12091,9 +12091,9 @@
         "note": "ブログの紹介記事（7種とボーナスパーツの一覧）とヤフオクの出品名にもとづく。メーカーの公式情報は見つかっていない。"
       },
       "ownership": {
-        "status": "unconfirmed",
-        "checkedAt": null,
-        "note": ""
+        "status": "not_owned",
+        "checkedAt": "2026-10-14",
+        "note": "情報のみ掲載（収集予定）。"
       },
       "condition": {
         "box": null,
@@ -12122,6 +12122,10 @@
         {
           "date": "2026-10-13",
           "change": "オーナー提供のブログ2件で確認し、7種とボーナスパーツの出典にブログの紹介記事を追加。7種目の名前を「マイティマスク（超サイヤ人 孫悟天＆トランクス）」に修正"
+        },
+        {
+          "date": "2026-10-14",
+          "change": "シリーズとフィギュアの所持状況を「未所持」に変更"
         }
       ],
       "figures": [
@@ -12144,8 +12148,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12199,8 +12203,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12253,8 +12257,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12307,8 +12311,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12361,8 +12365,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12417,8 +12421,8 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12475,8 +12479,8 @@
             "note": "ブログの紹介記事の表記（ヤフオクの出品名にも「マイティマスク (トランクス、孫悟天)」あり）。マスクが外せる仕様で、トランクスの替えの頭が付く（2つ目のブログによる）。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {
@@ -12532,8 +12536,8 @@
             "note": "このシリーズのボーナスパーツ。ブログの紹介記事の表記。出品名では「龍拳」「龍拳爆発」と書かれている。"
           },
           "ownership": {
-            "status": "unconfirmed",
-            "checkedAt": null,
+            "status": "not_owned",
+            "checkedAt": "2026-10-14",
             "note": ""
           },
           "market": {

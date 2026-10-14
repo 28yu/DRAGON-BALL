@@ -119,13 +119,19 @@ function editionsHTML(item) {
       e.note ? row(t("補足", "Notes"), escapeHTML(tx(e.note))) : "",
       (e.sources || []).length ? row(t("出典", "Sources"), sourcesHTML(e.sources)) : "",
     ].join("");
+    // 版ごとに折りたたむ（見出しだけを並べ、押すと中身が開く。2026-10-14 オーナー指示）
     return `
-      <h3 class="sub-title">${escapeHTML(tx(e.name))}
-        ${String(tx(e.name)).startsWith(kindLabel) ? "" : `<span class="tag">${escapeHTML(kindLabel)}</span>`}
-        ${statusTag(status)}</h3>
-      <table class="info-table"><tbody>${rows}</tbody></table>`;
+      <details class="edition-box">
+        <summary><span class="edition-name">${escapeHTML(tx(e.name))}</span>
+          ${String(tx(e.name)).startsWith(kindLabel) ? "" : `<span class="tag">${escapeHTML(kindLabel)}</span>`}
+          ${statusTag(status)}</summary>
+        <table class="info-table"><tbody>${rows}</tbody></table>
+      </details>`;
   }).join("");
-  return `<p class="notice">${t("欲しい版と違う物を買わないための情報です。資料（ブログ・記事など）をもとにまとめた参考情報で、現物での確認はまだです。", "Notes to avoid buying the wrong edition. Compiled from references (blogs, articles, etc.) and not yet checked against actual items.")}</p>${cards}${note}`;
+  const toggle = list.length > 1
+    ? `<p class="edition-toggle"><button type="button" class="text-button" data-edition-toggle>${t("すべて開く", "Open all")}</button></p>`
+    : "";
+  return `<p class="notice">${t("欲しい版と違う物を買わないための情報です。資料（ブログ・記事など）をもとにまとめた参考情報で、現物での確認はまだです。版の名前を押すと、見分け方などが開きます。", "Notes to avoid buying the wrong edition. Compiled from references (blogs, articles, etc.) and not yet checked against actual items. Tap an edition to see how to identify it.")}</p>${toggle}${cards}${note}`;
 }
 
 function marketPricesHTML(item) {
@@ -722,10 +728,18 @@ async function renderAutoMarket(item) {
       <thead><tr><th>${t("取得元", "Source")}</th><th>${t("中央値（価格の幅）", "Median (range)")}</th><th>${t("件数", "Count")}</th></tr></thead>
       <tbody>${body}</tbody></table></div>
     <p class="sub-note">${t("ヤフオクは落札済み、ブックオフ・楽天は出品中の価格です。", "Yahoo! Auctions shows sold prices; BOOKOFF and Rakuten show current listing prices. ")}${hasGrades ? t("小さい行は、出品名から機械的に分けた状態ごとの目安です。", "Smaller rows are a rough guide by condition, sorted automatically from listing titles. ") : ""}${variants.length ? t("出品名に版が書かれていない出品は通常版として数えています。", "Listings that do not name an edition are counted as standard. ") : ""}${run ? t(`最終取得：${escapeHTML(formatDate(run.date))}（毎朝6時ごろ更新）`, `Last collected: ${escapeHTML(formatDate(run.date))} (updated daily around 6 a.m. JST)`) : ""}</p>`;
+  // 中央値の推移グラフ（版ごとに分けている商品は、版ごとに1つ）
+  const charts = groups
+    .map(([g, list]) => marketChartHTML(
+      marketChartSeries(list, (key) => tx(run?.sources[key]?.label) || key),
+      g ? t(`中央値の推移（${g}）`, `Median price trend (${g})`) : t("中央値の推移", "Median price trend"),
+    ))
+    .join("");
   el.innerHTML = `
     <p class="market-listings-link"><a href="listings.html?item=${encodeURIComponent(item.id)}&owned=all">${t("🛒 この商品のいま出品中の物を見る", "🛒 See current listings for this item")}</a></p>
     ${setNote}
     ${mine.length ? latestTable : `${latestTable}<p class="empty-box">${t("この商品の自動取得の記録はまだありません。", "No automatically collected records for this item yet.")}</p>`}
+    ${charts ? `${charts}<p class="sub-note">${t("グラフは自動取得の中央値です（メルカリの手入力記録は含みません）。線や点に指・マウスを当てると、その日の値が出ます。", "The chart shows auto-collected medians (Mercari manual records are not included). Tap or hover over it to see each day's values.")}</p>` : ""}
     <details class="more-box"><summary>${t("過去の記録を見る", "Show past records")}</summary>
       ${variants.length ? `<p class="notice">${t(`この商品は版によって相場が大きく違うため、<strong>通常版</strong>と${variants.map(([, l]) => `<strong>${escapeHTML(l)}</strong>`).join("・")}を分けて集計しています。`, `Prices differ greatly by edition, so the <strong>standard edition</strong> and ${variants.map(([, l]) => `<strong>${escapeHTML(tx(l))}</strong>`).join(", ")} are counted separately.`)}</p>` : ""}
       ${mercariBlockHTML(item)}
@@ -733,6 +747,7 @@ async function renderAutoMarket(item) {
       ${run ? `<div class="notice"><strong>${t("最終取得：", "Last collected: ")}${escapeHTML(formatDate(run.date))}</strong><ul class="status-list">${statusLines}</ul>
         ${t("件数・価格は、検索結果から条件に合う出品を機械的に集計した目安です（まとめ売り・本体のみ等は除外）。状態や付属品の違いは、ヤフオクで区分を表示している商品以外は区別していません。", "Counts and prices are a rough guide automatically compiled from matching search results (bundles, loose items, etc. are excluded). Condition and accessories are not distinguished except where groups are shown for Yahoo! Auctions.")}</div>` : ""}
     </details>`;
+  drawMarketCharts(el);
   const sm = document.getElementById("summary-market");
   if (sm) sm.innerHTML = summaryMarketHTML(mine);
 }
@@ -857,6 +872,22 @@ function renderFigure(data, series, fig) {
   `;
 }
 
+// 「版の違い・見分け方」の「すべて開く／すべて閉じる」ボタン
+function initEditionToggle(root) {
+  const btn = root.querySelector("[data-edition-toggle]");
+  if (!btn) return;
+  const boxes = [...root.querySelectorAll(".edition-box")];
+  const render = () => {
+    btn.textContent = boxes.every((d) => d.open) ? t("すべて閉じる", "Close all") : t("すべて開く", "Open all");
+  };
+  btn.addEventListener("click", () => {
+    const open = !boxes.every((d) => d.open);
+    boxes.forEach((d) => { d.open = open; });
+    render();
+  });
+  boxes.forEach((d) => d.addEventListener("toggle", render));
+}
+
 function findFigure(data, id) {
   for (const series of data.items) {
     const fig = (series.figures || []).find((f) => f.id === id);
@@ -886,6 +917,7 @@ function findFigure(data, id) {
       return;
     }
     renderItem(data, item);
+    initEditionToggle(el);
     initPhotoSliders(el);
     initLightbox(el);
     renderAutoMarket(item);
