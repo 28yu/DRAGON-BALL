@@ -729,10 +729,16 @@ async function renderAutoMarket(item) {
       <tbody>${body}</tbody></table></div>
     <p class="sub-note">${t("ヤフオクは落札済み、ブックオフ・楽天は出品中の価格です。", "Yahoo! Auctions shows sold prices; BOOKOFF and Rakuten show current listing prices. ")}${hasGrades ? t("小さい行は、出品名から機械的に分けた状態ごとの目安です。", "Smaller rows are a rough guide by condition, sorted automatically from listing titles. ") : ""}${variants.length ? t("出品名に版が書かれていない出品は通常版として数えています。", "Listings that do not name an edition are counted as standard. ") : ""}${run ? t(`最終取得：${escapeHTML(formatDate(run.date))}（毎朝6時ごろ更新）`, `Last collected: ${escapeHTML(formatDate(run.date))} (updated daily around 6 a.m. JST)`) : ""}</p>`;
   // 中央値の推移グラフ（版ごとに分けている商品は、版ごとに1つ）
+  // ヤフオクで状態の区分を集計している商品は、状態ごとのグラフも続けて出す（2026-10-14 オーナー指示）
+  const yahooLabel = tx(run?.sources.yahoo?.label) || t("ヤフオク（落札済み）", "Yahoo! Auctions (sold)");
   const charts = groups
     .map(([g, list]) => marketChartHTML(
       marketChartSeries(list, (key) => tx(run?.sources[key]?.label) || key),
       g ? t(`中央値の推移（${g}）`, `Median price trend (${g})`) : t("中央値の推移", "Median price trend"),
+    ) + marketChartHTML(
+      marketGradeSeries(list),
+      g ? t(`状態ごとの中央値の推移（${g}）`, `Median price by condition (${g})`) : t("状態ごとの中央値の推移", "Median price by condition"),
+      t(`${yahooLabel}。状態は出品名から機械的に分けた目安`, `${yahooLabel}. Conditions are a rough guide sorted automatically from listing titles`),
     ))
     .join("");
   el.innerHTML = `

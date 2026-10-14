@@ -1,6 +1,7 @@
 // 相場の推移グラフ（商品詳細ページ。2026-10-14 オーナー指示で追加）
 // data/market-history.json の記録から、取得元ごとの「中央値」を日付順の折れ線で描く。
 // 件数が0の日は点を打たず、線もそこで切る。数値の一覧は「過去の記録を見る」の表にある。
+// ヤフオクで状態の区分（未開封・箱付き・箱なし など）を集計している商品は、状態ごとのグラフも出す（2026-10-14 オーナー指示）。
 
 // 取得元ごとの色と点の形（色だけで見分けなくて済むよう、点の形も変える）
 const CHART_SERIES_STYLE = {
@@ -22,17 +23,41 @@ function marketChartSeries(records, labelOf) {
     .filter((s) => s.points.some((p) => p.value != null));
 }
 
+// 状態ごとの線の色と点の形（取得元のグラフと色がかぶらないよう、別の色を使う）。「全体」は灰色の点線
+const CHART_GRADE_STYLE = [
+  { color: "var(--grade-1)", shape: "square" },
+  { color: "var(--grade-2)", shape: "diamond" },
+  { color: "var(--grade-3)", shape: "triangle" },
+];
+// ヤフオクの記録から、「全体」と状態の区分ごとの点の列を作る
+function marketGradeSeries(records) {
+  const recs = records.filter((r) => r.source === "yahoo").sort((a, b) => a.date.localeCompare(b.date));
+  if (!recs.some((r) => r.grades?.length)) return [];
+  const toPoint = (r, o) => ({ date: r.date, value: o && o.count ? o.median : null, count: o ? o.count : null });
+  const all = { key: "all", label: t("全体", "All"), points: recs.map((r) => toPoint(r, r)), color: "var(--text-muted)", shape: "circle", dashed: true };
+  // 区分の並びは記録に出てくる順（未開封 → 箱付き → 箱なし など）
+  const grades = [...new Map(recs.flatMap((r) => r.grades || []).map((g) => [g.key, g.label])).entries()];
+  const lines = grades.map(([key, label], i) => ({
+    key,
+    label: tx(label),
+    // 状態の集計を始める前の日は「記録なし」（点を打たない）
+    points: recs.map((r) => (r.grades ? toPoint(r, r.grades.find((g) => g.key === key) || { count: 0 }) : { date: r.date, value: null, count: null })),
+    ...CHART_GRADE_STYLE[i % CHART_GRADE_STYLE.length],
+  }));
+  return [all, ...lines].filter((s) => s.points.some((p) => p.value != null));
+}
+
 // グラフを入れる枠（実際の絵は drawMarketCharts で、枠の幅に合わせて描く）
 const marketChartData = [];
-function marketChartHTML(series, title) {
+function marketChartHTML(series, title, note = "") {
   if (!series.length) return "";
   const id = marketChartData.push(series) - 1;
   const legend = series
-    .map((s) => `<li><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="6" x2="25" y2="6" stroke="${s.color}" stroke-width="2"/>${markerSVG(s.shape, 13, 6, s.color)}</svg>${escapeHTML(s.label)}</li>`)
+    .map((s) => `<li><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="6" x2="25" y2="6" stroke="${s.color}" stroke-width="2"${s.dashed ? ' stroke-dasharray="4 3"' : ""}/>${markerSVG(s.shape, 13, 6, s.color)}</svg>${escapeHTML(s.label)}</li>`)
     .join("");
   return `
     <figure class="market-chart" data-chart="${id}">
-      <figcaption class="market-chart-title">${escapeHTML(title)}</figcaption>
+      <figcaption class="market-chart-title">${escapeHTML(title)}${note ? `<small class="market-chart-note">${escapeHTML(note)}</small>` : ""}</figcaption>
       <ul class="market-chart-legend">${legend}</ul>
       <div class="market-chart-plot"></div>
     </figure>`;
@@ -44,6 +69,10 @@ function markerSVG(shape, x, y, color, r = 4) {
   if (shape === "diamond") {
     const d = r * 1.3;
     return `<polygon points="${x},${y - d} ${x + d},${y} ${x},${y + d} ${x - d},${y}" fill="${color}" ${ring}/>`;
+  }
+  if (shape === "triangle") {
+    const d = r * 1.3;
+    return `<polygon points="${x},${y - d} ${x + d},${y + d * 0.75} ${x - d},${y + d * 0.75}" fill="${color}" ${ring}/>`;
   }
   return `<circle cx="${x}" cy="${y}" r="${r}" fill="${color}" ${ring}/>`;
 }
@@ -114,11 +143,11 @@ function drawMarketChart(fig) {
       pen = true;
       marks += markerSVG(s.shape, x(i), y(p.value), s.color);
     });
-    return `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>${marks}`;
+    return `<path d="${path}" fill="none" stroke="${s.color}" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"${s.dashed ? ' stroke-dasharray="5 4"' : ""}/>${marks}`;
   }).join("");
 
   plot.innerHTML = `
-    <svg class="mc-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeHTML(t("取得元ごとの中央値の推移グラフ。数値は「過去の記録を見る」の表にあります。", "Line chart of the median price by source. The numbers are in the tables under \"Show past records\"."))}">
+    <svg class="mc-svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}" role="img" aria-label="${escapeHTML(`${fig.querySelector(".market-chart-title")?.textContent || ""}${t("（折れ線グラフ）。数値は「過去の記録を見る」の表にあります。", " (line chart). The numbers are in the tables under \"Show past records\".")}`)}">
       ${grid}${xTicks}
       <line class="mc-cross" x1="0" x2="0" y1="${m.top}" y2="${m.top + ih}" visibility="hidden"/>
       ${lines}
