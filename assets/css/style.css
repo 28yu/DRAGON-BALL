@@ -470,32 +470,35 @@ section[id], h2[id] { scroll-margin-top: 12px; }
   border: 3px solid var(--ink);
   box-shadow: 5px 5px 0 var(--shadow-color);
 }
-/* 写真の角のハンコ風表示 */
-.stamp {
+/* 所持している物の写真の左上に付ける赤い三角（メルカリの「SOLD」のような形。2026-10-15 オーナー指示） */
+.own-corner {
   position: absolute;
-  right: -10px;
-  top: -12px;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  border: 3px solid var(--ink);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  font-family: var(--font-display);
-  font-size: 0.95rem;
-  line-height: 1.15;
-  transform: rotate(12deg);
+  top: 0;
+  left: 0;
+  z-index: 4;
+  width: var(--corner-size, 58px);
+  height: var(--corner-size, 58px);
+  background: var(--owned);
+  clip-path: polygon(0 0, 100% 0, 0 100%);
   pointer-events: none;
 }
-.stamp-owned { background: var(--owned); color: var(--owned-text); }
-.stamp-ordered { background: var(--ordered); color: var(--ordered-text); font-size: 0.68rem; }
-.stamp-not_owned { background: var(--surface); color: var(--notowned-text); border-style: dashed; }
-.stamp-unconfirmed { background: var(--surface); color: var(--unconfirmed); border-style: dashed; }
-/* 英語の文字（Unconfirmed など）は長いので、丸からはみ出さないよう小さくして折り返す */
-html[lang="en"] .stamp { font-size: 0.62rem; padding: 0 4px; overflow-wrap: anywhere; }
-html[lang="en"] .stamp-unconfirmed { font-size: 0.5rem; }
+.own-corner > span {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  /* 三角の重心あたりに、斜めに文字を置く */
+  transform: translate(-50%, -50%) translate(-20%, -20%) rotate(-45deg);
+  color: var(--owned-text);
+  font-family: var(--font-display);
+  font-size: var(--corner-font, 0.78rem);
+  letter-spacing: 0.08em;
+  line-height: 1;
+  white-space: nowrap;
+}
+html[lang="en"] .own-corner > span { font-size: calc(var(--corner-font, 0.78rem) * 0.66); letter-spacing: 0.02em; }
+.detail-photo .own-corner { --corner-size: 92px; --corner-font: 1.1rem; }
 
 .detail-title {
   margin: 2px 0 10px;
@@ -679,7 +682,6 @@ html[lang="en"] .stamp-unconfirmed { font-size: 0.5rem; }
   font-weight: 700;
   pointer-events: none;
 }
-.detail-photo .stamp { z-index: 4; }
 /* 拡大表示 */
 html.lightbox-open { overflow: hidden; }
 .lightbox {
@@ -1034,7 +1036,6 @@ html.lightbox-open { overflow: hidden; }
   }
   main.container { padding-top: 22px; }
   .detail-head { grid-template-columns: 1fr; gap: 20px; }
-  .stamp { right: -6px; }
   .info-table th, .info-table td { display: block; width: 100%; }
   .info-table th { border-bottom: 0; padding-bottom: 2px; background: transparent; font-size: 0.8rem; color: var(--text-muted); }
   .info-table td { padding-top: 0; }

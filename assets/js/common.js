@@ -56,9 +56,10 @@ function formatYen(value) {
   return LANG === "en" ? `¥${Number(value).toLocaleString("en-US")}` : `${Number(value).toLocaleString("ja-JP")}円`;
 }
 
-function ownershipBadge(status) {
-  const key = OWNERSHIP_LABELS[status] ? status : "unconfirmed";
-  return `<span class="badge badge-${key}">${OWNERSHIP_LABELS[key]}</span>`;
+// 所持している物だけ、写真の左上に赤い三角の「所持」を付ける（メルカリの「SOLD」のような形）。
+// 未所持・未確認は何も付けない。「所持」「未所持」の札は 2026-10-15 オーナー指示で表示しない
+function ownedCorner(status) {
+  return status === "owned" ? `<span class="own-corner" aria-label="${t("所持", "Owned")}"><span>${t("所持", "OWNED")}</span></span>` : "";
 }
 
 // 値が無い・未確認の項目。「未確認」の文字はオーナー指示（2026-10-05）で表示せず、横棒にする
@@ -67,12 +68,14 @@ function unconfirmedText(text = "—") {
 }
 
 // 画像があれば最初の1枚、なければ「画像未登録」のプレースホルダー
+// 所持している物は左上に三角の「所持」（ownedCorner）を重ねる
 function thumbHTML(item) {
   const img = (item.images || [])[0];
+  const corner = ownedCorner(item.ownership?.status);
   if (img && img.path) {
-    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(tx(img.caption) || tx(item.title))}" loading="lazy">${referenceLabel(img)}</div>`;
+    return `<div class="thumb"><img src="${escapeHTML(img.path)}" alt="${escapeHTML(tx(img.caption) || tx(item.title))}" loading="lazy">${referenceLabel(img)}${corner}</div>`;
   }
-  return `<div class="thumb"><span class="thumb-placeholder">${t("画像未登録", "No image yet")}</span></div>`;
+  return `<div class="thumb"><span class="thumb-placeholder">${t("画像未登録", "No image yet")}</span>${corner}</div>`;
 }
 
 // 未所持品の参考画像（オーナーの撮影ではない画像）に付けるラベル

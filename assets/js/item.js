@@ -66,14 +66,13 @@ function basicInfoHTML(item, category) {
 }
 
 function ownershipHTML(item) {
-  const o = item.ownership || {};
   const cond = item.condition || {};
   const condRows = Object.entries(CONDITION_LABELS).map(([key, label]) =>
     row(label, cond[key] ? escapeHTML(tx(cond[key])) : unconfirmedText())
   );
+  // 所持状況の行は 2026-10-15 オーナー指示（案B）で表示しない。所持は写真の三角、入手先は上の要約で示す
   return `
     <table class="info-table">
-      ${row(t("所持状況", "Ownership"), `${ownershipBadge(o.status)}${o.checkedAt ? `<span class="sub-note">${t("確認日：", "Checked: ")}${escapeHTML(formatDate(o.checkedAt))}</span>` : ""}${o.note ? `<span class="sub-note">${escapeHTML(tx(o.note))}</span>` : ""}`)}
       ${condRows.join("")}
       ${cond.note ? row(t("状態メモ", "Condition notes"), escapeHTML(tx(cond.note))) : ""}
     </table>`;
@@ -187,11 +186,10 @@ function figuresHTML(item) {
   const cards = figs.map((fig) => `
     <li class="item-card">
       <a href="${itemURL(fig.id)}">
-        ${thumbHTML({ images: fig.images, title: figureName(fig) })}
+        ${thumbHTML({ images: fig.images, title: figureName(fig), ownership: fig.ownership })}
         <div class="item-body">
           <span class="item-id">${escapeHTML(fig.id)}</span>
           <h3 class="item-title">${escapeHTML(figureName(fig))}</h3>
-          <div class="item-meta">${ownershipBadge(fig.ownership?.status)}${statusTag(fig.name?.status)}</div>
         </div>
       </a>
     </li>`).join("");
@@ -579,7 +577,9 @@ function editionAlertHTML(item) {
 function summaryHTML(item, opts = {}) {
   const o = item.ownership || {};
   const tiles = [];
-  tiles.push(summaryTile(t("所持状況", "Ownership"), `${ownershipBadge(o.status)}${o.note ? `<span class="summary-sub">${escapeHTML(tx(o.note))}</span>` : ""}`));
+  // 所持している物だけ「入手先」を出す（2026-10-15 オーナー指示。所持・未所持の札は出さない）
+  const from = o.status === "owned" ? String(tx(o.note || "")).replace(/^(入手先：|Obtained from:\s*)/, "").trim() : "";
+  if (from) tiles.push(summaryTile(t("入手先", "Obtained from"), escapeHTML(from)));
   const p = (item.purchases || [])[0];
   if (p && p.price != null) {
     tiles.push(summaryTile(t("購入価格", "Paid"), `${escapeHTML(formatYen(p.price))}${p.shipping ? `<span class="summary-sub">${t("＋送料", "+ shipping ")}${escapeHTML(formatYen(p.shipping))}</span>` : ""}${p.date ? `<span class="summary-sub">${escapeHTML(formatDate(p.date))}</span>` : ""}`));
@@ -763,11 +763,6 @@ function isCapsuleSeries(item) {
   return item.category === "capsule" && (item.figures || []).length > 0;
 }
 
-// 詳細ページの写真の角に付ける所持状況のハンコ風表示（文字は OWNERSHIP_LABELS と同じ）
-function ownershipStamp(status) {
-  const key = OWNERSHIP_LABELS[status] ? status : "unconfirmed";
-  return `<span class="stamp stamp-${key}" aria-hidden="true">${OWNERSHIP_LABELS[key]}</span>`;
-}
 
 function renderItem(data, item) {
   const category = data.categories.find((c) => c.id === item.category);
@@ -784,7 +779,7 @@ function renderItem(data, item) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${photoSliderHTML(item.images, tx(item.title), item.id)}${ownershipStamp(item.ownership?.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(item.images, tx(item.title), item.id)}${ownedCorner(item.ownership?.status)}</div>
         ${(() => {
           const group = data.items.filter((i) => i.category === item.category);
           return pagerHTML(group, group.indexOf(item), PAGER_GROUP_LABELS[item.category] || tx(category?.label) || item.category, cardTitle);
@@ -794,7 +789,6 @@ function renderItem(data, item) {
         <span class="item-id">${escapeHTML(item.id)}</span>
         <h1 class="detail-title">${escapeHTML(tx(item.title))}</h1>
         <div class="detail-badges">
-          ${ownershipBadge(item.ownership?.status)}
           <span class="tag">${escapeHTML(tx(category?.label) || item.category)}</span>
         </div>
         ${alerts}
@@ -806,7 +800,7 @@ function renderItem(data, item) {
       ["basic", t("基本情報", "Info")],
       (item.editions || item.editionsNote) && ["editions", t("版の違い", "Editions")],
       ["gallery", t("画像", "Photos")],
-      ["ownership", t("所持・購入", "Ownership")],
+      ["ownership", t("状態・購入", "Condition")],
       ["market", t("相場", "Prices")],
       ["memo", t("メモ・出典", "Notes")],
     ])}
@@ -814,7 +808,7 @@ function renderItem(data, item) {
     ${section(t("基本情報", "Basic information"), basicInfoHTML(item, category), "basic")}
     ${item.editions || item.editionsNote ? section(t("版の違い・見分け方", "Editions and how to tell them apart"), editionsHTML(item), "editions") : ""}
     ${section(t(`画像（${(item.images || []).length}枚）`, `Photos (${(item.images || []).length})`), galleryHTML(item), "gallery")}
-    ${section(t("所持状況・商品の状態", "Ownership and condition"), ownershipHTML(item), "ownership")}
+    ${section(t("商品の状態", "Condition"), ownershipHTML(item), "ownership")}
     ${section(t("購入記録", "Purchase records"), purchasesHTML(item))}
     <section id="market"><h2 class="section-title">${isCapsuleSeries(item) ? t("相場（全種セット・自動取得＋メルカリ）", "Market prices (complete set, auto-collected + Mercari)") : t("相場（自動取得＋メルカリ）", "Market prices (auto-collected + Mercari)")}</h2><div id="auto-market"><p class="empty-box">${t("読み込み中…", "Loading…")}</p></div></section>
     ${section(isCapsuleSeries(item) ? t("中古相場（全種セットの調査記録）", "Used market prices (complete set surveys)") : t("中古相場（調査記録）", "Used market prices (surveys)"), marketPricesHTML(item))}
@@ -839,14 +833,13 @@ function renderFigure(data, series, fig) {
     </nav>
     <div class="detail-head">
       <div class="detail-photo-col">
-        <div class="detail-photo">${photoSliderHTML(fig.images, name, fig.id)}${ownershipStamp(o.status)}</div>
+        <div class="detail-photo">${photoSliderHTML(fig.images, name, fig.id)}${ownedCorner(o.status)}</div>
         ${pagerHTML(series.figures || [], (series.figures || []).indexOf(fig), series.id, figureName)}
       </div>
       <div>
         <span class="item-id">${escapeHTML(fig.id)}</span>
         <h1 class="detail-title">${escapeHTML(name)}</h1>
         <div class="detail-badges">
-          ${ownershipBadge(o.status)}
           <span class="tag">${escapeHTML(tx(category?.label) || series.category)}</span>
           ${fig.bonus ? `<span class="tag">${t("ボーナスパーツ", "Bonus part")}</span>` : ""}
         </div>
@@ -865,9 +858,6 @@ function renderFigure(data, series, fig) {
       ${fig.notes ? row(t("メモ", "Notes"), escapeHTML(tx(fig.notes))) : ""}
     </table>`, "basic")}
     ${section(t(`画像（${(fig.images || []).length}枚）`, `Photos (${(fig.images || []).length})`), galleryHTML({ ...series, images: fig.images, title: name }), "gallery")}
-    ${section(t("所持状況", "Ownership"), `<table class="info-table">
-      ${row(t("所持状況", "Ownership"), `${ownershipBadge(o.status)}${o.checkedAt ? `<span class="sub-note">${t("確認日：", "Checked: ")}${escapeHTML(formatDate(o.checkedAt))}</span>` : ""}${o.note ? `<span class="sub-note">${escapeHTML(tx(o.note))}</span>` : ""}`)}
-    </table>`)}
     <section id="market"><h2 class="section-title">${t("相場（自動取得＋メルカリ）", "Market prices (auto-collected + Mercari)")}</h2>
       <p class="sub-note">${t(`このフィギュア1体だけの出品を集計しています（セット・まとめ売りは除外）。全種セットの相場は<a href="${itemURL(series.id)}">シリーズのページ</a>で見られます。`, `Counts only listings of this single figure (sets and bundles excluded). Complete set prices are on the <a href="${itemURL(series.id)}">series page</a>.`)}</p>
       <div id="auto-market"><p class="empty-box">${t("読み込み中…", "Loading…")}</p></div></section>

@@ -23,7 +23,7 @@ function progressHTML(items, withBreakdown = true) {
     ${withBreakdown ? `<ul class="breakdown">
       <li class="b-owned">${t(`所持 ${c.owned}点`, `Owned ${c.owned}`)}</li>
       <li class="b-notowned">${t(`未所持 ${notOwned}点`, `Not owned ${notOwned}`)}</li>
-      <li class="b-unconfirmed">${t(`未確認 ${c.unconfirmed}点`, `Unconfirmed ${c.unconfirmed}`)}</li>
+      ${c.unconfirmed ? `<li class="b-unconfirmed">${t(`未確認 ${c.unconfirmed}点`, `Unconfirmed ${c.unconfirmed}`)}</li>` : ""}
     </ul>` : ""}`;
 }
 
@@ -190,7 +190,7 @@ function itemCardHTML(item, cat) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(item.id)}</span>
           <h3 class="item-title">${escapeHTML(cardTitle(item))}</h3>
-          <div class="item-meta">${inSummary(cat) ? ownershipBadge(item.ownership?.status) : `<span class="badge badge-info">${t("情報のみ", "Info only")}</span>`}${alert}${release}</div>
+          <div class="item-meta">${inSummary(cat) ? "" : `<span class="badge badge-info">${t("情報のみ", "Info only")}</span>`}${alert}${release}</div>
         </div>
       </a>
       <p class="fig-hits" hidden></p>
@@ -230,14 +230,12 @@ const OWN_FILTERS = [
   ["all", t("すべて", "All")],
   ["owned", t("所持", "Owned")],
   ["not_owned", t("未所持", "Not owned")],
-  ["unconfirmed", t("未確認", "Unconfirmed")],
 ];
-// 所持状況の絞り込み。「未所持」には購入手続き中も含める（概要の「未所持」と同じ数え方）
+// 所持状況の絞り込み。画面では「所持」の三角が付いているかどうかだけで見分けるので、「未所持」は所持以外すべて
 function matchOwn(status, own) {
   if (own === "all") return true;
-  if (own === "not_owned") return status === "not_owned" || status === "ordered";
-  if (own === "unconfirmed") return !OWNERSHIP_LABELS[status] || status === "unconfirmed";
-  return status === own;
+  if (own === "owned") return status === "owned";
+  return status !== "owned";
 }
 
 function searchChips(name, list, current) {
