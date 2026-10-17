@@ -1,12 +1,12 @@
 {
  "meta": {
   "description": "いま出品中の物の一覧（tools/market/listings.mjs が1日1回上書きする）。手で編集しない。",
-  "updatedAt": "2026-10-17T00:10:58.234Z",
+  "updatedAt": "2026-10-17T23:46:54.862Z",
   "sources": {
    "yahoo": {
     "label": "ヤフオク（出品中）",
     "ok": 0,
-    "empty": 135,
+    "empty": 153,
     "skipped": 0,
     "failed": 0,
     "messages": []
@@ -14,7 +14,7 @@
    "bookoff": {
     "label": "ブックオフ（出品中）",
     "ok": 13,
-    "empty": 122,
+    "empty": 140,
     "skipped": 0,
     "failed": 0,
     "messages": []
