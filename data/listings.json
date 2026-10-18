@@ -1,7 +1,7 @@
 {
  "meta": {
   "description": "いま出品中の物の一覧（tools/market/listings.mjs が1日1回上書きする）。手で編集しない。",
-  "updatedAt": "2026-10-17T23:46:54.862Z",
+  "updatedAt": "2026-10-18T23:55:44.797Z",
   "sources": {
    "yahoo": {
     "label": "ヤフオク（出品中）",
