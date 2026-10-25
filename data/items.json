@@ -2394,7 +2394,7 @@
           "price": 37000,
           "shipping": 1600,
           "shop": "ヤフオク",
-          "note": "まとめ買い（37,000円・送料1,600円）。同じ落札で SFC-002・SFC-003（2本目）・SFC-005・SFC-006 も入手。金額はこの記録にまとめて記録。箱・説明書付き。"
+          "note": "まとめ買い（37,000円・送料1,600円）。同じ落札で SFC-002・SFC-003（2本目）・SFC-004・SFC-005・SFC-006・SFC-007 も入手（スーパーファミコンのドラゴンボール7作品がそろう）。金額はこの記録にまとめて記録。箱・説明書付き。"
         }
       ],
       "marketPrices": [],
@@ -2407,6 +2407,14 @@
         {
           "path": "assets/images/items/SFC-001/set.jpg",
           "caption": "セット一式（箱・カセット・内トレイ・説明書・付属品）"
+        },
+        {
+          "path": "assets/images/items/SFC-001/extra-1.jpg",
+          "caption": "まとめ買いの7本の背表紙（SFC-001〜007）"
+        },
+        {
+          "path": "assets/images/items/SFC-001/extra-2.jpg",
+          "caption": "まとめ買いの7本の箱の表（SFC-001〜007）"
         }
       ],
       "alerts": [],
@@ -2451,6 +2459,10 @@
         {
           "date": "2026-10-25",
           "change": "参考画像をオーナーが撮影した写真（箱の表・セット一式）に差し替え"
+        },
+        {
+          "date": "2026-10-25",
+          "change": "まとめ買いの7本を並べた写真（背表紙・箱の表）を追加し、購入記録のメモに SFC-004・SFC-007 を追加"
         }
       ],
       "market": {
@@ -3068,26 +3080,37 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-04",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-25",
+        "note": "入手先：ヤフオク"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり",
+        "manual": "あり（取扱説明書）",
         "obi": null,
-        "extras": null,
+        "extras": "内トレイ（透明）、「ご注意」の紙（ACアダプタ）、ゲームボーイ用『ドラゴンボールZ』（ハイパービジュアルバトルゲーム）の広告チラシ。カセットはビニール袋入り",
         "overall": null,
-        "note": ""
+        "note": "オーナーが撮影した写真にもとづく。詳しい状態は未確認。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": null,
+          "shipping": null,
+          "shop": "ヤフオク",
+          "note": "SFC-001 のまとめ買い（37,000円・送料1,600円）に含まれていた。金額は SFC-001 の購入記録にまとめて記録。箱・説明書付き。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/SFC-004/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/SFC-004/set.jpg",
+          "caption": "セット一式（箱・カセット・内トレイ・説明書・付属品）"
         }
       ],
       "alerts": [],
@@ -3120,6 +3143,14 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-10-25",
+          "change": "ヤフオクでスーパーファミコンのドラゴンボールソフトをまとめて落札（37,000円・送料1,600円）。所持状況を「所持」に変更し、購入記録と商品の状態を登録（金額は SFC-001 に記録）"
+        },
+        {
+          "date": "2026-10-25",
+          "change": "参考画像をオーナーが撮影した写真（箱の表・セット一式）に差し替え"
         }
       ],
       "market": {
@@ -3666,26 +3697,37 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-04",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-25",
+        "note": "入手先：ヤフオク"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり",
+        "manual": "あり（取扱説明書）",
         "obi": null,
-        "extras": null,
+        "extras": "内トレイ（透明）、ACアダプタの警告の紙（任天堂）。カセットはビニール袋入り",
         "overall": null,
-        "note": ""
+        "note": "オーナーが撮影した写真にもとづく。詳しい状態は未確認。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": null,
+          "shipping": null,
+          "shop": "ヤフオク",
+          "note": "SFC-001 のまとめ買い（37,000円・送料1,600円）に含まれていた。金額は SFC-001 の購入記録にまとめて記録。箱・説明書付き。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/SFC-007/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/SFC-007/set.jpg",
+          "caption": "セット一式（箱・カセット・内トレイ・説明書・付属品）"
         }
       ],
       "alerts": [],
@@ -3718,6 +3760,14 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-10-25",
+          "change": "ヤフオクでスーパーファミコンのドラゴンボールソフトをまとめて落札（37,000円・送料1,600円）。所持状況を「所持」に変更し、購入記録と商品の状態を登録（金額は SFC-001 に記録）"
+        },
+        {
+          "date": "2026-10-25",
+          "change": "参考画像をオーナーが撮影した写真（箱の表・セット一式）に差し替え"
         }
       ],
       "market": {
