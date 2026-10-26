@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-10-25",
+    "updatedAt": "2026-10-26",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -1209,26 +1209,101 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-03",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-10-26",
+        "note": "入手先：メルカリ"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり（出品写真で確認）",
+        "manual": "あり（取扱説明書。出品写真で確認）",
         "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "extras": "内トレイ（透明。出品写真で確認）",
+        "overall": "出品時の商品の状態は「傷や汚れあり」。出品の説明では「NEWファミコン本体にて初期画面まで確認」。",
+        "note": "出品時の説明と写真にもとづく。未着のため、オーナー自身による状態確認は未実施。写真は出品時のもの。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-10-26",
+          "price": 2700,
+          "shipping": 0,
+          "shop": "メルカリ",
+          "note": "送料込み2,700円。出品タイトル「ファミコン　ドラゴンボール3 悟空伝　箱、説明書付き」。未着。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/FC-003/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-003/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-003/cartridge.jpg",
+          "caption": "カセット（表・内トレイ入り）と説明書の表紙"
+        },
+        {
+          "path": "assets/images/items/FC-003/cartridge-back.jpg",
+          "caption": "カセット（裏）と説明書の裏表紙"
+        },
+        {
+          "path": "assets/images/items/FC-003/cartridge-top-1.jpg",
+          "caption": "カセットの上部ラベル"
+        },
+        {
+          "path": "assets/images/items/FC-003/spine-1.jpg",
+          "caption": "箱の側面1"
+        },
+        {
+          "path": "assets/images/items/FC-003/spine-2.jpg",
+          "caption": "箱の側面2"
+        },
+        {
+          "path": "assets/images/items/FC-003/spine-3.jpg",
+          "caption": "箱の側面3"
+        },
+        {
+          "path": "assets/images/items/FC-003/spine-4.jpg",
+          "caption": "箱の側面4"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-1.jpg",
+          "caption": "箱の角（裏側）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-2.jpg",
+          "caption": "箱を斜めから見たところ（表側・左上）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-3.jpg",
+          "caption": "箱を斜めから見たところ（表側・右上）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-4.jpg",
+          "caption": "箱を斜めから見たところ（裏側・左）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-5.jpg",
+          "caption": "箱を斜めから見たところ（裏側・下）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-6.jpg",
+          "caption": "箱を斜めから見たところ（裏側・右）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-7.jpg",
+          "caption": "箱を斜めから見たところ（裏側・上）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-8.jpg",
+          "caption": "箱を斜めから見たところ（表側・下）"
+        },
+        {
+          "path": "assets/images/items/FC-003/extra-9.jpg",
+          "caption": "箱を斜めから見たところ（表側・右下）"
         }
       ],
       "alerts": [],
@@ -1261,6 +1336,14 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-10-26",
+          "change": "メルカリで購入（2026-10-26、送料込み2,700円、未着）。所持状況を「所持」に変更し、購入記録と商品の状態（出品時の説明と写真にもとづく）を登録。出品ページ https://jp.mercari.com/item/m11991239704"
+        },
+        {
+          "date": "2026-10-26",
+          "change": "参考画像を、メルカリの出品写真18枚（購入した現物）に差し替え。出品ページ https://jp.mercari.com/item/m11991239704"
         }
       ],
       "market": {
