@@ -1,0 +1,39 @@
+# アクセス解析の記録先（Supabase）が止まらないようにする（1日1回）
+# Supabase の無料プランは、7日間ほどデータベースの利用が少ないと自動で一時停止する。
+# 停止するとダッシュボード（管理ページ）にパスワードを入れても入れなくなるため（2026-10-29 に発生）、
+# 毎日、出品中の一覧を読むだけの関数 mercari_listings を1回呼んでデータベースを使う。
+# - 読むだけで、記録・パスワードの試行回数には影響しない。
+# - 鍵は assets/js/analytics.js と同じ「公開用の鍵」（ブラウザに置く前提の鍵で、秘密ではない）。
+# - すでに停止しているときは、これでは再開しない（Supabase の管理画面で再開する。docs/analytics.md の「4」）。
+#   そのときはこの処理が失敗し、GitHub から失敗のお知らせが届く。
+name: Supabase の停止防止
+
+on:
+  schedule:
+    - cron: "43 3 * * *" # 3:43 UTC = 12:43 JST
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: データベースを1回使う
+        env:
+          SUPABASE_URL: https://ebyifkbzxbqstggfqqrt.supabase.co
+          SUPABASE_KEY: sb_publishable_9eULNP9uzOCtaL-8aCq0YA_u3fRiPo7
+        run: |
+          for i in 1 2 3; do
+            code=$(curl -sS -o body.json -w "%{http_code}" --max-time 30 \
+              -X POST "$SUPABASE_URL/rest/v1/rpc/mercari_listings" \
+              -H "apikey: $SUPABASE_KEY" -H "Content-Type: application/json" \
+              -d '{"p_site":"dragon-ball"}' || echo 000)
+            echo "応答: HTTP $code"
+            if [ "$code" = "200" ]; then exit 0; fi
+            sleep 20
+          done
+          echo "::error::Supabase から正しい応答がありません。プロジェクトが一時停止している可能性があります。Supabase の管理画面で再開してください。"
+          exit 1
