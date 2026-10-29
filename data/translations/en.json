@@ -624,5 +624,13 @@
   "箱を斜めから見たところ（裏側・右）": "Box at an angle (back, right)",
   "箱を斜めから見たところ（裏側・上）": "Box at an angle (back, top)",
   "箱を斜めから見たところ（表側・下）": "Box at an angle (front, bottom)",
-  "箱を斜めから見たところ（表側・右下）": "Box at an angle (front, lower right)"
+  "箱を斜めから見たところ（表側・右下）": "Box at an angle (front, lower right)",
+  "あり（オーナーの写真で確認）": "Yes (confirmed in the owner's photos)",
+  "あり（取扱説明書。オーナーの写真で確認）": "Yes (instruction manual; confirmed in the owner's photos)",
+  "内トレイ（オーナーの写真で確認）": "Inner tray (confirmed in the owner's photos)",
+  "受け取り済み。箱・説明書・内トレイはオーナーの写真で確認。詳しい状態は出品時の説明と写真にもとづく（出品写真は1〜18枚目、オーナーの写真は最後の3枚）。": "Received. Box, manual and inner tray confirmed in the owner's photos. Other condition details are based on the listing description and photos (listing photos are images 1-18; the owner's photos are the last three).",
+  "送料込み2,700円。出品タイトル「ファミコン　ドラゴンボール3 悟空伝　箱、説明書付き」。": "2,700 yen including shipping. Listing title: \"Famicom Dragon Ball 3 Goku Den, with box and manual\".",
+  "セット一式（箱・カセット・内トレイ・説明書。受け取り後に撮影）": "Full set (box, cartridge, inner tray, manual; photographed after delivery)",
+  "箱の表（受け取り後に撮影）": "Box front (photographed after delivery)",
+  "箱の裏（受け取り後に撮影）": "Box back (photographed after delivery)"
 }
