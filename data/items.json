@@ -2570,10 +2570,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-DB",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": ""
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -2700,6 +2705,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-DB）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
@@ -2834,7 +2843,7 @@
         "value": null,
         "status": "unconfirmed",
         "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "note": "箱の背表紙の写真では「SHVC-Z」の後が光の反射で読めない。現物で要確認。"
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -2945,6 +2954,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番は背表紙の写真で「SHVC-Z」の後が読めず、未確認のまま（メモに記載）"
         }
       ],
       "market": {
@@ -3052,10 +3065,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-EF",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": "2本目（ヤフオク分）の箱で確認。「H」は写真では光の反射で一部見えにくい。"
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -3181,6 +3199,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-EF）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
@@ -3286,10 +3308,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-P-AZ4J(JPN)",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": ""
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -3400,6 +3427,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-P-AZ4J(JPN)）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
@@ -3505,10 +3536,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-P-AZ5J-JPN",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": ""
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -3619,6 +3655,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-P-AZ5J-JPN）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
@@ -3710,10 +3750,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-P-A2ZJ(JPN)",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": ""
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -3824,6 +3869,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-P-A2ZJ(JPN)）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
@@ -3915,10 +3964,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "SHVC-P-AZIJ(JPN)",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱の背表紙（オーナー撮影の写真「まとめ買いの7本の背表紙」）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/SFC-001/extra-1.jpg"
+          }
+        ],
+        "note": "4文字目は写真で「I」（アイ）と読んだ。"
       },
       "platform": {
         "value": "スーパーファミコン",
@@ -4029,6 +4083,10 @@
         {
           "date": "2026-11-07",
           "change": "ヤフオクのまとめ買いの購入日（落札日）を 2026-10-18 に記入（到着は2日後の 2026-10-20 ごろ）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（SHVC-P-AZIJ(JPN)）を箱の背表紙の写真で確認して登録"
         }
       ],
       "market": {
