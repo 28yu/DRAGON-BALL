@@ -645,5 +645,13 @@
   "内トレイ（透明）、未使用シール（カセットに貼るラベル）": "Inner tray (clear), unused sticker (cartridge label)",
   "オーナーが撮影した写真にもとづく。箱の角に擦れがある。その他の詳しい状態は未確認。": "Based on the owner's photos. The box corners show some wear. Other condition details not yet checked.",
   "カセットを斜めから見たところ": "Cartridge at an angle",
-  "未使用シール（裏）": "Unused sticker (back)"
+  "未使用シール（裏）": "Unused sticker (back)",
+  "あり（まんだらけの評価は「イタミ（大）」）": "Yes (Mandarake grade: \"damaged (heavy)\")",
+  "あり（取扱説明書。まんだらけの評価は「イタミ（小）」）": "Yes (instruction manual; Mandarake grade: \"damaged (light)\")",
+  "まんだらけの状態表示は総合「並下」。ソフト「並」、説明書「イタミ（小）」、箱「イタミ（大）」。備考「説明書イタミ小、折れ」「外箱イタミ大、スレ、ツブレ」「シール付」。": "Mandarake condition card: overall \"below average\". Software \"average\", manual \"damaged (light)\", box \"damaged (heavy)\". Notes: \"manual lightly damaged, creased\", \"outer box heavily damaged, scuffed, crushed\", \"sticker included\".",
+  "購入時に付いていたまんだらけの状態カードと、オーナーが撮影した写真にもとづく。": "Based on the Mandarake condition card that came with the item and the owner's photos.",
+  "6,000円（税込6,600円）。箱・説明書付き。店頭購入のため送料なし。": "6,000 yen (6,600 yen incl. tax). With box and manual. Bought in store, so no shipping.",
+  "内トレイ（1）": "Inner tray (1)",
+  "内トレイ（2）": "Inner tray (2)",
+  "内トレイ（3）": "Inner tray (3)"
 }
