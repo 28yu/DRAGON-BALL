@@ -4290,6 +4290,2123 @@
       "editionsNote": "日本版の版違い・再販は見つかっていない（2026-10-05）。"
     },
     {
+      "id": "GUIDE-001",
+      "category": "guide",
+      "forItem": "FC-001",
+      "title": "ファミコン神拳奥義大全書 巻の三 ドラゴンボールのすべて",
+      "release": {
+        "value": "1986-12-15",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 神龍の謎」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン神拳奥義大全書 ドラゴンボール(巻の三)",
+            "url": "https://shopping.bookoff.co.jp/used/0015068194"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール 3―ファミコン神拳奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210537"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン神拳奥義大全書 三の巻 ドラゴンボールのすべて",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/s1241229258"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 神龍の謎」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン神拳奥義大全書 ドラゴンボール(巻の三)",
+            "url": "https://shopping.bookoff.co.jp/used/0015068194"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール 3―ファミコン神拳奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210537"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン神拳奥義大全書 三の巻 ドラゴンボールのすべて",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/s1241229258"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1053-7",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 神龍の謎」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E7%A5%9E%E9%BE%8D%E3%81%AE%E8%AC%8E"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン神拳奥義大全書 ドラゴンボール(巻の三)",
+            "url": "https://shopping.bookoff.co.jp/used/0015068194"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール 3―ファミコン神拳奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210537"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン神拳奥義大全書 三の巻 ドラゴンボールのすべて",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/s1241229258"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-001/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-001/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション。ファミコン神拳奥義大全書（全5巻＋特別編）のうち、ドラゴンボール（神龍の謎）の巻。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボール 神龍の謎の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://www.amazon.co.jp/dp/4834210537"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/s1241229258"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-002",
+      "category": "guide",
+      "forItem": "FC-001",
+      "title": "ドラゴンボール マル秘巻物攻略本（「神龍を探せ!!」キャンペーン景品）",
+      "release": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "publisher": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "発売当時の「神龍を探せ!!」キャンペーンで抽選2000名に贈られた巻物型の攻略本（Wikipediaの記述による）。市販品ではなく、現物・出品・書誌情報は見つかっていない。出版社も未確認。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボール 神龍の謎の攻略本）"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-003",
+      "category": "guide",
+      "forItem": "FC-002",
+      "title": "ドラゴンボール 大魔王復活 必勝!!奥義の書!!",
+      "release": {
+        "value": "1988-08-15",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 大魔王復活」参考文献",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB"
+          },
+          {
+            "title": "ブックオフ公式 FC ドラゴンボール 大魔王復活 必勝!! 奥義の書!!",
+            "url": "https://shopping.bookoff.co.jp/used/0020367883"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール大魔王復活: ファミコン必勝本",
+            "url": "https://www.amazon.co.jp/dp/4834210693"
+          },
+          {
+            "title": "ヤフオク 落札済み 公式攻略本「ドラゴンボール 大魔王復活 必勝!!奥義の書!!」",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1247572727"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 大魔王復活」参考文献",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB"
+          },
+          {
+            "title": "ブックオフ公式 FC ドラゴンボール 大魔王復活 必勝!! 奥義の書!!",
+            "url": "https://shopping.bookoff.co.jp/used/0020367883"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール大魔王復活: ファミコン必勝本",
+            "url": "https://www.amazon.co.jp/dp/4834210693"
+          },
+          {
+            "title": "ヤフオク 落札済み 公式攻略本「ドラゴンボール 大魔王復活 必勝!!奥義の書!!」",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1247572727"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1069-3",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボール 大魔王復活」参考文献",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB_%E5%A4%A7%E9%AD%94%E7%8E%8B%E5%BE%A9%E6%B4%BB"
+          },
+          {
+            "title": "ブックオフ公式 FC ドラゴンボール 大魔王復活 必勝!! 奥義の書!!",
+            "url": "https://shopping.bookoff.co.jp/used/0020367883"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボール大魔王復活: ファミコン必勝本",
+            "url": "https://www.amazon.co.jp/dp/4834210693"
+          },
+          {
+            "title": "ヤフオク 落札済み 公式攻略本「ドラゴンボール 大魔王復活 必勝!!奥義の書!!」",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1247572727"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-003/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-003/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション（少年ジャンプ特別編集）。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボール 大魔王復活の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/p1247572727"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/p1247572727"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-004",
+      "category": "guide",
+      "forItem": "FC-004",
+      "title": "ファミコン奥義大全書 ドラゴンボールZ 強襲!サイヤ人",
+      "release": {
+        "value": "1990-11-05",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZ 強襲!サイヤ人」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ_%E5%BC%B7%E8%A5%B2!%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067726"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボールZ 強襲サイヤ人: ファミコン奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210170"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ 強襲! サイヤ人（ISBN記載あり）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/o1248248600"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZ 強襲!サイヤ人」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ_%E5%BC%B7%E8%A5%B2!%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067726"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボールZ 強襲サイヤ人: ファミコン奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210170"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ 強襲! サイヤ人（ISBN記載あり）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/o1248248600"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1017-0",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZ 強襲!サイヤ人」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ_%E5%BC%B7%E8%A5%B2!%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067726"
+          },
+          {
+            "title": "Amazon.co.jp ドラゴンボールZ 強襲サイヤ人: ファミコン奥義大全書",
+            "url": "https://www.amazon.co.jp/dp/4834210170"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ 強襲! サイヤ人（ISBN記載あり）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/o1248248600"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-004/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-004/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション。発行日は資料により食い違いあり（Wikipedia 1990-11-05、ブックオフ 1990-10、Amazon 1990-11）。巻末に袋とじ。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 強襲!サイヤ人の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://shopping.bookoff.co.jp/used/0015067726"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/o1248248600"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-005",
+      "category": "guide",
+      "forItem": "FC-005",
+      "title": "ファミコン奥義大全書 ドラゴンボールZII 激神フリーザ!!",
+      "release": {
+        "value": "1991-08-12",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZII 激神フリーザ!!」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZII_%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6!!"
+          },
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZⅡ-激神フリーザ- : ファミコン奥義大全集",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16411618"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ2激神フリーザ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067729"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書ドラゴンボールZ2激神フリーザ",
+            "url": "https://www.amazon.co.jp/dp/4834210200"
+          },
+          {
+            "title": "ヤフオク 落札済み（定価500円・97頁の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1232006665"
+          },
+          {
+            "title": "ヤフオク 落札済み（1991年8月12日初版の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1235104311"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZII 激神フリーザ!!」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZII_%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6!!"
+          },
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZⅡ-激神フリーザ- : ファミコン奥義大全集",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16411618"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ2激神フリーザ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067729"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書ドラゴンボールZ2激神フリーザ",
+            "url": "https://www.amazon.co.jp/dp/4834210200"
+          },
+          {
+            "title": "ヤフオク 落札済み（定価500円・97頁の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1232006665"
+          },
+          {
+            "title": "ヤフオク 落札済み（1991年8月12日初版の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1235104311"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1020-0",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZII 激神フリーザ!!」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZII_%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6!!"
+          },
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZⅡ-激神フリーザ- : ファミコン奥義大全集",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16411618"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ2激神フリーザ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067729"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書ドラゴンボールZ2激神フリーザ",
+            "url": "https://www.amazon.co.jp/dp/4834210200"
+          },
+          {
+            "title": "ヤフオク 落札済み（定価500円・97頁の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1232006665"
+          },
+          {
+            "title": "ヤフオク 落札済み（1991年8月12日初版の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1235104311"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 500,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZII 激神フリーザ!!」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZII_%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6!!"
+          },
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZⅡ-激神フリーザ- : ファミコン奥義大全集",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16411618"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZ2激神フリーザ",
+            "url": "https://shopping.bookoff.co.jp/used/0015067729"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書ドラゴンボールZ2激神フリーザ",
+            "url": "https://www.amazon.co.jp/dp/4834210200"
+          },
+          {
+            "title": "ヤフオク 落札済み（定価500円・97頁の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1232006665"
+          },
+          {
+            "title": "ヤフオク 落札済み（1991年8月12日初版の記載）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1235104311"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-005/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-005/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション。B6判・97ページ。巻末に袋とじ、ポスター付き。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZII 激神フリーザ!!の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://www.amazon.co.jp/dp/4834210200"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/r1235104311"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-006",
+      "category": "guide",
+      "forItem": "FC-006",
+      "title": "ファミコン奥義大全書 ドラゴンボールZIII 烈戦人造人間",
+      "release": {
+        "value": "1992-08-15",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZIII 烈戦人造人間」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZIII_%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93"
+          },
+          {
+            "title": "国立国会図書館サーチ DRAGON BALLZ Ⅲ : 烈戦人造人間",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16422168"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZⅢ 烈戦人造人間",
+            "url": "https://shopping.bookoff.co.jp/used/0015068395"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書 ドラゴンボールZ3 烈戦人造人間",
+            "url": "https://www.amazon.co.jp/dp/4834211436"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ Ⅲ 烈戦人造人間",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/q1235000454"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZIII 烈戦人造人間」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZIII_%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93"
+          },
+          {
+            "title": "国立国会図書館サーチ DRAGON BALLZ Ⅲ : 烈戦人造人間",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16422168"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZⅢ 烈戦人造人間",
+            "url": "https://shopping.bookoff.co.jp/used/0015068395"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書 ドラゴンボールZ3 烈戦人造人間",
+            "url": "https://www.amazon.co.jp/dp/4834211436"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ Ⅲ 烈戦人造人間",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/q1235000454"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1143-6",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZIII 烈戦人造人間」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZIII_%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93"
+          },
+          {
+            "title": "国立国会図書館サーチ DRAGON BALLZ Ⅲ : 烈戦人造人間",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16422168"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZⅢ 烈戦人造人間",
+            "url": "https://shopping.bookoff.co.jp/used/0015068395"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書 ドラゴンボールZ3 烈戦人造人間",
+            "url": "https://www.amazon.co.jp/dp/4834211436"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ Ⅲ 烈戦人造人間",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/q1235000454"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 500,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "Wikipedia「ドラゴンボールZIII 烈戦人造人間」関連書籍",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZIII_%E7%83%88%E6%88%A6%E4%BA%BA%E9%80%A0%E4%BA%BA%E9%96%93"
+          },
+          {
+            "title": "国立国会図書館サーチ DRAGON BALLZ Ⅲ : 烈戦人造人間",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16422168"
+          },
+          {
+            "title": "ブックオフ公式 ファミコン奥義大全書 ドラゴンボールZⅢ 烈戦人造人間",
+            "url": "https://shopping.bookoff.co.jp/used/0015068395"
+          },
+          {
+            "title": "Amazon.co.jp ファミコン奥義大全書 ドラゴンボールZ3 烈戦人造人間",
+            "url": "https://www.amazon.co.jp/dp/4834211436"
+          },
+          {
+            "title": "ヤフオク 落札済み ファミコン奥義大全書 ドラゴンボールZ Ⅲ 烈戦人造人間",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/q1235000454"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-006/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-006/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション。96ページ。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZIII 烈戦人造人間の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://www.amazon.co.jp/dp/4834211436"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/q1235000454"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-007",
+      "category": "guide",
+      "forItem": "FC-007",
+      "title": "ドラゴンボールZ・外伝 サイヤ人絶滅計画（Vジャンプブックス ゲームシリーズ）",
+      "release": {
+        "value": "1993-09-14",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ・外伝サイヤ人絶滅計画（Vジャンプブックス. ゲームシリーズ）",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002265493"
+          },
+          {
+            "title": "Wikipedia「ドラゴンボールZ外伝 サイヤ人絶滅計画」関連商品",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D_%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB"
+          },
+          {
+            "title": "ヤフオク 落札済み（初版・ポスター付き・1993年9月14日発行）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/c1243117692"
+          },
+          {
+            "title": "ヤフオク 落札済み 初版「ドラゴンボールZ外伝サイヤ人絶滅計画」Vジャンプブックス",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/l1239999008"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ・外伝サイヤ人絶滅計画（Vジャンプブックス. ゲームシリーズ）",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002265493"
+          },
+          {
+            "title": "Wikipedia「ドラゴンボールZ外伝 サイヤ人絶滅計画」関連商品",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D_%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB"
+          },
+          {
+            "title": "ヤフオク 落札済み（初版・ポスター付き・1993年9月14日発行）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/c1243117692"
+          },
+          {
+            "title": "ヤフオク 落札済み 初版「ドラゴンボールZ外伝サイヤ人絶滅計画」Vジャンプブックス",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/l1239999008"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 1000,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ・外伝サイヤ人絶滅計画（Vジャンプブックス. ゲームシリーズ）",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002265493"
+          },
+          {
+            "title": "Wikipedia「ドラゴンボールZ外伝 サイヤ人絶滅計画」関連商品",
+            "url": "https://ja.wikipedia.org/wiki/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZ%E5%A4%96%E4%BC%9D_%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B5%B6%E6%BB%85%E8%A8%88%E7%94%BB"
+          },
+          {
+            "title": "ヤフオク 落札済み（初版・ポスター付き・1993年9月14日発行）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/c1243117692"
+          },
+          {
+            "title": "ヤフオク 落札済み 初版「ドラゴンボールZ外伝サイヤ人絶滅計画」Vジャンプブックス",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/l1239999008"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-007/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-007/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "145ページ。定価1,000円（税込）。ISBNの記載なし（雑誌扱いの可能性）。袋とじ・データック用バーコードカード・ポスター付き。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ外伝 サイヤ人絶滅計画の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/c1243117692"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://auctions.yahoo.co.jp/jp/auction/c1243117692"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-008",
+      "category": "guide",
+      "forItem": "SFC-001",
+      "title": "スーパーファミコン奥義大全書 ドラゴンボールZ 超サイヤ伝説",
+      "release": {
+        "value": "1992-02",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション",
+            "url": "https://shopping.bookoff.co.jp/used/0015068394"
+          },
+          {
+            "title": "ヤフオク落札 攻略本 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/p1196467749"
+          },
+          {
+            "title": "ヤフオク落札 DF26t スーパーファミコン奥義大全書 ドラゴンボールZ 超サイヤ伝説 集英社 1992年",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/q1235001301"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書 集英社 初版 袋綴じ開封済み",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1240888528"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション",
+            "url": "https://shopping.bookoff.co.jp/used/0015068394"
+          },
+          {
+            "title": "ヤフオク落札 攻略本 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/p1196467749"
+          },
+          {
+            "title": "ヤフオク落札 DF26t スーパーファミコン奥義大全書 ドラゴンボールZ 超サイヤ伝説 集英社 1992年",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/q1235001301"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書 集英社 初版 袋綴じ開封済み",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1240888528"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1142-8",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション",
+            "url": "https://shopping.bookoff.co.jp/used/0015068394"
+          },
+          {
+            "title": "ヤフオク落札 攻略本 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/p1196467749"
+          },
+          {
+            "title": "ヤフオク落札 DF26t スーパーファミコン奥義大全書 ドラゴンボールZ 超サイヤ伝説 集英社 1992年",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/q1235001301"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超サイヤ伝説 スーパーファミコン奥義大全書 集英社 初版 袋綴じ開封済み",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1240888528"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-008/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-008/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション（週刊少年ジャンプ特別編集）。ホーム社発行・集英社発売。袋とじあり。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超サイヤ伝説の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/p1196467749"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/p1196467749"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-009",
+      "category": "guide",
+      "forItem": "SFC-002",
+      "title": "スーパーファミコン奥義大全書 ドラゴンボールZ 超武闘伝",
+      "release": {
+        "value": "1993-03",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ : 超武闘伝 スーパーファミコン奥義大全書",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002242024"
+          },
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション（1993/03/01）",
+            "url": "https://shopping.bookoff.co.jp/used/0015079644"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝 スーパーファミコン奥義大全書 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/g1239995545"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "ホーム社（発行）・集英社（発売）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ : 超武闘伝 スーパーファミコン奥義大全書",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002242024"
+          },
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション（1993/03/01）",
+            "url": "https://shopping.bookoff.co.jp/used/0015079644"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝 スーパーファミコン奥義大全書 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/g1239995545"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-8342-1146-0",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ : 超武闘伝 スーパーファミコン奥義大全書",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002242024"
+          },
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション（1993/03/01）",
+            "url": "https://shopping.bookoff.co.jp/used/0015079644"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝 スーパーファミコン奥義大全書 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/g1239995545"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 500,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ : 超武闘伝 スーパーファミコン奥義大全書",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002242024"
+          },
+          {
+            "title": "ブックオフ公式 スーパーファミコン奥義大全書 ドラゴンボールZ ジャンプCセレクション（1993/03/01）",
+            "url": "https://shopping.bookoff.co.jp/used/0015079644"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝 スーパーファミコン奥義大全書 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/g1239995545"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-009/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-009/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "ジャンプ コミックス セレクション（週刊少年ジャンプ特別編集）。96ページ。定価500円（税込）。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://shopping.bookoff.co.jp/used/0015079644"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/g1239995545"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-010",
+      "category": "guide",
+      "forItem": "SFC-003",
+      "title": "ドラゴンボールZ 超武闘伝2（Vジャンプブックス ゲームシリーズ）",
+      "release": {
+        "value": "1994-01",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝2",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002294905"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2 攻略本 中古品",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/m1228111213"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2/Vジャンプブックス 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/o1233890874"
+          },
+          {
+            "title": "ヤフオク落札 当時物 攻略本 ドラゴンボールZ 超武闘伝2 Vジャンプ 初版 ハガキ付",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/u1234567862"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝2",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002294905"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2 攻略本 中古品",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/m1228111213"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2/Vジャンプブックス 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/o1233890874"
+          },
+          {
+            "title": "ヤフオク落札 当時物 攻略本 ドラゴンボールZ 超武闘伝2 Vジャンプ 初版 ハガキ付",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/u1234567862"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 1000,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝2",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000002294905"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2 攻略本 中古品",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/m1228111213"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝2/Vジャンプブックス 攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/o1233890874"
+          },
+          {
+            "title": "ヤフオク落札 当時物 攻略本 ドラゴンボールZ 超武闘伝2 Vジャンプ 初版 ハガキ付",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/u1234567862"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-010/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-010/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "150ページ。定価1,000円（税込）。ISBNの記載なし。袋とじ・ハガキ付き。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝2の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/m1228111213"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/m1228111213"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-011",
+      "category": "guide",
+      "forItem": "SFC-003",
+      "title": "ドラゴンボールZ 超武闘伝2 爆烈バトルデータマニュアル!!（Vジャンプ 1994年1月号 別冊付録）",
+      "release": {
+        "value": "1994-01",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【別冊付録付】Vジャンプ 1994年1月号 ドラゴンボールZ 超武闘伝2 …（説明文に付録の名前あり）",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/r1248966233"
+          },
+          {
+            "title": "ヤフオク落札 【ゲーム雑誌】付録 Vジャンプ ドラゴンボール 超武闘伝２ ロマサガ ロマンシング サガ ２",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/w1224509223"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【別冊付録付】Vジャンプ 1994年1月号 ドラゴンボールZ 超武闘伝2 …（説明文に付録の名前あり）",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/r1248966233"
+          },
+          {
+            "title": "ヤフオク落札 【ゲーム雑誌】付録 Vジャンプ ドラゴンボール 超武闘伝２ ロマサガ ロマンシング サガ ２",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/w1224509223"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-011/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-011/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "雑誌の別冊付録。反対側は「ロマンシング サ・ガ2」の2本立て（裏表紙の画像はその面）。単体の定価なし。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝2の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/w1224509223"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/w1224509223"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-012",
+      "category": "guide",
+      "forItem": "SFC-003",
+      "title": "ドラゴンボールZ 超武闘伝2 Z戦士養成講座!!（Vジャンプ 1994年2月号 別冊付録）",
+      "release": {
+        "value": "1994-02",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【付録2冊完備】Vジャンプ 1994年2月号 鳥山明 ドラゴンボールZ 超武闘伝2 …（説明文に付録の名前あり）",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1249096654"
+          },
+          {
+            "title": "ヤフオク落札 Vジャンプ 1994年2月号 別冊付録2冊付き ドラゴンボールZ 超武闘伝2 …",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/d1249778309"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【付録2冊完備】Vジャンプ 1994年2月号 鳥山明 ドラゴンボールZ 超武闘伝2 …（説明文に付録の名前あり）",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1249096654"
+          },
+          {
+            "title": "ヤフオク落札 Vジャンプ 1994年2月号 別冊付録2冊付き ドラゴンボールZ 超武闘伝2 …",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/d1249778309"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [],
+      "alerts": [],
+      "notes": "雑誌の別冊付録（同じ号のもう1冊は幽☆遊☆白書）。付録の表紙の画像は見つかっていない。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝2の攻略本）"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-013",
+      "category": "guide",
+      "forItem": "SFC-004",
+      "title": "ドラゴンボールZ 超武闘伝3 読めば必ず強くなる!!!（Vジャンプブックス ゲームシリーズ）",
+      "release": {
+        "value": "1994-11",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝3 : 読めば必ず強くなる!!!",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16128728"
+          },
+          {
+            "title": "ヤフオク落札 初版 DRAGON BALL Z ドラゴンボールZ 超武闘伝3 SFC 攻略本 集英社",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/s1234271648"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝3 攻略本 スーパーファミコン DRAGON BALL",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/z637267268"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝3 : 読めば必ず強くなる!!!",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16128728"
+          },
+          {
+            "title": "ヤフオク落札 初版 DRAGON BALL Z ドラゴンボールZ 超武闘伝3 SFC 攻略本 集英社",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/s1234271648"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝3 攻略本 スーパーファミコン DRAGON BALL",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/z637267268"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 1000,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "国立国会図書館サーチ ドラゴンボールZ超武闘伝3 : 読めば必ず強くなる!!!",
+            "url": "https://ndlsearch.ndl.go.jp/books/R100000128-IB16128728"
+          },
+          {
+            "title": "ヤフオク落札 初版 DRAGON BALL Z ドラゴンボールZ 超武闘伝3 SFC 攻略本 集英社",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/s1234271648"
+          },
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超武闘伝3 攻略本 スーパーファミコン DRAGON BALL",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/z637267268"
+          }
+        ],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-013/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-013/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "136ページ。定価1,000円（税込・税抜の記載なし）。ISBNの記載なし。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝3の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/s1234271648"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/s1234271648"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-014",
+      "category": "guide",
+      "forItem": "SFC-004",
+      "title": "ドラゴンボールZ 超武闘伝3 全キャラクター&基礎知識集（Vジャンプ 1994年10月号 付録）",
+      "release": {
+        "value": "1994-10-01",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【ゲーム雑誌】付録 Vジャンプ ドラゴンボールZ 鳥山明 超武闘伝３ スラムダンク ラッキーマン ターちゃん",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/m1224521811"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 【ゲーム雑誌】付録 Vジャンプ ドラゴンボールZ 鳥山明 超武闘伝３ スラムダンク ラッキーマン ターちゃん",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/m1224521811"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-014/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-014/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "雑誌の付録（バンダイ ドラゴン鈴木監修の公式付録）。題名・号・発行日は表紙の写真で読み取った（「Vジャンプ10月号付録 平成6年10月1日発行」）。裏表紙の画像は反対側の面（別の特集）。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超武闘伝3の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/m1224521811"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/m1224521811"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-015",
+      "category": "guide",
+      "forItem": "SFC-005",
+      "title": "ドラゴンボールZ 超悟空伝 突激編（Vジャンプ 1995年5月号 付録）",
+      "release": {
+        "value": "1995-05",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超悟空伝 突撃編 クロノ・トリガー ボスモンスター Vジャンプ付録 平成7年5月号付録 B6判 表紙込36P",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/v1239260500"
+          },
+          {
+            "title": "ヤフオク落札 【15】Vジャンプ 平成7年5月号付録 ドラゴンボールZ 超悟空伝 突激編 / クロノ・トリガー",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/f1227880710"
+          },
+          {
+            "title": "ヤフオク落札 Vジャンプ付録 ドラゴンボールZ超悟空伝 クロノトリガー 1995年5月号",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1232675354"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク落札 ドラゴンボールZ 超悟空伝 突撃編 クロノ・トリガー ボスモンスター Vジャンプ付録 平成7年5月号付録 B6判 表紙込36P",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/v1239260500"
+          },
+          {
+            "title": "ヤフオク落札 【15】Vジャンプ 平成7年5月号付録 ドラゴンボールZ 超悟空伝 突激編 / クロノ・トリガー",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/f1227880710"
+          },
+          {
+            "title": "ヤフオク落札 Vジャンプ付録 ドラゴンボールZ超悟空伝 クロノトリガー 1995年5月号",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/j1232675354"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-015/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/GUIDE-015/back.jpg",
+          "caption": "裏表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "雑誌の付録。B6判・表紙込み36ページ。反対側は「クロノ・トリガー ボスモンスター」の2本立て（裏表紙の画像はその面）。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ 超悟空伝 -突激編-の攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/v1239260500"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（裏表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://page.auctions.yahoo.co.jp/jp/auction/v1239260500"
+        }
+      ]
+    },
+    {
+      "id": "GUIDE-016",
+      "category": "guide",
+      "forItem": "SFC-007",
+      "title": "DRAGON BALL 最強格闘BIBLE ファイナルバウト・偉大なるドラゴンボール伝説・ハイパーディメンション（Vジャンプブックス）",
+      "release": {
+        "value": "1997-10-27",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 DRAGON BALL 最強格闘BIBLE ファイナルバウト 偉大なるドラゴンボール伝説 ハイバーディメンション Vジャンプブックス",
+            "url": "https://shopping.bookoff.co.jp/used/0017035399"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【DRAGON BALL ドラゴンボール 最強格闘BIBLE】SFC スーファミ版 PS プレステ版の3作分の攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/n1236723935"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【SFC PS ドラゴンボール 最強格闘BIBLE】",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/r1224582758"
+          }
+        ],
+        "note": ""
+      },
+      "publisher": {
+        "value": "集英社",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 DRAGON BALL 最強格闘BIBLE ファイナルバウト 偉大なるドラゴンボール伝説 ハイバーディメンション Vジャンプブックス",
+            "url": "https://shopping.bookoff.co.jp/used/0017035399"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【DRAGON BALL ドラゴンボール 最強格闘BIBLE】SFC スーファミ版 PS プレステ版の3作分の攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/n1236723935"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【SFC PS ドラゴンボール 最強格闘BIBLE】",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/r1224582758"
+          }
+        ],
+        "note": ""
+      },
+      "isbn": {
+        "value": "4-08-108060-7",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブックオフ公式 DRAGON BALL 最強格闘BIBLE ファイナルバウト 偉大なるドラゴンボール伝説 ハイバーディメンション Vジャンプブックス",
+            "url": "https://shopping.bookoff.co.jp/used/0017035399"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【DRAGON BALL ドラゴンボール 最強格闘BIBLE】SFC スーファミ版 PS プレステ版の3作分の攻略本",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/n1236723935"
+          },
+          {
+            "title": "ヤフオク落札 勝☆本ゲーム【SFC PS ドラゴンボール 最強格闘BIBLE】",
+            "url": "https://page.auctions.yahoo.co.jp/jp/auction/r1224582758"
+          }
+        ],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "ownership": {
+        "status": "not_owned",
+        "checkedAt": "2026-11-07",
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [],
+      "images": [
+        {
+          "path": "assets/images/items/GUIDE-016/front.jpg",
+          "caption": "表紙（参考画像）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "HYPER DIMENSION 専用ではなく、プレイステーションの2作と合わせた3作の攻略本。裏表紙の画像は見つかっていない。",
+      "history": [
+        {
+          "date": "2026-11-07",
+          "change": "収集対象として登録（ドラゴンボールZ HYPER DIMENSIONの攻略本）"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像（表紙）を登録（2026-11-07 オーナー指示でネットから取得）。出典 https://shopping.bookoff.co.jp/used/0017035399"
+        }
+      ]
+    },
+    {
       "id": "DBC-001",
       "category": "capsule",
       "title": "ドラゴンボールカプセル はじまりは四星球 ドラゴンボールメモリーズ編",
