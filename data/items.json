@@ -530,10 +530,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DRA",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -692,6 +697,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DRA）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -915,10 +924,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DB2",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。オーナーの写真の箱・カセットには表記が見当たらない。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -1077,6 +1091,10 @@
         {
           "date": "2026-11-07",
           "change": "参考画像を、オーナーが撮影した写真14枚に差し替え"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DB2）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -1237,10 +1255,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DB3",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。オーナーの写真の箱・カセットには表記が見当たらない。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -1427,6 +1450,10 @@
         {
           "date": "2026-10-30",
           "change": "受け取り。オーナーが撮影した写真3枚（セット一式・箱の表・箱の裏）を追加し、購入記録と商品の状態から「未着」を外した"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DB3）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -1519,10 +1546,19 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DBZ",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          },
+          {
+            "title": "Internet Archive「Dragon Ball Z - Kyoushuu! Saiya Jin [BA-DBZ]」（箱・説明書・カセットのスキャン）",
+            "url": "https://archive.org/details/dragon-ball-z-kyoushuu-saiya-jin-fc-hiresscans"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -1661,6 +1697,10 @@
         {
           "date": "2026-10-10",
           "change": "参考画像を、ヤフオクの出品写真10枚（購入した現物）に差し替え。送料230円を登録。出品ページ https://auctions.yahoo.co.jp/jp/auction/k1240517545"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DBZ）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -1774,10 +1814,19 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DBZ2",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          },
+          {
+            "title": "Weblio辞書「ドラゴンボールZII 激神フリーザ!!」（型式 BA-DBZ2）",
+            "url": "https://www.weblio.jp/content/%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%ABZII+%E6%BF%80%E7%A5%9E%E3%83%95%E3%83%AA%E3%83%BC%E3%82%B6!!"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -1944,6 +1993,10 @@
         {
           "date": "2026-10-13",
           "change": "参考画像を、メルカリの出品写真15枚（購入した現物）に差し替え。商品の状態を出品タイトルと写真にもとづいて登録。出品ページ https://jp.mercari.com/item/m93363864088"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DBZ2）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -2037,10 +2090,15 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DBZ3",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -2179,6 +2237,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DBZ3）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
@@ -2276,10 +2338,19 @@
         "note": ""
       },
       "modelNumber": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "箱・カセットの型番表記で要確認。"
+        "value": "BA-DBZ4",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "FCGamer「Complete Famicom Game List」（ファミコン全ソフトの一覧、PDF）",
+            "url": "https://fcgamer.wordpress.com/wp-content/uploads/2015/05/complete-famicom-game-list.pdf"
+          },
+          {
+            "title": "Internet Archive「Dragon Ball Z Gaiden - Saiya Jin Zetsumetsu Keikaku [BA-DBZ4]」（箱・説明書・カセットのスキャン）",
+            "url": "https://archive.org/details/dragon-ball-z-gaiden-saiya-jin-zetsumetsu-keikaku-fc-hiresscfans"
+          }
+        ],
+        "note": "バンダイの型番（ファンの資料による）。オーナーの写真の箱・カセットには表記が見当たらない。"
       },
       "platform": {
         "value": "ファミリーコンピュータ",
@@ -2491,6 +2562,10 @@
         {
           "date": "2026-11-07",
           "change": "内トレイの写真3枚を追加。まんだらけの状態カードの内容（総合「並下」など）を商品の状態に登録"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "型番（BA-DBZ4）をネットの資料で調べて登録（二次資料のため参考情報）"
         }
       ],
       "market": {
