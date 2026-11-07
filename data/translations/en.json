@@ -109,7 +109,7 @@
   "スーパーポテト 池袋ゲーム横丁（店頭）": "Super Potato, Ikebukuro Game Yokocho (in store)",
   "セット一式（箱・カセット・説明書・付属品）": "Full set (box, cartridge, manual, accessories)",
   "セット一式（箱・カセット・説明書・未使用シール）": "Complete set (box, cartridge, manual, unused sticker)",
-  "セット一式（箱・カセット・内トレイ・説明書・未使用シール）": "Complete set (box, cartridge, inner tray, manual, unused stickers)",
+  "セット一式（箱・カセット・内トレイ・説明書・未使用シール）": "Full set (box, cartridge, inner tray, manual, unused sticker)",
   "セル出現": "Cell Appears",
   "セル編改": "Cell Arc Kai",
   "ソフトのみ": "Cartridge only",
@@ -641,5 +641,9 @@
   "セット一式（箱・カセット・内トレイ・説明書・チラシ・アンケートはがき）": "Full set (box, cartridge, inner tray, manual, flyer, survey postcard)",
   "「ポケットクラブ P-1」のチラシ": "\"Pocket Club P-1\" flyer",
   "アンケートはがき（宛名面）": "Survey postcard (address side)",
-  "内トレイ": "Inner tray"
+  "内トレイ": "Inner tray",
+  "内トレイ（透明）、未使用シール（カセットに貼るラベル）": "Inner tray (clear), unused sticker (cartridge label)",
+  "オーナーが撮影した写真にもとづく。箱の角に擦れがある。その他の詳しい状態は未確認。": "Based on the owner's photos. The box corners show some wear. Other condition details not yet checked.",
+  "カセットを斜めから見たところ": "Cartridge at an angle",
+  "未使用シール（裏）": "Unused sticker (back)"
 }

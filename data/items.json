@@ -2316,16 +2316,16 @@
       },
       "ownership": {
         "status": "owned",
-        "checkedAt": "2026-10-03",
+        "checkedAt": "2026-11-07",
         "note": "入手先：まんだらけ中野店（店頭）"
       },
       "condition": {
-        "box": "あり",
-        "manual": "あり",
+        "box": "あり（オーナーの写真で確認）",
+        "manual": "あり（取扱説明書。オーナーの写真で確認）",
         "obi": null,
-        "extras": null,
+        "extras": "内トレイ（透明）、未使用シール（カセットに貼るラベル）",
         "overall": null,
-        "note": "箱・説明書付き。その他の状態は写真の受け取り後に登録予定。"
+        "note": "オーナーが撮影した写真にもとづく。箱の角に擦れがある。その他の詳しい状態は未確認。"
       },
       "purchases": [
         {
@@ -2378,8 +2378,55 @@
       "images": [
         {
           "path": "assets/images/items/FC-007/front.jpg",
-          "caption": "箱の表（参考画像・自分の写真に差し替え予定）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-007/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-007/set.jpg",
+          "caption": "セット一式（箱・カセット・内トレイ・説明書・未使用シール）"
+        },
+        {
+          "path": "assets/images/items/FC-007/spine-1.jpg",
+          "caption": "箱の側面1"
+        },
+        {
+          "path": "assets/images/items/FC-007/spine-2.jpg",
+          "caption": "箱の側面2"
+        },
+        {
+          "path": "assets/images/items/FC-007/cartridge.jpg",
+          "caption": "カセット（表）"
+        },
+        {
+          "path": "assets/images/items/FC-007/cartridge-back.jpg",
+          "caption": "カセット（裏）"
+        },
+        {
+          "path": "assets/images/items/FC-007/cartridge-top-1.jpg",
+          "caption": "カセットを斜めから見たところ"
+        },
+        {
+          "path": "assets/images/items/FC-007/terminal-1.jpg",
+          "caption": "カセットの端子部分"
+        },
+        {
+          "path": "assets/images/items/FC-007/manual.jpg",
+          "caption": "説明書の表紙"
+        },
+        {
+          "path": "assets/images/items/FC-007/manual-back.jpg",
+          "caption": "説明書の裏表紙"
+        },
+        {
+          "path": "assets/images/items/FC-007/inserts.jpg",
+          "caption": "未使用シール"
+        },
+        {
+          "path": "assets/images/items/FC-007/inserts-back.jpg",
+          "caption": "未使用シール（裏）"
         }
       ],
       "alerts": [],
@@ -2424,6 +2471,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像を、オーナーが撮影した写真13枚に差し替え。商品の状態（内トレイ・未使用シール付き）を写真にもとづいて登録"
         }
       ],
       "market": {
