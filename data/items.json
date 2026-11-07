@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-10-30",
+    "updatedAt": "2026-11-07",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -954,26 +954,85 @@
         "note": "参考サイトの記載額（税込・税抜の表記なし）。発売当時の定価表記との関係は未確認。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-03",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-11-07",
+        "note": "入手先：駿河屋 ゆめタウン大牟田店"
       },
       "condition": {
-        "box": null,
-        "manual": null,
+        "box": "あり（オーナーの写真で確認）",
+        "manual": "あり（取扱説明書。オーナーの写真で確認）",
         "obi": null,
-        "extras": null,
+        "extras": "内トレイ（透明）、「ポケットクラブ P-1」（バンダイの携帯ゲーム機）のチラシ、アンケートはがき（バンダイお客様相談センター「ドラゴンボール 大魔王復活 係」宛）",
         "overall": null,
-        "note": ""
+        "note": "オーナーが撮影した写真にもとづく。傷み具合などの詳しい状態は未確認。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": "2026-11-03",
+          "price": 9180,
+          "shipping": 1280,
+          "shop": "駿河屋 ゆめタウン大牟田店",
+          "note": "商品9,180円＋送料・出荷手数料1,280円（総合計10,460円）。2026-11-04 発送、2026-11-06 到着。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/FC-002/front.jpg",
-          "caption": "箱の表（参考画像・未所持）",
-          "kind": "reference"
+          "caption": "箱の表"
+        },
+        {
+          "path": "assets/images/items/FC-002/back.jpg",
+          "caption": "箱の裏"
+        },
+        {
+          "path": "assets/images/items/FC-002/set.jpg",
+          "caption": "セット一式（箱・カセット・内トレイ・説明書・チラシ・アンケートはがき）"
+        },
+        {
+          "path": "assets/images/items/FC-002/spine-1.jpg",
+          "caption": "箱の側面1"
+        },
+        {
+          "path": "assets/images/items/FC-002/spine-2.jpg",
+          "caption": "箱の側面2"
+        },
+        {
+          "path": "assets/images/items/FC-002/cartridge.jpg",
+          "caption": "カセット（表）"
+        },
+        {
+          "path": "assets/images/items/FC-002/cartridge-back.jpg",
+          "caption": "カセット（裏）"
+        },
+        {
+          "path": "assets/images/items/FC-002/cartridge-top-1.jpg",
+          "caption": "カセットの上部ラベル"
+        },
+        {
+          "path": "assets/images/items/FC-002/terminal-1.jpg",
+          "caption": "カセットの端子部分"
+        },
+        {
+          "path": "assets/images/items/FC-002/manual.jpg",
+          "caption": "説明書の表紙"
+        },
+        {
+          "path": "assets/images/items/FC-002/manual-back.jpg",
+          "caption": "説明書の裏表紙"
+        },
+        {
+          "path": "assets/images/items/FC-002/inserts.jpg",
+          "caption": "「ポケットクラブ P-1」のチラシ"
+        },
+        {
+          "path": "assets/images/items/FC-002/inserts-2.jpg",
+          "caption": "アンケートはがき（宛名面）"
+        },
+        {
+          "path": "assets/images/items/FC-002/extra-1.jpg",
+          "caption": "内トレイ"
         }
       ],
       "alerts": [],
@@ -1010,6 +1069,14 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "駿河屋 ゆめタウン大牟田店で購入（2026-11-03 注文、9,180円＋送料1,280円、2026-11-06 到着）。所持状況を「所持」に変更し、購入記録と商品の状態を登録"
+        },
+        {
+          "date": "2026-11-07",
+          "change": "参考画像を、オーナーが撮影した写真14枚に差し替え"
         }
       ],
       "market": {
