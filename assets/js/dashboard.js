@@ -656,7 +656,7 @@ function demoData(range, bucket) {
     prev: { views: Math.round(total * 0.82), visitors: Math.round(total * 0.36), sessions: Math.round(total * 0.5), avg_duration: 47 },
     series, hours, weekday_hour, pages,
     countries: [["JP", 0.86], ["US", 0.05], ["TW", 0.03], ["FR", 0.02], ["KR", 0.015], ["??", 0.01]].map(([country, r]) => ({ country, views: Math.round(total * r), visitors: Math.round(total * r * 0.4) })),
-    categories: [["famicom", 0.3], ["capsule", 0.25], ["book", 0.12], ["sfc", 0.1]].map(([category, r]) => ({ category, views: Math.round(total * r) })),
+    categories: [["famicom", 0.3], ["capsule", 0.22], ["book", 0.12], ["sfc", 0.1], ["guide", 0.06]].map(([category, r]) => ({ category, views: Math.round(total * r) })),
     referrers: [["(direct)", 0.3], ["www.google.com", 0.12], ["t.co", 0.05], ["search.yahoo.co.jp", 0.03], ["www.instagram.com", 0.02]].map(([host, r]) => ({ host, views: Math.round(total * r) })),
     devices: share([["mobile", 0.68], ["desktop", 0.27], ["tablet", 0.05]]),
     browsers: share([["Safari", 0.5], ["Chrome", 0.4], ["Edge", 0.06]]),

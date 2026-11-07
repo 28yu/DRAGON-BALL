@@ -40,15 +40,23 @@ function row(label, html) {
   return `<tr><th scope="row">${escapeHTML(label)}</th><td>${html}</td></tr>`;
 }
 
-function basicInfoHTML(item, category) {
+// 本の形の商品（カードダス関連資料・攻略本）。出版社・ISBN を出す
+function isBookLike(item) {
+  return item.category === "book" || item.category === "guide";
+}
+
+function basicInfoHTML(item, category, data) {
   const rows = [
     row(t("管理ID", "ID"), `<span class="item-id">${escapeHTML(item.id)}</span>`),
     row(t("正式名称", "Full title"), escapeHTML(tx(item.title))),
     row(t("カテゴリー", "Category"), escapeHTML(tx(category?.label) || item.category)),
     row(t("発売日・発売年", "Release date"), factHTML(item.release, formatDate)),
-    row(item.category === "book" ? t("出版社", "Publisher") : t("メーカー", "Maker"), factHTML(item.publisher)),
+    row(isBookLike(item) ? t("出版社", "Publisher") : t("メーカー", "Maker"), factHTML(item.publisher)),
   ];
-  if (item.category === "book") {
+  if (isBookLike(item)) {
+    // 攻略本は、どのソフトの攻略本かをソフトのページへのリンクで示す（2026-11-07 追加）
+    const game = item.forItem ? data.items.find((i) => i.id === item.forItem) : null;
+    if (game) rows.push(row(t("対応ソフト", "For game"), `<a href="item.html?id=${encodeURIComponent(game.id)}">${escapeHTML(tx(game.title))}</a>`));
     rows.push(row("ISBN", factHTML(item.isbn)));
   } else if (item.category === "capsule") {
     // フィギュア（ドラゴンボールカプセル）：商品内容を表示し、価格はメーカー希望小売価格として出す
@@ -805,7 +813,7 @@ function renderItem(data, item) {
       ["memo", t("メモ・出典", "Notes")],
     ])}
     ${figuresHTML(item)}
-    ${section(t("基本情報", "Basic information"), basicInfoHTML(item, category), "basic")}
+    ${section(t("基本情報", "Basic information"), basicInfoHTML(item, category, data), "basic")}
     ${item.editions || item.editionsNote ? section(t("版の違い・見分け方", "Editions and how to tell them apart"), editionsHTML(item), "editions") : ""}
     ${section(t(`画像（${(item.images || []).length}枚）`, `Photos (${(item.images || []).length})`), galleryHTML(item), "gallery")}
     ${section(t("商品の状態", "Condition"), ownershipHTML(item), "ownership")}

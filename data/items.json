@@ -61,6 +61,12 @@
       ]
     },
     {
+      "id": "guide",
+      "idPrefix": "GUIDE",
+      "label": "攻略本",
+      "description": "ファミコン・スーパーファミコン版ドラゴンボールのゲームの攻略本（当時発売のもの）"
+    },
+    {
       "id": "capsule",
       "idPrefix": "DBC",
       "label": "ドラゴンボールカプセル",

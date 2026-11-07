@@ -71,7 +71,7 @@
 
   const params = new URLSearchParams(location.search);
   const itemId = /item\.html$/.test(path) ? (params.get("id") || "").slice(0, 40) : "";
-  const CATEGORY_BY_PREFIX = { BOOK: "book", FC: "famicom", SFC: "sfc", DBC: "capsule" };
+  const CATEGORY_BY_PREFIX = { BOOK: "book", FC: "famicom", SFC: "sfc", GUIDE: "guide", DBC: "capsule" };
   const category = itemId ? CATEGORY_BY_PREFIX[itemId.split("-")[0]] || null : null;
   const pageType = itemId ? "item" : /listings\.html$/.test(path) ? "listings" : /(\/|index\.html)$/.test(path) ? "top" : "other";
 
