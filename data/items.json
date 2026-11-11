@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-07",
+    "updatedAt": "2026-11-11",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -16428,6 +16428,626 @@
           "セット"
         ],
         "mercariQuery": "ドラゴンボールカプセル ワンピース セット"
+      }
+    },
+    {
+      "id": "DBC-017",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 宿命の戦い!! サイヤ人編",
+      "release": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク 落札済み検索「宿命の戦い サイヤ人編 ドラゴンボールカプセル」の出品名（2026-11-11 確認）",
+            "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%AE%BF%E5%91%BD%E3%81%AE%E6%88%A6%E3%81%84%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB"
+          }
+        ],
+        "note": "出品名の表記（「メガハウス」「MegaHouse」）による。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 480,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+            "url": "https://jp.mercari.com/item/m96132184498"
+          }
+        ],
+        "note": "箱の表記「メーカー希望小売価格 480円（税別）」。"
+      },
+      "contents": {
+        "value": "全7種（フル彩色版とブロンズ版がある）＋ボーナスパーツ「神龍」。1個に彩色済みジオラマ1個と神龍パーツ1個入り。サイヤ人編の名場面のジオラマ。",
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+            "url": "https://jp.mercari.com/item/m96132184498"
+          },
+          {
+            "title": "ヤフオク 落札済み検索「宿命の戦い サイヤ人編 ドラゴンボールカプセル」の出品名（2026-11-11 確認）",
+            "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%AE%BF%E5%91%BD%E3%81%AE%E6%88%A6%E3%81%84%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB"
+          }
+        ],
+        "note": "箱の表記（「全7種類」「フル彩色バージョンとブロンズバージョンがあります」「彩色済みジオラマ1個・神龍パーツ1個入り」）による。"
+      },
+      "ownership": {
+        "status": "owned",
+        "checkedAt": "2026-11-11",
+        "note": "入手先：メルカリ"
+      },
+      "condition": {
+        "box": "あり（外箱。出品の説明では経年のため美品ではない）",
+        "manual": "ラインナップの紙7枚",
+        "obi": null,
+        "extras": "カプセル7個",
+        "overall": "出品時の商品の状態は「目立った傷や汚れなし」。",
+        "note": "出品時の説明と写真にもとづく。"
+      },
+      "purchases": [
+        {
+          "date": "2026-11-10",
+          "price": 8000,
+          "shipping": 0,
+          "shop": "メルカリ",
+          "note": "送料込み8,000円。出品タイトル「ドラゴンボールカプセル 宿命の戦い！サイヤ人編 全7種＋ボーナスパーツ神龍1種。」。彩色版の全7種＋神龍、ラインナップの紙7枚、外箱付き。"
+        }
+      ],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-017/front.jpg",
+          "caption": "外箱"
+        },
+        {
+          "path": "assets/images/items/DBC-017/capsules.jpg",
+          "caption": "カプセル7個（箱の中）"
+        },
+        {
+          "path": "assets/images/items/DBC-017/set.jpg",
+          "caption": "全7種と神龍を並べたところ"
+        },
+        {
+          "path": "assets/images/items/DBC-017/lineup.jpg",
+          "caption": "ラインナップの紙"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-11 にオーナーの購入にともない追加。フィギュアの名前は購入品のラインナップの紙の表記。番号は出品写真の順。",
+      "history": [
+        {
+          "date": "2026-11-11",
+          "change": "メルカリで購入（2026-11-10、送料込み8,000円）、受け取り。シリーズとして新しく登録し、全7種＋ボーナスパーツ「神龍」を所持として登録。名前・内容は購入品の箱とラインナップの紙で確認。出品ページ https://jp.mercari.com/item/m96132184498"
+        },
+        {
+          "date": "2026-11-11",
+          "change": "出品写真20枚を登録。出品ページ https://jp.mercari.com/item/m96132184498"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-017-01",
+          "no": 1,
+          "name": {
+            "value": "悟空 vs バブルスくん",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い バブルス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "バブルス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-01-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-01-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-02",
+          "no": 2,
+          "name": {
+            "value": "ナッパとベジータ",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い ナッパ ベジータ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "ナッパ",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-02-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-02-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-03",
+          "no": 3,
+          "name": {
+            "value": "ナッパ vs 悟空",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い ナッパ 悟空",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "ナッパ",
+              "悟空"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-03-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-03-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-04",
+          "no": 4,
+          "name": {
+            "value": "悟空 vs ベジータ",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い 悟空 ベジータ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "悟空",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-04-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-04-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-05",
+          "no": 5,
+          "name": {
+            "value": "悟空と悟飯",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い 悟空 悟飯",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "悟空",
+              "悟飯"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-05-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-05-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-06",
+          "no": 6,
+          "name": {
+            "value": "ピッコロと悟飯",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い ピッコロ 悟飯",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "ピッコロ",
+              "悟飯"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-06-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-06-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-07",
+          "no": 7,
+          "name": {
+            "value": "ベジータ大猿 vs 悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              }
+            ],
+            "note": "ラインナップの紙の表記。紙の端が重なって一部隠れているため、読める範囲で記録。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い 大猿",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "大猿"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-07-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-07-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "フル彩色版とブロンズ版がある（箱の表記）。所持しているのはフル彩色版。"
+        },
+        {
+          "id": "DBC-017-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "神龍",
+            "status": "confirmed",
+            "sources": [
+              {
+                "title": "現物の箱・ラインナップの紙（オーナーが購入したメルカリの出品写真）",
+                "url": "https://jp.mercari.com/item/m96132184498"
+              },
+              {
+                "title": "ヤフオク 落札済み検索「宿命の戦い サイヤ人編 ドラゴンボールカプセル」の出品名（2026-11-11 確認）",
+                "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E5%AE%BF%E5%91%BD%E3%81%AE%E6%88%A6%E3%81%84%20%E3%82%B5%E3%82%A4%E3%83%A4%E4%BA%BA%E7%B7%A8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB"
+              }
+            ],
+            "note": "このシリーズのボーナスパーツ（箱の表記「神龍パーツ」）。"
+          },
+          "ownership": {
+            "status": "owned",
+            "checkedAt": "2026-11-11",
+            "note": "入手先：メルカリ"
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 宿命の戦い 神龍",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宿命の戦い",
+              "神龍|シェンロン"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ブロンズ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-017/fig-08-front.jpg",
+              "caption": "表"
+            },
+            {
+              "path": "assets/images/items/DBC-017/fig-08-back.jpg",
+              "caption": "裏"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。各カプセルに神龍パーツが1個ずつ入っている（箱の表記）。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 宿命の戦い サイヤ人編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "宿命の戦い"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 宿命の戦い サイヤ人編 セット"
       }
     }
   ]
