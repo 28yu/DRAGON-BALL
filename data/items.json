@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-11",
+    "updatedAt": "2026-11-15",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -15886,10 +15886,15 @@
       "category": "capsule",
       "title": "ドラゴンボールカプセル・ネオ 週刊少年ジャンプ40周年限定版 with ONE PIECE",
       "release": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "未確認。"
+        "value": "2008",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "メルカリShops の出品写真（購入した現物の外箱の表記「MegaHouse 2008」）",
+            "url": "https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv"
+          }
+        ],
+        "note": "外箱の表記による（発売年の目安）。発売月は未確認。"
       },
       "publisher": {
         "value": "メガハウス",
@@ -15952,17 +15957,17 @@
         "note": "ブログの紹介記事とヤフオクの出品名にもとづく。メーカーの公式情報は見つかっていない。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-18",
-        "note": "情報のみ掲載（収集予定）。7体のうち孫悟空＆ルフィを所持。"
+        "status": "owned",
+        "checkedAt": "2026-11-15",
+        "note": "入手先：メルカリ"
       },
       "condition": {
-        "box": null,
+        "box": "あり（外箱は開封済み。出品写真・説明文で確認）",
         "manual": null,
         "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "extras": "カプセル7個（内袋は未開封）・組み立て説明書・ボーナスパーツ（出品写真・説明文で確認）",
+        "overall": "目立った傷や汚れなし（出品時の状態）",
+        "note": "出品の説明文と写真にもとづく。説明文では「外箱は開封されていますが、内袋は未開封」「店舗で展示・販売していた中古品」。7個のうち孫悟空＆ルフィ・ブルマ＆サンジはブロンズ版、ほかの5個はフル彩色版。オーナー自身による状態確認は未実施。写真は出品時のもの。"
       },
       "purchases": [
         {
@@ -15971,6 +15976,13 @@
           "shipping": null,
           "shop": "メルカリ",
           "note": "結集・伝説の超戦士編（DBC-014）のまとめ買い（8,500円・送料込み）に、孫悟空＆ルフィ（フル彩色版）が含まれていた。金額は DBC-014 の購入記録にまとめて記録。"
+        },
+        {
+          "date": "2026-11-15",
+          "price": 15555,
+          "shipping": 0,
+          "shop": "メルカリ",
+          "note": "送料込み15,555円（メルカリShops「お宝市番館」）。出品タイトル「【瀬戸店】内袋未開封 ドラゴンボールカプセル ネオ with ONE PIECE ７個セット（ボーナスパーツあり） メガハウス【704-6155】」。7個（ピッコロ＆チョッパー・亀仙人＆ナミ・悟飯＆ゾロ・クリリン＆ロビン・ベジータ＆フランキーはフル彩色版、悟空＆ルフィ・ブルマ＆サンジはブロンズ版）＋ボーナスパーツ（神龍＆そげキング）。"
         }
       ],
       "marketPrices": [],
@@ -15980,9 +15992,70 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-016/box-front.jpg",
+          "caption": "外箱"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsules-box.jpg",
+          "caption": "箱の中（カプセル7個）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-1.jpg",
+          "caption": "カプセルの中身（ブロンズ版の部品）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-2.jpg",
+          "caption": "カプセルの中身"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-3.jpg",
+          "caption": "カプセルの中身"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-4.jpg",
+          "caption": "カプセルの中身"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-5.jpg",
+          "caption": "カプセルの中身"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-6.jpg",
+          "caption": "カプセルの中身"
+        },
+        {
+          "path": "assets/images/items/DBC-016/capsule-7.jpg",
+          "caption": "カプセルの中身（ブロンズ版の部品）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-inner.jpg",
+          "caption": "箱の中（仕切り）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-side-2.jpg",
+          "caption": "外箱の側面（ボーナスパーツ）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-back.jpg",
+          "caption": "外箱の側面（注意書き）"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-side-3.jpg",
+          "caption": "外箱の側面"
+        },
+        {
+          "path": "assets/images/items/DBC-016/box-bottom.jpg",
+          "caption": "外箱の底"
+        }
+      ],
       "alerts": [],
-      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ（限定品）。2026-10-18 にオーナーの指示で追加。情報はファンのブログとヤフオクの出品名による参考情報。",
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ（限定品）。2026-10-18 にオーナーの指示で追加。情報はファンのブログとヤフオクの出品名による参考情報。2026-11-15 に7個セット＋ボーナスパーツを購入（悟空＆ルフィ・ブルマ＆サンジはブロンズ版）。孫悟空＆ルフィはフル彩色版も所持。",
       "history": [
         {
           "date": "2026-10-18",
@@ -15991,6 +16064,10 @@
         {
           "date": "2026-10-18",
           "change": "購入日を 2026-10-11 に修正（オーナー指示）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "メルカリShops の7個セット＋ボーナスパーツ（https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv 、送料込み15,555円）を購入。購入記録・商品の状態（出品の説明文と写真による）・画像（出品写真15枚、購入した現物）を登録し、シリーズと全フィギュアを「所持」に変更（オーナー指示）。発売年の目安（2008、外箱の表記）を登録"
         }
       ],
       "figures": [
@@ -16045,7 +16122,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。2026-10-11 にメルカリのまとめ買いで入手（フル彩色版）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：ブロンズ版（2026-11-15 のセット購入）。フル彩色版は 2026-10-11 にメルカリのまとめ買いで入手。"
         },
         {
           "id": "DBC-016-02",
@@ -16066,9 +16143,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ピッコロ チョッパー",
@@ -16098,7 +16175,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-03",
@@ -16119,9 +16196,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース 悟飯 ゾロ",
@@ -16151,7 +16228,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-04",
@@ -16172,9 +16249,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース クリリン ロビン",
@@ -16204,7 +16281,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-05",
@@ -16225,9 +16302,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ベジータ フランキー",
@@ -16257,7 +16334,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-06",
@@ -16278,9 +16355,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ブルマ サンジ",
@@ -16310,7 +16387,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：ブロンズ版（2026-11-15 のセット購入）。フル彩色版は未所持。"
         },
         {
           "id": "DBC-016-07",
@@ -16331,9 +16408,9 @@
             "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース 亀仙人 ナミ",
@@ -16363,7 +16440,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "フル彩色版とブロンズ版がある（出品名による）。"
+          "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-08",
@@ -16385,9 +16462,9 @@
             "note": "このシリーズのボーナスパーツ。ブログの紹介記事の表記。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-18",
-            "note": ""
+            "status": "owned",
+            "checkedAt": "2026-11-15",
+            "note": "入手先：メルカリ"
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース そげキング",
@@ -16413,7 +16490,7 @@
           },
           "marketPrices": [],
           "images": [],
-          "notes": "7体とは別のボーナスパーツ。"
+          "notes": "7体とは別のボーナスパーツ。2026-11-15 にメルカリの7個セット（ボーナスパーツあり）で入手。"
         }
       ],
       "market": {
