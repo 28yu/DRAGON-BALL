@@ -9,7 +9,7 @@ function countByOwnership(items) {
   return counts;
 }
 
-function progressHTML(items, withBreakdown = true) {
+function progressHTML(items, withBreakdown = true, unit = "点") {
   const total = items.length;
   const c = countByOwnership(items);
   const notOwned = c.not_owned + c.ordered;
@@ -21,9 +21,9 @@ function progressHTML(items, withBreakdown = true) {
       ${c.unconfirmed ? `<span class="p-unconfirmed" style="width:${pct(c.unconfirmed)}%"></span>` : ""}
     </div>
     ${withBreakdown ? `<ul class="breakdown">
-      <li class="b-owned">${t(`所持 ${c.owned}点`, `Owned ${c.owned}`)}</li>
-      <li class="b-notowned">${t(`未所持 ${notOwned}点`, `Not owned ${notOwned}`)}</li>
-      ${c.unconfirmed ? `<li class="b-unconfirmed">${t(`未確認 ${c.unconfirmed}点`, `Unconfirmed ${c.unconfirmed}`)}</li>` : ""}
+      <li class="b-owned">${t(`所持 ${c.owned}${unit}`, `Owned ${c.owned}`)}</li>
+      <li class="b-notowned">${t(`未所持 ${notOwned}${unit}`, `Not owned ${notOwned}`)}</li>
+      ${c.unconfirmed ? `<li class="b-unconfirmed">${t(`未確認 ${c.unconfirmed}${unit}`, `Unconfirmed ${c.unconfirmed}`)}</li>` : ""}
     </ul>` : ""}`;
 }
 
@@ -44,7 +44,7 @@ function categoryCardHTML(cat, items) {
     </a>`;
 }
 
-// 集計外のカテゴリー（ドラゴンボールカプセル）のカード。収集を始めるときのための準備（2026-10-06 オーナー指示）
+// 別に集計するカテゴリー（ドラゴンボールカプセル）のシリーズのカード（2026-10-06 オーナー指示。2026-11-15 から別集計）
 // 上の数字は「全種そろったシリーズの数」。その下にシリーズごとのフィギュアの所持数のメーターを並べる
 function meterHTML(owned, total) {
   return `<div class="progress" role="img" aria-label="${owned} / ${total}">${owned && total ? `<span class="p-owned" style="width:${(owned / total) * 100}%"></span>` : ""}</div>`;
@@ -54,15 +54,10 @@ function seriesCardHTML(cat, seriesList) {
   // ボーナスパーツの数（2026-10-07 オーナー指示で追加）。「★コンプ」は今まで通り7体だけで判定する
   let bonusOwned = 0;
   let bonusTotal = 0;
-  // フィギュアの総数（ボーナスパーツを除く。2026-10-07 オーナー指示で追加）
-  let figOwned = 0;
-  let figTotal = 0;
   const isOwned = (f) => f.ownership?.status === "owned";
   const rows = seriesList.map((s) => {
     const figs = regularFigures(s);
     const owned = figs.filter(isOwned).length;
-    figOwned += owned;
-    figTotal += figs.length;
     const done = figs.length > 0 && owned === figs.length;
     if (done) complete++;
     const bonus = (s.figures || []).filter((f) => f.bonus);
@@ -79,14 +74,13 @@ function seriesCardHTML(cat, seriesList) {
   return `
     <div class="cat-card series-card">
       <a class="series-card-head" href="#cat-${escapeHTML(cat.id)}">
-        <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(tx(cat.label))} <span class="badge badge-info">${t("集計外", "Not counted")}</span></span>
+        <span class="cat-card-label">${categoryBall(cat, 16)}${escapeHTML(tx(cat.label))}</span>
         <span class="cat-card-count">${complete}<small> / ${seriesList.length}</small><span class="series-unit">${t("シリーズ", "series")}</span></span>
       </a>
       ${meterHTML(complete, seriesList.length)}
-      <p class="series-bonus-total">
-        <span>${t("フィギュア", "Figures")} <strong>${figOwned}</strong><small> / ${figTotal}${t("体", "")}</small></span>
-        ${bonusTotal ? `<span>${t("ボーナスパーツ", "Bonus parts")} <strong>${bonusOwned}</strong><small> / ${bonusTotal}</small></span>` : ""}
-      </p>
+      ${bonusTotal ? `<p class="series-bonus-total">
+        <span>${t("ボーナスパーツ", "Bonus parts")} <strong>${bonusOwned}</strong><small> / ${bonusTotal}</small></span>
+      </p>` : ""}
       <details class="series-details" id="series-details-${escapeHTML(cat.id)}"${seriesOpen() ? " open" : ""}>
         <summary>${t(`シリーズごとの内訳（${seriesList.length}シリーズ）`, `Breakdown by series (${seriesList.length} series)`)}</summary>
         <ul class="series-meters">${rows}</ul>
@@ -105,9 +99,28 @@ function setupSeriesToggle() {
   });
 }
 
-// コレクション概要の集計に含めるカテゴリーか（"inSummary": false のカテゴリーは情報のみ掲載で、集計しない）
+// ゲーム・攻略本・カードダス関連の集計に含めるカテゴリーか。
+// "inSummary": false のカテゴリー（ドラゴンボールカプセル）は、フィギュアの所持率で別に集計する（2026-11-15 オーナー指示）
 function inSummary(cat) {
   return cat?.inSummary !== false;
+}
+
+// 所持率の丸（ドラゴンレーダー）と「所持 / 収集対象」の大きなカード
+function heroHTML(items, label, unit) {
+  const c = countByOwnership(items);
+  const rate = items.length ? Math.round((c.owned / items.length) * 100) : 0;
+  return `
+    <div class="hero-card">
+      <button type="button" class="rate-circle${rateStyle() === "plain" ? "" : " radar"}" aria-label="${t("所持率の表示を切り替える", "Switch the ownership rate display")}">
+        <span class="rate-num">${rate}<small>%</small></span>
+        <span class="rate-label">${c.unconfirmed > 0 ? t("所持率（暫定）", "Owned (provisional)") : t("所持率", "Owned")}</span>
+      </button>
+      <div class="hero-body">
+        <p class="hero-label">${label}</p>
+        <p class="hero-count">${c.owned}<small> / ${items.length}${t(unit, "")}</small></p>
+      </div>
+      <div class="hero-progress">${progressHTML(items, true, unit)}</div>
+    </div>`;
 }
 
 function renderSummary(data) {
@@ -115,26 +128,28 @@ function renderSummary(data) {
   const summaryCats = data.categories.filter(inSummary);
   const all = data.items.filter((i) => summaryCats.some((cat) => cat.id === i.category));
   const c = countByOwnership(all);
-  const rate = all.length ? Math.round((c.owned / all.length) * 100) : 0;
 
-  const hero = `
-    <div class="hero-card">
-      <button type="button" class="rate-circle${rateStyle() === "plain" ? "" : " radar"}" id="rate-circle" aria-label="${t("所持率の表示を切り替える", "Switch the ownership rate display")}">
-        <span class="rate-num">${rate}<small>%</small></span>
-        <span class="rate-label">${c.unconfirmed > 0 ? t("所持率（暫定）", "Owned (provisional)") : t("所持率", "Owned")}</span>
-      </button>
-      <div class="hero-body">
-        <p class="hero-label">${t("所持 / 収集対象", "Owned / Target items")}</p>
-        <p class="hero-count">${c.owned}<small> / ${all.length}${t("点", "")}</small></p>
-      </div>
-      <div class="hero-progress">${progressHTML(all)}</div>
+  // 1. ゲーム・攻略本・カードダス関連（今までの集計）
+  const mainGroup = `
+    <div class="summary-group">
+      <h3 class="summary-group-title">${t("ゲーム・攻略本・カードダス関連", "Games, guidebooks & Carddass")}</h3>
+      ${heroHTML(all, t("所持 / 収集対象", "Owned / Target items"), "点")}
+      <div class="cat-grid">${summaryCats.map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id))).join("")}</div>
     </div>`;
 
-  const cats = summaryCats
-    .map((cat) => categoryCardHTML(cat, all.filter((i) => i.category === cat.id)))
-    .join("") + data.categories
+  // 2. ドラゴンボールカプセル：フィギュア（ボーナスパーツを除く）の所持率で別に集計する（2026-11-15 オーナー指示）
+  const capsuleGroups = data.categories
     .filter((cat) => !inSummary(cat))
-    .map((cat) => seriesCardHTML(cat, data.items.filter((i) => i.category === cat.id)))
+    .map((cat) => {
+      const series = data.items.filter((i) => i.category === cat.id);
+      const figs = series.flatMap((s) => regularFigures(s));
+      return `
+    <div class="summary-group">
+      <h3 class="summary-group-title">${escapeHTML(tx(cat.label))}</h3>
+      ${heroHTML(figs, t("所持 / 収集対象（フィギュア）", "Owned / Target figures"), "体")}
+      <div class="cat-grid">${seriesCardHTML(cat, series)}</div>
+    </div>`;
+    })
     .join("");
 
   // 所持状況が未確認の対象があるときだけ注意書きを出す（所持率は上の丸い表示で示す）
@@ -150,7 +165,7 @@ function renderSummary(data) {
         .join("、")}</p>`
     : "";
 
-  el.innerHTML = `${hero}<div class="cat-grid">${cats}</div>${notice}${alertNotice}`;
+  el.innerHTML = `${mainGroup}${notice}${capsuleGroups}${alertNotice}`;
   setupRateToggle();
   setupSeriesToggle();
 }
@@ -159,12 +174,15 @@ function renderSummary(data) {
 function rateStyle() {
   try { return localStorage.getItem("db-rate-style") === "plain" ? "plain" : "radar"; } catch (e) { return "radar"; }
 }
+// 丸は2つ（ゲームなど・カプセル）。どちらを押しても両方そろって切り替わる
 function setupRateToggle() {
-  const btn = document.getElementById("rate-circle");
-  if (!btn) return;
-  btn.addEventListener("click", () => {
-    const radar = btn.classList.toggle("radar");
-    try { localStorage.setItem("db-rate-style", radar ? "radar" : "plain"); } catch (e) {}
+  const btns = document.querySelectorAll("#summary .rate-circle");
+  btns.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const radar = !btn.classList.contains("radar");
+      btns.forEach((b) => b.classList.toggle("radar", radar));
+      try { localStorage.setItem("db-rate-style", radar ? "radar" : "plain"); } catch (e) {}
+    });
   });
 }
 
@@ -190,7 +208,7 @@ function itemCardHTML(item, cat) {
         <div class="item-body">
           <span class="item-id">${escapeHTML(item.id)}</span>
           <h3 class="item-title">${escapeHTML(cardTitle(item))}</h3>
-          <div class="item-meta">${inSummary(cat) ? "" : `<span class="badge badge-info">${t("情報のみ", "Info only")}</span>`}${alert}${release}</div>
+          <div class="item-meta">${alert}${release}</div>
         </div>
       </a>
       <p class="fig-hits" hidden></p>
@@ -205,7 +223,6 @@ function renderCategories(data) {
       return `
         <section id="cat-${escapeHTML(cat.id)}" aria-labelledby="cat-${escapeHTML(cat.id)}-title">
           <div class="ball-title">${categoryBall(cat, 34)}<h2 class="section-title" id="cat-${escapeHTML(cat.id)}-title">${escapeHTML(tx(cat.label))}${t(`（${items.length}点）`, ` (${items.length})`)}</h2></div>
-          ${inSummary(cat) ? "" : `<p class="info-only-note"><span class="badge badge-info">${t("情報のみ", "Info only")}</span> ${t("収集予定のシリーズです。コレクション概要の集計には含めていません。", "Series I plan to collect. Not counted in the collection overview.")}</p>`}
           <p class="section-desc">${escapeHTML(tx(cat.description || ""))}</p>
           <ul class="item-grid">${items.map((item) => itemCardHTML(item, cat)).join("")}</ul>
         </section>`;
