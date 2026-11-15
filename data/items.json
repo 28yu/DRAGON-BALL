@@ -6419,7 +6419,7 @@
             "url": "https://www.megahouse.co.jp/products/item/481/"
           }
         ],
-        "note": "公式ページの表記は「2001年1月」。"
+        "note": "公式ページの表記は「2001年1月」。 ただし、外箱とカプセルの紙には「MegaHouse 2005 MADE IN CHINA」と印刷されている（2026-11-15、ヤフオク出品写真 https://auctions.yahoo.co.jp/jp/auction/1198533470 ）。箱の作りも 2005年発売の DBC-002 と同じで、実際の発売は2005年ごろの可能性がある（未確認）。"
       },
       "publisher": {
         "value": "メガハウス",
@@ -6504,6 +6504,56 @@
           "path": "assets/images/items/DBC-001/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-front.jpg",
+          "caption": "外箱の表（7個入りの箱）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-back.jpg",
+          "caption": "外箱の裏（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-lid-1.jpg",
+          "caption": "外箱のふたの文字「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-lid-2.jpg",
+          "caption": "外箱のふたの文字「彩色済みジオラマ1個 亀仙人&ブルマ(ウーロン変化)パーツ1個入り」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-corner.jpg",
+          "caption": "外箱の角（側面の絵）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/capsule.jpg",
+          "caption": "カプセルを開けたところ（紙入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/capsule-band.jpg",
+          "caption": "カプセルに巻かれた帯（シリーズ名・内容・全7種類の表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/capsule-label.jpg",
+          "caption": "カプセルに入っている紙（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-001/lineup.jpg",
+          "caption": "カプセルに入っている紙（ラインナップ面）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -6576,6 +6626,14 @@
         {
           "date": "2026-10-07",
           "change": "フィギュアの相場の除外語「ボーナス」を、「ボーナスパーツ付き／あり／入り」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像10枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱10枚、フィギュア0体分）。出典：https://auctions.yahoo.co.jp/jp/auction/1198533470 、 https://auctions.yahoo.co.jp/jp/auction/1250965109 、 https://auctions.yahoo.co.jp/jp/auction/x1165359618 、 https://auctions.yahoo.co.jp/jp/auction/t1239611357"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "発売年のメモに、箱の表記「MegaHouse 2005」との食い違いを追記（値は公式の 2001-01 のまま）"
         }
       ],
       "figures": [
@@ -7453,6 +7511,56 @@
           "path": "assets/images/items/DBC-002/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-front.jpg",
+          "caption": "外箱の表（7個入りの箱）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-back.jpg",
+          "caption": "外箱の裏（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-top.jpg",
+          "caption": "外箱のふた（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-lid-1.jpg",
+          "caption": "外箱のふたの文字「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-lid-2.jpg",
+          "caption": "外箱のふたの文字「彩色済みジオラマ1個 孫悟空VSピッコロ大魔王(決着シーン)パーツ1個入り」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/capsule.jpg",
+          "caption": "カプセルを開けたところ（紙入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-002/capsule-band.jpg",
+          "caption": "帯の付いたカプセル（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -7525,6 +7633,10 @@
         {
           "date": "2026-10-07",
           "change": "フィギュアの相場の除外語「ボーナス」を、「ボーナスパーツ付き／あり／入り」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像10枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱10枚、フィギュア0体分）。出典：https://paypayfleamarket.yahoo.co.jp/item/z665352348 、 https://auctions.yahoo.co.jp/jp/auction/g1250973526"
         }
       ],
       "figures": [
@@ -8413,6 +8525,41 @@
           "path": "assets/images/items/DBC-003/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-front.jpg",
+          "caption": "外箱の表（7個入りの箱）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：孫悟空VSマジュニア・クリリンVSマジュニア・シェンVSヤムチャ・ボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：孫悟空&怪魚・チチ&恐竜・亀仙人&人魚さん・孫悟空&ミスターポポ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-back.jpg",
+          "caption": "外箱の裏（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-lid-1.jpg",
+          "caption": "外箱のふたの文字「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-lid-2.jpg",
+          "caption": "外箱のふたの文字「彩色済みジオラマ1個 孫悟空&チチパーツ1個入り」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-003/box-inside.jpg",
+          "caption": "外箱の中（帯の付いたカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -8485,6 +8632,10 @@
         {
           "date": "2026-10-07",
           "change": "フィギュアの相場の除外語「ボーナス」を、「ボーナスパーツ付き／あり／入り」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像7枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱7枚、フィギュア0体分）。出典：https://auctions.yahoo.co.jp/jp/auction/j1250981071 、 https://auctions.yahoo.co.jp/jp/auction/c1234860191 、 https://auctions.yahoo.co.jp/jp/auction/n1229684256"
         }
       ],
       "figures": [
@@ -9375,6 +9526,46 @@
           "path": "assets/images/items/DBC-004/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-front.jpg",
+          "caption": "外箱の表（7個入りの箱）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：孫悟空VSブラック参謀・孫悟空VSマジュニア・天津飯VSサイボーグ桃白白・ボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：孫悟空・孫悟空&神龍・孫悟空(大猿)・孫悟空&スノ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-back.jpg",
+          "caption": "外箱の裏（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-lid-1.jpg",
+          "caption": "外箱のふたの文字「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-lid-2.jpg",
+          "caption": "外箱のふたの文字「彩色済みジオラマ1個 ブルマ&戦闘機パーツ1個入り」（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/box-inside.jpg",
+          "caption": "外箱の中（帯の付いたカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-004/lineup.jpg",
+          "caption": "カプセルに入っている紙（ラインナップ面）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -9447,6 +9638,10 @@
         {
           "date": "2026-10-07",
           "change": "フィギュアの相場の除外語「ボーナス」を、「ボーナスパーツ付き／あり／入り」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像8枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア0体分）。出典：https://auctions.yahoo.co.jp/jp/auction/q1250966943 、 https://auctions.yahoo.co.jp/jp/auction/c1234860191 、 https://auctions.yahoo.co.jp/jp/auction/p1236813167"
         }
       ],
       "figures": [
@@ -10272,6 +10467,46 @@
           "path": "assets/images/items/DBC-005/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）。2枚の写真を上下に並べて1枚にしたもの",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/box-front.jpg",
+          "caption": "外箱（表と上面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/box-back.jpg",
+          "caption": "外箱の裏（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/box-top.jpg",
+          "caption": "外箱の上面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/box-open.jpg",
+          "caption": "箱を開けたところ（カプセル7個入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/lineup-1.jpg",
+          "caption": "箱の内側のラインナップ（あの世一武道会・グルグルガムで悟空ピンチ・破壊王子ベジータ復活!!・アナウンサー飛ぶ！）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/lineup-2.jpg",
+          "caption": "箱の内側のラインナップ（餃子撃破！・いざ武道会・マジュニア登場・エンディングシーン）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/capsule-front.jpg",
+          "caption": "カプセル（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-005/capsule-back.jpg",
+          "caption": "カプセル（裏・注意書き）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -10312,6 +10547,10 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-005-08「エンディングシーン」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像47枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/d1228860369 、 https://paypayfleamarket.yahoo.co.jp/item/z634522436 、 https://auctions.yahoo.co.jp/jp/auction/d1239975713 、 https://auctions.yahoo.co.jp/jp/auction/g1244773031 、 https://auctions.yahoo.co.jp/jp/auction/1235796484 、 https://auctions.yahoo.co.jp/jp/auction/p1240102680 、 https://auctions.yahoo.co.jp/jp/auction/1247297322 、 https://auctions.yahoo.co.jp/jp/auction/n1240099115 、 https://auctions.yahoo.co.jp/jp/auction/g1240098658 、 https://auctions.yahoo.co.jp/jp/auction/j1239972250"
         }
       ],
       "figures": [
@@ -10361,7 +10600,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig01-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig01-extra-2.jpg",
+              "caption": "クリリンの顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig01-extra-3.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10410,7 +10670,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig02-extra-1.jpg",
+              "caption": "正面のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig02-extra-2.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig02-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig02-extra-4.jpg",
+              "caption": "台座の裏とヤシの木の部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10459,7 +10745,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig03-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig03-extra-3.jpg",
+              "caption": "ピッコロ本体（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig03-extra-4.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10508,7 +10820,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig04-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig04-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig04-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig04-extra-4.jpg",
+              "caption": "部品（本体・台座・ピッコロ）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10557,7 +10895,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig05-extra-1.jpg",
+              "caption": "斜めから（ギラン）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig05-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig05-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10606,7 +10970,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig06-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig06-extra-4.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10655,7 +11045,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig07-extra-1.jpg",
+              "caption": "正面のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig07-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig07-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig07-extra-4.jpg",
+              "caption": "部品（本体・台座・支柱）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10706,7 +11122,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-005/fig08-front.jpg",
+              "caption": "正面（7個のボーナスパーツを組んだ完成形）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig08-extra-3.jpg",
+              "caption": "門の中の観客（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-005/fig08-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -10833,6 +11275,31 @@
           "path": "assets/images/items/DBC-006/flyer.jpg",
           "caption": "発売時のチラシ（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-006/box-front.jpg",
+          "caption": "外箱の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-006/lineup.jpg",
+          "caption": "外箱の側面（ラインナップ・全7種の名前）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-006/box-back.jpg",
+          "caption": "外箱の裏（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-006/box-open.jpg",
+          "caption": "箱を開けたところ（カプセル7個入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-006/capsule-contents.jpg",
+          "caption": "開けたカプセルと中身（中の紙・部品）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -10877,6 +11344,14 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-006-08「カミカゼアタック戦略会議」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像45枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱5枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/d1233640729 、 https://auctions.yahoo.co.jp/jp/auction/f1230298752 、 https://auctions.yahoo.co.jp/jp/auction/l1230313716 、 https://auctions.yahoo.co.jp/jp/auction/u1230311668 、 https://auctions.yahoo.co.jp/jp/auction/p1230312974 、 https://auctions.yahoo.co.jp/jp/auction/g1230307768 、 https://auctions.yahoo.co.jp/jp/auction/t1230308954 、 https://auctions.yahoo.co.jp/jp/auction/e1230322250 、 https://auctions.yahoo.co.jp/jp/auction/h1230302095"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-006-01 の名前を「師弟のミラクルパワー」から「悟飯のミラクルパワー」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
         }
       ],
       "figures": [
@@ -10884,15 +11359,19 @@
           "id": "DBC-006-01",
           "no": 1,
           "name": {
-            "value": "師弟のミラクルパワー",
+            "value": "悟飯のミラクルパワー",
             "status": "reference",
             "sources": [
+              {
+                "title": "箱の側面のラインナップの表記（ヤフオク出品写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1233640729"
+              },
               {
                 "title": "ホビーサーチ（掲載画像。オーナー提供のスクリーンショットによる）",
                 "url": "https://www.1999.co.jp/"
               }
             ],
-            "note": "ホビーサーチ掲載のチラシ（オーナー提供のスクリーンショット）の表記。文字が小さく、読み取りに誤りがある可能性あり。 番号はシリーズ内の順番ではなく、写真の掲載順。"
+            "note": "外箱の側面のラインナップでは「悟飯のミラクルパワー」。出品名でもこの表記が多い。以前の登録「師弟のミラクルパワー」はホビーサーチ掲載のチラシの読み取りによる。"
           },
           "ownership": {
             "status": "not_owned",
@@ -10926,7 +11405,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig01-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig01-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig01-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -10975,7 +11480,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig02-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig02-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig02-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig02-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11024,7 +11555,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig03-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig03-extra-3.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig03-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11073,7 +11630,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig04-extra-1.jpg",
+              "caption": "ヤコンの正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig04-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig04-extra-3.jpg",
+              "caption": "後ろ（悟空の背中・天使の輪）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig04-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11122,7 +11705,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig05-front.jpg",
+              "caption": "正面（横向き）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig05-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig05-extra-2.jpg",
+              "caption": "前から（悟天を持ち上げる悟空）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig05-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig05-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11171,7 +11780,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig06-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig06-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig06-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11220,7 +11855,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig07-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig07-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig07-extra-3.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig07-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11271,7 +11932,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-006/fig08-front.jpg",
+              "caption": "正面（7個のボーナスパーツを組んだ完成形）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig08-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig08-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-006/fig08-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -11398,6 +12085,66 @@
           "path": "assets/images/items/DBC-007/flyer.jpg",
           "caption": "発売時のチラシ（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-front.jpg",
+          "caption": "外箱の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-front-angle.jpg",
+          "caption": "外箱（斜めから）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-side-lineup.jpg",
+          "caption": "外箱の側面（ラインナップ・7個入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-side-1.jpg",
+          "caption": "外箱の側面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-side-bonus.jpg",
+          "caption": "外箱の側面（ボーナスパーツ完成「戦士達の肖像」）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-side-2.jpg",
+          "caption": "外箱の側面（注意書き・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/box-inside.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/capsule.jpg",
+          "caption": "カプセル（外装の帯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/capsule-2.jpg",
+          "caption": "カプセル（外装の帯・反対側）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/minibook-front.jpg",
+          "caption": "ミニブックの表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/lineup.jpg",
+          "caption": "ミニブックの裏（ラインナップ・全7種の名前）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-007/bonus-sheet.jpg",
+          "caption": "中の紙（ボーナスパーツ完成「戦士達の肖像」）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -11438,6 +12185,14 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-007-08「戦士たちの肖像」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像42枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱12枚、フィギュア8体分）。出典：https://paypayfleamarket.yahoo.co.jp/item/z625529240 、 https://paypayfleamarket.yahoo.co.jp/item/z556621124 、 https://auctions.yahoo.co.jp/jp/auction/b1241327602 、 https://paypayfleamarket.yahoo.co.jp/item/z690732222 、 https://auctions.yahoo.co.jp/jp/auction/v1231969703 、 https://ameblo.jp/yoyocom69/entry-11535910702.html 、 https://paypayfleamarket.yahoo.co.jp/item/z649650894 、 https://auctions.yahoo.co.jp/jp/auction/k1230212974 、 https://paypayfleamarket.yahoo.co.jp/item/z645788308 、 https://paypayfleamarket.yahoo.co.jp/item/z607429426 、 https://paypayfleamarket.yahoo.co.jp/item/z653680578 、 https://paypayfleamarket.yahoo.co.jp/item/z608526706 、 https://auctions.yahoo.co.jp/jp/auction/g1248343157 、 https://paypayfleamarket.yahoo.co.jp/item/z604627638"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-007-08 の名前を「戦士たちの肖像」から「戦士達の肖像」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
         }
       ],
       "figures": [
@@ -11487,7 +12242,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig01-extra-1.jpg",
+              "caption": "内袋入りの中身（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11536,7 +12302,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig02-extra-1.jpg",
+              "caption": "内袋入りの部品（フリーザ・ポッド・波の台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11585,7 +12362,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig03-extra-1.jpg",
+              "caption": "カプセルと中身（ミニブック付き）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig03-extra-2.jpg",
+              "caption": "内袋入りの悟空とピッコロ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig03-extra-3.jpg",
+              "caption": "内袋入りのラディッツ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig03-extra-4.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11634,7 +12437,13 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11683,7 +12492,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig05-extra-1.jpg",
+              "caption": "内袋入りの部品（ナッパ・ベジータ・ピンクのオーラ台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11732,7 +12552,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig06-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig06-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig06-extra-4.jpg",
+              "caption": "部品と台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig06-extra-5.jpg",
+              "caption": "内袋入りの中身（ミニブック付き）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11781,7 +12632,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig07-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig07-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig07-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig07-extra-4.jpg",
+              "caption": "部品（上半身・下半身・オーラ）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig07-extra-5.jpg",
+              "caption": "内袋入りの中身（ミニブック付き）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -11789,15 +12671,19 @@
           "no": 8,
           "bonus": true,
           "name": {
-            "value": "戦士たちの肖像",
+            "value": "戦士達の肖像",
             "status": "reference",
             "sources": [
+              {
+                "title": "外箱の表・側面「BONUS PARTS COMPLETE 完成 戦士達の肖像」（ヤフオク出品写真）",
+                "url": "https://paypayfleamarket.yahoo.co.jp/item/z625529240"
+              },
               {
                 "title": "メガハウス公式「ドラゴンボールカプセル・ネオ激闘総集編」商品ページ（ボーナスパーツを全部集めれば、サイヤ人の来襲から地球を救うために立ち上がった、戦士たちの肖像が完成）",
                 "url": "https://www.megahouse.co.jp/products/item/473/"
               }
             ],
-            "note": "このシリーズのボーナスパーツ（2026-10-07 オーナー指示で、ほかのシリーズのボーナスパーツを調べて追加）。名前は、公式の説明の言い方。正式な商品名は未確認。"
+            "note": "外箱の表「彩色済みフィギュア1個+戦士達の肖像パーツ1個入り」、側面・中の紙・発売時のチラシも漢字の「戦士達の肖像」。"
           },
           "ownership": {
             "status": "not_owned",
@@ -11832,7 +12718,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-007/fig08-front.jpg",
+              "caption": "完成した「戦士達の肖像」（正面）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig08-extra-4.jpg",
+              "caption": "パーツの拡大（天津飯・餃子ほか）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-007/fig08-extra-5.jpg",
+              "caption": "孫悟空のパーツ（分解・後ろから）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -11959,6 +12876,46 @@
           "path": "assets/images/items/DBC-008/flyer.jpg",
           "caption": "発売時のチラシ（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/box-front.jpg",
+          "caption": "外箱の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/box-front-angle.jpg",
+          "caption": "外箱（斜めから・ラインナップの側面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/box-back.jpg",
+          "caption": "外箱の裏（注意書き・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/box-inside.jpg",
+          "caption": "箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/capsule.jpg",
+          "caption": "カプセル（外装の帯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/capsule-back.jpg",
+          "caption": "カプセル（外装の帯・注意書き）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/minibook-front.jpg",
+          "caption": "ミニブックの表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-008/lineup.jpg",
+          "caption": "ミニブックの裏（ラインナップ・全7種の名前）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -11999,6 +12956,14 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-008-08「孫悟空」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像45枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/q1216422895 、 https://auctions.yahoo.co.jp/jp/auction/m1227729504 、 https://auctions.yahoo.co.jp/jp/auction/h1115752962 、 https://auctions.yahoo.co.jp/jp/auction/1115733527 、 https://auctions.yahoo.co.jp/jp/auction/d1250875411 、 https://auctions.yahoo.co.jp/jp/auction/j1229655867 、 https://auctions.yahoo.co.jp/jp/auction/v1250966310 、 https://ameblo.jp/yoyocom69/entry-11538475469.html 、 https://paypayfleamarket.yahoo.co.jp/item/z674041018 、 https://auctions.yahoo.co.jp/jp/auction/u1239079366 、 https://auctions.yahoo.co.jp/jp/auction/s1237707552 、 https://paypayfleamarket.yahoo.co.jp/item/z628852652 、 https://paypayfleamarket.yahoo.co.jp/item/z645311534 、 https://auctions.yahoo.co.jp/jp/auction/b1226282471 、 https://auctions.yahoo.co.jp/jp/auction/g1246389731"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-008-08 の名前を「孫悟空」から「超戦士の肖像」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
         }
       ],
       "figures": [
@@ -12048,7 +13013,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig01-extra-1.jpg",
+              "caption": "横から（しっぽの側）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig01-extra-2.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig01-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig01-extra-4.jpg",
+              "caption": "部品（悟飯・ハイヤードラゴン・台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12099,7 +13090,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig02-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig02-extra-2.jpg",
+              "caption": "後ろ（左側）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12148,7 +13155,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig03-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig03-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig03-extra-4.jpg",
+              "caption": "内袋入りの部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12197,7 +13230,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig04-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig04-extra-2.jpg",
+              "caption": "細部（顔・背中・台座）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig04-extra-3.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig04-extra-4.jpg",
+              "caption": "部品（上半身・下半身・台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12247,7 +13306,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig05-front.jpg",
+              "caption": "正面（天使の輪つき）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig05-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig05-extra-2.jpg",
+              "caption": "部品（本体・天使の輪・雲の台座）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig05-extra-3.jpg",
+              "caption": "正面（天使の輪なし）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig05-extra-4.jpg",
+              "caption": "後ろ（天使の輪なし）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12296,7 +13381,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig06-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig06-extra-3.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig06-extra-4.jpg",
+              "caption": "上半身の拡大（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12347,7 +13458,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig07-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig07-extra-2.jpg",
+              "caption": "台座の裏（右が紫の台座＝ブロリー1）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12355,15 +13482,23 @@
           "no": 8,
           "bonus": true,
           "name": {
-            "value": "孫悟空",
+            "value": "超戦士の肖像",
             "status": "reference",
             "sources": [
+              {
+                "title": "外箱の表「彩色済みフィギュア1個+超戦士の肖像パーツ1個入り」（ヤフオク出品写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/q1216422895"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」EDITION of THE MOVIE 紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11538475469.html"
+              },
               {
                 "title": "メガハウス公式「ドラゴンボールカプセル・ネオ EDITION of THE MOVIE」商品ページ（シリーズ中の「幻の元気玉」の悟空とボーナスパーツの悟空を差し替えて飾れる）",
                 "url": "https://www.megahouse.co.jp/products/item/205/"
               }
             ],
-            "note": "このシリーズのボーナスパーツ（2026-10-07 オーナー指示で、ほかのシリーズのボーナスパーツを調べて追加）。公式の説明では「ボーナスパーツの悟空」。正式な商品名は未確認。「幻の元気玉」の悟空と差し替えて飾れる。"
+            "note": "ボーナスパーツ全体の名前（発売時のチラシにも「超戦士の肖像完成!!」）。孫悟空はその中心の1体で、「幻の元気玉」の悟空と差し替えて飾れる。以前の登録名は「孫悟空」。"
           },
           "ownership": {
             "status": "not_owned",
@@ -12398,7 +13533,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-008/fig08-front.jpg",
+              "caption": "完成した「超戦士の肖像」（正面）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig08-extra-4.jpg",
+              "caption": "パーツ（分解）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-008/fig08-extra-5.jpg",
+              "caption": "幻の元気玉の悟空と差し替えた状態（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -12525,6 +13691,26 @@
           "path": "assets/images/items/DBC-009/flyer.jpg",
           "caption": "発売時のチラシ（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-009/capsule-label.jpg",
+          "caption": "カプセルに入っている紙（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-009/lineup.jpg",
+          "caption": "カプセルに入っている紙（ラインナップ面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-009/capsule.jpg",
+          "caption": "カプセルと中身（かめはめ波）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-009/bonus-instructions.jpg",
+          "caption": "ボーナスパーツ「家族の肖像」の組み立て説明（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -12565,6 +13751,10 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-009-08「家族の肖像」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像42枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱4枚、フィギュア8体分）。出典：https://paypayfleamarket.yahoo.co.jp/item/z678415774 、 https://auctions.yahoo.co.jp/jp/auction/n1231725649 、 https://auctions.yahoo.co.jp/jp/auction/m1230739656 、 https://auctions.yahoo.co.jp/jp/auction/d1237497321 、 https://auctions.yahoo.co.jp/jp/auction/f1237182315 、 https://paypayfleamarket.yahoo.co.jp/item/z455013016 、 https://auctions.yahoo.co.jp/jp/auction/e1229316723 、 https://auctions.yahoo.co.jp/jp/auction/k1244782625 、 https://auctions.yahoo.co.jp/jp/auction/n1241237081 、 https://auctions.yahoo.co.jp/jp/auction/m1249960917 、 https://auctions.yahoo.co.jp/jp/auction/k1248496838 、 https://auctions.yahoo.co.jp/jp/auction/m1237196467 、 https://auctions.yahoo.co.jp/jp/auction/b1237434382"
         }
       ],
       "figures": [
@@ -12616,7 +13806,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig01-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig01-extra-3.jpg",
+              "caption": "クリリンと18号のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig01-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12667,7 +13883,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig02-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig02-extra-2.jpg",
+              "caption": "カプセルと中身（未組み立て）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12717,7 +13949,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig03-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig03-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig03-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig03-extra-4.jpg",
+              "caption": "部品（分解した状態）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12767,7 +14025,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig04-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig04-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig04-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig04-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12817,7 +14101,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig05-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig05-extra-2.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig05-extra-3.jpg",
+              "caption": "部品（分解した状態）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12868,7 +14173,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig06-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig06-extra-2.jpg",
+              "caption": "悟空のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig06-extra-3.jpg",
+              "caption": "後ろ（気弾のエフェクト）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig06-extra-4.jpg",
+              "caption": "カプセルと中身（未開封）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12918,7 +14249,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig07-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig07-extra-2.jpg",
+              "caption": "悟空のアップ（4枚組の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig07-extra-3.jpg",
+              "caption": "19号と台座のアップ（4枚組の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig07-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -12969,7 +14326,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-009/fig08-front.jpg",
+              "caption": "正面（完成品）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig08-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig08-extra-2.jpg",
+              "caption": "車の前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig08-extra-3.jpg",
+              "caption": "車の後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig08-extra-4.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-009/fig08-extra-5.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -13091,7 +14479,38 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-010/box-front.jpg",
+          "caption": "3種の箱の正面（初版）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-010/box-back.jpg",
+          "caption": "3種の箱の裏（差し込みの絵の紙）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-010/box-top.jpg",
+          "caption": "3種の箱の上面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-010/box-bottom.jpg",
+          "caption": "3種の箱の底（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-010/box-back-panel.jpg",
+          "caption": "箱の注意書きの面（03 超サイヤ人3 孫悟空）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-010/box-logo.jpg",
+          "caption": "箱の底の面のアップ（ロゴと「MegaHouse 2016」の表記）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -13118,6 +14537,10 @@
         {
           "date": "2026-10-05",
           "change": "シリーズとフィギュアの所持状況を「未所持」に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像19枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱6枚、フィギュア3体分）。出典：https://auctions.yahoo.co.jp/jp/auction/o1230203659 、 https://auctions.yahoo.co.jp/jp/auction/1242404795 、 https://auctions.yahoo.co.jp/jp/auction/n1249684420 、 https://auctions.yahoo.co.jp/jp/auction/k1232997184 、 https://auctions.yahoo.co.jp/jp/auction/w1232991436"
         }
       ],
       "figures": [
@@ -13171,7 +14594,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-010/fig01-front.jpg",
+              "caption": "正面（箱入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig01-extra-1.jpg",
+              "caption": "箱の横（ドラカプメモリアルのロゴ）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig01-extra-2.jpg",
+              "caption": "箱の裏（差し込みの紙「01 SON GOKOU」）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig01-extra-3.jpg",
+              "caption": "箱の上面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -13220,7 +14664,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-010/fig02-front.jpg",
+              "caption": "正面（箱入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig02-extra-1.jpg",
+              "caption": "箱の横（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig02-extra-2.jpg",
+              "caption": "箱の裏（差し込みの紙「02 SUPER SAIYAN SON GOKOU」）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig02-extra-3.jpg",
+              "caption": "箱の上面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -13268,7 +14733,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-010/fig03-front.jpg",
+              "caption": "正面（箱から出した状態・ブリスターの上）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig03-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig03-extra-2.jpg",
+              "caption": "箱の正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig03-extra-3.jpg",
+              "caption": "箱の裏（差し込みの紙「03 SUPER SAIYAN3 SON GOKOU」）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-010/fig03-extra-4.jpg",
+              "caption": "箱の中のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         }
       ],
@@ -13390,7 +14881,38 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-011/box-front.jpg",
+          "caption": "3種の箱の正面（再販）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-011/box-side.jpg",
+          "caption": "3種の箱の横（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-011/box-back.jpg",
+          "caption": "3種の箱の裏（差し込みの絵の紙）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-011/box-top.jpg",
+          "caption": "3種の箱の上面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-011/box-bottom.jpg",
+          "caption": "3種の箱の底（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-011/box-logo.jpg",
+          "caption": "箱の正面下のアップ（ロゴと「MegaHouse 2018」の表記）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "",
       "history": [
@@ -13417,6 +14939,10 @@
         {
           "date": "2026-10-05",
           "change": "シリーズとフィギュアの所持状況を「未所持」に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像21枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱6枚、フィギュア3体分）。出典：https://auctions.yahoo.co.jp/jp/auction/b1234602412 、 https://auctions.yahoo.co.jp/jp/auction/c1247414918 、 https://auctions.yahoo.co.jp/jp/auction/d1249704062 、 https://auctions.yahoo.co.jp/jp/auction/q1234600329 、 https://paypayfleamarket.yahoo.co.jp/item/z670441162 、 https://paypayfleamarket.yahoo.co.jp/item/z596408270 、 https://auctions.yahoo.co.jp/jp/auction/o1247428601"
         }
       ],
       "figures": [
@@ -13470,7 +14996,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-011/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig01-extra-1.jpg",
+              "caption": "いろいろな向き（4枚組の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig01-extra-2.jpg",
+              "caption": "ブリスターに入った状態（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig01-extra-3.jpg",
+              "caption": "箱の正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig01-extra-4.jpg",
+              "caption": "箱の裏（差し込みの紙）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -13519,7 +15071,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-011/fig02-front.jpg",
+              "caption": "正面（箱入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig02-extra-1.jpg",
+              "caption": "箱の中のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig02-extra-2.jpg",
+              "caption": "箱の横（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig02-extra-3.jpg",
+              "caption": "箱の裏（差し込みの紙「SUPER SAIYAN SON GOKOU」）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig02-extra-4.jpg",
+              "caption": "箱の底（注意書き）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         },
         {
@@ -13567,7 +15145,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-011/fig03-front.jpg",
+              "caption": "正面（箱と並べて）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig03-extra-1.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig03-extra-2.jpg",
+              "caption": "台座とオーラのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig03-extra-3.jpg",
+              "caption": "後ろ（髪）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-011/fig03-extra-4.jpg",
+              "caption": "箱の正面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": ""
         }
       ],
@@ -13694,6 +15298,66 @@
           "path": "assets/images/items/DBC-012/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）。2枚の写真を上下に並べて1枚にしたもの",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-front.jpg",
+          "caption": "外箱の表（神龍と悟飯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-lid.jpg",
+          "caption": "外箱のふたの表（正面から）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-side-1.jpg",
+          "caption": "外箱の側面（7個入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：ベジータ大変身・限界を超えた熱い戦い!・究極の必殺技・界王拳・サイヤ人の猛威）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-side-3.jpg",
+          "caption": "外箱の側面（ラインナップ：重力との戦い!・ミニ悟空はおぼっちゃま!・サイヤ人ついに地球到着・悟飯見参!）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-back.jpg",
+          "caption": "外箱の裏（注意書き・バーコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/box-open.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/capsule.jpg",
+          "caption": "カプセルのラベル（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/capsule-back.jpg",
+          "caption": "カプセルのラベル（裏・注意書き）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/insert-front.jpg",
+          "caption": "中の紙の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/insert-lineup.jpg",
+          "caption": "中の紙の裏（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-012/insert-bonus.jpg",
+          "caption": "中の紙（悟飯見参!シーンの組み立て説明）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -13738,6 +15402,10 @@
         {
           "date": "2026-11-11",
           "change": "発売日（2008年7月下旬）を販売店の情報で登録（参考情報）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像50枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱12枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/d1227719448 、 https://auctions.yahoo.co.jp/jp/auction/1219034912 、 https://auctions.yahoo.co.jp/jp/auction/v1252124706 、 https://auctions.yahoo.co.jp/jp/auction/u1246365472 、 https://auctions.yahoo.co.jp/jp/auction/b1235780957 、 https://auctions.yahoo.co.jp/jp/auction/j1230206946 、 https://auctions.yahoo.co.jp/jp/auction/o1235807503 、 https://auctions.yahoo.co.jp/jp/auction/e1230217437 、 https://auctions.yahoo.co.jp/jp/auction/n1235770661 、 https://auctions.yahoo.co.jp/jp/auction/g1230209185 、 https://auctions.yahoo.co.jp/jp/auction/r1230218353 、 https://auctions.yahoo.co.jp/jp/auction/s1240324769"
         }
       ],
       "figures": [
@@ -13789,7 +15457,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig01-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig01-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig01-extra-4.jpg",
+              "caption": "台座と孫悟空（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig01-extra-5.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -13838,7 +15537,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig02-extra-1.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig02-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig02-extra-3.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -13887,7 +15607,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig03-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig03-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig03-extra-3.jpg",
+              "caption": "部品（ナッパと孫悟空）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig03-extra-4.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -13936,7 +15682,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig04-front.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig04-extra-1.jpg",
+              "caption": "ピッコロの正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig04-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig04-extra-3.jpg",
+              "caption": "孫悟飯のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -13985,7 +15752,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig05-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig05-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig05-extra-4.jpg",
+              "caption": "部品（孫悟空とバブルスくん）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14034,7 +15827,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig06-extra-1.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig06-extra-3.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14083,7 +15897,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig07-extra-1.jpg",
+              "caption": "ナッパのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig07-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig07-extra-4.jpg",
+              "caption": "台座（エフェクト）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14134,7 +15974,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-012/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig08-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig08-extra-3.jpg",
+              "caption": "孫悟飯のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-012/fig08-extra-4.jpg",
+              "caption": "底面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -14168,10 +16034,15 @@
       "category": "capsule",
       "title": "ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編",
       "release": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": "公式ページの発売日欄は「発売中」で、発売時期の記載なし。"
+        "value": "2008",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "外箱の側面・中の紙の表記「MegaHouse 2008 MADE IN CHINA」（ヤフオク出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/b1243923893"
+          }
+        ],
+        "note": "箱の著作権表記の年による目安。発売月は未確認。"
       },
       "publisher": {
         "value": "メガハウス",
@@ -14261,6 +16132,46 @@
           "path": "assets/images/items/DBC-013/package.jpg",
           "caption": "パッケージ写真（参考画像・オーナー提供）",
           "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/box-front.jpg",
+          "caption": "外箱の表（斜め上から）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/box-side-1.jpg",
+          "caption": "外箱の側面（シリーズ名・内容の表示、MegaHouse 2008）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/box-side-2.jpg",
+          "caption": "外箱の側面と裏（斜めから）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/box-open.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/box-inner.jpg",
+          "caption": "箱の中の仕切り（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/insert-front.jpg",
+          "caption": "中の紙の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/insert-lineup.jpg",
+          "caption": "中の紙の裏（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-013/insert-bonus.jpg",
+          "caption": "中の紙（ポルンガ出現!シーンの組み立て説明）（参考画像・未所持）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -14301,6 +16212,18 @@
         {
           "date": "2026-10-07",
           "change": "ボーナスパーツ DBC-013-08「ポルンガ出現！」のページを追加（オーナー指示で、ほかのシリーズのボーナスパーツを公式ページとヤフオクの出品名で調べた）。フィギュアの相場の除外語を「ボーナスパーツ付き」の出品は除かない形に変更"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像46枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/b1243923893 、 https://auctions.yahoo.co.jp/jp/auction/d1117125353 、 https://auctions.yahoo.co.jp/jp/auction/o1065756797 、 https://auctions.yahoo.co.jp/jp/auction/p1218967648 、 https://auctions.yahoo.co.jp/jp/auction/p1235788649 、 https://auctions.yahoo.co.jp/jp/auction/v1248483070 、 https://auctions.yahoo.co.jp/jp/auction/j1235798706 、 https://auctions.yahoo.co.jp/jp/auction/v1099475561 、 https://auctions.yahoo.co.jp/jp/auction/e1129792495"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-013-05 の名前を「宇宙の帝王フリーザ」から「宇宙の大王フリーザ」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "発売年の目安（2008、外箱・中の紙の表記）を登録"
         }
       ],
       "figures": [
@@ -14350,7 +16273,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig01-front.jpg",
+              "caption": "正面（ベジータの蹴り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig01-extra-1.jpg",
+              "caption": "ザーボンの正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig01-extra-2.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig01-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14399,7 +16343,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig02-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig02-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig02-extra-3.jpg",
+              "caption": "孫悟空の後ろ姿（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig02-extra-4.jpg",
+              "caption": "フリーザのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig02-extra-5.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14449,7 +16424,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig03-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig03-extra-2.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig03-extra-3.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14498,22 +16494,52 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig04-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig04-extra-2.jpg",
+              "caption": "反対側の斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig04-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
           "id": "DBC-013-05",
           "no": 5,
           "name": {
-            "value": "宇宙の帝王フリーザ",
+            "value": "宇宙の大王フリーザ",
             "status": "reference",
             "sources": [
+              {
+                "title": "中の紙の裏のラインナップ（ヤフオク出品写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1117125353"
+              },
               {
                 "title": "ホビーサーチ「ドラゴンボールカプセル・ネオ 帰ってきたフリーザ編 7個セット」商品ページ",
                 "url": "https://www.1999.co.jp/10074270"
               }
             ],
-            "note": "ホビーサーチ掲載のチラシ（オーナー提供のスクリーンショット）の表記。 番号はシリーズ内の順番ではなく、写真の掲載順。 パッケージ写真では「宇宙の大王フリーザ」とも読める表記がある。"
+            "note": "中の紙のラインナップとパッケージ写真では「宇宙の大王フリーザ」。発売時のチラシだけ「宇宙の帝王フリーザ」（以前の登録名）。激闘総集編（DBC-007-02）のミニブックでは「宇宙の帝王フリーザ」。"
           },
           "ownership": {
             "status": "not_owned",
@@ -14524,7 +16550,7 @@
             "query": "ドラゴンボールカプセル ネオ 宇宙の帝王フリーザ",
             "mustInclude": [
               "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
-              "宇宙の帝王"
+              "宇宙の(帝王|大王)"
             ],
             "exclude": [
               "カプセルR",
@@ -14547,7 +16573,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig05-extra-1.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig05-extra-3.jpg",
+              "caption": "フリーザ本体（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig05-extra-4.jpg",
+              "caption": "台座（エフェクト）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14596,7 +16648,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14645,7 +16713,38 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig07-extra-1.jpg",
+              "caption": "ピッコロのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig07-extra-2.jpg",
+              "caption": "フリーザのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig07-extra-4.jpg",
+              "caption": "フリーザの後ろ姿（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig07-extra-5.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ彩色版の2種類がある（公式ページの商品内容による）。"
         },
         {
@@ -14696,7 +16795,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-013/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig08-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig08-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig08-extra-3.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-013/fig08-extra-4.jpg",
+              "caption": "正面（白い背景）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。画像はまだない（オーナーが画像を指定したら登録する）。"
         }
       ],
@@ -14833,7 +16958,53 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-014/box-front.jpg",
+          "caption": "外箱の表（ふたを閉じた状態）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/box-side-1.jpg",
+          "caption": "外箱の側面（シリーズ名・内容の表記とラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/box-back.jpg",
+          "caption": "外箱の裏（注意書き・発売元・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/box-open.jpg",
+          "caption": "箱を開けたところ（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/capsules.jpg",
+          "caption": "カプセルの中身（内袋未開封）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/lineup.jpg",
+          "caption": "中の紙（ミニブック）のラインナップ面（全7種の名前入り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/capsule-paper.jpg",
+          "caption": "中の紙（ミニブック）を広げたところ（ラインナップと MegaHouse 2007 表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/manual.jpg",
+          "caption": "組み立て説明の紙（一星球から七星球まで集めると龍拳が完成）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-014/lineup-photo.jpg",
+          "caption": "全7種とボーナスパーツをそろえた写真（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-10-13 にオーナーの指摘で追加。情報はファンのブログとヤフオクの出品名による参考情報。",
       "history": [
@@ -14856,6 +17027,10 @@
         {
           "date": "2026-10-18",
           "change": "購入日を 2026-10-11 に修正（オーナー指示）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像32枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱9枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/1232092349 、 https://auctions.yahoo.co.jp/jp/auction/d1229662653 、 https://ameblo.jp/yoyocom69/entry-11538468903.html 、 https://auctions.yahoo.co.jp/jp/auction/f1231508299 、 https://auctions.yahoo.co.jp/jp/auction/u1066705075 、 https://auctions.yahoo.co.jp/jp/auction/g1236912352 、 https://auctions.yahoo.co.jp/jp/auction/k1250566491 、 https://auctions.yahoo.co.jp/jp/auction/r1065860016"
         }
       ],
       "figures": [
@@ -14911,7 +17086,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig01-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig01-extra-2.jpg",
+              "caption": "内袋入りの部品（上半身）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -14965,7 +17156,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig02-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig02-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig02-extra-2.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15019,7 +17226,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig03-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15073,7 +17291,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig04-front.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig04-extra-1.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15129,7 +17358,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig05-front.jpg",
+              "caption": "斜め前から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig05-extra-1.jpg",
+              "caption": "後ろ（右上に顔のアップ）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15183,7 +17423,18 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig06-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig06-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15239,7 +17490,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig07-front.jpg",
+              "caption": "正面（差し替え用の超サイヤ人の髪の部品つき）（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig07-extra-1.jpg",
+              "caption": "正面と差し替え用の髪の部品（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig07-extra-2.jpg",
+              "caption": "正面（右上はマスクを外した姿）（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig07-extra-3.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15293,7 +17565,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-014/fig08-front.jpg",
+              "caption": "正面（龍とSS3孫悟空）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig08-extra-1.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig08-extra-3.jpg",
+              "caption": "真上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-014/fig08-extra-4.jpg",
+              "caption": "正面（右上に孫悟空のアップ）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。トップページの「0 / 7体」「★コンプ」やシリーズの全種セットの相場には数えない。"
         }
       ],
@@ -15424,7 +17722,53 @@
           "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
         }
       ],
-      "images": [],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-015/box-front.jpg",
+          "caption": "外箱の表（ふた）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/box-side-1.jpg",
+          "caption": "外箱の側面（シリーズ名・内容の表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：未来をつかめ・最終兵器始動・ブウの中のブウとブウ・そして10年後！）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/box-side-3.jpg",
+          "caption": "外箱の側面（ラインナップ：修行の合間に・でっかい希望！フュージョン・悟飯怒る！・黒幕登場！）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/box-back.jpg",
+          "caption": "外箱の裏（注意書き・発売元）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/box-inner.jpg",
+          "caption": "箱の中（仕切り）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/capsules.jpg",
+          "caption": "箱の中のカプセル（内袋未開封）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/capsule-paper.jpg",
+          "caption": "中の紙（ミニブック）の表紙（MegaHouse 2007 表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-015/lineup-photo.jpg",
+          "caption": "全7種とボーナスパーツをそろえた写真（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
       "alerts": [],
       "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-10-18 にオーナーの指示で追加。情報はファンのブログとヤフオクの出品名による参考情報。フィギュアの名前は場面の名前（登場人物は出品名による）。",
       "history": [
@@ -15435,6 +17779,18 @@
         {
           "date": "2026-10-18",
           "change": "購入日を 2026-10-11 に修正（オーナー指示）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像46枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱9枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/l1244428253 、 https://auctions.yahoo.co.jp/jp/auction/d1238156903 、 https://ameblo.jp/yoyocom69/entry-11534359870.html 、 https://auctions.yahoo.co.jp/jp/auction/q1227086191 、 https://paypayfleamarket.yahoo.co.jp/item/z623462302 、 https://auctions.yahoo.co.jp/jp/auction/j1228946923 、 https://auctions.yahoo.co.jp/jp/auction/e1235425592 、 https://auctions.yahoo.co.jp/jp/auction/v1240108351 、 https://auctions.yahoo.co.jp/jp/auction/l1129852572 、 https://auctions.yahoo.co.jp/jp/auction/t1243799513 、 https://auctions.yahoo.co.jp/jp/auction/p1223912690 、 https://auctions.yahoo.co.jp/jp/auction/m1248777942 、 https://auctions.yahoo.co.jp/jp/auction/w1233242658 、 https://auctions.yahoo.co.jp/jp/auction/p1229652528"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-015-02 の名前を「悟飯怒る」から「悟飯怒る！」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-015-07 の名前を「そして１０年後」から「そして10年後！」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
         }
       ],
       "figures": [
@@ -15487,16 +17843,41 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig01-extra-1.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig01-extra-2.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig01-extra-3.jpg",
+              "caption": "分けた部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
           "id": "DBC-015-02",
           "no": 2,
           "name": {
-            "value": "悟飯怒る",
+            "value": "悟飯怒る！",
             "status": "reference",
             "sources": [
+              {
+                "title": "外箱の側面のラインナップ（ヤフオク出品写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/l1244428253"
+              },
               {
                 "title": "ブログ「ドラゴンボール・フィギュアコレクション」（ヨウヘイドラゴン）「復活・脅威の魔人ブウ編」紹介記事",
                 "url": "https://ameblo.jp/yoyocom69/entry-11534359870.html"
@@ -15506,7 +17887,7 @@
                 "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E8%84%85%E5%A8%81%E3%81%AE%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E7%B7%A8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB"
               }
             ],
-            "note": "ブログの紹介記事の表記。番号はシリーズ内の順番ではなく、ブログの掲載順。"
+            "note": "外箱の側面のラインナップの表記。以前の登録はブログの表記「悟飯怒る」。"
           },
           "ownership": {
             "status": "not_owned",
@@ -15539,7 +17920,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig02-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig02-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig02-extra-3.jpg",
+              "caption": "斜め前から（別の角度）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig02-extra-4.jpg",
+              "caption": "内袋入りの部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15591,7 +17998,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig03-front.jpg",
+              "caption": "正面（掛け布団つき）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig03-extra-1.jpg",
+              "caption": "真上から（掛け布団なし）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig03-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig03-extra-3.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig03-extra-4.jpg",
+              "caption": "分けた部品（マクラ欠品）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15643,7 +18076,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig04-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig04-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig04-extra-3.jpg",
+              "caption": "上から（中の悟空・悟天・トランクス）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig04-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15695,7 +18154,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig05-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig05-extra-2.jpg",
+              "caption": "アップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig05-extra-3.jpg",
+              "caption": "真上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig05-extra-4.jpg",
+              "caption": "台座の部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15747,16 +18232,36 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig06-extra-1.jpg",
+              "caption": "正面（別の個体）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig06-extra-2.jpg",
+              "caption": "内袋入りの部品と中の紙（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
           "id": "DBC-015-07",
           "no": 7,
           "name": {
-            "value": "そして１０年後",
+            "value": "そして10年後！",
             "status": "reference",
             "sources": [
+              {
+                "title": "外箱の側面のラインナップ（ヤフオク出品写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/l1244428253"
+              },
               {
                 "title": "ブログ「ドラゴンボール・フィギュアコレクション」（ヨウヘイドラゴン）「復活・脅威の魔人ブウ編」紹介記事",
                 "url": "https://ameblo.jp/yoyocom69/entry-11534359870.html"
@@ -15766,7 +18271,7 @@
                 "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E8%84%85%E5%A8%81%E3%81%AE%E9%AD%94%E4%BA%BA%E3%83%96%E3%82%A6%E7%B7%A8%20%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB"
               }
             ],
-            "note": "ブログの紹介記事の表記。出品名では「ウーブ」と書かれている。番号はシリーズ内の順番ではなく、ブログの掲載順。"
+            "note": "外箱の側面のラインナップの表記。以前の登録はブログの表記「そして１０年後」。出品名では「ウーブ」と書かれることがある。"
           },
           "ownership": {
             "status": "not_owned",
@@ -15799,7 +18304,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig07-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig07-extra-2.jpg",
+              "caption": "ウーブの後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig07-extra-3.jpg",
+              "caption": "真上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig07-extra-4.jpg",
+              "caption": "ウーブのアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。"
         },
         {
@@ -15854,7 +18385,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-015/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig08-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig08-extra-2.jpg",
+              "caption": "真上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig08-extra-3.jpg",
+              "caption": "分けた部品（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-015/fig08-extra-4.jpg",
+              "caption": "組み立て説明の紙（黒幕登場！シーン完成!!）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。出品名には「プイプイ」のボーナスパーツ（「ボーナスパーツ 2種 プイプイ … 黒幕登場」）もあり、ブロンズ版などで別のボーナスパーツがあった可能性がある（未確認）。2026-10-11 のまとめ買いに部品（ダーブラ）が1つ含まれていた。"
         }
       ],
@@ -16052,6 +18609,11 @@
         {
           "path": "assets/images/items/DBC-016/box-bottom.jpg",
           "caption": "外箱の底"
+        },
+        {
+          "path": "assets/images/items/DBC-016/lineup-photo.jpg",
+          "caption": "全7種とボーナスパーツをそろえた写真（参考画像）",
+          "kind": "reference"
         }
       ],
       "alerts": [],
@@ -16068,6 +18630,18 @@
         {
           "date": "2026-11-15",
           "change": "メルカリShops の7個セット＋ボーナスパーツ（https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv 、送料込み15,555円）を購入。購入記録・商品の状態（出品の説明文と写真による）・画像（出品写真15枚、購入した現物）を登録し、シリーズと全フィギュアを「所持」に変更（オーナー指示）。発売年の目安（2008、外箱の表記）を登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像32枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱1枚、フィギュア8体分）。出典：https://ameblo.jp/yoyocom69/entry-11545351428.html 、 https://auctions.yahoo.co.jp/jp/auction/g1223036617 、 https://paypayfleamarket.yahoo.co.jp/item/z429620532 、 https://auctions.yahoo.co.jp/jp/auction/s1234015693 、 https://paypayfleamarket.yahoo.co.jp/item/z429920392 、 https://auctions.yahoo.co.jp/jp/auction/u1236164407 、 https://auctions.yahoo.co.jp/jp/auction/o1234016394 、 https://auctions.yahoo.co.jp/jp/auction/q1234010490"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-016-01 の名前を「孫悟空＆ルフィ」から「悟空＆ルフィ」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "DBC-016-03 の名前を「孫悟飯＆ゾロ」から「悟飯＆ゾロ」に変更（箱・中の紙の表記による。オーナー指示のフィギュア名の確認）"
         }
       ],
       "figures": [
@@ -16075,9 +18649,13 @@
           "id": "DBC-016-01",
           "no": 1,
           "name": {
-            "value": "孫悟空＆ルフィ",
+            "value": "悟空＆ルフィ",
             "status": "reference",
             "sources": [
+              {
+                "title": "購入した現物の外箱の側面（メルカリShops の出品写真）",
+                "url": "https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv"
+              },
               {
                 "title": "ブログ「ドラゴンボール・フィギュアコレクション」（ヨウヘイドラゴン）「週刊少年ジャンプ40周年限定版 with ONE PIECE」紹介記事",
                 "url": "https://ameblo.jp/yoyocom69/entry-11545351428.html"
@@ -16087,7 +18665,7 @@
                 "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20ONE%20PIECE"
               }
             ],
-            "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
+            "note": "外箱の側面のラインナップの表記（「孫」は付かない）。以前の登録はブログの表記「孫悟空＆ルフィ」。"
           },
           "ownership": {
             "status": "owned",
@@ -16121,7 +18699,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig01-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig01-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig01-extra-2.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：ブロンズ版（2026-11-15 のセット購入）。フル彩色版は 2026-10-11 にメルカリのまとめ買いで入手。"
         },
         {
@@ -16174,16 +18768,36 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig02-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig02-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig02-extra-2.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
           "id": "DBC-016-03",
           "no": 3,
           "name": {
-            "value": "孫悟飯＆ゾロ",
+            "value": "悟飯＆ゾロ",
             "status": "reference",
             "sources": [
+              {
+                "title": "購入した現物の外箱の側面（メルカリShops の出品写真）",
+                "url": "https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv"
+              },
               {
                 "title": "ブログ「ドラゴンボール・フィギュアコレクション」（ヨウヘイドラゴン）「週刊少年ジャンプ40周年限定版 with ONE PIECE」紹介記事",
                 "url": "https://ameblo.jp/yoyocom69/entry-11545351428.html"
@@ -16193,7 +18807,7 @@
                 "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20ONE%20PIECE"
               }
             ],
-            "note": "ブログの紹介記事・パッケージの組み立て説明書（出品写真）の表記。番号はブログの掲載順。"
+            "note": "外箱の側面のラインナップの表記（「孫」は付かない）。以前の登録はブログの表記「孫悟飯＆ゾロ」。"
           },
           "ownership": {
             "status": "owned",
@@ -16227,7 +18841,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig03-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig03-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig03-extra-2.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
@@ -16280,7 +18910,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig04-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig04-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig04-extra-2.jpg",
+              "caption": "斜め横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig04-extra-3.jpg",
+              "caption": "反対の横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig04-extra-4.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
@@ -16333,7 +18989,23 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig05-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig05-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig05-extra-2.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
@@ -16386,7 +19058,28 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig06-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig06-extra-1.jpg",
+              "caption": "横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig06-extra-2.jpg",
+              "caption": "斜め前から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig06-extra-3.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：ブロンズ版（2026-11-15 のセット購入）。フル彩色版は未所持。"
         },
         {
@@ -16439,7 +19132,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig07-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig07-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig07-extra-2.jpg",
+              "caption": "斜め横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig07-extra-3.jpg",
+              "caption": "反対の横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig07-extra-4.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "フル彩色版とブロンズ版がある（出品名による）。所持：フル彩色版（2026-11-15 にメルカリの7個セットで入手）。"
         },
         {
@@ -16451,6 +19170,10 @@
             "status": "reference",
             "sources": [
               {
+                "title": "購入した現物の外箱の表「彩色済みジオラマ1個＋神龍＆そげキングパーツ1個入り」（メルカリShops の出品写真）",
+                "url": "https://jp.mercari.com/shops/product/2JTr7LWcSoFtwnBqgAf2cv"
+              },
+              {
                 "title": "ブログ「ドラゴンボール・フィギュアコレクション」（ヨウヘイドラゴン）「週刊少年ジャンプ40周年限定版 with ONE PIECE」紹介記事",
                 "url": "https://ameblo.jp/yoyocom69/entry-11545351428.html"
               },
@@ -16459,7 +19182,7 @@
                 "url": "https://auctions.yahoo.co.jp/closedsearch/closedsearch?p=%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%20ONE%20PIECE"
               }
             ],
-            "note": "このシリーズのボーナスパーツ。ブログの紹介記事の表記。"
+            "note": "外箱の表の表記「神龍＆そげキングパーツ」と一致。このシリーズのボーナスパーツ。ブログの紹介記事の表記。"
           },
           "ownership": {
             "status": "owned",
@@ -16489,7 +19212,33 @@
             ]
           },
           "marketPrices": [],
-          "images": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-016/fig08-front.jpg",
+              "caption": "正面（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig08-extra-1.jpg",
+              "caption": "後ろ（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig08-extra-2.jpg",
+              "caption": "斜め横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig08-extra-3.jpg",
+              "caption": "反対の斜め横から（参考画像）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-016/fig08-extra-4.jpg",
+              "caption": "正面（別の個体）（参考画像）",
+              "kind": "reference"
+            }
+          ],
           "notes": "7体とは別のボーナスパーツ。2026-11-15 にメルカリの7個セット（ボーナスパーツあり）で入手。"
         }
       ],
