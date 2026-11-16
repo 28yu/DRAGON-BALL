@@ -30,6 +30,22 @@ function gradeOf(title, grades) {
   return g ? { key: g.key, label: g.label } : null;
 }
 
+// ヤフオクの検索ページに埋め込まれたデータから、出品の一覧（listing.items）を取り出す
+function listingItems(html) {
+  const m = html.match(/<script id="__NEXT_DATA__"[^>]*>([\s\S]*?)<\/script>/);
+  if (!m) return [];
+  let data;
+  try { data = JSON.parse(m[1]); } catch (e) { throw new Error(`埋め込みデータを読めない: ${e.message}`); }
+  const stack = [data];
+  while (stack.length) {
+    const o = stack.pop();
+    if (!o || typeof o !== "object") continue;
+    if (o.listing && Array.isArray(o.listing.items)) return o.listing.items;
+    for (const v of Object.values(o)) if (v && typeof v === "object") stack.push(v);
+  }
+  return [];
+}
+
 // ---------- 取得元 ----------
 const SOURCES = {
   yahoo: {
@@ -43,17 +59,18 @@ const SOURCES = {
         if (r.skipped) return page === 1 ? r : { rows };
         // 0件のページ（404）には、検索語と関係のない「おすすめ」の出品が並ぶので読まない
         if (r.status === 404) break;
-        const blocks = r.text.split('<li class="Product">').slice(1);
-        for (const b of blocks) {
-          const attr = (name) => (b.match(new RegExp(`${name}="([^"]*)"`)) || [])[1] || "";
-          const id = attr("data-auction-id");
-          const title = decode(attr("data-auction-title"));
-          const price = toNum(attr("data-auction-price"));
+        // 2026-11 からヤフオクの検索ページは新しい作りになり（/search/search/<語>/0 に転送）、
+        // 出品の一覧はページに埋め込まれたデータ（__NEXT_DATA__ の listing.items）から読む
+        const items = listingItems(r.text);
+        for (const it of items) {
+          const id = String(it.auctionId || "");
+          const title = String(it.title || "").replace(/\s+/g, " ").trim();
+          const price = Number(it.price) || 0;
           if (!id || !title || !price) continue;
-          const buyNow = toNum(attr("data-auction-buynowprice")) || null;
-          const bids = toNum((b.match(/class="Product__bid"[^>]*>([\s\S]*?)<\/dd>/) || [])[1] || "0");
-          const postage = decode((b.match(/class="Product__postage"[^>]*>([\s\S]*?)<\/p>/) || [])[1] || "");
-          const flea = attr("data-auction-isflea") === "1";
+          const buyNow = Number(it.buyNowPrice) || null;
+          const bids = Number(it.bidCount) || 0;
+          const flea = it.isFleamarketItem === true;
+          const end = it.endTime ? Math.floor(Date.parse(it.endTime) / 1000) : null;
           rows.push({
             id: `yahoo:${id}`,
             site: flea ? "yahoo_flea" : "yahoo",
@@ -62,14 +79,14 @@ const SOURCES = {
             buyNow,
             bids,
             // 即決価格と現在価格が同じで入札がなければ「即決のみ」に近いが、一覧では区別できないため形式は即決価格の有無で分ける
-            format: flea ? "fixed" : buyNow ? (buyNow === price && !bids ? "fixed" : "auction_buynow") : "auction",
-            endTime: toNum(attr("data-auction-endtime")) || null,
-            shipping: /送料無料/.test(postage) || attr("data-auction-isfreeshipping") === "1" ? 0 : toNum(postage.match(/送料\s*([\d,]+)\s*円/)?.[1] || "") || null,
-            store: attr("data-auction-isshoppingitem") === "1",
+            format: flea || it.isFixedPrice ? "fixed" : buyNow ? (buyNow === price && !bids ? "fixed" : "auction_buynow") : "auction",
+            endTime: Number.isFinite(end) ? end : null,
+            shipping: it.isFreeShipping ? 0 : Number.isFinite(it.currentPriceShippingFee) ? it.currentPriceShippingFee : null,
+            store: it.isShoppingItem === true || it.seller?.isStore === true,
             url: `https://auctions.yahoo.co.jp/jp/auction/${id}`,
           });
         }
-        if (blocks.length < 50) break;
+        if (items.length < 50) break;
       }
       return { rows };
     },
