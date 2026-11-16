@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-16",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -19891,6 +19891,1752 @@
           "セット"
         ],
         "mercariQuery": "ドラゴンボールカプセル 宿命の戦い サイヤ人編 セット"
+      }
+    },
+    {
+      "id": "DBC-018",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 覚醒・怒れる超戦士 フリーザ編",
+      "release": {
+        "value": "2006",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "中の紙の表記「MegaHouse 2006 MADE IN CHINA」（ヤフオク出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1234788271"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+          },
+          {
+            "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種＋ボーナスパーツ「ギニュー特戦隊じゃんけんシーン」。箱の表記「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」「ギニュー特戦隊じゃんけんパーツ1個入り」、外箱は「7個入り」。カプセルを7種集めるとボーナスパーツが組み上がる。メーカー：株式会社メガハウス。JAN 4535123806339（外箱の裏とカプセルのラベル）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+          },
+          {
+            "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          },
+          {
+            "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+          },
+          {
+            "title": "ヤフオク：6点まとめ（中の紙の写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1234788271"
+          },
+          {
+            "title": "ヤフオク：未開封7個（カプセルの写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/t1241849704"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-018/box-front.jpg",
+          "caption": "外箱の表（上面と正面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：とびっきりの最強対最強・怒り爆発!悟空覚醒・ザーボン撃破・到着!ナメック星）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：ピッコロの自信・神龍よ宇宙を走れ!・ナメック星行き発進!・ギニュー特戦隊じゃんけんシーン）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/box-back.jpg",
+          "caption": "外箱の裏（注意書き・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/box-inside.jpg",
+          "caption": "外箱の中（カプセルと袋入りの中身）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/capsule.jpg",
+          "caption": "カプセル（未開封・外装のラベル）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/leaflet.jpg",
+          "caption": "中の紙（ミニブック・説明書）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-018/lineup.jpg",
+          "caption": "中の紙のラインナップ（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-16 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-16",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「間違ってなければ登録」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像46枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/f1230413686 、 https://auctions.yahoo.co.jp/jp/auction/t1241849704 、 https://auctions.yahoo.co.jp/jp/auction/r1234788271 、 https://auctions.yahoo.co.jp/jp/auction/l1243039406 、 https://auctions.yahoo.co.jp/jp/auction/o1247837450 、 https://auctions.yahoo.co.jp/jp/auction/b1240097200 、 https://auctions.yahoo.co.jp/jp/auction/r1234121364 、 https://auctions.yahoo.co.jp/jp/auction/q1243844397 、 https://auctions.yahoo.co.jp/jp/auction/k1194441195 、 https://auctions.yahoo.co.jp/jp/auction/j1221260488 、 https://paypayfleamarket.yahoo.co.jp/item/z692520004 、 https://auctions.yahoo.co.jp/jp/auction/d1244952788"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-018-01",
+          "no": 1,
+          "name": {
+            "value": "到着!ナメック星",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 到着 ナメック星",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "到着"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig01-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig01-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-02",
+          "no": 2,
+          "name": {
+            "value": "ザーボン撃破",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ザーボン撃破",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "ザーボン"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig02-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig02-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig02-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig02-extra-4.jpg",
+              "caption": "台座の裏（紫の台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-03",
+          "no": 3,
+          "name": {
+            "value": "ナメック星行き発進!",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ナメック星行き発進",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "発進"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig03-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig03-extra-3.jpg",
+              "caption": "本体と台座（外した状態）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-04",
+          "no": 4,
+          "name": {
+            "value": "怒り爆発!悟空覚醒",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 怒り爆発 悟空覚醒",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "悟空覚醒"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig04-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig04-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig04-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig04-extra-4.jpg",
+              "caption": "台座の裏（赤い岩の台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-05",
+          "no": 5,
+          "name": {
+            "value": "神龍よ宇宙を走れ!",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ポルンガ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "ポルンガ|神龍よ宇宙を走れ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編",
+              "宇宙一の戦い",
+              "ボーナスパーツ"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig05-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig05-extra-3.jpg",
+              "caption": "部品（分解した状態）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig05-extra-4.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-06",
+          "no": 6,
+          "name": {
+            "value": "とびっきりの最強対最強",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 とびっきりの最強対最強",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "最強対最強"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig06-extra-3.jpg",
+              "caption": "反対側の斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig06-extra-4.jpg",
+              "caption": "クウラの上半身（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-07",
+          "no": 7,
+          "name": {
+            "value": "ピッコロの自信",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "中の紙のラインナップと外箱の側面（出品写真）の表記。ブログも同じ名前。番号は中の紙のラインナップの並び順（箱・紙に番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ピッコロの自信",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "ピッコロの自信"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたフリーザ編",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig07-extra-1.jpg",
+              "caption": "ピッコロ（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig07-extra-2.jpg",
+              "caption": "台座の上の悟飯たち（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig07-extra-3.jpg",
+              "caption": "ピッコロ単体（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig07-extra-4.jpg",
+              "caption": "台座（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-018-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "ギニュー特戦隊じゃんけんシーン",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ドラゴンボール・フィギュアコレクション「ドラゴンボールカプセル・ネオ　覚醒・怒れる超戦士　フリーザ編　（ドラカプ）」（全7種＋BPの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+              },
+              {
+                "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（BP ギニュー特選隊 ジャンケンシーン）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+              },
+              {
+                "title": "ヤフオク：箱付き全7種＋ブロンズ版（外箱の写真）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1230413686"
+              }
+            ],
+            "note": "外箱の側面の表記（外箱の表では「ギニュー特戦隊じゃんけんパーツ」）。ブログも同じ名前。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ギニュー特戦隊 じゃんけん",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "覚醒",
+              "フリーザ編",
+              "じゃんけん|ジャンケン"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "ブロンズ",
+              "帰ってきたフリーザ編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-018/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig08-extra-2.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-018/fig08-extra-4.jpg",
+              "caption": "真上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 覚醒 フリーザ編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "覚醒",
+          "フリーザ編"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "帰ってきたフリーザ編",
+          "総集編"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 覚醒 フリーザ編 セット"
+      }
+    },
+    {
+      "id": "DBC-019",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 激闘・Z戦士総集編",
+      "release": {
+        "value": "2008",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "中の紙（ミニブック）の表記「MegaHouse 2008」（Yahoo!フリマ出品写真）",
+            "url": "https://paypayfleamarket.yahoo.co.jp/item/z724960106"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+          },
+          {
+            "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色版とブロンズ版がある）＋ボーナスパーツ「タイムマシンラボ」（カプセル1〜7に入った部品を集めて組み立てる）。7種はボーナスパーツ以外ほかのシリーズの再販：サイヤ人編（悟飯慟哭・悟空本気に）、覚醒・怒れる超戦士 フリーザ編（ピッコロの自信・怒り爆発！悟空覚醒）、邂逅・未来からの侵略 セル編（たったひとりの最終決戦・免許皆伝？新たなる試練）、復活・脅威の魔人ブウ編（未来をつかめ）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+          },
+          {
+            "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+          },
+          {
+            "title": "同ブログ「覚醒・怒れる超戦士 フリーザ編」紹介記事（ピッコロの自信・怒り爆発！悟空覚醒！の元）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11533622791.html"
+          },
+          {
+            "title": "同ブログ「邂逅・未来からの侵略 セル編」紹介記事（たった一人の最終決戦・免許皆伝？新たなる試練の元）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+          },
+          {
+            "title": "同ブログ「復活・脅威の魔人ブウ編」紹介記事（未来をつかめの元）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11534359870.html"
+          },
+          {
+            "title": "ヤフオク「［未使用］ドラゴンボールZ ドラゴンボールカプセル・ネオ 激闘・Z戦士総集編 全7種コンプリート メガハウス」（外箱の写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+          },
+          {
+            "title": "Yahoo!フリマ「【袋未開封】ドラカプ Z戦士総集編 怒り爆発!悟空覚醒 彩色版 ボーナスパーツ付」（中の紙の写真）",
+            "url": "https://paypayfleamarket.yahoo.co.jp/item/z724960106"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-019/box-front.jpg",
+          "caption": "外箱の表（ふた。シリーズ名・内容の表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/box-side-1.jpg",
+          "caption": "外箱の側面（7個入り・シリーズ名）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：たったひとりの最終決戦・免許皆伝？新たなる試練・未来をつかめ・悟飯慟哭）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/box-side-3.jpg",
+          "caption": "外箱の側面（ラインナップ：悟空本気に・怒り爆発！悟空覚醒・ピッコロの自信・ボーナスパーツ「タイムマシンラボ」）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/box-back.jpg",
+          "caption": "外箱の側面（注意書き・発売元・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/capsules.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/minibook-front.jpg",
+          "caption": "中の紙（ミニブック）の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/lineup.jpg",
+          "caption": "中の紙（ミニブック）の裏（全7種のラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-019/instructions.jpg",
+          "caption": "中の紙の組み立て説明（タイムマシンラボ完成図）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-16 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。 ボーナスパーツ以外はほかのシリーズの再販（ブログ）。DBC-007「激闘総集編」（2010年、ボーナスパーツ「戦士達の肖像」）とは別のシリーズ。",
+      "history": [
+        {
+          "date": "2026-11-16",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「間違ってなければ登録」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像53枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱9枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/k1246249053 、 https://paypayfleamarket.yahoo.co.jp/item/z724960106 、 https://auctions.yahoo.co.jp/jp/auction/j1093092553 、 https://paypayfleamarket.yahoo.co.jp/item/z724962476 、 https://auctions.yahoo.co.jp/jp/auction/o1230107616 、 https://auctions.yahoo.co.jp/jp/auction/v1243536317 、 https://auctions.yahoo.co.jp/jp/auction/o1236007541 、 https://auctions.yahoo.co.jp/jp/auction/r1117064607 、 https://auctions.yahoo.co.jp/jp/auction/q1117067849 、 https://auctions.yahoo.co.jp/jp/auction/k1219336969 、 https://auctions.yahoo.co.jp/jp/auction/g1117084100 、 https://auctions.yahoo.co.jp/jp/auction/s1233546035 、 https://auctions.yahoo.co.jp/jp/auction/b1244272648 、 https://auctions.yahoo.co.jp/jp/auction/w1235803668 、 https://auctions.yahoo.co.jp/jp/auction/g1237579569 、 https://auctions.yahoo.co.jp/jp/auction/k1232319923"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-019-01",
+          "no": 1,
+          "name": {
+            "value": "たったひとりの最終決戦",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元はセル編（邂逅・未来からの侵略 セル編）の「たった一人の最終決戦」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 最終決戦",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "最終決戦|バーダック"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編",
+              "邂逅"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig01-front.jpg",
+              "caption": "上半身（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig01-extra-1.jpg",
+              "caption": "下半身（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig01-extra-2.jpg",
+              "caption": "台座（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig01-extra-3.jpg",
+              "caption": "中身一式（袋入り・ボーナスパーツ・中の紙）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-019-02",
+          "no": 2,
+          "name": {
+            "value": "免許皆伝？新たなる試練",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元はセル編の「免許皆伝？新たなる試練」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 免許皆伝",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "免許皆伝"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編",
+              "邂逅"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig02-extra-1.jpg",
+              "caption": "車（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig02-extra-2.jpg",
+              "caption": "ピッコロ（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig02-extra-3.jpg",
+              "caption": "悟空（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig02-extra-4.jpg",
+              "caption": "台座（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig02-extra-5.jpg",
+              "caption": "正面（まとめ売りの集合写真から切り抜き）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-019-03",
+          "no": 3,
+          "name": {
+            "value": "未来をつかめ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元は復活・脅威の魔人ブウ編（DBC-015）の「未来をつかめ」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 未来をつかめ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "未来をつかめ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ブウ編",
+              "魔人ブウ",
+              "戦士たちよ再び"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig03-front.jpg",
+              "caption": "正面（まとめ売りの集合写真から切り抜き）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig03-extra-1.jpg",
+              "caption": "中身一式（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig03-extra-2.jpg",
+              "caption": "体（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig03-extra-3.jpg",
+              "caption": "頭とオーラ（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig03-extra-4.jpg",
+              "caption": "台座（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "復活・脅威の魔人ブウ編（DBC-015-06）と同じフィギュアの再販（ブログ）。"
+        },
+        {
+          "id": "DBC-019-04",
+          "no": 4,
+          "name": {
+            "value": "悟飯慟哭",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元は激闘・宇宙一の強戦士 サイヤ人編の「悟飯慟哭」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 悟飯慟哭",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "悟飯慟哭"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "サイヤ人編",
+              "宇宙一"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig04-front.jpg",
+              "caption": "正面（まとめ売りの集合写真から切り抜き）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig04-extra-1.jpg",
+              "caption": "悟飯（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig04-extra-2.jpg",
+              "caption": "ピッコロ（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig04-extra-3.jpg",
+              "caption": "背景の部品（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig04-extra-4.jpg",
+              "caption": "中身一式（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-019-05",
+          "no": 5,
+          "name": {
+            "value": "悟空本気に",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元は激闘・宇宙一の強戦士 サイヤ人編の「悟空本気に」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 悟空本気に",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "悟空本気に"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "サイヤ人編",
+              "宇宙一"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig05-extra-1.jpg",
+              "caption": "正面（まとめ売りの集合写真から切り抜き）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig05-extra-2.jpg",
+              "caption": "上半身（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig05-extra-3.jpg",
+              "caption": "上半身の後ろ（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig05-extra-4.jpg",
+              "caption": "下半身（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig05-extra-5.jpg",
+              "caption": "中身一式（袋入り）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-019-06",
+          "no": 6,
+          "name": {
+            "value": "怒り爆発！悟空覚醒",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元は覚醒・怒れる超戦士 フリーザ編の「怒り爆発！悟空覚醒！」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 悟空覚醒",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "悟空覚醒"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "フリーザ編",
+              "怒れる超戦士"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig06-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig06-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig06-extra-4.jpg",
+              "caption": "台座と部品（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig06-extra-5.jpg",
+              "caption": "正面（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "覚醒・怒れる超戦士 フリーザ編（DBC-018-04）と同じフィギュアの再販（ブログ）。"
+        },
+        {
+          "id": "DBC-019-07",
+          "no": 7,
+          "name": {
+            "value": "ピッコロの自信",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の側面（ラインナップ面）と中の紙（ミニブック）の表記。ブログ紹介記事にも同名。元は覚醒・怒れる超戦士 フリーザ編の「ピッコロの自信」の再販。番号は外箱の側面の並び順（番号の表記はない）。"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 ピッコロの自信",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "ピッコロの自信"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "フリーザ編",
+              "怒れる超戦士"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig07-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig07-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig07-extra-4.jpg",
+              "caption": "台座（上から）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig07-extra-5.jpg",
+              "caption": "部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "覚醒・怒れる超戦士 フリーザ編（DBC-018-07）と同じフィギュアの再販（ブログ）。"
+        },
+        {
+          "id": "DBC-019-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "タイムマシンラボ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」激闘・Ｚ戦士総集編 紹介記事",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/k1246249053"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・Ｚ戦士総集編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11535900184.html"
+              },
+              {
+                "title": "同ブログ「激闘・宇宙一の強戦士 サイヤ人編」紹介記事（悟飯慟哭・悟空本気にの元）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              }
+            ],
+            "note": "外箱の表（「彩色済みジオラマ1個＋タイムマシンラボパーツ1個入り」）・外箱の側面・ブログの【ボーナスパーツ】"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル Z戦士総集編 タイムマシンラボ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "[ZＺ]\\s*戦士\\s*総集編",
+              "タイムマシンラボ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "激闘総集編",
+              "戦士達の肖像"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-019/fig08-front.jpg",
+              "caption": "正面（完成品）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig08-extra-2.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig08-extra-3.jpg",
+              "caption": "ブルマとトランクスの部分（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig08-extra-4.jpg",
+              "caption": "トランクスの部品（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-019/fig08-extra-5.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 激闘 Z戦士総集編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "[ZＺ]\\s*戦士\\s*総集編"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 激闘 Z戦士総集編 セット"
       }
     }
   ]
