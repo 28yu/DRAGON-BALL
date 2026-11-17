@@ -29060,6 +29060,528 @@
         ],
         "mercariQuery": "ドラゴンボールカプセル 戦士たちよ永遠なれ ゼットワールド編 セット"
       }
+    },
+    {
+      "id": "DBC-029",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル改 孫悟空 Ver.界王拳",
+      "release": {
+        "value": "2009",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "箱の表記「MegaHouse 2009」（ヤフオク出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1234950270"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」【ジャンプフェスタ限定】ドラゴンボールカプセル改 孫悟空 Ver.界王拳",
+            "url": "https://ameblo.jp/yoyocom69/entry-11575379344.html"
+          },
+          {
+            "title": "ブログ「ドラゴンボールカプセルの歴史」（ドラゴンボールカプセル改の欄）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532724582.html"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "孫悟空（界王拳カラー）1体。カプセルではなく透明な箱（ブリスター＋PVCの外箱）入り（ブログ「カプセルでなく透明な箱に入ってるんだ」）。箱の素材表記「本体：PVC／ミニブック：紙」でミニブック付き。ボーナスパーツなし。JAN は箱の裏の 4535123 8110?8（テープで一部読めない。https://auctions.yahoo.co.jp/jp/auction/n1238696637 の6枚目）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」【ジャンプフェスタ限定】ドラゴンボールカプセル改 孫悟空 Ver.界王拳",
+            "url": "https://ameblo.jp/yoyocom69/entry-11575379344.html"
+          },
+          {
+            "title": "ブログ「ドラゴンボールカプセルの歴史」（ドラゴンボールカプセル改の欄）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532724582.html"
+          },
+          {
+            "title": "ヤフオク 箱の全面の写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/n1238696637"
+          },
+          {
+            "title": "ヤフオク 箱から出した写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1212208696"
+          },
+          {
+            "title": "ヤフオク 箱の正面（MegaHouse 2009）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1234950270"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-029/box-front.jpg",
+          "caption": "箱の正面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/box-back.jpg",
+          "caption": "箱の裏（絵柄の面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/box-side-1.jpg",
+          "caption": "箱の横（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/box-side-2.jpg",
+          "caption": "箱の反対側の横（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/box-top.jpg",
+          "caption": "箱の上（界王様のマーク）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/box-bottom.jpg",
+          "caption": "箱の注意書き・JANの面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-029/compare-dbc028.jpg",
+          "caption": "好敵手編の孫悟空（左）との比較（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱（出品写真）とブログによる参考情報。カプセルではなく、1体入りの箱の商品。 ジャンプフェスタ2010（2009年12月19・20日、幕張メッセ）の会場限定品。好敵手（ライバル）編の孫悟空（DBC-028-04）の色違い（界王拳カラー）。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像14枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱7枚、フィギュア1体分）。出典：https://auctions.yahoo.co.jp/jp/auction/n1238696637 、 https://ameblo.jp/yoyocom69/entry-11575379344.html 、 https://auctions.yahoo.co.jp/jp/auction/r1212208696"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-029-01",
+          "no": 1,
+          "name": {
+            "value": "孫悟空 Ver.界王拳",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/n1238696637"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」【ジャンプフェスタ限定】ドラゴンボールカプセル改 孫悟空 Ver.界王拳",
+                "url": "https://ameblo.jp/yoyocom69/entry-11575379344.html"
+              },
+              {
+                "title": "ブログ「ドラゴンボールカプセルの歴史」（ドラゴンボールカプセル改の欄）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532724582.html"
+              }
+            ],
+            "note": "根拠：箱の正面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "孫悟空 Ver.界王拳",
+            "mustInclude": [
+              "界王拳",
+              "ジャンプフェスタ|JF|カプセル改|ドラカプ|CAPSULE"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "マンガストラクチャー",
+              "G×materia",
+              "塗り直",
+              "リペイント"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-029/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-1.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-4.jpg",
+              "caption": "反対側の斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-5.jpg",
+              "caption": "箱と並べたところ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-029/fig01-extra-6.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "好敵手（ライバル）編の孫悟空（DBC-028-04）の色違い（ブログ・写真で確認）。"
+        }
+      ],
+      "market": {
+        "query": "孫悟空 Ver.界王拳",
+        "mustInclude": [
+          "界王拳",
+          "ジャンプフェスタ|JF|カプセル改|ドラカプ|CAPSULE"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "コンプ",
+          "全\\s*[0-9０-９]*\\s*種",
+          "[0-9０-９]\\s*(種|点)",
+          "フルセット",
+          "まとめ",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "HG|ＨＧ|ガシャ",
+          "[\\s　]他([\\s　|]|$)",
+          "[\\s　]等[\\s　]",
+          "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+          "マンガストラクチャー",
+          "G×materia",
+          "塗り直",
+          "リペイント"
+        ],
+        "mercariQuery": "孫悟空 Ver.界王拳"
+      }
+    },
+    {
+      "id": "DBC-030",
+      "category": "capsule",
+      "title": "ドラカプメモリアル 親子かめはめ波",
+      "release": {
+        "value": "2015",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "箱の表記「MegaHouse 2015」（ヤフオク出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1233004457"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク 箱の全面の写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1233004457"
+          },
+          {
+            "title": "ヤフオク 出品名「ドラカプメモリアル 限定版 親子かめはめ波」・商品写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1095692900"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "孫悟空と孫悟飯（どちらも超サイヤ人）の1体。透明な箱入り。JAN 4535123819865（箱の裏。https://auctions.yahoo.co.jp/jp/auction/j1244946683 の6枚目、右上の箱）。素材「本体：PVC・ABS」。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク 箱の全面の写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1233004457"
+          },
+          {
+            "title": "ヤフオク 出品名「ドラカプメモリアル 限定版 親子かめはめ波」・商品写真",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1095692900"
+          },
+          {
+            "title": "ヤフオク ドラカプメモリアル4種セット（箱の裏のJAN）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/j1244946683"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-030/box-front.jpg",
+          "caption": "箱の正面（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-030/box-side-1.jpg",
+          "caption": "箱の横（ドラカプメモリアルのロゴ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-030/box-back.jpg",
+          "caption": "箱の裏（絵柄の面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-030/box-side-2.jpg",
+          "caption": "箱の反対側の横（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-030/box-top.jpg",
+          "caption": "箱の上（悟空・悟飯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-030/box-bottom-jan.jpg",
+          "caption": "箱の注意書き・JANの面（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱（出品写真）とブログによる参考情報。カプセルではなく、1体入りの箱の商品。 ドラカプメモリアルの01〜03（DBC-010・011）とは別の商品（JAN・箱の番号の有無・年号が違う）。出品名に「限定版」とあるが、どこの限定かは未確認。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像8枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱6枚、フィギュア1体分）。出典：https://auctions.yahoo.co.jp/jp/auction/m1233004457 、 https://auctions.yahoo.co.jp/jp/auction/j1244946683 、 https://auctions.yahoo.co.jp/jp/auction/1095692900"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-030-01",
+          "no": 1,
+          "name": {
+            "value": "親子かめはめ波",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ヤフオク 箱の全面の写真",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1233004457"
+              },
+              {
+                "title": "ヤフオク 出品名「ドラカプメモリアル 限定版 親子かめはめ波」・商品写真",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1095692900"
+              },
+              {
+                "title": "ヤフオク ドラカプメモリアル4種セット（箱の裏のJAN）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/j1244946683"
+              }
+            ],
+            "note": "根拠：箱の正面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラカプメモリアル 親子かめはめ波",
+            "mustInclude": [
+              "メモリアル",
+              "親子かめはめ波|親子"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "MASTERLISE"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-030/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-030/fig01-extra-1.jpg",
+              "caption": "箱の中の正面（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "セル編改の「親子かめはめ波」（DBC-009-03）と同じ造形で、台座の色を変えたものとみられる（写真で比較。未確認）。"
+        }
+      ],
+      "market": {
+        "query": "ドラカプメモリアル 親子かめはめ波",
+        "mustInclude": [
+          "メモリアル",
+          "親子かめはめ波|親子"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "コンプ",
+          "全\\s*[0-9０-９]*\\s*種",
+          "[0-9０-９]\\s*(種|点)",
+          "フルセット",
+          "まとめ",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "HG|ＨＧ|ガシャ",
+          "[\\s　]他([\\s　|]|$)",
+          "[\\s　]等[\\s　]",
+          "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+          "セル編改",
+          "MASTERLISE"
+        ],
+        "mercariQuery": "ドラカプメモリアル 親子かめはめ波"
+      }
     }
   ]
 }
