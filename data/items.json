@@ -24665,6 +24665,877 @@
         ],
         "mercariQuery": "ドラゴンボールカプセル 戦慄の戦い セル編 セット"
       }
+    },
+    {
+      "id": "DBC-028",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル改 好敵手（ライバル）編",
+      "release": {
+        "value": "2009-11",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "メーカーのチラシ「2009年11月下旬発売予定」（ブログ zuru0310 part.2 掲載の画像）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+          }
+        ],
+        "note": "発売前のチラシの表記（「発売予定」）。外箱の側面に「MegaHouse 2009」。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+          },
+          {
+            "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": 525,
+        "status": "reference",
+        "sources": [
+          {
+            "title": "メーカーのチラシ「メーカー希望小売価格 ¥525（税込）」（ブログ zuru0310 part.2 掲載の画像）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+          }
+        ],
+        "note": "税込。発売前のチラシの表記。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色版とブロンズ版あり）。1カプセルに彩色済みフィギュア1個＋ボーナスパーツ「メディカルマシーン稼働中」のパーツ1個入り（外箱の表の表記）。BOXは7個入り（外箱の側面「7個入り」）。JAN 4535123810824（外箱の裏）。ジオラマ風の大きな台座はなく、台座どうしを並べて飾れる仕様（チラシ「ジオラマがピタっと合わさる！並べて飾れる!!」）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+          },
+          {
+            "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+          },
+          {
+            "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+          },
+          {
+            "title": "ヤフオク 外箱の側面（ラインナップ・MegaHouse 2009）と裏（JAN）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1237879580"
+          },
+          {
+            "title": "ヤフオク 中の紙（ラインナップ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/r1214155110"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-028/box-front.jpg",
+          "caption": "外箱の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/box-side-lineup.jpg",
+          "caption": "外箱の側面（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/box-side-bonus.jpg",
+          "caption": "外箱の側面（ボーナスパーツ完成図）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/box-back.jpg",
+          "caption": "外箱の裏（JAN・メーカー表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/lineup.jpg",
+          "caption": "中の紙（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/capsule.jpg",
+          "caption": "カプセル（ドラゴンボール形・帯つき）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-028/set.jpg",
+          "caption": "全7種とボーナスパーツ（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。箱の正式な名前は「ドラゴンボールカプセル改 好敵手（ライバル）編」（ブログでは「ネオ 好敵手編」）。対象外のカプセルRとは別の商品。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像48枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱7枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/v1251958189 、 https://auctions.yahoo.co.jp/jp/auction/1237879580 、 https://auctions.yahoo.co.jp/jp/auction/r1214155110 、 https://auctions.yahoo.co.jp/jp/auction/t1243930824 、 https://ameblo.jp/yoyocom69/entry-11541271981.html 、 https://auctions.yahoo.co.jp/jp/auction/f1230900736 、 https://auctions.yahoo.co.jp/jp/auction/c1230906138 、 https://auctions.yahoo.co.jp/jp/auction/n1230911618 、 https://auctions.yahoo.co.jp/jp/auction/s1230915204 、 https://auctions.yahoo.co.jp/jp/auction/r1230906536 、 https://auctions.yahoo.co.jp/jp/auction/g1230906174 、 https://auctions.yahoo.co.jp/jp/auction/o1230909437 、 https://auctions.yahoo.co.jp/jp/auction/b1236472611 、 https://auctions.yahoo.co.jp/jp/auction/v1249957335"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-028-01",
+          "no": 1,
+          "name": {
+            "value": "ラディッツ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 ラディッツ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "ラディッツ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig01-extra-1.jpg",
+              "caption": "正面（斜め）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig01-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig01-extra-3.jpg",
+              "caption": "斜め後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig01-extra-4.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-02",
+          "no": 2,
+          "name": {
+            "value": "ベジータ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 ベジータ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig02-extra-1.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig02-extra-2.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig02-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig02-extra-4.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-03",
+          "no": 3,
+          "name": {
+            "value": "ナッパ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 ナッパ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "ナッパ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig03-extra-1.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig03-extra-2.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig03-extra-3.jpg",
+              "caption": "斜め後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig03-extra-4.jpg",
+              "caption": "上半身の拡大（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-04",
+          "no": 4,
+          "name": {
+            "value": "孫悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 孫悟空",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "孫悟空"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改",
+              "界王拳"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig04-extra-1.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig04-extra-2.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig04-extra-4.jpg",
+              "caption": "顔の拡大（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-05",
+          "no": 5,
+          "name": {
+            "value": "フリーザ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 フリーザ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "フリーザ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig05-extra-1.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig05-extra-2.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig05-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig05-extra-4.jpg",
+              "caption": "上半身の拡大（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-06",
+          "no": 6,
+          "name": {
+            "value": "ザーボン",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 ザーボン",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "ザーボン"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig06-extra-1.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig06-extra-2.jpg",
+              "caption": "斜め後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig06-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig06-extra-4.jpg",
+              "caption": "上半身の拡大（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-07",
+          "no": 7,
+          "name": {
+            "value": "ドドリア",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              },
+              {
+                "title": "ヤフオク 外箱の表（彩色版 全7種+ボーナスパーツ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              }
+            ],
+            "note": "根拠：ブログの写真の名前、中の紙・外箱の側面の名前、チラシの名前がすべて一致"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル 好敵手編 ドドリア",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "好敵手|ライバル|Rival",
+              "ドドリア"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ニャンピース",
+              "ワンピース",
+              "セル編改"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig07-extra-1.jpg",
+              "caption": "正面（別の写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig07-extra-2.jpg",
+              "caption": "斜め横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig07-extra-4.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-028-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "メディカルマシーン稼働中",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1251958189"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」ドラゴンボールカプセル・ネオ 好敵手編（各フィギュアの名前と写真）",
+                "url": "https://ameblo.jp/yoyocom69/entry-11541271981.html"
+              },
+              {
+                "title": "ブログ（zuru0310）ドラゴンボール カプセル 図鑑 part.2（チラシの画像：525円・2009年11月下旬・メディカルマシーン稼働中）",
+                "url": "https://ameblo.jp/zuru0310/entry-12289948296.html"
+              }
+            ],
+            "note": "根拠：外箱の表「メディカルマシーン稼働中パーツ1個入り」、チラシ「『メディカルマシーン稼働中』完成!!」。ブログは「稼動中」と表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル メディカルマシーン 稼働中 ドラカプ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "メディカルマシ",
+              "好敵手|ライバル|ドラカプ|カプセル"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "ドラゴンボールカプセルR"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-028/fig08-front.jpg",
+              "caption": "正面（中にカプセルの孫悟空が見える小窓つき）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig08-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig08-extra-2.jpg",
+              "caption": "ベジータの後ろ姿（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig08-extra-4.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-028/fig08-extra-5.jpg",
+              "caption": "中の孫悟空（治療中）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 好敵手編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "好敵手|ライバル"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "カプセルR",
+          "界王拳"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 好敵手編 セット"
+      }
     }
   ]
 }
