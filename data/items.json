@@ -22097,7 +22097,7 @@
               "kind": "reference"
             }
           ],
-          "notes": ""
+          "notes": "邂逅・未来からの侵略 セル編（DBC-025-01）と同じフィギュアの再販（ブログ・写真で確認）。"
         },
         {
           "id": "DBC-019-02",
@@ -22194,7 +22194,7 @@
               "kind": "reference"
             }
           ],
-          "notes": ""
+          "notes": "邂逅・未来からの侵略 セル編（DBC-025-06）と同じフィギュアの再販（ブログ・写真で確認）。"
         },
         {
           "id": "DBC-019-03",
@@ -22379,7 +22379,7 @@
               "kind": "reference"
             }
           ],
-          "notes": ""
+          "notes": "激闘・宇宙一の強戦士 サイヤ人編（DBC-024-02）と同じフィギュアの再販（ブログ・写真で確認）。"
         },
         {
           "id": "DBC-019-05",
@@ -22476,7 +22476,7 @@
               "kind": "reference"
             }
           ],
-          "notes": ""
+          "notes": "激闘・宇宙一の強戦士 サイヤ人編（DBC-024-03）と同じフィギュアの再販（ブログ・写真で確認）。"
         },
         {
           "id": "DBC-019-06",
@@ -25535,6 +25535,1741 @@
           "セット"
         ],
         "mercariQuery": "ドラゴンボールカプセル 好敵手編 セット"
+      }
+    },
+    {
+      "id": "DBC-024",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 激闘・宇宙一の強戦士 サイヤ人編",
+      "release": {
+        "value": "2006",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "中の紙の表記「MegaHouse 2006」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色バージョンとブロンズバージョンがある）＋ボーナスパーツ「ターレスVS悟空」。1カプセルに彩色済みジオラマ1個＋ターレスVS悟空のパーツ1個入り、外箱は7個入り（カプセル1個ずつの販売。外箱の表「彩色済みジオラマ1個＋ターレスVS悟空パーツ1個入り」「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）」、外箱の側面「7個入り」：https://auctions.yahoo.co.jp/jp/auction/p1112482402 の1枚目）。カプセルはドラゴンボール型（星の数がカプセルごとに違う）。ブロンズ版の出品あり（https://auctions.yahoo.co.jp/jp/auction/m1235562132「ブロンズ6・彩色1」）",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル　激闘・宇宙一の強戦士　サイヤ人編　ブロンズ６・彩色１バージョン　フルコンプ」（外箱のラインナップ面）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+          },
+          {
+            "title": "ヤフオク「【袋未開封・欠品有】：彩色版4種＋銅版2種 ボーナスパーツ … サイヤ人編」（外箱の表・側面・裏）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/o1230434575"
+          },
+          {
+            "title": "ヤフオク「DRAGON BALL Z ドラゴンボールカプセル 激闘 宇宙一の強戦士 サイヤ人編 全７種（ボーナスパーツなし）」（中の紙。MegaHouse 2006）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/q1091195687"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-024/box-front.jpg",
+          "caption": "外箱の上面（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/box-front-2.jpg",
+          "caption": "外箱の表（正面から）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ1）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ2）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/lineup.jpg",
+          "caption": "外箱の側面2面（全種とボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/box-back.jpg",
+          "caption": "外箱の裏（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/minibook-front.jpg",
+          "caption": "中の紙（ミニブック）の表（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/minibook-lineup.jpg",
+          "caption": "中の紙（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/capsule.jpg",
+          "caption": "カプセルと外装のラベル（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-024/all-figures.jpg",
+          "caption": "全種の集合（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像48枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱11枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/p1112482402 、 https://auctions.yahoo.co.jp/jp/auction/o1230434575 、 https://auctions.yahoo.co.jp/jp/auction/m1235562132 、 https://auctions.yahoo.co.jp/jp/auction/g1231952935 、 https://auctions.yahoo.co.jp/jp/auction/q1091195687 、 https://auctions.yahoo.co.jp/jp/auction/b1244580497 、 https://ameblo.jp/yoyocom69/entry-11532886990.html 、 https://auctions.yahoo.co.jp/jp/auction/l1234873951 、 https://auctions.yahoo.co.jp/jp/auction/o1234872151 、 https://auctions.yahoo.co.jp/jp/auction/c1234867757 、 https://auctions.yahoo.co.jp/jp/auction/g1128991037 、 https://auctions.yahoo.co.jp/jp/auction/b1234853532 、 https://auctions.yahoo.co.jp/jp/auction/s1234862887 、 https://auctions.yahoo.co.jp/jp/auction/f1240092638 、 https://auctions.yahoo.co.jp/jp/auction/r1129070502 、 https://auctions.yahoo.co.jp/jp/auction/b1203880667"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-024-01",
+          "no": 1,
+          "name": {
+            "value": "ラディッツの強さ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 ラディッツの強さ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "ラディッツの強さ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig01-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig01-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-024-02",
+          "no": 2,
+          "name": {
+            "value": "悟飯慟哭",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 悟飯慟哭",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "悟飯慟哭"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig02-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig02-extra-2.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig02-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "激闘・Z戦士総集編（DBC-019-04）に同じ造形の再販がある（写真で見比べて確認）。"
+        },
+        {
+          "id": "DBC-024-03",
+          "no": 3,
+          "name": {
+            "value": "悟空本気に",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 悟空本気に",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "悟空本気に"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig03-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig03-extra-3.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig03-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "激闘・Z戦士総集編（DBC-019-05）に同じ造形の再販がある（写真で見比べて確認）。"
+        },
+        {
+          "id": "DBC-024-04",
+          "no": 4,
+          "name": {
+            "value": "ナッパ渾身の一撃",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 ナッパ渾身",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "ナッパ渾身"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig04-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig04-extra-2.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-024-05",
+          "no": 5,
+          "name": {
+            "value": "悟飯逞しく成長中",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 悟飯逞しく",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "悟飯逞しく"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig05-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig05-extra-3.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig05-extra-4.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-024-06",
+          "no": 6,
+          "name": {
+            "value": "悟空蛇の道を行く",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 蛇の道",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "蛇の道"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig06-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig06-extra-3.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig06-extra-4.jpg",
+              "caption": "上半身のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-024-07",
+          "no": 7,
+          "name": {
+            "value": "破壊王子の本気",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル ドラカプ★激闘・宇宙一の強戦士 編★1BOX★全7種+ボーナスパーツ★未開封」（外箱の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/m1235562132 の8枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/q1091195687 の2枚目）。ブログ紹介記事にも同名"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 破壊王子",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "破壊王子"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig07-extra-1.jpg",
+              "caption": "ベジータのアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig07-extra-2.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig07-extra-3.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig07-extra-4.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-024-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "ターレスVS悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1112482402"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「激闘・宇宙一の強戦士　サイヤ人編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11532886990.html"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル　激闘・宇宙一の強戦士　サイヤ人編　ブロンズ６・彩色１バージョン　フルコンプ」（外箱のラインナップ面）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/m1235562132"
+              }
+            ],
+            "note": "根拠：外箱の表「彩色済みジオラマ1個＋ターレスVS悟空パーツ1個入り」（https://auctions.yahoo.co.jp/jp/auction/p1112482402 の1枚目）、外箱の側面のラインナップ「ターレスVS悟空」と説明「カプセル①から⑦に入っているボーナスパーツを揃えることでターレスVS悟空を組み立てることができます」。ブログは「ターレス　ＶＳ　孫悟空」、出品名では「ターレスVS孫悟空」が多い"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の強戦士 ターレス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の強戦士",
+              "ターレス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "帰ってきたサイヤ人編",
+              "宿命の戦い",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-024/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig08-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig08-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig08-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-024/fig08-extra-4.jpg",
+              "caption": "部品（組み立て前）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 宇宙一の強戦士 サイヤ人編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "宇宙一の強戦士"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "帰ってきた",
+          "宿命の戦い",
+          "総集編"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 宇宙一の強戦士 サイヤ人編 セット"
+      }
+    },
+    {
+      "id": "DBC-025",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル・ネオ 邂逅・未来からの侵略 セル編",
+      "release": {
+        "value": "2007",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "外箱・中の紙の表記「MegaHouse 2007」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル・ネオ　邂逅・未来からの侵略　セル編　ブロンズ５・彩色２　フルコンプ」（外箱・ラインナップ面）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色バージョンとブロンズバージョンがある）＋ボーナスパーツ「邪悪の卵を発見」（セルの抜け殻と、それを見つけたトランクス・クリリン・悟飯のジオラマ）。1カプセルに彩色済みジオラマ1個＋邪悪の卵を発見パーツ1個入り、外箱は7個入り。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+            "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル・ネオ　邂逅・未来からの侵略　セル編　ブロンズ５・彩色２　フルコンプ」（外箱・ラインナップ面）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+          },
+          {
+            "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセルネオ 邂逅・未来からの侵略 セル編 未開封品/たったひとりの最終決戦/単品1個/ミニブック付属」（中の紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/n1229841239"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-025/box-front.jpg",
+          "caption": "外箱の上面（表）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/box-front-2.jpg",
+          "caption": "外箱の表（斜めから）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/lineup.jpg",
+          "caption": "外箱の側面2面（全種とボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/box-bottom.jpg",
+          "caption": "外箱の底（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/capsules.jpg",
+          "caption": "カプセルと外装のラベル（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/minibook-lineup.jpg",
+          "caption": "中の紙（ラインナップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/minibook-back.jpg",
+          "caption": "中の紙の裏（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-025/all-figures.jpg",
+          "caption": "全種の集合（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像46枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱9枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/g1229751569 、 https://auctions.yahoo.co.jp/jp/auction/x1235212221 、 https://auctions.yahoo.co.jp/jp/auction/k1241856604 、 https://auctions.yahoo.co.jp/jp/auction/n1229841239 、 https://ameblo.jp/yoyocom69/entry-11534324345.html 、 https://auctions.yahoo.co.jp/jp/auction/s1234871202 、 https://auctions.yahoo.co.jp/jp/auction/1234860113 、 https://auctions.yahoo.co.jp/jp/auction/j1234862821 、 https://auctions.yahoo.co.jp/jp/auction/k1234863941 、 https://auctions.yahoo.co.jp/jp/auction/v1234871112 、 https://auctions.yahoo.co.jp/jp/auction/k1234859293 、 https://auctions.yahoo.co.jp/jp/auction/c1234867658 、 https://auctions.yahoo.co.jp/jp/auction/k1234869557"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-025-01",
+          "no": 1,
+          "name": {
+            "value": "たったひとりの最終決戦",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり。ブログは「たった一人の最終決戦」（漢字）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 最終決戦",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "最終決戦"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig01-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig01-extra-3.jpg",
+              "caption": "台座のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "激闘・Z戦士総集編（DBC-019-01）に同じ造形の再販がある（写真で見比べて確認）。"
+        },
+        {
+          "id": "DBC-025-02",
+          "no": 2,
+          "name": {
+            "value": "約束のキス",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 約束のキス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "約束のキス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig02-extra-1.jpg",
+              "caption": "チチの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig02-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig02-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-025-03",
+          "no": 3,
+          "name": {
+            "value": "本気で瓦割り",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 瓦割り",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "瓦割り"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig03-extra-1.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig03-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig03-extra-3.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig03-extra-4.jpg",
+              "caption": "台座のセルのアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-025-04",
+          "no": 4,
+          "name": {
+            "value": "無言の戦士16号立つ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 16号",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "16号"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig04-extra-1.jpg",
+              "caption": "前から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig04-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig04-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig04-extra-4.jpg",
+              "caption": "16号のアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-025-05",
+          "no": 5,
+          "name": {
+            "value": "かわいい顔して超パワー",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり。ブログは「可愛い顔して超パワー」（漢字）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 超パワー",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "超パワー"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig05-extra-1.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig05-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig05-extra-3.jpg",
+              "caption": "アップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-025-06",
+          "no": 6,
+          "name": {
+            "value": "免許皆伝？新たなる試練",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 免許皆伝",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "免許皆伝"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig06-extra-1.jpg",
+              "caption": "斜め後ろ上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig06-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig06-extra-4.jpg",
+              "caption": "斜め前から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "激闘・Z戦士総集編（DBC-019-02）に同じ造形の再販がある（写真で見比べて確認）。"
+        },
+        {
+          "id": "DBC-025-07",
+          "no": 7,
+          "name": {
+            "value": "吹き荒れる真の力",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の側面2面（ラインナップ面）の表記（https://auctions.yahoo.co.jp/jp/auction/x1235212221 の7枚目）と中の紙（https://auctions.yahoo.co.jp/jp/auction/n1229841239 の4枚目）。ブログ紹介記事にもあり"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 吹き荒れる",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "吹き荒れる"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig07-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig07-extra-2.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig07-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig07-extra-4.jpg",
+              "caption": "上から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-025-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "邪悪の卵を発見",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235212221"
+              },
+              {
+                "title": "ブログ「ドラゴンボール・フィギュアコレクション」「邂逅・未来からの侵略　セル編」紹介記事",
+                "url": "https://ameblo.jp/yoyocom69/entry-11534324345.html"
+              },
+              {
+                "title": "ヤフオク「未使用 … ドラゴンボールカプセル ネオ 邂逅・未来からの侵略 セル編 フルカラー フルコンプ 8点セット」（外箱の表・底）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/g1229751569"
+              }
+            ],
+            "note": "根拠：外箱の表「彩色済みジオラマ1個＋邪悪の卵を発見パーツ1個入り」（https://auctions.yahoo.co.jp/jp/auction/g1229751569 の1枚目）、外箱の側面のラインナップ「邪悪の卵を発見」。ブログは「邪悪の卵発見シーン」。「セルの抜け殻」は出品名で使われる説明の言葉（箱の表記ではない）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 未来からの侵略 邪悪の卵",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "未来からの侵略",
+              "邪悪の卵"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "セル編改",
+              "戦慄の戦い",
+              "帰ってきたセル編",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-025/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig08-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig08-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig08-extra-3.jpg",
+              "caption": "反対の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-025/fig08-extra-4.jpg",
+              "caption": "悟飯たちのアップ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 邂逅 未来からの侵略 セル編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "未来からの侵略|邂逅"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "セル編改",
+          "戦慄の戦い",
+          "帰ってきたセル編",
+          "総集編"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 邂逅 未来からの侵略 セル編 セット"
       }
     }
   ]
