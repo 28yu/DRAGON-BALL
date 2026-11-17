@@ -27271,6 +27271,1795 @@
         ],
         "mercariQuery": "ドラゴンボールカプセル 邂逅 未来からの侵略 セル編 セット"
       }
+    },
+    {
+      "id": "DBC-022",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 愛する者のための戦い 魔人ブウ編",
+      "release": {
+        "value": "2004",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "箱の年号の表記「MegaHouse 2004」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク：内袋未開封 全7種＋ボーナスパーツ・箱付き（外箱と中の紙のラインナップ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+          },
+          {
+            "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種＋ボーナスパーツ「ミスターサタン&魔人ブウ」。箱の表記「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）※1箱で全てのジオラマが揃わない場合があります。」「彩色済みジオラマ1個 ミスターサタン&魔人ブウパーツ1個入り」「7個入り」。カプセル7個の部品を集めるとボーナスパーツが組み上がる（箱の側面・中の紙の裏）。メーカー：株式会社メガハウス。JAN 4535123802799。対象年齢15才以上。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク：内袋未開封 全7種＋ボーナスパーツ・箱付き（外箱と中の紙のラインナップ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+          },
+          {
+            "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+          },
+          {
+            "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+          },
+          {
+            "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（チラシの写真、「BPのサタンとブウ」）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          },
+          {
+            "title": "ドラゴンボール・フィギュアコレクション「割愛されたドラゴンボールカプセル達（ドラカプ）」（旧ドラカプとネオのリニューアル品の比べ写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11562261537.html"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-022/box-front.jpg",
+          "caption": "外箱（ふたを立てた正面。「7個入り」「全7種類」）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：ベジータ&トランクス・ミスターサタンVS人造人間18号・悟空&悟天・悟飯&ビーデル）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：ピッコロ&ゴテンクス・悟飯VS魔人ブウ・ベジットVS魔人ブウ・ボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/box-back.jpg",
+          "caption": "外箱の裏（注意書き・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/lineup.jpg",
+          "caption": "中の紙のラインナップ（全7種）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/capsule.jpg",
+          "caption": "カプセルの中身と中の紙の裏（ボーナスパーツの説明）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-022/flyer.jpg",
+          "caption": "発売当時のチラシ（「～愛する者のための戦い 魔人ブウ編～」）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像49枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/p1248583078 、 https://auctions.yahoo.co.jp/jp/auction/b1232379870 、 https://auctions.yahoo.co.jp/jp/auction/w1234334190 、 https://ameblo.jp/zuru0310/entry-12289934971.html 、 https://paypayfleamarket.yahoo.co.jp/item/z663912756 、 https://paypayfleamarket.yahoo.co.jp/item/z547986440 、 https://auctions.yahoo.co.jp/jp/auction/h1237864412 、 https://auctions.yahoo.co.jp/jp/auction/x1138596880 、 https://auctions.yahoo.co.jp/jp/auction/w1138612218 、 https://auctions.yahoo.co.jp/jp/auction/1138590897 、 https://auctions.yahoo.co.jp/jp/auction/k1138605653 、 https://paypayfleamarket.yahoo.co.jp/item/z611869240 、 https://auctions.yahoo.co.jp/jp/auction/1235415681 、 https://auctions.yahoo.co.jp/jp/auction/c1221269769 、 https://auctions.yahoo.co.jp/jp/auction/e1252563082"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-022-01",
+          "no": 1,
+          "name": {
+            "value": "悟飯&ビーデル",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い 悟飯 ビーデル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "ビーデル"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig01-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig01-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig01-extra-3.jpg",
+              "caption": "悟飯の上半身（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig01-extra-4.jpg",
+              "caption": "台座の裏（緑の台座）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-022-02",
+          "no": 2,
+          "name": {
+            "value": "悟空&悟天",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い 悟空 悟天",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "悟天"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ゴテンクス",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig02-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig02-extra-2.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig02-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig02-extra-4.jpg",
+              "caption": "悟空と悟天（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-022-03",
+          "no": 3,
+          "name": {
+            "value": "ミスターサタンVS人造人間18号",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い サタン 18号",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "18号"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ボーナス",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig03-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig03-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig03-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig03-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-022-04",
+          "no": 4,
+          "name": {
+            "value": "スーパーサイヤ人ベジータ&スーパーサイヤ人トランクス",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い ベジータ トランクス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "ベジータ",
+              "トランクス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ベジット",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig04-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig04-extra-2.jpg",
+              "caption": "反対側の斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig04-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig04-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "帰ってきたブウ編（DBC-006-02）はこの場面を別の造形で作り直したもの（ブログの比べ写真）。"
+        },
+        {
+          "id": "DBC-022-05",
+          "no": 5,
+          "name": {
+            "value": "ピッコロ&スーパーサイヤ人ゴテンクス",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い ピッコロ ゴテンクス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "ゴテンクス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig05-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig05-extra-2.jpg",
+              "caption": "ゴテンクスの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig05-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig05-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-022-06",
+          "no": 6,
+          "name": {
+            "value": "悟飯VS魔人ブウ(純粋悪)",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い 悟飯 魔人ブウ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "悟飯\\s*(VS|vs|ｖｓ|Vs)"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ビーデル",
+              "ベジット",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig06-extra-2.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig06-extra-3.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig06-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "帰ってきたブウ編（DBC-006-01）はこの場面を別の造形で作り直したもの（ブログの比べ写真）。"
+        },
+        {
+          "id": "DBC-022-07",
+          "no": 7,
+          "name": {
+            "value": "スーパーサイヤ人ベジットVS魔人ブウ(純粋悪)",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              },
+              {
+                "title": "ヤフオク：箱付き（カプセルと中の紙の裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              }
+            ],
+            "note": "根拠：中の紙のラインナップ（lineup.jpg、https://auctions.yahoo.co.jp/jp/auction/p1248583078 ）と外箱の側面（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/b1232379870 ）の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い ベジット",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "ベジット"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig07-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig07-extra-2.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig07-extra-3.jpg",
+              "caption": "ベジットと魔人ブウ（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig07-extra-4.jpg",
+              "caption": "台座（真上から）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "帰ってきたブウ編（DBC-006-03）が同じ場面の作り直しとみられる（未確認）。"
+        },
+        {
+          "id": "DBC-022-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "ミスターサタン&魔人ブウ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1234334190"
+              },
+              {
+                "title": "ヤフオク：内袋未開封 全7種＋ボーナスパーツ・箱付き（外箱と中の紙のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/p1248583078"
+              },
+              {
+                "title": "ヤフオク：箱付きセット（外箱の側面・裏）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/b1232379870"
+              }
+            ],
+            "note": "根拠：外箱の表記「ミスターサタン&魔人ブウパーツ1個入り」（box-front.jpg）と中の紙の裏「ミスターサタン&魔人ブウを組み立てることができます」（capsule.jpg、https://auctions.yahoo.co.jp/jp/auction/w1234334190 ）。ブログ zuru0310 も「BPのサタンとブウ」"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 愛する者のための戦い ボーナスパーツ サタン ブウ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "愛する者のための戦い",
+              "ボーナスパーツ|BP"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "18号",
+              "全\\s*7\\s*種",
+              "ネオ",
+              "NEO",
+              "帰ってきた",
+              "驚愕の魔人",
+              "復活・脅威",
+              "脅威の魔人",
+              "ブロンズ",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-022/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig08-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig08-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig08-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-022/fig08-extra-5.jpg",
+              "caption": "部品（分解した状態）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。帰ってきたブウ編（DBC-006-06）が同じ場面の作り直しとみられる（未確認）。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 愛する者のための戦い 魔人ブウ編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "愛する者のための戦い"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "ネオ|NEO",
+          "帰ってきた",
+          "脅威の魔人"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 愛する者のための戦い 魔人ブウ編 セット"
+      }
+    },
+    {
+      "id": "DBC-023",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 戦士たちよ永遠なれ ゼットワールド編",
+      "release": {
+        "value": "2004",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "箱の年号の表記「MegaHouse 2004」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク：内袋未開封 彩色版全7種＋ボーナスパーツ・箱付き（外箱の表・側面・裏・中）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+          },
+          {
+            "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種＋ボーナスパーツ「悟空&ウーブ」。箱の表記「全7種類（全種フル彩色バージョンとブロンズバージョンがあります。）※1箱で全てのジオラマが揃わない場合があります。」「彩色済みジオラマ1個 悟空&ウーブパーツ1個入り」「7個入り」。カプセル7個の部品を集めるとボーナスパーツが組み上がる。メーカー：株式会社メガハウス。外箱は紫。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク：内袋未開封 彩色版全7種＋ボーナスパーツ・箱付き（外箱の表・側面・裏・中）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+          },
+          {
+            "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+          },
+          {
+            "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+          },
+          {
+            "title": "ドラゴンボール フィギュア 神ブログ「ドラゴンボール カプセル 図鑑 part.1」（箱の側面の写真、「BPは、ウーブと孫悟空」）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          },
+          {
+            "title": "ドラゴンボール・フィギュアコレクション「割愛されたドラゴンボールカプセル達（ドラカプ）」（ラディッツ・ネイル・コルド大王・悟空VSベジータの写真）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11562261537.html"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-023/box-front.jpg",
+          "caption": "外箱（上面と正面。「7個入り」「全7種類」）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：ブロリーVS悟空・コルド大王&メカフリーザ・ピッコロ&悟空VSラディッツ・悟空&悟飯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：ピッコロ&ネイル・クリリン&人造人間18号・悟空VSベジータ・ボーナスパーツ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/box-back.jpg",
+          "caption": "外箱の裏（注意書き・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/box-inside.jpg",
+          "caption": "外箱の中（カプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/capsule.jpg",
+          "caption": "カプセル（未開封・外装の帯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/capsules-leaflets.jpg",
+          "caption": "カプセル7個と中の紙7枚（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-023/leaflet.jpg",
+          "caption": "中の紙の表（「ジオラマで名場面がよみがえる！」）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像49枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱8枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/d1230438977 、 https://auctions.yahoo.co.jp/jp/auction/x1230445352 、 https://auctions.yahoo.co.jp/jp/auction/c777480719 、 https://auctions.yahoo.co.jp/jp/auction/g1234261959 、 https://auctions.yahoo.co.jp/jp/auction/m1234264842 、 https://ameblo.jp/yoyocom69/entry-11562261537.html 、 https://auctions.yahoo.co.jp/jp/auction/r1118349125 、 https://auctions.yahoo.co.jp/jp/auction/f1161025659 、 https://auctions.yahoo.co.jp/jp/auction/w1245752214 、 https://paypayfleamarket.yahoo.co.jp/item/z464557708 、 https://auctions.yahoo.co.jp/jp/auction/k1234262798 、 https://auctions.yahoo.co.jp/jp/auction/x1129783682 、 https://auctions.yahoo.co.jp/jp/auction/f1238897474 、 https://auctions.yahoo.co.jp/jp/auction/b545612718 、 https://auctions.yahoo.co.jp/jp/auction/k1238988130 、 https://auctions.yahoo.co.jp/jp/auction/s1252226788"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-023-01",
+          "no": 1,
+          "name": {
+            "value": "スーパーサイヤ人ブロリーVSスーパーサイヤ人悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 ブロリー",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "ブロリー"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig01-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig01-extra-2.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig01-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig01-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig01-extra-5.jpg",
+              "caption": "ブロリー（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-02",
+          "no": 2,
+          "name": {
+            "value": "コルド大王&メカフリーザ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 コルド大王",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "コルド"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig02-extra-1.jpg",
+              "caption": "コルド大王（玉座）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig02-extra-2.jpg",
+              "caption": "後ろ（玉座の背もたれ）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig02-extra-3.jpg",
+              "caption": "メカフリーザ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig02-extra-4.jpg",
+              "caption": "メカフリーザの後ろ（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-03",
+          "no": 3,
+          "name": {
+            "value": "ピッコロ&悟空VSラディッツ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 ラディッツ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "ラディッツ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig03-front.jpg",
+              "caption": "正面（ラディッツ側から）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig03-extra-1.jpg",
+              "caption": "反対側から（悟空側から）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig03-extra-2.jpg",
+              "caption": "正面（ブログの写真）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig03-extra-3.jpg",
+              "caption": "横から（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-04",
+          "no": 4,
+          "name": {
+            "value": "悟空&悟飯",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 悟空 悟飯",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "悟飯"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ボーナス",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig04-extra-1.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig04-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig04-extra-3.jpg",
+              "caption": "反対側の横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig04-extra-4.jpg",
+              "caption": "正面（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-05",
+          "no": 5,
+          "name": {
+            "value": "ピッコロ&ネイル",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 ピッコロ ネイル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "ネイル"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig05-extra-1.jpg",
+              "caption": "斜め上から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig05-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig05-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig05-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig05-extra-5.jpg",
+              "caption": "ピッコロの上半身（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-06",
+          "no": 6,
+          "name": {
+            "value": "クリリン&人造人間18号",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 クリリン 18号",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "18号"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig06-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig06-extra-2.jpg",
+              "caption": "斜め後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig06-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig06-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-023-07",
+          "no": 7,
+          "name": {
+            "value": "スーパーサイヤ人悟空VSスーパーサイヤ人ベジータ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の側面のラインナップ（box-side-1/2.jpg、https://auctions.yahoo.co.jp/jp/auction/d1230438977 ）の表記。ブログ zuru0310 の箱の写真も同じ"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 悟空 ベジータ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "ボーナス",
+              "ネオ",
+              "NEO",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig07-extra-1.jpg",
+              "caption": "正面（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig07-extra-2.jpg",
+              "caption": "ベジータ（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig07-extra-3.jpg",
+              "caption": "悟空（拡大）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig07-extra-4.jpg",
+              "caption": "正面（ブログの写真）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "箱の表記は「スーパーサイヤ人悟空VSスーパーサイヤ人ベジータ」だが、実物は超サイヤ人2の悟空と魔人ベジータ（額にM）。"
+        },
+        {
+          "id": "DBC-023-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "悟空&ウーブ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/d1230438977"
+              },
+              {
+                "title": "ヤフオク：カプセル未開封5個＋ブロンズ版2種＋ボーナス（カプセルの帯）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1230445352"
+              },
+              {
+                "title": "ヤフオク：ピッコロ&悟空VSラディッツ（中の紙の表）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/c777480719"
+              }
+            ],
+            "note": "根拠：外箱の表記「悟空&ウーブパーツ1個」（box-front.jpg）と側面の説明「悟空&ウーブを組み立てることができます」（box-side-2.jpg）、https://auctions.yahoo.co.jp/jp/auction/d1230438977 。ブログ zuru0310 は「ウーブと孫悟空」、出品名は「孫悟空&ウーブ」（https://auctions.yahoo.co.jp/jp/auction/s1252226788 ）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル ゼットワールド編 ボーナスパーツ ウーブ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "ゼットワールド",
+              "ウーブ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "全\\s*7\\s*種",
+              "ネオ",
+              "NEO",
+              "ブロンズ",
+              "HG"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-023/fig08-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig08-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig08-extra-3.jpg",
+              "caption": "後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-023/fig08-extra-4.jpg",
+              "caption": "部品（分解した状態）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 戦士たちよ永遠なれ ゼットワールド編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "ゼットワールド"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "ネオ|NEO"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 戦士たちよ永遠なれ ゼットワールド編 セット"
+      }
     }
   ]
 }
