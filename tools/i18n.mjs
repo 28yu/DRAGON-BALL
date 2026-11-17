@@ -45,7 +45,8 @@ export function collectStrings() {
     add(it.title, `${where}.title`);
     FACTS.forEach((k) => fact(it[k], `${where}.${k}`));
     const c = it.condition || {};
-    ["box", "manual", "obi", "extras", "overall", "note"].forEach((k) => add(c[k], `${where}.condition.${k}`));
+    // フィギュアの状態（package・capsule・insert・parts）も含める（2026-11-17）
+    ["box", "manual", "obi", "extras", "package", "capsule", "insert", "parts", "overall", "note"].forEach((k) => add(c[k], `${where}.condition.${k}`));
     add(it.ownership?.note, `${where}.ownership.note`);
     (it.purchases || []).forEach((p) => { add(p.shop, `${where}.purchases.shop`); add(p.note, `${where}.purchases.note`); });
     (it.editions || []).forEach((e) => {

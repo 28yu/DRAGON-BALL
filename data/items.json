@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-16",
+    "updatedAt": "2026-11-17",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -6656,6 +6656,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 孫悟飯",
             "mustInclude": [
@@ -6765,6 +6773,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 ムラサキ曹長",
             "mustInclude": [
@@ -6837,6 +6853,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -6918,6 +6942,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -7018,6 +7050,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -7137,6 +7177,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 巨大ロボ ウーロン変化",
             "mustInclude": [
@@ -7218,6 +7266,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -7307,6 +7363,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -7659,6 +7723,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 クリリン",
             "mustInclude": [
@@ -7760,6 +7832,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 武天老師 ピッコロ大魔王",
             "mustInclude": [
@@ -7841,6 +7921,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -7945,6 +8033,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 ピッコロ大魔王",
             "mustInclude": [
@@ -8044,6 +8140,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ランファン",
             "mustInclude": [
@@ -8124,6 +8228,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -8228,6 +8340,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 ブルマ",
             "mustInclude": [
@@ -8328,6 +8448,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -8658,6 +8786,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 怪魚",
             "mustInclude": [
@@ -8758,6 +8894,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -8863,6 +9007,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 亀仙人 人魚さん",
             "mustInclude": [
@@ -8955,6 +9107,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 ミスターポポ",
             "mustInclude": [
@@ -9035,6 +9195,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -9121,6 +9289,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -9236,6 +9412,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル シェン ヤムチャ",
             "mustInclude": [
@@ -9313,6 +9497,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -9664,6 +9856,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル クロニクル編 孫悟空",
             "mustInclude": [
@@ -9761,6 +9961,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 神龍",
             "mustInclude": [
@@ -9855,6 +10063,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 孫悟空 大猿",
             "mustInclude": [
@@ -9935,6 +10151,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10019,6 +10243,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10106,6 +10338,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10198,6 +10438,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 天津飯 サイボーグ桃白白",
             "mustInclude": [
@@ -10285,6 +10533,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10573,6 +10829,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 餃子",
             "mustInclude": [
@@ -10641,6 +10905,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10718,6 +10990,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル マジュニア登場",
             "mustInclude": [
@@ -10791,6 +11071,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -10868,6 +11156,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ グルグルガムで悟空ピンチ",
             "mustInclude": [
@@ -10941,6 +11237,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -11018,6 +11322,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル アナウンサー",
             "mustInclude": [
@@ -11092,6 +11404,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -11378,6 +11698,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラカプ ミラクルパワー",
             "mustInclude": [
@@ -11451,6 +11779,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -11528,6 +11864,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ 壮絶パワー 究極を超えるベジット",
             "mustInclude": [
@@ -11601,6 +11945,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -11678,6 +12030,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル じゃあなみんな",
             "mustInclude": [
@@ -11751,6 +12111,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -11828,6 +12196,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ 超ゴテンクス3",
             "mustInclude": [
@@ -11902,6 +12278,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12215,6 +12599,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ サイヤ人の猛威",
             "mustInclude": [
@@ -12275,6 +12667,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ 宇宙の帝王フリーザ",
             "mustInclude": [
@@ -12333,6 +12733,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12410,6 +12818,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル おぼっちゃま",
             "mustInclude": [
@@ -12463,6 +12879,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12523,6 +12947,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12603,6 +13035,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12688,6 +13128,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -12986,6 +13434,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ハイヤードラゴン",
             "mustInclude": [
@@ -13061,6 +13517,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ブロリー",
             "mustInclude": [
@@ -13126,6 +13590,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -13203,6 +13675,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル タピオン",
             "mustInclude": [
@@ -13276,6 +13756,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -13354,6 +13842,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 元気玉",
             "mustInclude": [
@@ -13427,6 +13923,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -13503,6 +14007,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -13777,6 +14289,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル セル編改 クリリン 18号",
             "mustInclude": [
@@ -13854,6 +14374,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル セル編改 超ベジータ セル",
             "mustInclude": [
@@ -13919,6 +14447,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -13997,6 +14533,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル セル編改 瞬間移動",
             "mustInclude": [
@@ -14073,6 +14617,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル セル編改 セル出現",
             "mustInclude": [
@@ -14142,6 +14694,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -14221,6 +14781,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル セル編改 悟空 19号",
             "mustInclude": [
@@ -14296,6 +14864,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -14563,6 +15139,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラカプメモリアル 孫悟空",
             "mustInclude": [
@@ -14637,6 +15221,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラカプメモリアル 超サイヤ人 孫悟空",
             "mustInclude": [
@@ -14705,6 +15297,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -14965,6 +15565,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラカプメモリアル 孫悟空",
             "mustInclude": [
@@ -15044,6 +15652,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラカプメモリアル 超サイヤ人 孫悟空",
             "mustInclude": [
@@ -15117,6 +15733,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -15428,6 +16052,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ ベジータ大変身",
             "mustInclude": [
@@ -15510,6 +16142,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 限界を超えた",
             "mustInclude": [
@@ -15578,6 +16218,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -15655,6 +16303,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ サイヤ人の猛威",
             "mustInclude": [
@@ -15723,6 +16379,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -15800,6 +16464,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル おぼっちゃま",
             "mustInclude": [
@@ -15868,6 +16540,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -15944,6 +16624,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -16246,6 +16934,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ ザーボン撃破",
             "mustInclude": [
@@ -16314,6 +17010,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -16396,6 +17100,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル リクーム",
             "mustInclude": [
@@ -16465,6 +17177,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -16546,6 +17266,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ 宇宙の帝王フリーザ",
             "mustInclude": [
@@ -16621,6 +17349,14 @@
             "checkedAt": "2026-10-05",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ネオ 怒り爆発",
             "mustInclude": [
@@ -16684,6 +17420,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-05",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -16765,6 +17509,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-07",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -16930,16 +17682,16 @@
         "note": "ブログの紹介記事（7種とボーナスパーツの一覧）とヤフオクの出品名にもとづく。メーカーの公式情報は見つかっていない。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-18",
-        "note": "情報のみ掲載（収集予定）。7体のうち4体（超サイヤ人2 孫悟空・超サイヤ人 トランクス・超サイヤ人 ブロリー・マイティマスク）を所持。"
+        "status": "owned",
+        "checkedAt": "2026-11-17",
+        "note": ""
       },
       "condition": {
-        "box": null,
+        "box": "なし",
         "manual": null,
         "obi": null,
         "extras": null,
-        "overall": null,
+        "overall": "フィギュアは全7種とボーナスパーツ（龍拳）とも未開封（内袋入り）",
         "note": ""
       },
       "purchases": [
@@ -17031,6 +17783,10 @@
         {
           "date": "2026-11-15",
           "change": "参考画像32枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱9枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/1232092349 、 https://auctions.yahoo.co.jp/jp/auction/d1229662653 、 https://ameblo.jp/yoyocom69/entry-11538468903.html 、 https://auctions.yahoo.co.jp/jp/auction/f1231508299 、 https://auctions.yahoo.co.jp/jp/auction/u1066705075 、 https://auctions.yahoo.co.jp/jp/auction/g1236912352 、 https://auctions.yahoo.co.jp/jp/auction/k1250566491 、 https://auctions.yahoo.co.jp/jp/auction/r1065860016"
+        },
+        {
+          "date": "2026-11-17",
+          "change": "シリーズと全フィギュア（7体＋ボーナスパーツ「龍拳」）を「所持」に変更（オーナー指示：フィギュアは全て揃っている）。商品の状態を登録（箱なし、フィギュアは未開封）"
         }
       ],
       "figures": [
@@ -17053,8 +17809,16 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-14",
+            "status": "owned",
+            "checkedAt": "2026-11-17",
+            "note": ""
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -17125,8 +17889,16 @@
           },
           "ownership": {
             "status": "owned",
-            "checkedAt": "2026-10-18",
+            "checkedAt": "2026-11-17",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 伝説の超戦士 超サイヤ人2 孫悟空",
@@ -17194,8 +17966,16 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-14",
+            "status": "owned",
+            "checkedAt": "2026-11-17",
+            "note": ""
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -17259,8 +18039,16 @@
             "note": "ブログの紹介記事とヤフオクの出品名（複数）の表記。 番号はシリーズ内の順番ではなく、登録の順。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-14",
+            "status": "owned",
+            "checkedAt": "2026-11-17",
+            "note": ""
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -17325,8 +18113,16 @@
           },
           "ownership": {
             "status": "owned",
-            "checkedAt": "2026-10-18",
+            "checkedAt": "2026-11-17",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 伝説の超戦士 トランクス",
@@ -17392,8 +18188,16 @@
           },
           "ownership": {
             "status": "owned",
-            "checkedAt": "2026-10-18",
+            "checkedAt": "2026-11-17",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 伝説の超戦士 ブロリー",
@@ -17461,8 +18265,16 @@
           },
           "ownership": {
             "status": "owned",
-            "checkedAt": "2026-10-18",
+            "checkedAt": "2026-11-17",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 伝説の超戦士 マイティマスク",
@@ -17538,8 +18350,16 @@
             "note": "このシリーズのボーナスパーツ。ブログの紹介記事の表記。出品名では「龍拳」「龍拳爆発」と書かれている。"
           },
           "ownership": {
-            "status": "not_owned",
-            "checkedAt": "2026-10-14",
+            "status": "owned",
+            "checkedAt": "2026-11-17",
+            "note": ""
+          },
+          "condition": {
+            "package": "未開封",
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -17817,6 +18637,14 @@
             "checkedAt": "2026-10-18",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 脅威の魔人ブウ編 最終兵器始動",
             "mustInclude": [
@@ -17892,6 +18720,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-18",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -17972,6 +18808,14 @@
             "checkedAt": "2026-10-18",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 脅威の魔人ブウ編 修行の合間に",
             "mustInclude": [
@@ -18048,6 +18892,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-18",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -18128,6 +18980,14 @@
             "checkedAt": "2026-10-18",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 脅威の魔人ブウ編 でっかい希望フュージョン",
             "mustInclude": [
@@ -18206,6 +19066,14 @@
             "checkedAt": "2026-10-18",
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 脅威の魔人ブウ編 未来をつかめ",
             "mustInclude": [
@@ -18276,6 +19144,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-18",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -18359,6 +19235,14 @@
           "ownership": {
             "status": "not_owned",
             "checkedAt": "2026-10-18",
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -18672,6 +19556,14 @@
             "checkedAt": "2026-10-18",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ルフィ 悟空",
             "mustInclude": [
@@ -18740,6 +19632,14 @@
             "status": "owned",
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ピッコロ チョッパー",
@@ -18814,6 +19714,14 @@
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース 悟飯 ゾロ",
             "mustInclude": [
@@ -18882,6 +19790,14 @@
             "status": "owned",
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース クリリン ロビン",
@@ -18962,6 +19878,14 @@
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ベジータ フランキー",
             "mustInclude": [
@@ -19030,6 +19954,14 @@
             "status": "owned",
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース ブルマ サンジ",
@@ -19104,6 +20036,14 @@
             "status": "owned",
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース 亀仙人 ナミ",
@@ -19188,6 +20128,14 @@
             "status": "owned",
             "checkedAt": "2026-11-15",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル ワンピース そげキング",
@@ -19423,6 +20371,14 @@
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い バブルス",
             "mustInclude": [
@@ -19479,6 +20435,14 @@
             "status": "owned",
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い ナッパ ベジータ",
@@ -19538,6 +20502,14 @@
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い ナッパ 悟空",
             "mustInclude": [
@@ -19595,6 +20567,14 @@
             "status": "owned",
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い 悟空 ベジータ",
@@ -19654,6 +20634,14 @@
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い 悟空 悟飯",
             "mustInclude": [
@@ -19712,6 +20700,14 @@
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い ピッコロ 悟飯",
             "mustInclude": [
@@ -19769,6 +20765,14 @@
             "status": "owned",
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い 大猿",
@@ -19831,6 +20835,14 @@
             "status": "owned",
             "checkedAt": "2026-11-11",
             "note": "入手先：メルカリ"
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
           },
           "market": {
             "query": "ドラゴンボールカプセル 宿命の戦い 神龍",
@@ -20083,6 +21095,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 覚醒 フリーザ編 到着 ナメック星",
             "mustInclude": [
@@ -20160,6 +21180,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -20246,6 +21274,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 覚醒 フリーザ編 ナメック星行き発進",
             "mustInclude": [
@@ -20323,6 +21359,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -20408,6 +21452,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -20496,6 +21548,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル 覚醒 フリーザ編 とびっきりの最強対最強",
             "mustInclude": [
@@ -20578,6 +21638,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -20664,6 +21732,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -20951,6 +22027,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル Z戦士総集編 最終決戦",
             "mustInclude": [
@@ -21028,6 +22112,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -21119,6 +22211,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル Z戦士総集編 未来をつかめ",
             "mustInclude": [
@@ -21204,6 +22304,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル Z戦士総集編 悟飯慟哭",
             "mustInclude": [
@@ -21286,6 +22394,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -21377,6 +22493,14 @@
             "checkedAt": null,
             "note": ""
           },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
+            "note": ""
+          },
           "market": {
             "query": "ドラゴンボールカプセル Z戦士総集編 悟空覚醒",
             "mustInclude": [
@@ -21464,6 +22588,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {
@@ -21554,6 +22686,14 @@
           "ownership": {
             "status": "unconfirmed",
             "checkedAt": null,
+            "note": ""
+          },
+          "condition": {
+            "package": null,
+            "capsule": null,
+            "insert": null,
+            "parts": null,
+            "overall": null,
             "note": ""
           },
           "market": {

@@ -8,6 +8,42 @@ const CONDITION_LABELS = {
   overall: t("全体の状態", "Overall condition"),
 };
 
+// フィギュア1体ずつの状態の欄（2026-11-17 オーナー指示「全てのフィギュアの状態を記録できる欄」）
+const FIGURE_CONDITION_LABELS = {
+  package: t("内袋（開封・未開封）", "Inner bag (opened / unopened)"),
+  capsule: t("カプセル", "Capsule"),
+  insert: t("中の紙（ミニブック・説明書）", "Insert (mini booklet / instructions)"),
+  parts: t("部品の欠け・欠品", "Missing or damaged parts"),
+  overall: t("全体の状態", "Overall condition"),
+};
+function figureConditionHTML(fig) {
+  const cond = fig.condition || {};
+  const owned = fig.ownership?.status === "owned";
+  const hasAny = Object.keys(FIGURE_CONDITION_LABELS).some((k) => cond[k]) || cond.note;
+  if (!owned && !hasAny) return `<p class="empty-box">${t("所持していないため、状態の記録はありません。", "Not owned, so there is no condition record.")}</p>`;
+  return `
+    <table class="info-table">
+      ${Object.entries(FIGURE_CONDITION_LABELS).map(([key, label]) => row(label, cond[key] ? escapeHTML(tx(cond[key])) : unconfirmedText())).join("")}
+      ${cond.note ? row(t("状態メモ", "Condition notes"), escapeHTML(tx(cond.note))) : ""}
+    </table>`;
+}
+// シリーズのページ：全フィギュアの状態の一覧
+function figuresConditionHTML(series) {
+  const figs = series.figures || [];
+  if (!figs.length) return "";
+  const cell = (v) => (v ? escapeHTML(tx(v)) : `<span class="muted">—</span>`);
+  return `
+    <h3 class="sub-title">${t("フィギュアごとの状態", "Condition of each figure")}</h3>
+    <div class="table-scroll"><table class="info-table history-table figure-cond-table">
+      <thead><tr><th>${t("フィギュア", "Figure")}</th><th>${t("所持", "Owned")}</th><th>${FIGURE_CONDITION_LABELS.package}</th><th>${FIGURE_CONDITION_LABELS.overall}</th></tr></thead>
+      <tbody>${figs.map((f) => {
+        const c = f.condition || {};
+        const owned = f.ownership?.status === "owned";
+        return `<tr><td><a href="${itemURL(f.id)}">${escapeHTML(figureName(f))}</a></td><td>${owned ? t("所持", "Owned") : `<span class="muted">${t("未所持", "Not owned")}</span>`}</td><td>${cell(c.package)}</td><td>${cell(c.overall || c.note)}</td></tr>`;
+      }).join("")}</tbody>
+    </table></div>`;
+}
+
 function sourcesHTML(sources) {
   if (!sources || sources.length === 0) return "";
   return `<ul class="source-list">${sources
@@ -816,7 +852,7 @@ function renderItem(data, item) {
     ${section(t("基本情報", "Basic information"), basicInfoHTML(item, category, data), "basic")}
     ${item.editions || item.editionsNote ? section(t("版の違い・見分け方", "Editions and how to tell them apart"), editionsHTML(item), "editions") : ""}
     ${section(t(`画像（${(item.images || []).length}枚）`, `Photos (${(item.images || []).length})`), galleryHTML(item), "gallery")}
-    ${section(t("商品の状態", "Condition"), ownershipHTML(item), "ownership")}
+    ${section(t("商品の状態", "Condition"), ownershipHTML(item) + (isCapsuleSeries(item) ? figuresConditionHTML(item) : ""), "ownership")}
     ${section(t("購入記録", "Purchase records"), purchasesHTML(item))}
     <section id="market"><h2 class="section-title">${isCapsuleSeries(item) ? t("相場（全種セット・自動取得＋メルカリ）", "Market prices (complete set, auto-collected + Mercari)") : t("相場（自動取得＋メルカリ）", "Market prices (auto-collected + Mercari)")}</h2><div id="auto-market"><p class="empty-box">${t("読み込み中…", "Loading…")}</p></div></section>
     ${section(isCapsuleSeries(item) ? t("中古相場（全種セットの調査記録）", "Used market prices (complete set surveys)") : t("中古相場（調査記録）", "Used market prices (surveys)"), marketPricesHTML(item))}
@@ -855,7 +891,7 @@ function renderFigure(data, series, fig) {
         ${summaryHTML({ ownership: o }, { marketLabel: t("1体の相場", "Single figure price") })}
       </div>
     </div>
-    ${tocHTML([["basic", t("情報", "Info")], ["gallery", t("画像", "Photos")], ["market", t("相場", "Prices")], ["others", t("ほかのフィギュア", "Other figures")]])}
+    ${tocHTML([["basic", t("情報", "Info")], ["gallery", t("画像", "Photos")], ["condition", t("状態", "Condition")], ["market", t("相場", "Prices")], ["others", t("ほかのフィギュア", "Other figures")]])}
     ${section(t("フィギュアの情報", "Figure information"), `<table class="info-table">
       ${row(t("管理ID", "ID"), `<span class="item-id">${escapeHTML(fig.id)}</span>`)}
       ${row(t("名称", "Name"), factHTML(fig.name))}
@@ -866,6 +902,7 @@ function renderFigure(data, series, fig) {
       ${fig.notes ? row(t("メモ", "Notes"), escapeHTML(tx(fig.notes))) : ""}
     </table>`, "basic")}
     ${section(t(`画像（${(fig.images || []).length}枚）`, `Photos (${(fig.images || []).length})`), galleryHTML({ ...series, images: fig.images, title: name }), "gallery")}
+    ${section(t("このフィギュアの状態", "Condition of this figure"), figureConditionHTML(fig), "condition")}
     <section id="market"><h2 class="section-title">${t("相場（自動取得＋メルカリ）", "Market prices (auto-collected + Mercari)")}</h2>
       <p class="sub-note">${t(`このフィギュア1体だけの出品を集計しています（セット・まとめ売りは除外）。全種セットの相場は<a href="${itemURL(series.id)}">シリーズのページ</a>で見られます。`, `Counts only listings of this single figure (sets and bundles excluded). Complete set prices are on the <a href="${itemURL(series.id)}">series page</a>.`)}</p>
       <div id="auto-market"><p class="empty-box">${t("読み込み中…", "Loading…")}</p></div></section>

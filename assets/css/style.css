@@ -1489,3 +1489,7 @@ button.rate-circle:focus-visible { outline: 3px solid var(--accent); outline-off
 .dash-steps { margin: 6px 0 10px; padding-left: 1.4em; display: grid; gap: 4px; font-size: 0.9rem; }
 .dash-bookmarklet { display: inline-flex; align-items: center; text-decoration: none; background: var(--brand-yellow); color: #161616; cursor: grab; }
 .lst-site-mercari { background: var(--owned); color: var(--owned-text); }
+
+/* ---------- シリーズのページ：フィギュアごとの状態の一覧（2026-11-17 オーナー指示） ---------- */
+.figure-cond-table .muted { color: var(--text-muted); }
+.figure-cond-table td:first-child { min-width: 9em; }
