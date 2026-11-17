@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-17",
+    "updatedAt": "2026-11-15",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -22789,6 +22789,1881 @@
           "セット"
         ],
         "mercariQuery": "ドラゴンボールカプセル 激闘 Z戦士総集編 セット"
+      }
+    },
+    {
+      "id": "DBC-020",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 宇宙一の戦い!! フリーザ編",
+      "release": {
+        "value": "2003",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "カプセルの外装の帯・中の紙の表記「MegaHouse 2003 MADE IN CHINA」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク「【80】 1円～ドラゴンボールカプセル ～宇宙一の戦い！！フリーザ編～ BOX フィギュア 美品 現状品 長期保存品」（外箱の表・裏・側面）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+          },
+          {
+            "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色バージョンとブロンズバージョンがある）＋ボーナスパーツ「ポルンガ」。1個に彩色済みジオラマ1個＋ポルンガパーツ1個入り。箱は7個入り（ドラゴンボール形のカプセル、一星球〜七星球）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク「【80】 1円～ドラゴンボールカプセル ～宇宙一の戦い！！フリーザ編～ BOX フィギュア 美品 現状品 長期保存品」（外箱の表・裏・側面）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+          },
+          {
+            "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+          },
+          {
+            "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールZ ドラゴンボールカプセル 宇宙一の戦い！！フリーザ編 超サイヤ人悟空VSフリーザ カラー 新品」（中の紙の表・裏・ポルンガの組み立て）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/w1030937238"
+          },
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル　宇宙一の戦い！！フリーザ編　ブロンズ６彩色１バージョン　フルコンプ全７種　ボーナスパーツ含」（説明文の番号つき一覧）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/l1240110846"
+          },
+          {
+            "title": "ブログ「Dragon Ballフィギュアの部屋」ドラカプ紹介（「初期の3弾分は…省きます」、ネオの帰ってきたフリーザ編のBPがポルンガ）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          },
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」割愛されたドラゴンボールカプセル（初期シリーズはネオでリニューアルされたため割愛）",
+            "url": "https://ameblo.jp/yoyocom69/entry-11562261537.html"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-020/box-front.jpg",
+          "caption": "外箱の表（上面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/box-front-2.jpg",
+          "caption": "外箱の正面（7個入り・全7種類の表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：ギニューvs悟空・超サイヤ人悟空vsフリーザ・フリーザvs悟空・リクームvs悟飯）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：ザーボンvsベジータ・フリーザvsバーダック・ピッコロvsフリーザ・ポルンガ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/box-back.jpg",
+          "caption": "外箱の裏（注意書き・発売元・JANコード）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/box-inside.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/capsule.jpg",
+          "caption": "未開封のカプセル（外装の帯：シリーズ名・MegaHouse 2003）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/capsule-2.jpg",
+          "caption": "未開封のカプセル（外装の帯：ラインナップの写真）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/insert-front.jpg",
+          "caption": "中の紙の表（MegaHouse 2003）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/lineup.jpg",
+          "caption": "ラインナップの紙（全7種の名前）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/bonus-sheet.jpg",
+          "caption": "中の紙（ポルンガの組み立て）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-020/set-contents.jpg",
+          "caption": "1箱の中身（未開封の内袋・カプセル・中の紙）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像49枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱12枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/1241960268 、 https://auctions.yahoo.co.jp/jp/auction/r1143550036 、 https://auctions.yahoo.co.jp/jp/auction/v1243530648 、 https://auctions.yahoo.co.jp/jp/auction/w1030937238 、 https://auctions.yahoo.co.jp/jp/auction/w1244505111 、 https://auctions.yahoo.co.jp/jp/auction/m1236627071 、 https://auctions.yahoo.co.jp/jp/auction/d1162344285 、 https://auctions.yahoo.co.jp/jp/auction/q324161113 、 https://auctions.yahoo.co.jp/jp/auction/v1219248897 、 https://auctions.yahoo.co.jp/jp/auction/f1240816660 、 https://auctions.yahoo.co.jp/jp/auction/1243664085 、 https://auctions.yahoo.co.jp/jp/auction/1174672298 、 https://auctions.yahoo.co.jp/jp/auction/s695996834 、 https://auctions.yahoo.co.jp/jp/auction/e1230314127 、 https://auctions.yahoo.co.jp/jp/auction/o1174696470 、 https://auctions.yahoo.co.jp/jp/auction/u311938068 、 https://auctions.yahoo.co.jp/jp/auction/u1230203042 、 https://auctions.yahoo.co.jp/jp/auction/p1163460891 、 https://auctions.yahoo.co.jp/jp/auction/u312275201 、 https://auctions.yahoo.co.jp/jp/auction/o1239067239 、 https://auctions.yahoo.co.jp/jp/auction/o1238991540 、 https://auctions.yahoo.co.jp/jp/auction/m1234271211"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-020-01",
+          "no": 1,
+          "name": {
+            "value": "ザーボン vs ベジータ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い ザーボン ベジータ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "ザーボン",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig01-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig01-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig01-extra-3.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig01-extra-4.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-02",
+          "no": 2,
+          "name": {
+            "value": "フリーザ vs バーダック",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い バーダック",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "バーダック"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig02-extra-1.jpg",
+              "caption": "部品（台座と2体）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig02-extra-2.jpg",
+              "caption": "部品（裏側）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig02-extra-3.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-03",
+          "no": 3,
+          "name": {
+            "value": "リクーム vs 悟飯",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い リクーム 悟飯",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "リクーム|クリーム"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig03-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig03-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig03-extra-3.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-04",
+          "no": 4,
+          "name": {
+            "value": "ギニュー vs 悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い ギニュー 悟空",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "ギニュー"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig04-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig04-extra-2.jpg",
+              "caption": "悟空の側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig04-extra-3.jpg",
+              "caption": "ギニューの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig04-extra-4.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-05",
+          "no": 5,
+          "name": {
+            "value": "フリーザ vs 悟空",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い フリーザ 悟空",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "フリーザ",
+              "悟空"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編",
+              "超サイヤ人",
+              "スーパーサイヤ人",
+              "ピッコロ",
+              "ギニュー",
+              "バーダック"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig05-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig05-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig05-extra-3.jpg",
+              "caption": "部品（台座・2体・支柱）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-06",
+          "no": 6,
+          "name": {
+            "value": "ピッコロ vs フリーザ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い ピッコロ フリーザ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "ピッコロ",
+              "フリーザ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig06-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig06-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig06-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-07",
+          "no": 7,
+          "name": {
+            "value": "超サイヤ人 悟空 vs フリーザ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の側面（ラインナップ面）とラインナップの紙の表記（ルビ「スーパー」付きの「超サイヤ人」）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い 超サイヤ人 悟空 フリーザ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "超サイヤ人|スーパーサイヤ人|SS",
+              "フリーザ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig07-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig07-extra-2.jpg",
+              "caption": "2体（台座から外したところ）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig07-extra-3.jpg",
+              "caption": "2体の後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig07-extra-4.jpg",
+              "caption": "台座の裏（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig07-extra-5.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-020-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "ポルンガ",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/1241960268"
+              },
+              {
+                "title": "ヤフオク「ドラカプ 宇宙一の戦い！フリーザ編 彩色版 全7種＋ポルンガ ボーナスフィギュア 開封 未使用 メガハウス ドラゴンボールカプセル」（ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/w1244505111"
+              },
+              {
+                "title": "ヤフオク「未開封　ドラゴンボールカプセル　宇宙一の戦い　フリーザ編　2個セット」（カプセルの外装の帯、MegaHouse 2003）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/v1243530648"
+              }
+            ],
+            "note": "根拠：外箱の表「ポルンガパーツ1個入り」、外箱の側面のポルンガの組み立ての説明"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 宇宙一の戦い ポルンガ",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "宇宙一の戦い",
+              "ポルンガ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "覚醒",
+              "怒れる",
+              "総集編",
+              "全7種",
+              "全７種"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-020/fig08-front.jpg",
+              "caption": "正面（組み立て済み）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig08-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig08-extra-2.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig08-extra-3.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-020/fig08-extra-4.jpg",
+              "caption": "正面（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 宇宙一の戦い フリーザ編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "宇宙一の戦い"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "ネオ|NEO",
+          "帰ってきた",
+          "覚醒"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 宇宙一の戦い フリーザ編 セット"
+      }
+    },
+    {
+      "id": "DBC-021",
+      "category": "capsule",
+      "title": "ドラゴンボールカプセル 戦慄の戦い!! セル編",
+      "release": {
+        "value": "2004",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "カプセルの外装の帯・中の紙の表記「MegaHouse 2004 MADE IN CHINA」（出品写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+          }
+        ],
+        "note": "箱・中の紙の著作権表記の年による目安。発売月は未確認。"
+      },
+      "publisher": {
+        "value": "メガハウス",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル 戦慄の戦い!! セル編 オール彩色 全7種コンプリートセット 未開封 ドラカプ メガハウス」（外箱・中の紙・ラインナップの紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+          },
+          {
+            "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+          }
+        ],
+        "note": "箱の表記・ブログによる（メガハウス公式の「ドラゴンボールカプセル」ページには載っていないシリーズ）。"
+      },
+      "isbn": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "modelNumber": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "platform": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "genre": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": ""
+      },
+      "listPrice": {
+        "value": null,
+        "status": "unconfirmed",
+        "sources": [],
+        "note": "未確認。"
+      },
+      "contents": {
+        "value": "全7種（全種フル彩色バージョンとブロンズバージョンがある）＋ボーナスパーツ「悟空（天使）」。1個に彩色済みジオラマ1個＋悟空（天使）パーツ1個入り。箱は7個入り（ドラゴンボール形のカプセル）。",
+        "status": "reference",
+        "sources": [
+          {
+            "title": "ヤフオク「ドラゴンボールカプセル 戦慄の戦い!! セル編 オール彩色 全7種コンプリートセット 未開封 ドラカプ メガハウス」（外箱・中の紙・ラインナップの紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+          },
+          {
+            "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+          },
+          {
+            "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+          },
+          {
+            "title": "ヤフオク「メガハウス　ドラゴンボールZ ドラゴンボールカプセル 戦慄の戦い！セル編　中身欠品あり」（外箱の正面・ラインナップの紙・悟空（天使）の組み立ての紙）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/e1234348082"
+          },
+          {
+            "title": "ヤフオク「中古　ドラゴンボールカプセル 戦慄の戦い セル編　7種セット　ボーナスパーツ　悟空（天使）　欠品」（外箱・全7種の写真）",
+            "url": "https://auctions.yahoo.co.jp/jp/auction/p1230135409"
+          },
+          {
+            "title": "ブログ「Dragon Ballフィギュアの部屋」ドラカプ紹介（「初期の3弾分は…省きます」、ネオの帰ってきたセル編のBPが天使悟空）",
+            "url": "https://ameblo.jp/zuru0310/entry-12289934971.html"
+          },
+          {
+            "title": "ブログ「ドラゴンボール・フィギュアコレクション」割愛されたドラゴンボールカプセル",
+            "url": "https://ameblo.jp/yoyocom69/entry-11562261537.html"
+          }
+        ],
+        "note": "箱・中の紙（出品写真）とブログによる。"
+      },
+      "ownership": {
+        "status": "unconfirmed",
+        "checkedAt": null,
+        "note": ""
+      },
+      "condition": {
+        "box": null,
+        "manual": null,
+        "obi": null,
+        "extras": null,
+        "overall": null,
+        "note": ""
+      },
+      "purchases": [],
+      "marketPrices": [],
+      "references": [
+        {
+          "title": "メガハウス公式「ドラゴンボールカプセル」シリーズ一覧（このシリーズは載っていない。2026-10-13 確認）",
+          "url": "https://www.megahouse.co.jp/products/dragonballcapsule/"
+        }
+      ],
+      "images": [
+        {
+          "path": "assets/images/items/DBC-021/box-front.jpg",
+          "caption": "外箱の表（上面）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-front-angle.jpg",
+          "caption": "外箱（斜めから）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-front-2.jpg",
+          "caption": "外箱の正面（7個入り・全7種類の表記）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-side-1.jpg",
+          "caption": "外箱の側面（ラインナップ：ピッコロvsセル・人造人間17号vsセル・悟空&悟飯・悟空vsトランクス）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-side-2.jpg",
+          "caption": "外箱の側面（ラインナップ：悟空vsセル（自爆直前）・ベジータvsセル・悟飯vsセル・悟空（天使））（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-side-1-closeup.jpg",
+          "caption": "外箱の側面（名前のアップ）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-side-2-closeup.jpg",
+          "caption": "外箱の側面（名前のアップ・悟空（天使））（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-display.jpg",
+          "caption": "箱を開けて陳列したところ（ふたの見出し）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/box-inside.jpg",
+          "caption": "箱の中（ドラゴンボール形のカプセル7個）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/capsule.jpg",
+          "caption": "未開封のカプセル（外装の帯：シリーズ名・MegaHouse 2004）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/capsule-2.jpg",
+          "caption": "未開封のカプセル（外装の帯：ラインナップの写真・発売元）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/capsules-stars.jpg",
+          "caption": "未開封のカプセル7個（一星球〜七星球）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/insert-front.jpg",
+          "caption": "中の紙の表（MegaHouse 2004）（参考画像・未所持）",
+          "kind": "reference"
+        },
+        {
+          "path": "assets/images/items/DBC-021/lineup.jpg",
+          "caption": "ラインナップの紙（全7種の名前）（参考画像・未所持）",
+          "kind": "reference"
+        }
+      ],
+      "alerts": [],
+      "notes": "メガハウス公式の「ドラゴンボールカプセル」ページに載っていないシリーズ。2026-11-17 にオーナーの指示で追加（2026-10-13 の未登録シリーズの候補）。名前は箱・中の紙（出品写真）とブログによる参考情報。",
+      "history": [
+        {
+          "date": "2026-11-17",
+          "change": "収集対象（情報のみ）として登録（オーナー指示「抜けているものがあれば記載」）。シリーズ名・7種＋ボーナスパーツの名前を、箱・中の紙（ヤフオクなどの出品写真）とブログで確認して登録"
+        },
+        {
+          "date": "2026-11-15",
+          "change": "参考画像56枚を登録（オーナー指示でネットの出品写真から収集。シリーズの箱14枚、フィギュア8体分）。出典：https://auctions.yahoo.co.jp/jp/auction/f1234462958 、 https://auctions.yahoo.co.jp/jp/auction/e1234348082 、 https://auctions.yahoo.co.jp/jp/auction/x1235622083 、 https://auctions.yahoo.co.jp/jp/auction/g1230818131 、 https://auctions.yahoo.co.jp/jp/auction/f1206678906 、 https://auctions.yahoo.co.jp/jp/auction/u1236815649 、 https://auctions.yahoo.co.jp/jp/auction/b1251407417 、 https://auctions.yahoo.co.jp/jp/auction/p1230135409 、 https://auctions.yahoo.co.jp/jp/auction/o431031489 、 https://auctions.yahoo.co.jp/jp/auction/o1240827909 、 https://auctions.yahoo.co.jp/jp/auction/t682121756 、 https://auctions.yahoo.co.jp/jp/auction/l1248440308 、 https://auctions.yahoo.co.jp/jp/auction/m367989735 、 https://auctions.yahoo.co.jp/jp/auction/p1201264381 、 https://auctions.yahoo.co.jp/jp/auction/p844167431 、 https://auctions.yahoo.co.jp/jp/auction/q1170291975 、 https://auctions.yahoo.co.jp/jp/auction/g1247545452 、 https://auctions.yahoo.co.jp/jp/auction/x1230288190 、 https://auctions.yahoo.co.jp/jp/auction/g1237865404 、 https://auctions.yahoo.co.jp/jp/auction/u1166115995 、 https://auctions.yahoo.co.jp/jp/auction/v722767133 、 https://auctions.yahoo.co.jp/jp/auction/n1130578483 、 https://auctions.yahoo.co.jp/jp/auction/g1166118169"
+        }
+      ],
+      "figures": [
+        {
+          "id": "DBC-021-01",
+          "no": 1,
+          "name": {
+            "value": "悟空 vs トランクス",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 悟空 トランクス",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "トランクス"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig01-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig01-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig01-extra-2.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig01-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig01-extra-4.jpg",
+              "caption": "悟空の側から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-02",
+          "no": 2,
+          "name": {
+            "value": "ピッコロ vs セル（第一形態）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記（「第一形態」にルビ）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 ピッコロ セル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "ピッコロ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig02-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig02-extra-1.jpg",
+              "caption": "ピッコロの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig02-extra-2.jpg",
+              "caption": "セルの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig02-extra-3.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig02-extra-4.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-03",
+          "no": 3,
+          "name": {
+            "value": "セル（第一形態） vs 人造人間17号",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙の表記。外箱の側面では「人造人間17号 vs セル（第一形態）」と順が逆"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 17号 セル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "17号"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig03-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig03-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig03-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig03-extra-3.jpg",
+              "caption": "正面（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig03-extra-4.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-04",
+          "no": 4,
+          "name": {
+            "value": "ベジータ vs セル（完全体）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 ベジータ セル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "ベジータ"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig04-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig04-extra-1.jpg",
+              "caption": "セルの後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig04-extra-2.jpg",
+              "caption": "ベジータの後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig04-extra-3.jpg",
+              "caption": "2体（台座から外したところ）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig04-extra-4.jpg",
+              "caption": "2体の後ろ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig04-extra-5.jpg",
+              "caption": "内袋入りの部品（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-05",
+          "no": 5,
+          "name": {
+            "value": "悟空 ＆ 悟飯",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記（精神と時の部屋の入口の門の台座）"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 悟空 悟飯",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "悟空",
+              "悟飯"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編",
+              "トランクス",
+              "vs\\s*セル|VS\\s*セル"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig05-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig05-extra-1.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig05-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig05-extra-3.jpg",
+              "caption": "正面（ブロンズ版）（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-06",
+          "no": 6,
+          "name": {
+            "value": "悟空 vs セル（自爆直前）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 悟空 セル 自爆",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "自爆"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig06-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig06-extra-1.jpg",
+              "caption": "反対側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig06-extra-2.jpg",
+              "caption": "悟空の顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig06-extra-3.jpg",
+              "caption": "セルの顔のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig06-extra-4.jpg",
+              "caption": "斜めから（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-07",
+          "no": 7,
+          "name": {
+            "value": "悟飯 vs セル（完全体）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              },
+              {
+                "title": "ヤフオク「◇未開封品 ドラゴンボールカプセル 戦慄の戦い!! セル編 全7種 7個まとめ」（カプセルの外装の帯、MegaHouse 2004）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              }
+            ],
+            "note": "根拠：ラインナップの紙・外箱の側面の表記"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 悟飯 セル",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "悟飯",
+              "セル"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*(種|点)",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "Figuarts|フィギュアーツ",
+              "ブロンズ",
+              "HG|ＨＧ|ガシャ",
+              "[\\s　]他([\\s　|]|$)",
+              "[\\s　]等[\\s　]",
+              "ボーナス(?:パーツ)?(?![\\s　]*(?:付|あり|有|入))",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編",
+              "ベジータ",
+              "自爆",
+              "17号",
+              "ピッコロ",
+              "悟空"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig07-front.jpg",
+              "caption": "正面（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig07-extra-1.jpg",
+              "caption": "セルの側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig07-extra-2.jpg",
+              "caption": "悟飯の側から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig07-extra-3.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig07-extra-4.jpg",
+              "caption": "セルの後ろから（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": ""
+        },
+        {
+          "id": "DBC-021-08",
+          "no": 8,
+          "bonus": true,
+          "name": {
+            "value": "悟空（天使）",
+            "status": "reference",
+            "sources": [
+              {
+                "title": "根拠の出典",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/u1236815649"
+              },
+              {
+                "title": "ヤフオク「ドラゴンボールカプセル 戦慄の戦い!! セル編 オール彩色 全7種コンプリートセット 未開封 ドラカプ メガハウス」（外箱・中の紙・ラインナップの紙）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/f1234462958"
+              },
+              {
+                "title": "ヤフオク「kkm10966 ドラカプ 戦慄の戦い セル編 6種 フル彩色 彩色 悟空 天使 箱付 ドラゴンボールカプセル フィギュア まとめ」（外箱の側面のラインナップ）",
+                "url": "https://auctions.yahoo.co.jp/jp/auction/x1235622083"
+              }
+            ],
+            "note": "根拠：カプセルの帯「悟空(天使)パーツ1個入り」、外箱の側面の組み立ての説明、出品名「ボーナスパーツ 悟空（天使）」「天使悟空」"
+          },
+          "ownership": {
+            "status": "unconfirmed",
+            "checkedAt": null,
+            "note": ""
+          },
+          "market": {
+            "query": "ドラゴンボールカプセル ドラゴンボールカプセル 戦慄の戦い セル編 悟空 天使",
+            "mustInclude": [
+              "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+              "戦慄の戦い",
+              "天使"
+            ],
+            "exclude": [
+              "カプセルR",
+              "ドラカプR",
+              "カプセル R",
+              "コンプ",
+              "全\\s*[0-9０-９]*\\s*種",
+              "[0-9０-９]\\s*種",
+              "フルセット",
+              "まとめ",
+              "一番くじ",
+              "HG|ＨＧ|ガシャ",
+              "ボーナス(?:パーツ)?[\\s　]*(?:付|あり|有|入)",
+              "欠品",
+              "帰ってきた",
+              "ネオ",
+              "NEO",
+              "邂逅",
+              "未来からの侵略",
+              "セル編改",
+              "総集編",
+              "全7種",
+              "全７種"
+            ]
+          },
+          "marketPrices": [],
+          "images": [
+            {
+              "path": "assets/images/items/DBC-021/fig08-front.jpg",
+              "caption": "正面（組み立て済み）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-1.jpg",
+              "caption": "横から（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-2.jpg",
+              "caption": "後ろから（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-3.jpg",
+              "caption": "台座（筋斗雲と神龍）のアップ（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-4.jpg",
+              "caption": "部品（羽・体・台座）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-5.jpg",
+              "caption": "斜めから（別の出品）（参考画像・未所持）",
+              "kind": "reference"
+            },
+            {
+              "path": "assets/images/items/DBC-021/fig08-extra-6.jpg",
+              "caption": "カプセルに入れたところと組み立ての紙（参考画像・未所持）",
+              "kind": "reference"
+            }
+          ],
+          "notes": "7体とは別のボーナスパーツ。"
+        }
+      ],
+      "market": {
+        "query": "ドラゴンボールカプセル 戦慄の戦い セル編",
+        "mustInclude": [
+          "ドラゴンボール\\s*カプセル(?!トイ|ハウス)|ドラカプ|カプセル\\s*[・･]?\\s*(ネオ|NEO)",
+          "コンプ|全\\s*[0-9０-９]*\\s*種|フルセット|(彩色|色彩|カラー)\\s*[7７]\\s*種|[7７]\\s*(個|種|体|点)\\s*(セット|入)|彩色[7７]種",
+          "戦慄の戦い"
+        ],
+        "exclude": [
+          "カプセルR",
+          "ドラカプR",
+          "カプセル R",
+          "一番くじ",
+          "Figuarts|フィギュアーツ",
+          "ブロンズ",
+          "HG|ＨＧ|ガシャ",
+          "欠品",
+          "ネオ|NEO",
+          "帰ってきた",
+          "覚醒"
+        ],
+        "allowWords": [
+          "セット"
+        ],
+        "mercariQuery": "ドラゴンボールカプセル 戦慄の戦い セル編 セット"
       }
     }
   ]
