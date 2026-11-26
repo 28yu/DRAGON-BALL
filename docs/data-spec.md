@@ -37,7 +37,7 @@
 | `editions` | 版の違い・見分け方（2026-10-05 から、FC・SFC） | 下記「版の違い（editions）」参照。詳細ページの基本情報の下に表示 |
 | `editionsNote` | 版の違いについての補足 | 例：「調べた範囲では版違いは見つかっていない（2026-10-05）」 |
 | `ownership` | 所持状況 | `{ "status": "unconfirmed", "checkedAt": null, "note": "" }`。`note` は所持している物のみ「入手先：○○」（「オーナー申告」などは書かない） |
-| `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null` |
+| `condition` | 商品の状態 | `box`（箱）/ `manual`（説明書）/ `obi`（帯）/ `extras`（付属品・付属カード）/ `overall`（全体）/ `note`。未確認は `null`。カードダス関連資料（`book`）は箱・説明書がないので、画面の「商品の状態」に箱・説明書の行を出さない（2026-11-26 オーナー指示。`book` だけ） |
 | `purchases` | 購入記録（複数可） | 下記参照 |
 | `marketPrices` | 中古相場の調査記録（複数可） | 下記参照 |
 | `references` | 項目に紐づかない参考URL | `[{ "title": "...", "url": "..." }]` |

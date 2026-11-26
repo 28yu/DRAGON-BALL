@@ -111,7 +111,9 @@ function basicInfoHTML(item, category, data) {
 
 function ownershipHTML(item) {
   const cond = item.condition || {};
-  const condRows = Object.entries(CONDITION_LABELS).map(([key, label]) =>
+  // カードダス関連資料（book）には箱・説明書がないので、その行を出さない（2026-11-26 オーナー指示。book だけ）
+  const skip = item.category === "book" ? ["box", "manual"] : [];
+  const condRows = Object.entries(CONDITION_LABELS).filter(([key]) => !skip.includes(key)).map(([key, label]) =>
     row(label, cond[key] ? escapeHTML(tx(cond[key])) : unconfirmedText())
   );
   // 所持状況の行は 2026-10-15 オーナー指示（案B）で表示しない。所持は写真の三角、入手先は上の要約で示す
