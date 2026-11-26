@@ -2,7 +2,7 @@
   "meta": {
     "title": "DRAGON BALL COLLECTION",
     "schemaVersion": 1,
-    "updatedAt": "2026-11-15",
+    "updatedAt": "2026-11-26",
     "description": "収集対象の商品データの原本。サイトはこのファイルだけを読み込んで表示する。項目の意味は docs/data-spec.md を参照。"
   },
   "categories": [
@@ -230,9 +230,13 @@
       "category": "book",
       "title": "DRAGON BALL大全集 別巻 DBカードダス パーフェクトファイル PART2",
       "release": {
-        "value": "1996-04-01",
-        "status": "reference",
+        "value": "1996-04-19",
+        "status": "confirmed",
         "sources": [
+          {
+            "title": "現物の奥付（オーナー撮影の写真）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/BOOK-002/colophon.jpg"
+          },
           {
             "title": "Amazon.co.jp 商品ページ",
             "url": "https://www.amazon.co.jp/dp/4081020175"
@@ -242,23 +246,31 @@
             "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
           }
         ],
-        "note": "検索結果の要約から取得。出典ページの直接確認は未実施。"
+        "note": "奥付「平成8年4月19日 第1刷発行」。以前は検索結果の要約から 1996-04-01 としていた。"
       },
       "publisher": {
         "value": "集英社",
-        "status": "reference",
+        "status": "confirmed",
         "sources": [
+          {
+            "title": "現物の奥付（オーナー撮影の写真）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/BOOK-002/colophon.jpg"
+          },
           {
             "title": "紀伊國屋書店 商品ページ",
             "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
           }
         ],
-        "note": "集英社ムックとして掲載。"
+        "note": "奥付の発行所「株式会社 集英社」。集英社ムック。"
       },
       "isbn": {
         "value": "978-4-08-102017-1",
-        "status": "reference",
+        "status": "confirmed",
         "sources": [
+          {
+            "title": "現物の奥付（オーナー撮影の写真）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/BOOK-002/colophon.jpg"
+          },
           {
             "title": "紀伊國屋書店 商品ページ",
             "url": "https://www.kinokuniya.co.jp/f/dsg-01-9784081020171"
@@ -268,7 +280,7 @@
             "url": "https://ddnavi.com/book/4081020175/"
           }
         ],
-        "note": "ISBN-10: 4081020175。現物の奥付とは未照合。"
+        "note": "奥付の表記は ISBN4-08-102017-5（ISBN-10）。13桁にすると 978-4-08-102017-1。"
       },
       "modelNumber": {
         "value": null,
@@ -289,32 +301,60 @@
         "note": ""
       },
       "listPrice": {
-        "value": null,
-        "status": "unconfirmed",
-        "sources": [],
-        "note": ""
+        "value": 980,
+        "status": "confirmed",
+        "sources": [
+          {
+            "title": "現物の帯の表記「定価980円（本体951円）」（オーナー撮影の写真）",
+            "url": "https://28yu.github.io/DRAGON-BALL/assets/images/items/BOOK-002/front.jpg"
+          }
+        ],
+        "note": "税込（当時の消費税3%）。本体951円。"
       },
       "ownership": {
-        "status": "not_owned",
-        "checkedAt": "2026-10-03",
-        "note": ""
+        "status": "owned",
+        "checkedAt": "2026-11-26",
+        "note": "入手先：まんだらけ"
       },
       "condition": {
         "box": null,
         "manual": null,
-        "obi": null,
-        "extras": null,
-        "overall": null,
-        "note": ""
+        "obi": "あり",
+        "extras": "特製オリジナルカードダス（4枚組）・ポスター付き",
+        "overall": "完品",
+        "note": "帯・カード・ポスター付きの完品。まんだらけの値札の表記は「完品」「別2（カード・帯付）」、状態「並」。"
       },
-      "purchases": [],
+      "purchases": [
+        {
+          "date": null,
+          "price": 19800,
+          "shipping": 0,
+          "shop": "まんだらけ",
+          "note": "税込19,800円（本体18,000円）、送料無料。帯・カード・ポスター付きの完品。"
+        }
+      ],
       "marketPrices": [],
       "references": [],
       "images": [
         {
           "path": "assets/images/items/BOOK-002/front.jpg",
-          "caption": "表紙（帯付き・参考画像）",
-          "kind": "reference"
+          "caption": "表紙（帯付き）"
+        },
+        {
+          "path": "assets/images/items/BOOK-002/cards.jpg",
+          "caption": "特製オリジナルカードダス（4枚組）"
+        },
+        {
+          "path": "assets/images/items/BOOK-002/poster.jpg",
+          "caption": "付録のポスター"
+        },
+        {
+          "path": "assets/images/items/BOOK-002/colophon.jpg",
+          "caption": "奥付（平成8年4月19日 第1刷発行）"
+        },
+        {
+          "path": "assets/images/items/BOOK-002/price-tag.jpg",
+          "caption": "まんだらけの値札"
         }
       ],
       "alerts": [],
@@ -339,6 +379,10 @@
         {
           "date": "2026-10-05",
           "change": "所持状況のメモを入手先だけの記載に変更"
+        },
+        {
+          "date": "2026-11-26",
+          "change": "購入を記録（まんだらけ、税込19,800円・送料無料、帯・カード・ポスター付きの完品）。所持状況を「所持」に変更（オーナー指示）。参考画像をオーナー撮影の写真5枚に差し替え。奥付と帯で発売日（1996-04-19）・出版社・ISBN・定価（980円）を確認"
         }
       ],
       "market": {
