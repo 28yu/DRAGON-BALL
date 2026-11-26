@@ -111,8 +111,8 @@ function basicInfoHTML(item, category, data) {
 
 function ownershipHTML(item) {
   const cond = item.condition || {};
-  // カードダス関連資料（book）には箱・説明書がないので、その行を出さない（2026-11-26 オーナー指示。book だけ）
-  const skip = item.category === "book" ? ["box", "manual"] : [];
+  // カードダス関連資料（book）・攻略本（guide）には箱・説明書がないので、その行を出さない（2026-11-26 オーナー指示）
+  const skip = ["book", "guide"].includes(item.category) ? ["box", "manual"] : [];
   const condRows = Object.entries(CONDITION_LABELS).filter(([key]) => !skip.includes(key)).map(([key, label]) =>
     row(label, cond[key] ? escapeHTML(tx(cond[key])) : unconfirmedText())
   );
